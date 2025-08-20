@@ -1,0 +1,848 @@
+{
+  "features": [
+    {
+      "id": "cli-basic",
+      "category": "core",
+      "tags": ["cli", "basic", "command-line", "terminal"],
+      "title": {
+        "en": "Basic CLI Operations",
+        "zh": "基础CLI操作"
+      },
+      "description": {
+        "en": "Core command line interface operations for starting and managing Claude Code sessions",
+        "zh": "启动和管理Claude Code会话的核心命令行界面操作"
+      },
+      "details": {
+        "en": "Claude Code provides essential CLI commands for session management, help access, and configuration. The basic `claude` command starts an interactive session, while additional flags and options provide control over the experience.",
+        "zh": "Claude Code提供用于会话管理、帮助访问和配置的基本CLI命令。基本的`claude`命令启动交互式会话，而其他标志和选项提供对体验的控制。"
+      },
+      "examples": ["claude", "claude --help", "claude --version"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "natural-language-coding",
+      "category": "core",
+      "tags": ["ai", "natural-language", "code-generation", "english"],
+      "title": {
+        "en": "Natural Language Code Generation",
+        "zh": "自然语言代码生成"
+      },
+      "description": {
+        "en": "Generate, modify, and understand code using plain English descriptions",
+        "zh": "使用纯英文描述生成、修改和理解代码"
+      },
+      "details": {
+        "en": "Claude Code's core strength lies in its ability to understand natural language requests and translate them into working code. Describe what you want to build in plain English, and Claude will create the implementation, handle edge cases, and ensure best practices.",
+        "zh": "Claude Code的核心优势在于理解自然语言请求并将其转换为可工作的代码。用纯英语描述您想要构建的内容，Claude将创建实现、处理边缘情况并确保最佳实践。"
+      },
+      "examples": [
+        "Create a React component for a user profile card",
+        "Fix the memory leak in this function",
+        "Add error handling to this API call"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "file-editing",
+      "category": "core",
+      "tags": ["files", "editing", "modification", "direct"],
+      "title": {
+        "en": "Direct File Editing",
+        "zh": "直接文件编辑"
+      },
+      "description": {
+        "en": "Claude Code can directly edit files in your codebase without requiring copy-paste",
+        "zh": "Claude Code可以直接编辑代码库中的文件，无需复制粘贴"
+      },
+      "details": {
+        "en": "Unlike chat-based AI tools, Claude Code can directly modify files in your project. It reads the current state, understands the context, and applies changes directly to your files while preserving formatting and structure.",
+        "zh": "与基于聊天的AI工具不同，Claude Code可以直接修改项目中的文件。它读取当前状态，理解上下文，并直接对文件应用更改，同时保持格式和结构。"
+      },
+      "examples": [
+        "Update this component to use TypeScript",
+        "Refactor this class to use composition",
+        "Add JSDoc comments to all functions"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "git-integration",
+      "category": "core",
+      "tags": ["git", "version-control", "commits", "branches"],
+      "title": {
+        "en": "Git Workflow Integration",
+        "zh": "Git工作流集成"
+      },
+      "description": {
+        "en": "Seamlessly integrate with Git workflows including commits, branches, and code reviews",
+        "zh": "与Git工作流无缝集成，包括提交、分支和代码审查"
+      },
+      "details": {
+        "en": "Claude Code understands Git workflows and can help create meaningful commits, manage branches, resolve conflicts, and prepare code for review. It follows Git best practices and can generate conventional commit messages.",
+        "zh": "Claude Code理解Git工作流程，可以帮助创建有意义的提交、管理分支、解决冲突并为审查准备代码。它遵循Git最佳实践并能生成符合约定的提交信息。"
+      },
+      "examples": [
+        "Commit these changes with a descriptive message",
+        "Create a new feature branch for this work",
+        "Help resolve this merge conflict"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "codebase-analysis",
+      "category": "analysis",
+      "tags": ["analysis", "understanding", "search", "mapping"],
+      "title": {
+        "en": "Codebase Analysis & Search",
+        "zh": "代码库分析与搜索"
+      },
+      "description": {
+        "en": "Instantly search and understand million-line codebases with intelligent analysis",
+        "zh": "通过智能分析即时搜索和理解百万行代码库"
+      },
+      "details": {
+        "en": "Claude Code can rapidly analyze large codebases, understanding structure, dependencies, and patterns. It can answer questions about code organization, find specific implementations, and explain complex systems in seconds.",
+        "zh": "Claude Code可以快速分析大型代码库，理解结构、依赖关系和模式。它可以回答关于代码组织的问题，找到特定实现，并在几秒钟内解释复杂系统。"
+      },
+      "examples": [
+        "Where is the user authentication handled?",
+        "Find all components that use this API",
+        "Explain how the payment flow works"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "slash-commands",
+      "category": "interactive",
+      "tags": ["commands", "slash", "shortcuts", "workflow"],
+      "title": {
+        "en": "Slash Command System",
+        "zh": "斜杠命令系统"
+      },
+      "description": {
+        "en": "Powerful slash commands for quick access to common development tasks",
+        "zh": "强大的斜杠命令，快速访问常见开发任务"
+      },
+      "details": {
+        "en": "Claude Code includes a comprehensive slash command system that provides shortcuts to common development workflows. Commands range from file operations to project management, making development faster and more efficient.",
+        "zh": "Claude Code包含一个全面的斜杠命令系统，提供常见开发工作流程的快捷方式。命令范围从文件操作到项目管理，使开发更快、更高效。"
+      },
+      "examples": ["/clear", "/help", "/load", "/git", "/test"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "background-commands",
+      "category": "interactive",
+      "tags": ["background", "parallel", "dev-server", "logs"],
+      "title": {
+        "en": "Background Commands (Ctrl+b)",
+        "zh": "后台命令 (Ctrl+b)"
+      },
+      "description": {
+        "en": "Run commands in the background while Claude continues working",
+        "zh": "在后台运行命令，同时Claude继续工作"
+      },
+      "details": {
+        "en": "The background command feature allows you to run long-running processes like dev servers, log tailing, or build processes in the background while maintaining an active conversation with Claude. This enables true parallel development workflows.",
+        "zh": "后台命令功能允许您在后台运行长时间运行的进程，如开发服务器、日志跟踪或构建过程，同时与Claude保持活跃对话。这实现了真正的并行开发工作流程。"
+      },
+      "examples": [
+        "Ctrl+b npm run dev",
+        "Ctrl+b tail -f logs/app.log",
+        "Ctrl+b npm run build"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "status-line-customization",
+      "category": "interactive",
+      "tags": ["customization", "terminal", "prompt", "status"],
+      "title": {
+        "en": "Customizable Status Line",
+        "zh": "可自定义状态行"
+      },
+      "description": {
+        "en": "Add your terminal prompt to Claude Code with /statusline for personalized experience",
+        "zh": "使用/statusline将您的终端提示符添加到Claude Code以获得个性化体验"
+      },
+      "details": {
+        "en": "Customize Claude Code's interface to match your terminal environment. The /statusline command allows you to integrate your existing prompt configuration, maintaining consistency across your development tools.",
+        "zh": "自定义Claude Code界面以匹配您的终端环境。/statusline命令允许您集成现有的提示符配置，在开发工具间保持一致性。"
+      },
+      "examples": ["/statusline", "Configure terminal prompt integration"],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "mention-support",
+      "category": "interactive",
+      "tags": ["mentions", "typeahead", "agents", "@"],
+      "title": {
+        "en": "@-mention Support with Typeahead",
+        "zh": "@提及支持与自动补全"
+      },
+      "description": {
+        "en": "Mention custom agents and files with @-syntax and intelligent typeahead",
+        "zh": "使用@语法和智能自动补全提及自定义代理和文件"
+      },
+      "details": {
+        "en": "@-mention functionality provides quick access to custom agents, files, and contexts within Claude Code. The typeahead system makes it easy to reference specific resources without memorizing exact names or paths.",
+        "zh": "@提及功能可快速访问Claude Code中的自定义代理、文件和上下文。自动补全系统使引用特定资源变得简单，无需记住确切名称或路径。"
+      },
+      "examples": ["@agent-name", "@file.js", "@project/component"],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "custom-subagents",
+      "category": "agents",
+      "tags": ["agents", "custom", "specialized", "tasks"],
+      "title": {
+        "en": "Custom Sub-agents",
+        "zh": "自定义子代理"
+      },
+      "description": {
+        "en": "Create specialized AI assistants for specific tasks with /agents command",
+        "zh": "使用/agents命令为特定任务创建专门的AI助手"
+      },
+      "details": {
+        "en": "Sub-agents are specialized AI assistants that can be customized for specific domains, tasks, or workflows. Each agent has its own instructions, context windows, and tool permissions, enabling targeted expertise for complex projects.",
+        "zh": "子代理是可以为特定领域、任务或工作流程定制的专门AI助手。每个代理都有自己的指令、上下文窗口和工具权限，为复杂项目提供针对性的专业知识。"
+      },
+      "examples": ["/agents", "Create frontend specialist agent", "Setup testing agent"],
+      "version": "2025.7",
+      "status": "stable"
+    },
+    {
+      "id": "mcp-integration",
+      "category": "integrations",
+      "tags": ["mcp", "protocol", "servers", "tools"],
+      "title": {
+        "en": "Model Context Protocol (MCP)",
+        "zh": "模型上下文协议 (MCP)"
+      },
+      "description": {
+        "en": "Connect to external tools and data sources through MCP servers",
+        "zh": "通过MCP服务器连接外部工具和数据源"
+      },
+      "details": {
+        "en": "MCP is Anthropic's open standard for connecting AI assistants to external tools and data sources. Claude Code functions as both an MCP server and client, enabling connections to Google Drive, Jira, custom developer tooling, and more.",
+        "zh": "MCP是Anthropic连接AI助手到外部工具和数据源的开放标准。Claude Code既是MCP服务器又是客户端，可连接Google Drive、Jira、自定义开发工具等。"
+      },
+      "examples": [
+        "claude mcp add",
+        "Connect to Google Drive docs",
+        "Integrate with Jira tickets"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "multiple-models",
+      "category": "integrations",
+      "tags": ["models", "sonnet", "opus", "haiku", "ai"],
+      "title": {
+        "en": "Multiple AI Models",
+        "zh": "多种AI模型"
+      },
+      "description": {
+        "en": "Access to Claude Sonnet 4, Opus 4.1, and Haiku 3.5 models",
+        "zh": "访问Claude Sonnet 4、Opus 4.1和Haiku 3.5模型"
+      },
+      "details": {
+        "en": "Claude Code supports multiple AI models optimized for different use cases. Sonnet 4 for balanced performance, Opus 4.1 for complex reasoning, and Haiku 3.5 for speed. Choose the right model for your specific development needs.",
+        "zh": "Claude Code支持针对不同用例优化的多种AI模型。Sonnet 4用于平衡性能，Opus 4.1用于复杂推理，Haiku 3.5用于速度。为您的特定开发需求选择合适的模型。"
+      },
+      "examples": [
+        "Switch to Opus for complex refactoring",
+        "Use Haiku for quick syntax fixes",
+        "Sonnet for general development"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "hooks-system",
+      "category": "integrations",
+      "tags": ["hooks", "lifecycle", "automation", "events"],
+      "title": {
+        "en": "Hooks System",
+        "zh": "钩子系统"
+      },
+      "description": {
+        "en": "Shell commands that execute at various points in Claude Code's lifecycle",
+        "zh": "在Claude Code生命周期各个点执行的Shell命令"
+      },
+      "details": {
+        "en": "Claude Code hooks are shell commands that execute at various lifecycle events: PreToolUse (before tool execution), PostToolUse (after completion), Notification (when Claude sends notifications), and Stop (when Claude finishes responding). This enables custom automation and integrations.",
+        "zh": "Claude Code钩子是在各种生命周期事件中执行的shell命令：PreToolUse（工具执行前）、PostToolUse（完成后）、Notification（Claude发送通知时）和Stop（Claude完成响应时）。这使得自定义自动化和集成成为可能。"
+      },
+      "examples": [
+        "PreToolUse hook for logging",
+        "PostToolUse hook for testing",
+        "Notification hook for alerts"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "custom-slash-commands",
+      "category": "customization",
+      "tags": ["customization", "commands", "markdown", "prompts"],
+      "title": {
+        "en": "Custom Slash Commands",
+        "zh": "自定义斜杠命令"
+      },
+      "description": {
+        "en": "Create custom slash commands from Markdown files for repeated workflows",
+        "zh": "从Markdown文件创建自定义斜杠命令用于重复工作流程"
+      },
+      "details": {
+        "en": "Markdown files in .claude/commands/ directories automatically appear as custom slash commands. This allows teams to standardize common prompts, workflows, and procedures into reusable commands that can be shared across projects.",
+        "zh": ".claude/commands/目录中的Markdown文件自动显示为自定义斜杠命令。这使团队能够将常见提示、工作流程和程序标准化为可重用的命令，可在项目间共享。"
+      },
+      "examples": [
+        "Create /review command for code reviews",
+        "Add /deploy command for deployments",
+        "Setup /test command for testing workflows"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "permission-management",
+      "category": "configuration",
+      "tags": ["permissions", "security", "safety", "supervision"],
+      "title": {
+        "en": "Permission Management",
+        "zh": "权限管理"
+      },
+      "description": {
+        "en": "Control Claude's access with permission prompts and --dangerously-skip-permissions",
+        "zh": "通过权限提示和--dangerously-skip-permissions控制Claude的访问权限"
+      },
+      "details": {
+        "en": "Claude Code includes a permission system that prompts for approval before executing potentially impactful operations. For trusted environments, --dangerously-skip-permissions bypasses all permission checks for uninterrupted workflow.",
+        "zh": "Claude Code包含权限系统，在执行可能有影响的操作前提示批准。对于受信任的环境，--dangerously-skip-permissions绕过所有权限检查以实现不中断的工作流程。"
+      },
+      "examples": [
+        "claude --dangerously-skip-permissions",
+        "Approve file modification request",
+        "Grant network access permission"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "context-management",
+      "category": "workflow",
+      "tags": ["context", "memory", "clear", "session"],
+      "title": {
+        "en": "Context Management",
+        "zh": "上下文管理"
+      },
+      "description": {
+        "en": "Manage conversation context with /clear command and session optimization",
+        "zh": "使用/clear命令和会话优化管理对话上下文"
+      },
+      "details": {
+        "en": "During long sessions, Claude's context window can fill with irrelevant information. The /clear command resets the context window between tasks, maintaining performance and focus. Best practice is to clear context when switching between projects or features.",
+        "zh": "在长会话期间，Claude的上下文窗口可能充满不相关信息。/clear命令重置任务间的上下文窗口，保持性能和专注。最佳实践是在项目或功能间切换时清除上下文。"
+      },
+      "examples": [
+        "/clear",
+        "Reset context between features",
+        "Optimize session performance"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "debugging-assistance",
+      "category": "workflow",
+      "tags": ["debugging", "errors", "troubleshooting", "analysis"],
+      "title": {
+        "en": "Debugging & Error Analysis",
+        "zh": "调试与错误分析"
+      },
+      "description": {
+        "en": "Intelligent debugging assistance with error analysis and fix suggestions",
+        "zh": "智能调试辅助，包括错误分析和修复建议"
+      },
+      "details": {
+        "en": "Claude Code excels at debugging complex issues. Paste an error message or describe a bug, and it will analyze your codebase, identify the root cause, and implement fixes. It understands stack traces, runtime errors, and logical bugs across multiple languages.",
+        "zh": "Claude Code擅长调试复杂问题。粘贴错误消息或描述bug，它会分析您的代码库，识别根本原因并实施修复。它理解堆栈跟踪、运行时错误和多种语言的逻辑错误。"
+      },
+      "examples": [
+        "Fix this TypeError in my React component",
+        "Debug memory leak in Node.js app",
+        "Resolve merge conflict in Git"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "testing-integration",
+      "category": "workflow",
+      "tags": ["testing", "unit-tests", "integration", "automation"],
+      "title": {
+        "en": "Test Generation & Integration",
+        "zh": "测试生成与集成"
+      },
+      "description": {
+        "en": "Generate comprehensive test suites and integrate with testing frameworks",
+        "zh": "生成全面的测试套件并与测试框架集成"
+      },
+      "details": {
+        "en": "Claude Code can generate unit tests, integration tests, and end-to-end tests for your code. It understands popular testing frameworks like Jest, Pytest, RSpec, and others, creating comprehensive test coverage with realistic test cases and edge case handling.",
+        "zh": "Claude Code可以为您的代码生成单元测试、集成测试和端到端测试。它理解Jest、Pytest、RSpec等流行测试框架，创建具有真实测试用例和边缘情况处理的全面测试覆盖率。"
+      },
+      "examples": [
+        "Generate Jest tests for this component",
+        "Create integration tests for API",
+        "Add edge case tests for validation"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "documentation-generation",
+      "category": "workflow",
+      "tags": ["documentation", "readme", "api-docs", "comments"],
+      "title": {
+        "en": "Documentation Generation",
+        "zh": "文档生成"
+      },
+      "description": {
+        "en": "Generate README files, API documentation, and code comments automatically",
+        "zh": "自动生成README文件、API文档和代码注释"
+      },
+      "details": {
+        "en": "Claude Code can generate comprehensive documentation including README files, API documentation, JSDoc comments, and inline code documentation. It maintains consistency with your project's style and provides clear, helpful documentation that stays current with your code.",
+        "zh": "Claude Code可以生成包括README文件、API文档、JSDoc注释和内联代码文档在内的全面文档。它与项目风格保持一致，提供清晰、有用且与代码保持同步的文档。"
+      },
+      "examples": [
+        "Generate README for this project",
+        "Create API documentation from code",
+        "Add JSDoc comments to functions"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "refactoring-assistance",
+      "category": "workflow",
+      "tags": ["refactoring", "code-quality", "patterns", "cleanup"],
+      "title": {
+        "en": "Code Refactoring & Optimization",
+        "zh": "代码重构与优化"
+      },
+      "description": {
+        "en": "Intelligent code refactoring with pattern recognition and optimization suggestions",
+        "zh": "智能代码重构，包括模式识别和优化建议"
+      },
+      "details": {
+        "en": "Claude Code can refactor code to improve readability, performance, and maintainability. It recognizes design patterns, suggests architectural improvements, eliminates code duplication, and applies best practices while preserving functionality.",
+        "zh": "Claude Code可以重构代码以提高可读性、性能和可维护性。它识别设计模式，建议架构改进，消除代码重复，在保持功能的同时应用最佳实践。"
+      },
+      "examples": [
+        "Refactor this class to use composition",
+        "Extract common functionality into utils",
+        "Optimize this algorithm for performance"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "ide-integration",
+      "category": "tools",
+      "tags": ["ide", "vscode", "editor", "integration"],
+      "title": {
+        "en": "IDE Integration",
+        "zh": "IDE集成"
+      },
+      "description": {
+        "en": "Works alongside your preferred IDE and development tools without changing workflow",
+        "zh": "与您首选的IDE和开发工具协同工作，无需改变工作流程"
+      },
+      "details": {
+        "en": "Claude Code integrates seamlessly with existing development environments. It doesn't require changing your IDE or workflow - it works in your terminal alongside VS Code, IntelliJ, Vim, or any other editor you prefer.",
+        "zh": "Claude Code与现有开发环境无缝集成。它不需要更改您的IDE或工作流程-它在终端中与VS Code、IntelliJ、Vim或您喜欢的任何其他编辑器一起工作。"
+      },
+      "examples": [
+        "Use with VS Code for development",
+        "Integrate with IntelliJ workflow",
+        "Terminal-based Vim integration"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "unix-philosophy",
+      "category": "tools",
+      "tags": ["unix", "composable", "scriptable", "pipes"],
+      "title": {
+        "en": "Unix Philosophy & Composability",
+        "zh": "Unix哲学与可组合性"
+      },
+      "description": {
+        "en": "Composable and scriptable following Unix philosophy for integration with existing tools",
+        "zh": "遵循Unix哲学的可组合和可脚本化，与现有工具集成"
+      },
+      "details": {
+        "en": "Claude Code follows Unix philosophy principles: it's composable, scriptable, and works well with other tools. You can pipe data to and from Claude Code, integrate it into shell scripts, and combine it with existing development tools.",
+        "zh": "Claude Code遵循Unix哲学原则：它是可组合的、可脚本化的，并与其他工具良好配合。您可以将数据输入和输出Claude Code，将其集成到shell脚本中，并与现有开发工具结合使用。"
+      },
+      "examples": [
+        "cat file.js | claude analyze",
+        "claude generate | tee output.js",
+        "Integrate into build scripts"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "project-initialization",
+      "category": "tools",
+      "tags": ["initialization", "scaffolding", "templates", "setup"],
+      "title": {
+        "en": "Project Initialization & Scaffolding",
+        "zh": "项目初始化与脚手架"
+      },
+      "description": {
+        "en": "Bootstrap new projects with proper structure, dependencies, and best practices",
+        "zh": "使用适当的结构、依赖项和最佳实践引导新项目"
+      },
+      "details": {
+        "en": "Claude Code can initialize new projects with proper directory structure, configuration files, dependencies, and boilerplate code. It understands modern project templates and can customize setup based on your specific requirements and preferences.",
+        "zh": "Claude Code可以使用适当的目录结构、配置文件、依赖项和样板代码初始化新项目。它理解现代项目模板，可以根据您的具体要求和偏好定制设置。"
+      },
+      "examples": [
+        "Initialize React TypeScript project",
+        "Setup Node.js API with Express",
+        "Create Python package structure"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "performance-optimization",
+      "category": "optimization",
+      "tags": ["performance", "optimization", "profiling", "analysis"],
+      "title": {
+        "en": "Performance Analysis & Optimization",
+        "zh": "性能分析与优化"
+      },
+      "description": {
+        "en": "Analyze and optimize code performance with intelligent profiling suggestions",
+        "zh": "通过智能性能分析建议分析和优化代码性能"
+      },
+      "details": {
+        "en": "Claude Code can analyze your code for performance bottlenecks, suggest optimizations, and help implement more efficient algorithms. It understands time complexity, memory usage patterns, and platform-specific optimization techniques.",
+        "zh": "Claude Code可以分析代码中的性能瓶颈，建议优化方案，并帮助实现更高效的算法。它理解时间复杂度、内存使用模式和平台特定的优化技术。"
+      },
+      "examples": [
+        "Optimize this slow database query",
+        "Reduce bundle size in React app",
+        "Fix memory leaks in long-running process"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "security-analysis",
+      "category": "optimization",
+      "tags": ["security", "vulnerabilities", "audit", "best-practices"],
+      "title": {
+        "en": "Security Analysis & Hardening",
+        "zh": "安全分析与强化"
+      },
+      "description": {
+        "en": "Identify security vulnerabilities and implement security best practices",
+        "zh": "识别安全漏洞并实施安全最佳实践"
+      },
+      "details": {
+        "en": "Claude Code can audit your code for common security vulnerabilities, suggest secure coding practices, and help implement security measures. It understands OWASP top 10 vulnerabilities, authentication patterns, and platform-specific security considerations.",
+        "zh": "Claude Code可以审核您的代码以查找常见安全漏洞，建议安全编码实践，并帮助实施安全措施。它理解OWASP十大漏洞、身份验证模式和平台特定的安全注意事项。"
+      },
+      "examples": [
+        "Audit this API for security issues",
+        "Implement secure authentication",
+        "Fix SQL injection vulnerability"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "dependency-management",
+      "category": "configuration",
+      "tags": ["dependencies", "packages", "updates", "management"],
+      "title": {
+        "en": "Dependency Management",
+        "zh": "依赖管理"
+      },
+      "description": {
+        "en": "Manage project dependencies, updates, and compatibility issues intelligently",
+        "zh": "智能管理项目依赖、更新和兼容性问题"
+      },
+      "details": {
+        "en": "Claude Code helps manage project dependencies by suggesting appropriate packages, handling version conflicts, managing updates, and ensuring compatibility. It understands package ecosystems like npm, PyPI, Cargo, and others.",
+        "zh": "Claude Code通过建议适当的包、处理版本冲突、管理更新和确保兼容性来帮助管理项目依赖。它理解npm、PyPI、Cargo等包生态系统。"
+      },
+      "examples": [
+        "Update dependencies safely",
+        "Resolve version conflicts",
+        "Find alternative to deprecated package"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "environment-configuration",
+      "category": "configuration",
+      "tags": ["environment", "config", "setup", "variables"],
+      "title": {
+        "en": "Environment Configuration",
+        "zh": "环境配置"
+      },
+      "description": {
+        "en": "Setup and manage development environments, configurations, and environment variables",
+        "zh": "设置和管理开发环境、配置和环境变量"
+      },
+      "details": {
+        "en": "Claude Code can help configure development environments, manage environment variables, setup configuration files, and ensure consistent environments across development, staging, and production. It understands Docker, environment files, and deployment configurations.",
+        "zh": "Claude Code可以帮助配置开发环境、管理环境变量、设置配置文件，并确保开发、测试和生产环境的一致性。它理解Docker、环境文件和部署配置。"
+      },
+      "examples": [
+        "Setup Docker development environment",
+        "Configure environment variables",
+        "Create consistent dev/prod configs"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "cloud-deployment",
+      "category": "deployment",
+      "tags": ["deployment", "cloud", "ci-cd", "automation"],
+      "title": {
+        "en": "Cloud Deployment & CI/CD",
+        "zh": "云部署与CI/CD"
+      },
+      "description": {
+        "en": "Setup deployment pipelines for AWS, Azure, GCP, and other cloud platforms",
+        "zh": "为AWS、Azure、GCP和其他云平台设置部署管道"
+      },
+      "details": {
+        "en": "Claude Code can help setup deployment pipelines, configure CI/CD workflows, and deploy applications to cloud platforms. It understands GitHub Actions, GitLab CI, AWS, Azure, GCP, and other deployment platforms and best practices.",
+        "zh": "Claude Code可以帮助设置部署管道、配置CI/CD工作流程，并将应用程序部署到云平台。它理解GitHub Actions、GitLab CI、AWS、Azure、GCP和其他部署平台及最佳实践。"
+      },
+      "examples": [
+        "Setup GitHub Actions for deployment",
+        "Deploy to AWS Lambda",
+        "Configure Docker containerization"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "database-operations",
+      "category": "deployment",
+      "tags": ["database", "migrations", "queries", "optimization"],
+      "title": {
+        "en": "Database Operations & Migrations",
+        "zh": "数据库操作与迁移"
+      },
+      "description": {
+        "en": "Design schemas, write queries, and manage database migrations safely",
+        "zh": "设计模式、编写查询并安全管理数据库迁移"
+      },
+      "details": {
+        "en": "Claude Code can help design database schemas, write efficient queries, create migrations, and optimize database performance. It understands SQL, NoSQL databases, ORM patterns, and database best practices for various platforms.",
+        "zh": "Claude Code可以帮助设计数据库模式、编写高效查询、创建迁移并优化数据库性能。它理解SQL、NoSQL数据库、ORM模式以及各种平台的数据库最佳实践。"
+      },
+      "examples": [
+        "Design user authentication schema",
+        "Optimize slow database queries",
+        "Create safe migration scripts"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "api-development",
+      "category": "development",
+      "tags": ["api", "rest", "graphql", "endpoints"],
+      "title": {
+        "en": "API Development & Documentation",
+        "zh": "API开发与文档"
+      },
+      "description": {
+        "en": "Build REST and GraphQL APIs with automatic documentation generation",
+        "zh": "构建REST和GraphQL API，自动生成文档"
+      },
+      "details": {
+        "en": "Claude Code excels at API development, creating well-structured endpoints, implementing proper error handling, authentication, and generating comprehensive API documentation. It understands REST principles, GraphQL schemas, and API best practices.",
+        "zh": "Claude Code擅长API开发，创建结构良好的端点、实现适当的错误处理、身份验证，并生成全面的API文档。它理解REST原则、GraphQL模式和API最佳实践。"
+      },
+      "examples": [
+        "Create REST API for user management",
+        "Build GraphQL schema with resolvers",
+        "Generate OpenAPI documentation"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "frontend-frameworks",
+      "category": "development",
+      "tags": ["react", "vue", "angular", "frontend"],
+      "title": {
+        "en": "Frontend Framework Support",
+        "zh": "前端框架支持"
+      },
+      "description": {
+        "en": "Expert support for React, Vue, Angular, and other modern frontend frameworks",
+        "zh": "对React、Vue、Angular和其他现代前端框架的专家支持"
+      },
+      "details": {
+        "en": "Claude Code has deep knowledge of modern frontend frameworks including React, Vue, Angular, Svelte, and others. It can create components, manage state, handle routing, optimize performance, and follow framework-specific best practices.",
+        "zh": "Claude Code对包括React、Vue、Angular、Svelte等现代前端框架有深入了解。它可以创建组件、管理状态、处理路由、优化性能，并遵循特定框架的最佳实践。"
+      },
+      "examples": [
+        "Create React component with hooks",
+        "Build Vue 3 composition API feature",
+        "Setup Angular service with RxJS"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "code-reviews",
+      "category": "collaboration",
+      "tags": ["review", "pull-request", "quality", "feedback"],
+      "title": {
+        "en": "Code Review Assistance",
+        "zh": "代码审查辅助"
+      },
+      "description": {
+        "en": "Intelligent code review with suggestions for improvements and best practices",
+        "zh": "智能代码审查，提供改进建议和最佳实践"
+      },
+      "details": {
+        "en": "Claude Code can review code changes, identify potential issues, suggest improvements, and ensure adherence to best practices. It can analyze pull requests, provide constructive feedback, and help maintain code quality standards across teams.",
+        "zh": "Claude Code可以审查代码更改、识别潜在问题、建议改进，并确保遵循最佳实践。它可以分析拉取请求、提供建设性反馈，并帮助团队维护代码质量标准。"
+      },
+      "examples": [
+        "Review this pull request for issues",
+        "Suggest improvements for code quality",
+        "Check adherence to coding standards"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "team-collaboration",
+      "category": "collaboration",
+      "tags": ["team", "sharing", "standards", "conventions"],
+      "title": {
+        "en": "Team Collaboration Features",
+        "zh": "团队协作功能"
+      },
+      "description": {
+        "en": "Share commands, conventions, and workflows across development teams",
+        "zh": "在开发团队间共享命令、约定和工作流程"
+      },
+      "details": {
+        "en": "Claude Code supports team collaboration through shared custom commands, coding conventions, and standardized workflows. Teams can create shared .claude/commands/ directories to ensure consistent processes and practices across projects.",
+        "zh": "Claude Code通过共享自定义命令、编码约定和标准化工作流程支持团队协作。团队可以创建共享的.claude/commands/目录，以确保项目间流程和实践的一致性。"
+      },
+      "examples": [
+        "Share team coding standards",
+        "Create shared workflow commands",
+        "Standardize review processes"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "enterprise-integration",
+      "category": "enterprise",
+      "tags": ["enterprise", "bedrock", "vertex", "corporate"],
+      "title": {
+        "en": "Enterprise Cloud Integration",
+        "zh": "企业云集成"
+      },
+      "description": {
+        "en": "Integration with Amazon Bedrock and Google Cloud Vertex AI for enterprise users",
+        "zh": "为企业用户集成Amazon Bedrock和Google Cloud Vertex AI"
+      },
+      "details": {
+        "en": "Enterprise users can run Claude Code using models in existing Amazon Bedrock or Google Cloud Vertex AI instances. This provides enterprise-grade security, compliance, and control while maintaining all Claude Code functionality.",
+        "zh": "企业用户可以使用现有Amazon Bedrock或Google Cloud Vertex AI实例中的模型运行Claude Code。这提供企业级安全性、合规性和控制，同时保持所有Claude Code功能。"
+      },
+      "examples": [
+        "Configure Bedrock integration",
+        "Setup Vertex AI connection",
+        "Enterprise model deployment"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "cross-platform-support",
+      "category": "platform",
+      "tags": ["cross-platform", "macos", "linux", "windows"],
+      "title": {
+        "en": "Cross-Platform Support",
+        "zh": "跨平台支持"
+      },
+      "description": {
+        "en": "Native support for macOS, Linux, and Windows development environments",
+        "zh": "对macOS、Linux和Windows开发环境的原生支持"
+      },
+      "details": {
+        "en": "Claude Code works natively on macOS, Linux, and Windows, adapting to platform-specific conventions, file paths, and development tools. It understands platform differences and provides appropriate solutions for each environment.",
+        "zh": "Claude Code在macOS、Linux和Windows上原生工作，适应平台特定的约定、文件路径和开发工具。它理解平台差异并为每个环境提供适当的解决方案。"
+      },
+      "examples": [
+        "Windows PowerShell integration",
+        "Linux shell scripting",
+        "macOS development tools"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "language-support",
+      "category": "platform",
+      "tags": ["languages", "python", "javascript", "typescript", "rust", "go"],
+      "title": {
+        "en": "Multi-Language Support",
+        "zh": "多语言支持"
+      },
+      "description": {
+        "en": "Expert support for 20+ programming languages with best practices",
+        "zh": "对20多种编程语言的专家支持和最佳实践"
+      },
+      "details": {
+        "en": "Claude Code has deep knowledge of popular programming languages including Python, JavaScript, TypeScript, Rust, Go, Java, C++, and many others. It understands language-specific idioms, best practices, and ecosystem conventions.",
+        "zh": "Claude Code对包括Python、JavaScript、TypeScript、Rust、Go、Java、C++等流行编程语言有深入了解。它理解特定语言的习语、最佳实践和生态系统约定。"
+      },
+      "examples": [
+        "Python async/await patterns",
+        "Rust ownership and borrowing",
+        "Go concurrent programming"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    }
+  ]
+}

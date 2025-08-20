@@ -1,0 +1,140 @@
+{
+  "en": {
+    "site": {
+      "title": "Claude Code Features",
+      "subtitle": "Comprehensive collection of Claude Code capabilities"
+    },
+    "search": {
+      "placeholder": "Search Claude Code features..."
+    },
+    "filters": {
+      "category": "Category",
+      "status": "Status",
+      "sort": "Sort by",
+      "all": "All",
+      "clear": "Clear Filters"
+    },
+    "sort": {
+      "name": "Name",
+      "category": "Category",
+      "status": "Status"
+    },
+    "status": {
+      "stable": "Stable",
+      "beta": "Beta",
+      "new": "New"
+    },
+    "stats": {
+      "total": "Total Features",
+      "categories": "Categories",
+      "new": "New Features"
+    },
+    "loading": {
+      "features": "Loading features..."
+    },
+    "empty": {
+      "title": "No features found",
+      "message": "Try adjusting your search or filter criteria"
+    },
+    "footer": {
+      "description": "An interactive collection of Claude Code features and capabilities",
+      "updated": "Last updated:",
+      "docs": "Official Docs",
+      "github": "GitHub",
+      "source": "Source Code"
+    },
+    "categories": {
+      "core": "Core Features",
+      "interactive": "Interactive",
+      "agents": "Agents",
+      "integrations": "Integrations",
+      "customization": "Customization",
+      "configuration": "Configuration",
+      "workflow": "Workflow",
+      "tools": "Tools",
+      "optimization": "Optimization",
+      "deployment": "Deployment",
+      "development": "Development",
+      "collaboration": "Collaboration",
+      "enterprise": "Enterprise",
+      "platform": "Platform"
+    },
+    "modal": {
+      "close": "Close",
+      "category": "Category",
+      "status": "Status",
+      "version": "Version",
+      "examples": "Examples",
+      "tags": "Tags"
+    }
+  },
+  "zh": {
+    "site": {
+      "title": "Claude Code 功能集合",
+      "subtitle": "Claude Code 功能和能力的全面集合"
+    },
+    "search": {
+      "placeholder": "搜索 Claude Code 功能..."
+    },
+    "filters": {
+      "category": "分类",
+      "status": "状态",
+      "sort": "排序",
+      "all": "全部",
+      "clear": "清除筛选"
+    },
+    "sort": {
+      "name": "名称",
+      "category": "分类",
+      "status": "状态"
+    },
+    "status": {
+      "stable": "稳定",
+      "beta": "测试版",
+      "new": "新功能"
+    },
+    "stats": {
+      "total": "功能总数",
+      "categories": "分类数量",
+      "new": "新增功能"
+    },
+    "loading": {
+      "features": "加载功能中..."
+    },
+    "empty": {
+      "title": "未找到功能",
+      "message": "请尝试调整搜索或筛选条件"
+    },
+    "footer": {
+      "description": "Claude Code 功能和能力的交互式集合",
+      "updated": "最后更新：",
+      "docs": "官方文档",
+      "github": "GitHub",
+      "source": "源代码"
+    },
+    "categories": {
+      "core": "核心功能",
+      "interactive": "交互功能",
+      "agents": "代理系统",
+      "integrations": "集成功能",
+      "customization": "自定义",
+      "configuration": "配置管理",
+      "workflow": "工作流程",
+      "tools": "开发工具",
+      "optimization": "优化功能",
+      "deployment": "部署功能",
+      "development": "开发功能",
+      "collaboration": "协作功能",
+      "enterprise": "企业功能",
+      "platform": "平台支持"
+    },
+    "modal": {
+      "close": "关闭",
+      "category": "分类",
+      "status": "状态",
+      "version": "版本",
+      "examples": "示例",
+      "tags": "标签"
+    }
+  }
+}

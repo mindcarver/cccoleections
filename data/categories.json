@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "id": "core",
+      "icon": "🛠️",
+      "description": {
+        "en": "Essential Claude Code functionality for basic development tasks",
+        "zh": "基本开发任务的核心Claude Code功能"
+      }
+    },
+    {
+      "id": "interactive",
+      "icon": "⚡",
+      "description": {
+        "en": "Interactive features that enhance the user experience",
+        "zh": "增强用户体验的交互功能"
+      }
+    },
+    {
+      "id": "agents",
+      "icon": "🤖",
+      "description": {
+        "en": "Specialized AI agents for specific tasks and workflows",
+        "zh": "针对特定任务和工作流程的专门AI代理"
+      }
+    },
+    {
+      "id": "integrations",
+      "icon": "🔗",
+      "description": {
+        "en": "Integrations with external tools, services, and platforms",
+        "zh": "与外部工具、服务和平台的集成"
+      }
+    },
+    {
+      "id": "customization",
+      "icon": "🎨",
+      "description": {
+        "en": "Customization options to tailor Claude Code to your needs",
+        "zh": "根据您的需求定制Claude Code的选项"
+      }
+    },
+    {
+      "id": "configuration",
+      "icon": "⚙️",
+      "description": {
+        "en": "Configuration and setup options for different environments",
+        "zh": "不同环境的配置和设置选项"
+      }
+    },
+    {
+      "id": "workflow",
+      "icon": "🔄",
+      "description": {
+        "en": "Workflow optimization and development process improvements",
+        "zh": "工作流程优化和开发过程改进"
+      }
+    },
+    {
+      "id": "tools",
+      "icon": "🔧",
+      "description": {
+        "en": "Development tools and utilities for enhanced productivity",
+        "zh": "提高生产力的开发工具和实用程序"
+      }
+    },
+    {
+      "id": "optimization",
+      "icon": "🚀",
+      "description": {
+        "en": "Performance, security, and code quality optimization features",
+        "zh": "性能、安全和代码质量优化功能"
+      }
+    },
+    {
+      "id": "deployment",
+      "icon": "📦",
+      "description": {
+        "en": "Deployment, CI/CD, and infrastructure management capabilities",
+        "zh": "部署、CI/CD和基础设施管理功能"
+      }
+    },
+    {
+      "id": "development",
+      "icon": "💻",
+      "description": {
+        "en": "Advanced development features and framework support",
+        "zh": "高级开发功能和框架支持"
+      }
+    },
+    {
+      "id": "collaboration",
+      "icon": "👥",
+      "description": {
+        "en": "Team collaboration and code review capabilities",
+        "zh": "团队协作和代码审查功能"
+      }
+    },
+    {
+      "id": "enterprise",
+      "icon": "🏢",
+      "description": {
+        "en": "Enterprise-grade features for large organizations",
+        "zh": "面向大型组织的企业级功能"
+      }
+    },
+    {
+      "id": "platform",
+      "icon": "🌐",
+      "description": {
+        "en": "Cross-platform support and language compatibility",
+        "zh": "跨平台支持和语言兼容性"
+      }
+    }
+  ]
+}
