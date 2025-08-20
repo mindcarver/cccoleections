@@ -132,7 +132,7 @@
         "en": "Claude Code includes a comprehensive slash command system that provides shortcuts to common development workflows. Commands range from file operations to project management, making development faster and more efficient.",
         "zh": "Claude Code包含一个全面的斜杠命令系统，提供常见开发工作流程的快捷方式。命令范围从文件操作到项目管理，使开发更快、更高效。"
       },
-      "examples": ["/clear", "/help", "/load", "/git", "/test"],
+      "examples": ["/clear", "/help", "/git", "/bug", "/permissions", "/terminal-setup", "/install-github-app", "/security-review", "/mcp", "/agents", "/statusline"],
       "version": "2025.1",
       "status": "stable"
     },
@@ -840,6 +840,247 @@
         "Python async/await patterns",
         "Rust ownership and borrowing",
         "Go concurrent programming"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "github-actions-integration",
+      "category": "integrations",
+      "tags": ["github", "actions", "ci-cd", "automation", "pr"],
+      "title": {
+        "en": "GitHub Actions Integration",
+        "zh": "GitHub Actions集成"
+      },
+      "description": {
+        "en": "Native GitHub integration with automated PR reviews and CI/CD workflows",
+        "zh": "与自动PR审查和CI/CD工作流程的原生GitHub集成"
+      },
+      "details": {
+        "en": "Claude Code now supports background tasks via GitHub Actions. With a simple @claude mention in any PR or issue, Claude can analyze code, create pull requests, implement features, and fix bugs while following your project's standards.",
+        "zh": "Claude Code现在通过GitHub Actions支持后台任务。在任何PR或issue中简单地@claude提及，Claude可以分析代码、创建拉取请求、实现功能和修复bug，同时遵循您项目的标准。"
+      },
+      "examples": [
+        "@claude review this PR for security issues",
+        "@claude implement feature from issue #123",
+        "@claude fix the failing tests"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "security-review-command",
+      "category": "workflow",
+      "tags": ["security", "review", "automation", "vulnerabilities"],
+      "title": {
+        "en": "Automated Security Reviews",
+        "zh": "自动化安全审查"
+      },
+      "description": {
+        "en": "New /security-review command for automated vulnerability detection and fixing",
+        "zh": "新的/security-review命令用于自动漏洞检测和修复"
+      },
+      "details": {
+        "en": "Using GitHub Actions integration and the /security-review command, developers can easily ask Claude to identify security concerns and automatically fix them. This includes OWASP top 10 vulnerabilities and platform-specific security issues.",
+        "zh": "使用GitHub Actions集成和/security-review命令，开发者可以轻松要求Claude识别安全问题并自动修复。这包括OWASP十大漏洞和平台特定的安全问题。"
+      },
+      "examples": [
+        "/security-review",
+        "Audit codebase for SQL injection",
+        "Fix authentication vulnerabilities"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "install-github-app",
+      "category": "integrations",
+      "tags": ["github", "installation", "app", "setup"],
+      "title": {
+        "en": "GitHub App Installation",
+        "zh": "GitHub应用安装"
+      },
+      "description": {
+        "en": "Simple /install-github-app command to set up GitHub integration",
+        "zh": "简单的/install-github-app命令设置GitHub集成"
+      },
+      "details": {
+        "en": "The /install-github-app command guides you through setting up the GitHub app and required secrets for seamless GitHub integration. This enables PR reviews, issue management, and automated workflows.",
+        "zh": "/install-github-app命令指导您设置GitHub应用和所需的密钥，以实现无缝的GitHub集成。这启用了PR审查、问题管理和自动化工作流程。"
+      },
+      "examples": [
+        "/install-github-app",
+        "Setup GitHub integration for team",
+        "Configure automated PR reviews"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "claude-code-sdk",
+      "category": "development",
+      "tags": ["sdk", "typescript", "python", "extensibility"],
+      "title": {
+        "en": "Claude Code SDK",
+        "zh": "Claude Code SDK"
+      },
+      "description": {
+        "en": "Extensible SDK in TypeScript and Python for building custom agents and applications",
+        "zh": "TypeScript和Python中的可扩展SDK，用于构建自定义代理和应用程序"
+      },
+      "details": {
+        "en": "The Claude Code SDK is available in TypeScript and Python, allowing developers to build their own agents and applications using the same core agent as Claude Code. This enables custom integrations and specialized workflows.",
+        "zh": "Claude Code SDK在TypeScript和Python中可用，允许开发者使用与Claude Code相同的核心代理构建自己的代理和应用程序。这使得自定义集成和专门的工作流程成为可能。"
+      },
+      "examples": [
+        "Build custom code analysis agent",
+        "Create specialized deployment tool",
+        "Integrate with internal systems"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "mcp-sse-http",
+      "category": "integrations",
+      "tags": ["mcp", "sse", "http", "oauth", "real-time"],
+      "title": {
+        "en": "Enhanced MCP Support",
+        "zh": "增强的MCP支持"
+      },
+      "description": {
+        "en": "SSE and HTTP transports for MCP with OAuth 2.0 authentication",
+        "zh": "具有OAuth 2.0身份验证的MCP的SSE和HTTP传输"
+      },
+      "details": {
+        "en": "Claude Code now supports SSE and HTTP transports for MCP servers, enabling real-time communication. Use /mcp command to authenticate with remote MCP servers via OAuth 2.0. Reference MCP resources with @server:protocol://path format.",
+        "zh": "Claude Code现在支持MCP服务器的SSE和HTTP传输，启用实时通信。使用/mcp命令通过OAuth 2.0与远程MCP服务器进行身份验证。使用@server:protocol://path格式引用MCP资源。"
+      },
+      "examples": [
+        "/mcp add server-name",
+        "@github:api/repos/owner/repo",
+        "OAuth integration with external services"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "claude-on-github",
+      "category": "integrations",
+      "tags": ["github", "beta", "web", "browser"],
+      "title": {
+        "en": "Claude Code on GitHub (Beta)",
+        "zh": "GitHub上的Claude Code（Beta）"
+      },
+      "description": {
+        "en": "Browser-based Claude Code experience directly on GitHub",
+        "zh": "直接在GitHub上基于浏览器的Claude Code体验"
+      },
+      "details": {
+        "en": "Claude Code on GitHub brings the power of Claude Code directly to the GitHub web interface. This beta feature allows developers to use Claude Code functionality without leaving their browser, enabling seamless code review and development workflows.",
+        "zh": "GitHub上的Claude Code将Claude Code的功能直接带到GitHub网页界面。这个beta功能允许开发者在不离开浏览器的情况下使用Claude Code功能，实现无缝的代码审查和开发工作流程。"
+      },
+      "examples": [
+        "Review PRs directly in browser",
+        "Generate code from GitHub issues",
+        "Inline code suggestions"
+      ],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "pro-max-plans",
+      "category": "platform",
+      "tags": ["plans", "pro", "max", "access"],
+      "title": {
+        "en": "Pro and Max Plan Access",
+        "zh": "Pro和Max计划访问"
+      },
+      "description": {
+        "en": "Claude Code now available on both Pro and Max subscription plans",
+        "zh": "Claude Code现在在Pro和Max订阅计划中都可用"
+      },
+      "details": {
+        "en": "Claude Code is now accessible with both the Pro and Max plans, making it available to a broader range of developers and teams. Each plan offers different usage limits and capabilities tailored to different development needs.",
+        "zh": "Claude Code现在可通过Pro和Max计划访问，使更广泛的开发者和团队能够使用它。每个计划提供不同的使用限制和针对不同开发需求的功能。"
+      },
+      "examples": [
+        "Pro plan for individual developers",
+        "Max plan for teams and heavy usage",
+        "Flexible pricing options"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "dangerously-skip-permissions",
+      "category": "configuration",
+      "tags": ["permissions", "automation", "yolo", "trusted"],
+      "title": {
+        "en": "Skip Permissions Mode",
+        "zh": "跳过权限模式"
+      },
+      "description": {
+        "en": "--dangerously-skip-permissions flag for uninterrupted automation",
+        "zh": "用于不间断自动化的--dangerously-skip-permissions标志"
+      },
+      "details": {
+        "en": "Many users run claude --dangerously-skip-permissions which functions like Cursor's old yolo mode, allowing Claude to execute commands without asking for permission each time. This is useful for trusted environments and automated workflows.",
+        "zh": "许多用户运行claude --dangerously-skip-permissions，它像Cursor的旧yolo模式一样工作，允许Claude执行命令而无需每次都请求权限。这对于受信任的环境和自动化工作流程很有用。"
+      },
+      "examples": [
+        "claude --dangerously-skip-permissions",
+        "Automated CI/CD workflows",
+        "Trusted development environments"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "hierarchical-claude-md",
+      "category": "configuration",
+      "tags": ["configuration", "claude-md", "hierarchical", "project"],
+      "title": {
+        "en": "Hierarchical Configuration",
+        "zh": "分层配置"
+      },
+      "description": {
+        "en": "Hierarchical CLAUDE.md files with project-level and nested directory support",
+        "zh": "具有项目级和嵌套目录支持的分层CLAUDE.md文件"
+      },
+      "details": {
+        "en": "CLAUDE.md files can be hierarchical - you can have project-level configuration and nested directory-specific configs. Claude looks at all relevant configs and prioritizes the most specific, nested one when applicable. Save to global user memory or local project memory.",
+        "zh": "CLAUDE.md文件可以是分层的——您可以有项目级配置和嵌套的目录特定配置。Claude查看所有相关配置，并在适用时优先考虑最具体的嵌套配置。保存到全局用户内存或本地项目内存。"
+      },
+      "examples": [
+        "Global ~/.claude/CLAUDE.md",
+        "Project-level ./CLAUDE.md",
+        "Directory-specific nested configs"
+      ],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "terminal-keyboard-shortcuts",
+      "category": "interactive",
+      "tags": ["terminal", "shortcuts", "navigation", "ux"],
+      "title": {
+        "en": "Advanced Terminal Controls",
+        "zh": "高级终端控制"
+      },
+      "description": {
+        "en": "Keyboard shortcuts and terminal behaviors for efficient interaction",
+        "zh": "用于高效交互的键盘快捷键和终端行为"
+      },
+      "details": {
+        "en": "Claude Code includes several non-obvious terminal behaviors: Escape to stop Claude (not Ctrl+C), Escape twice to show message history, Shift+drag for file references, Ctrl+V for image pasting, and /terminal-setup for proper configuration.",
+        "zh": "Claude Code包含几个不明显的终端行为：Escape停止Claude（不是Ctrl+C），Escape两次显示消息历史，Shift+拖拽文件引用，Ctrl+V粘贴图像，/terminal-setup进行适当配置。"
+      },
+      "examples": [
+        "Escape - Stop Claude execution",
+        "Escape Escape - View message history",
+        "Shift+drag - Reference files properly",
+        "Ctrl+V - Paste images from clipboard"
       ],
       "version": "2025.1",
       "status": "stable"
