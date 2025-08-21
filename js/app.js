@@ -120,6 +120,7 @@ class ClaudeCodeFeaturesApp {
     async initializeServices() {
         // Initialize data service
         this.dataService = new DataService();
+        await this.dataService.init();
         
         // Initialize i18n service
         this.i18nService = new I18nService();
@@ -158,8 +159,8 @@ class ClaudeCodeFeaturesApp {
         try {
             this.showLoading(true);
             
-            // Load features data
-            this.features = await this.dataService.getAllFeatures();
+            // Get features data (already loaded during service initialization)
+            this.features = this.dataService.getAllFeatures();
             this.filteredFeatures = [...this.features];
             
             // Render features
