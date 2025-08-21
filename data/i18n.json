@@ -1,11 +1,17 @@
 {
   "en": {
     "site": {
-      "title": "Claude Code Features",
+      "title": "Claude Code Docs",
       "subtitle": "Comprehensive collection of Claude Code capabilities"
     },
+    "nav": {
+      "features": "Features",
+      "docs": "Documentation",
+      "previous": "Previous",
+      "next": "Next"
+    },
     "search": {
-      "placeholder": "Search Claude Code features..."
+      "placeholder": "Search documentation..."
     },
     "filters": {
       "category": "Category",
@@ -30,14 +36,38 @@
       "new": "New Features"
     },
     "loading": {
+      "navigation": "Loading navigation...",
+      "content": "Loading content...",
       "features": "Loading features..."
     },
+    "welcome": {
+      "title": "Claude Code Documentation Hub",
+      "subtitle": "Complete guides, tutorials, and best practices for Claude Code",
+      "quickStart": "Quick Start",
+      "quickStartDesc": "Get up and running with Claude Code in minutes",
+      "workflows": "Workflows",
+      "workflowsDesc": "Advanced integration patterns and automation",
+      "agents": "AI Agents",
+      "agentsDesc": "Custom agents and specialized sub-agents",
+      "examples": "Examples",
+      "examplesDesc": "Real-world examples and tutorials",
+      "recentUpdates": "Recent Updates"
+    },
+    "toc": {
+      "title": "Table of Contents"
+    },
+    "actions": {
+      "readingMode": "Reading Mode",
+      "copyLink": "Copy Link",
+      "print": "Print"
+    },
     "empty": {
-      "title": "No features found",
-      "message": "Try adjusting your search or filter criteria"
+      "title": "Document not found",
+      "message": "The document you're looking for doesn't exist or has been moved.",
+      "backHome": "Back to Home"
     },
     "footer": {
-      "description": "An interactive collection of Claude Code features and capabilities",
+      "description": "Comprehensive Claude Code documentation and guides",
       "updated": "Last updated:",
       "docs": "Official Docs",
       "github": "GitHub",
@@ -70,11 +100,17 @@
   },
   "zh": {
     "site": {
-      "title": "Claude Code 功能集合",
+      "title": "Claude Code 文档",
       "subtitle": "Claude Code 功能和能力的全面集合"
     },
+    "nav": {
+      "features": "功能特性",
+      "docs": "文档",
+      "previous": "上一页",
+      "next": "下一页"
+    },
     "search": {
-      "placeholder": "搜索 Claude Code 功能..."
+      "placeholder": "搜索文档..."
     },
     "filters": {
       "category": "分类",
@@ -99,14 +135,38 @@
       "new": "新增功能"
     },
     "loading": {
+      "navigation": "加载导航中...",
+      "content": "加载内容中...",
       "features": "加载功能中..."
     },
+    "welcome": {
+      "title": "Claude Code 文档中心",
+      "subtitle": "Claude Code 完整指南、教程和最佳实践",
+      "quickStart": "快速开始",
+      "quickStartDesc": "几分钟内开始使用 Claude Code",
+      "workflows": "工作流程",
+      "workflowsDesc": "高级集成模式和自动化",
+      "agents": "AI 代理",
+      "agentsDesc": "自定义代理和专业子代理",
+      "examples": "示例",
+      "examplesDesc": "真实世界的示例和教程",
+      "recentUpdates": "最近更新"
+    },
+    "toc": {
+      "title": "目录"
+    },
+    "actions": {
+      "readingMode": "阅读模式",
+      "copyLink": "复制链接",
+      "print": "打印"
+    },
     "empty": {
-      "title": "未找到功能",
-      "message": "请尝试调整搜索或筛选条件"
+      "title": "文档未找到",
+      "message": "您要查找的文档不存在或已被移动。",
+      "backHome": "返回首页"
     },
     "footer": {
-      "description": "Claude Code 功能和能力的交互式集合",
+      "description": "全面的 Claude Code 文档和指南",
       "updated": "最后更新：",
       "docs": "官方文档",
       "github": "GitHub",

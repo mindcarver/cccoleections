@@ -1,0 +1,388 @@
+{
+  "documents": [
+    {
+      "id": "basic-cli-usage",
+      "category": "core",
+      "priority": 1,
+      "title": {
+        "en": "Basic CLI Usage & Commands",
+        "zh": "基础CLI使用与命令"
+      },
+      "description": {
+        "en": "Complete guide to Claude Code command line interface, including installation, basic commands, and common workflows",
+        "zh": "Claude Code命令行界面完整指南，包括安装、基础命令和常见工作流程"
+      },
+      "content": {
+        "overview": {
+          "en": "Claude Code provides a powerful command-line interface that enables developers to interact with AI directly from their terminal. This guide covers everything from basic installation to advanced usage patterns.",
+          "zh": "Claude Code提供了强大的命令行界面，使开发者能够直接从终端与AI交互。本指南涵盖从基础安装到高级使用模式的所有内容。"
+        },
+        "sections": [
+          {
+            "id": "installation",
+            "title": {
+              "en": "Installation & Setup",
+              "zh": "安装与设置"
+            },
+            "content": {
+              "en": "## Installation\n\n### Prerequisites\n- Node.js 16+ or Python 3.8+\n- Terminal access\n- Internet connection for initial setup\n\n### Install via npm\n```bash\nnpm install -g @anthropic/claude-code\n```\n\n### Install via pip\n```bash\npip install claude-code\n```\n\n### Verify Installation\n```bash\nclaude --version\nclaude --help\n```",
+              "zh": "## 安装\n\n### 前置要求\n- Node.js 16+ 或 Python 3.8+\n- 终端访问权限\n- 互联网连接(初始设置)\n\n### 通过npm安装\n```bash\nnpm install -g @anthropic/claude-code\n```\n\n### 通过pip安装\n```bash\npip install claude-code\n```\n\n### 验证安装\n```bash\nclaude --version\nclaude --help\n```"
+            }
+          },
+          {
+            "id": "basic-commands",
+            "title": {
+              "en": "Basic Commands",
+              "zh": "基础命令"
+            },
+            "content": {
+              "en": "## Core Commands\n\n### Start Interactive Session\n```bash\nclaude\n```\nStarts an interactive coding session where you can chat with Claude and get real-time help.\n\n### Quick Code Generation\n```bash\nclaude \"Create a React component for user profile\"\n```\n\n### File Operations\n```bash\n# Analyze existing file\nclaude --file src/components/User.js \"Optimize this component\"\n\n# Generate new file\nclaude --output src/utils/helpers.js \"Create utility functions for data validation\"\n```\n\n### Project Analysis\n```bash\n# Analyze entire project\nclaude --analyze\n\n# Analyze specific directory\nclaude --analyze src/\n```",
+              "zh": "## 核心命令\n\n### 启动交互式会话\n```bash\nclaude\n```\n启动交互式编码会话，您可以与Claude聊天并获得实时帮助。\n\n### 快速代码生成\n```bash\nclaude \"创建一个用户资料的React组件\"\n```\n\n### 文件操作\n```bash\n# 分析现有文件\nclaude --file src/components/User.js \"优化这个组件\"\n\n# 生成新文件\nclaude --output src/utils/helpers.js \"创建数据验证的工具函数\"\n```\n\n### 项目分析\n```bash\n# 分析整个项目\nclaude --analyze\n\n# 分析特定目录\nclaude --analyze src/\n```"
+            }
+          }
+        ]
+      },
+      "codeExamples": [
+        {
+          "title": "Basic Session Workflow",
+          "language": "bash",
+          "code": "# Start Claude Code\nclaude\n\n# In the interactive session:\n> Create a function to validate email addresses\n> Add error handling to the login function\n> Refactor this component to use hooks\n\n# Exit session\n> /exit"
+        },
+        {
+          "title": "Batch Processing",
+          "language": "bash", 
+          "code": "# Process multiple files\nclaude --batch src/**/*.js \"Add JSDoc comments to all functions\"\n\n# Generate documentation\nclaude --docs --output README.md \"Create comprehensive project documentation\""
+        }
+      ],
+      "bestPractices": [
+        {
+          "title": "Use Clear, Specific Prompts",
+          "description": "Be specific about what you want. Instead of 'fix this code', say 'optimize this function for better performance and add error handling'."
+        },
+        {
+          "title": "Break Down Complex Tasks",
+          "description": "For large refactoring or feature implementation, break the task into smaller, manageable pieces."
+        },
+        {
+          "title": "Review Generated Code",
+          "description": "Always review and test the generated code before committing to ensure it meets your requirements and coding standards."
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Claude Code command not found",
+          "solution": "Ensure Claude Code is properly installed and your PATH is updated. Try reinstalling or check your shell configuration."
+        },
+        {
+          "issue": "Session timeout or disconnection",
+          "solution": "This usually indicates network issues. Check your internet connection and try restarting the session."
+        }
+      ],
+      "source": {
+        "originalUrl": "https://docs.anthropic.com/en/docs/claude-code/quickstart",
+        "author": "Anthropic Documentation Team",
+        "lastUpdated": "2025-01-15",
+        "copyright": "© 2025 Anthropic PBC",
+        "license": "Documentation under Anthropic Terms of Service"
+      },
+      "metadata": {
+        "difficulty": "beginner",
+        "readingTime": 8,
+        "tags": ["cli", "basics", "installation", "commands", "getting-started"],
+        "version": "2025.1",
+        "status": "stable",
+        "prerequisites": ["basic terminal knowledge"],
+        "relatedDocs": ["advanced-cli", "configuration", "troubleshooting"]
+      }
+    },
+    {
+      "id": "advanced-workflows",
+      "category": "workflow",
+      "priority": 2,
+      "title": {
+        "en": "Advanced Development Workflows",
+        "zh": "高级开发工作流程"
+      },
+      "description": {
+        "en": "Advanced patterns and workflows for integrating Claude Code into complex development environments and CI/CD pipelines",
+        "zh": "将Claude Code集成到复杂开发环境和CI/CD管道的高级模式和工作流程"
+      },
+      "content": {
+        "overview": {
+          "en": "Learn advanced techniques for integrating Claude Code into sophisticated development workflows, including automated testing, continuous integration, and team collaboration patterns.",
+          "zh": "学习将Claude Code集成到复杂开发工作流程中的高级技术，包括自动化测试、持续集成和团队协作模式。"
+        },
+        "sections": [
+          {
+            "id": "ci-cd-integration",
+            "title": {
+              "en": "CI/CD Pipeline Integration",
+              "zh": "CI/CD管道集成"
+            },
+            "content": {
+              "en": "## GitHub Actions Integration\n\n### Automated Code Review\n```yaml\nname: Claude Code Review\non:\n  pull_request:\n    types: [opened, synchronize]\n\njobs:\n  claude-review:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: Setup Claude Code\n        run: npm install -g @anthropic/claude-code\n      - name: Review PR\n        run: |\n          claude --review --pr ${{ github.event.number }} \\\n            --focus security,performance,best-practices\n```\n\n### Automated Documentation\n```yaml\n- name: Generate Documentation\n  run: |\n    claude --docs --auto-update \\\n      --output docs/ \\\n      --format markdown\n```",
+              "zh": "## GitHub Actions集成\n\n### 自动代码审查\n```yaml\nname: Claude代码审查\non:\n  pull_request:\n    types: [opened, synchronize]\n\njobs:\n  claude-review:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v3\n      - name: 设置Claude Code\n        run: npm install -g @anthropic/claude-code\n      - name: 审查PR\n        run: |\n          claude --review --pr ${{ github.event.number }} \\\n            --focus security,performance,best-practices\n```\n\n### 自动文档生成\n```yaml\n- name: 生成文档\n  run: |\n    claude --docs --auto-update \\\n      --output docs/ \\\n      --format markdown\n```"
+            }
+          }
+        ]
+      },
+      "codeExamples": [
+        {
+          "title": "Team Configuration File",
+          "language": "json",
+          "code": "{\n  \"team\": {\n    \"name\": \"Frontend Team\",\n    \"standards\": {\n      \"linting\": \"eslint-config-airbnb\",\n      \"testing\": \"jest + react-testing-library\",\n      \"documentation\": \"jsdoc\"\n    },\n    \"workflows\": {\n      \"review\": {\n        \"autoReview\": true,\n        \"focusAreas\": [\"performance\", \"accessibility\", \"security\"]\n      },\n      \"documentation\": {\n        \"autoUpdate\": true,\n        \"includeExamples\": true\n      }\n    }\n  }\n}"
+        }
+      ],
+      "bestPractices": [
+        {
+          "title": "Establish Team Standards",
+          "description": "Create shared configuration files that define your team's coding standards, review criteria, and documentation requirements."
+        }
+      ],
+      "commonIssues": [],
+      "source": {
+        "originalUrl": "https://docs.anthropic.com/en/docs/claude-code/workflows",
+        "author": "Anthropic Documentation Team", 
+        "lastUpdated": "2025-01-15",
+        "copyright": "© 2025 Anthropic PBC",
+        "license": "Documentation under Anthropic Terms of Service"
+      },
+      "metadata": {
+        "difficulty": "advanced",
+        "readingTime": 15,
+        "tags": ["workflow", "ci-cd", "automation", "team", "advanced"],
+        "version": "2025.1",
+        "status": "stable",
+        "prerequisites": ["basic claude code knowledge", "ci/cd experience"],
+        "relatedDocs": ["basic-cli-usage", "configuration", "team-collaboration"]
+      }
+    },
+    {
+      "id": "wshobson-agents-collection",
+      "category": "agents",
+      "priority": 1,
+      "title": {
+        "en": "Production-Ready AI Agents Collection (wshobson/agents)",
+        "zh": "生产就绪的AI代理集合 (wshobson/agents)"
+      },
+      "description": {
+        "en": "Comprehensive guide to the most popular Claude Code subagents collection featuring 74 specialized AI agents for automatic task delegation and cost optimization",
+        "zh": "最受欢迎的Claude Code子代理集合的综合指南，包含74个专业AI代理，支持自动任务委派和成本优化"
+      },
+      "content": {
+        "overview": {
+          "en": "The wshobson/agents repository represents the most comprehensive and production-ready collection of Claude Code subagents available. With 74 specialized agents covering everything from frontend development to AI engineering, this collection demonstrates best practices for automatic context detection, intelligent task routing, and cost-optimized model selection.",
+          "zh": "wshobson/agents仓库是最全面且生产就绪的Claude Code子代理集合。包含74个专业代理，涵盖从前端开发到AI工程的各个领域，展示了自动上下文检测、智能任务路由和成本优化模型选择的最佳实践。"
+        },
+        "sections": [
+          {
+            "id": "overview-architecture",
+            "title": {
+              "en": "Repository Architecture & Organization",
+              "zh": "仓库架构与组织"
+            },
+            "content": {
+              "en": "## Repository Structure\n\nThe agents collection follows a clean, standardized structure:\n\n```\nwshobson/agents/\n├── README.md                 # Main documentation\n├── ai-engineer.md           # AI/ML specialist\n├── prompt-engineer.md       # Prompt optimization expert\n├── backend-architect.md     # API design specialist\n├── frontend-developer.md    # React/UI expert\n├── ui-ux-designer.md       # Design system specialist\n├── mobile-developer.md     # React Native/Flutter expert\n├── context-manager.md      # Context optimization\n└── [67+ other specialists]  # Domain-specific experts\n```\n\n## Agent Categories\n\n### 🚀 **Development Specialists** (25 agents)\n- Frontend Development (React, Vue, Angular)\n- Backend Development (Node.js, Python, Go)\n- Mobile Development (React Native, Flutter)\n- Database Design & Optimization\n- API Architecture & Design\n\n### 🔒 **Security & DevOps** (15 agents)\n- Security Auditing & Penetration Testing\n- Infrastructure as Code (Terraform, CloudFormation)\n- CI/CD Pipeline Optimization\n- Container Orchestration (Docker, Kubernetes)\n- Monitoring & Observability\n\n### 🤖 **AI & Machine Learning** (12 agents)\n- LLM Integration & Fine-tuning\n- RAG Systems with Vector Databases\n- Computer Vision & NLP\n- MLOps & Model Deployment\n- Prompt Engineering & Optimization\n\n### 🎨 **Design & User Experience** (8 agents)\n- UI/UX Design Systems\n- Accessibility Compliance\n- Design Token Management\n- User Research & Testing\n\n### 📊 **Data & Analytics** (10 agents)\n- Data Pipeline Engineering\n- Business Intelligence & Reporting\n- Statistical Analysis & Modeling\n- Data Visualization\n\n### ⚙️ **Platform & Tools** (4 agents)\n- Context Management & Optimization\n- Documentation Generation\n- Code Quality & Review\n- Performance Optimization",
+              "zh": "## 仓库结构\n\n代理集合遵循清晰、标准化的结构：\n\n```\nwshobson/agents/\n├── README.md                 # 主要文档\n├── ai-engineer.md           # AI/ML专家\n├── prompt-engineer.md       # 提示优化专家\n├── backend-architect.md     # API设计专家\n├── frontend-developer.md    # React/UI专家\n├── ui-ux-designer.md       # 设计系统专家\n├── mobile-developer.md     # React Native/Flutter专家\n├── context-manager.md      # 上下文优化\n└── [67+其他专家]             # 领域特定专家\n```\n\n## 代理分类\n\n### 🚀 **开发专家** (25个代理)\n- 前端开发 (React, Vue, Angular)\n- 后端开发 (Node.js, Python, Go)\n- 移动开发 (React Native, Flutter)\n- 数据库设计与优化\n- API架构与设计\n\n### 🔒 **安全与DevOps** (15个代理)\n- 安全审计与渗透测试\n- 基础设施即代码 (Terraform, CloudFormation)\n- CI/CD管道优化\n- 容器编排 (Docker, Kubernetes)\n- 监控与可观测性\n\n### 🤖 **AI与机器学习** (12个代理)\n- LLM集成与微调\n- 带向量数据库的RAG系统\n- 计算机视觉与NLP\n- MLOps与模型部署\n- 提示工程与优化\n\n### 🎨 **设计与用户体验** (8个代理)\n- UI/UX设计系统\n- 无障碍访问合规\n- 设计令牌管理\n- 用户研究与测试\n\n### 📊 **数据与分析** (10个代理)\n- 数据管道工程\n- 商业智能与报告\n- 统计分析与建模\n- 数据可视化\n\n### ⚙️ **平台与工具** (4个代理)\n- 上下文管理与优化\n- 文档生成\n- 代码质量与审查\n- 性能优化"
+            }
+          },
+          {
+            "id": "installation-setup",
+            "title": {
+              "en": "Installation & Setup Guide",
+              "zh": "安装与设置指南"
+            },
+            "content": {
+              "en": "## Installation Methods\n\n### Method 1: Standard User-Level Installation\n```bash\n# Navigate to Claude Code config directory\ncd ~/.claude\n\n# Clone the agents repository\ngit clone https://github.com/wshobson/agents.git\n\n# Verify installation\nls agents/\n```\n\n### Method 2: Project-Level Installation\n```bash\n# In your project root\nmkdir -p .claude/agents\ncd .claude/agents\n\n# Clone specific agents or entire collection\ngit clone https://github.com/wshobson/agents.git wh-bundle\n```\n\n### Method 3: Selective Installation\n```bash\n# Install only specific agents\ncurl -O https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md\ncurl -O https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md\n```\n\n## Verification & Testing\n\n### Check Agent Recognition\n```bash\n# Start Claude Code and test agent activation\nclaude\n\n# In Claude Code session, try triggering agents:\n> Create a React component for user authentication\n> Design a REST API for user management\n> Optimize this database query for performance\n```\n\n### Configuration Priority\nClaude Code follows this priority order:\n1. **Project-level**: `.claude/agents/` (highest priority)\n2. **User-level**: `~/.claude/agents/`\n3. **Global**: System-wide installations\n\n**Note**: Project-level agents override user-level agents with the same name.",
+              "zh": "## 安装方法\n\n### 方法1：标准用户级安装\n```bash\n# 导航到Claude Code配置目录\ncd ~/.claude\n\n# 克隆代理仓库\ngit clone https://github.com/wshobson/agents.git\n\n# 验证安装\nls agents/\n```\n\n### 方法2：项目级安装\n```bash\n# 在项目根目录\nmkdir -p .claude/agents\ncd .claude/agents\n\n# 克隆特定代理或整个集合\ngit clone https://github.com/wshobson/agents.git wh-bundle\n```\n\n### 方法3：选择性安装\n```bash\n# 只安装特定代理\ncurl -O https://raw.githubusercontent.com/wshobson/agents/main/frontend-developer.md\ncurl -O https://raw.githubusercontent.com/wshobson/agents/main/backend-architect.md\n```\n\n## 验证与测试\n\n### 检查代理识别\n```bash\n# 启动Claude Code并测试代理激活\nclaude\n\n# 在Claude Code会话中，尝试触发代理：\n> 创建一个用户认证的React组件\n> 设计一个用户管理的REST API\n> 优化这个数据库查询的性能\n```\n\n### 配置优先级\nClaude Code遵循以下优先级顺序：\n1. **项目级**: `.claude/agents/` (最高优先级)\n2. **用户级**: `~/.claude/agents/`\n3. **全局级**: 系统级安装\n\n**注意**: 项目级代理会覆盖同名的用户级代理。"
+            }
+          },
+          {
+            "id": "agent-configuration",
+            "title": {
+              "en": "Agent Configuration & YAML Schema",
+              "zh": "代理配置与YAML架构"
+            },
+            "content": {
+              "en": "## Standard Agent Configuration\n\nEach agent follows a standardized YAML frontmatter structure:\n\n```yaml\n---\nname: agent-identifier\ndescription: Clear description of when this agent should be invoked\nmodel: haiku|sonnet|opus  # Optional - cost optimization\ntools: tool1, tool2       # Optional - defaults to all tools\ncategory: domain          # Optional - organization\n---\nSystem prompt defining the agent's specialized role and capabilities\n```\n\n## Configuration Parameters\n\n### Required Fields\n- **name**: Unique identifier (kebab-case recommended)\n- **description**: Triggers for automatic agent selection\n\n### Optional Fields\n- **model**: Cost optimization (haiku < sonnet < opus)\n- **tools**: Restrict tool access for security/performance\n- **category**: Organizational grouping\n\n## Model Selection Strategy\n\n### Cost-Effective Task Delegation\n```yaml\n# Low Complexity - Haiku Model\nmodel: haiku\nuse_cases:\n  - Basic data analysis\n  - Documentation generation\n  - Standard responses\n  - Simple code reviews\n\n# Medium Complexity - Sonnet Model  \nmodel: sonnet\nuse_cases:\n  - Development tasks\n  - Code generation\n  - Testing workflows\n  - API design\n\n# High Complexity - Opus Model\nmodel: opus\nuse_cases:\n  - Security auditing\n  - Architecture review\n  - AI/ML engineering\n  - Complex system design\n```\n\n## Tool Access Management\n\n### Restricted Tool Access\n```yaml\n# Security-focused agent with limited tools\ntools: search, read\n# Prevents file modification for security analysis\n\n# Development agent with full access\ntools: filesystem, search, web, terminal\n# Full development capabilities\n```\n\n### Default Tool Behavior\n```yaml\n# When tools not specified, agent gets:\n- filesystem: Read/write file operations\n- search: Code and documentation search\n- web: Internet access for research\n- terminal: Command execution (when safe)\n```",
+              "zh": "## 标准代理配置\n\n每个代理都遵循标准化的YAML前置元数据结构：\n\n```yaml\n---\nname: agent-identifier\ndescription: 应该调用此代理时的清晰描述\nmodel: haiku|sonnet|opus  # 可选 - 成本优化\ntools: tool1, tool2       # 可选 - 默认为所有工具\ncategory: domain          # 可选 - 组织分类\n---\n定义代理专业角色和能力的系统提示\n```\n\n## 配置参数\n\n### 必需字段\n- **name**: 唯一标识符（推荐使用kebab-case）\n- **description**: 自动代理选择的触发条件\n\n### 可选字段\n- **model**: 成本优化（haiku < sonnet < opus）\n- **tools**: 限制工具访问以确保安全性/性能\n- **category**: 组织分组\n\n## 模型选择策略\n\n### 成本效益任务委派\n```yaml\n# 低复杂度 - Haiku模型\nmodel: haiku\nuse_cases:\n  - 基础数据分析\n  - 文档生成\n  - 标准响应\n  - 简单代码审查\n\n# 中等复杂度 - Sonnet模型\nmodel: sonnet\nuse_cases:\n  - 开发任务\n  - 代码生成\n  - 测试工作流\n  - API设计\n\n# 高复杂度 - Opus模型\nmodel: opus\nuse_cases:\n  - 安全审计\n  - 架构审查\n  - AI/ML工程\n  - 复杂系统设计\n```\n\n## 工具访问管理\n\n### 受限工具访问\n```yaml\n# 安全专注的代理，工具有限\ntools: search, read\n# 防止安全分析时修改文件\n\n# 开发代理，完全访问权限\ntools: filesystem, search, web, terminal\n# 完整的开发能力\n```\n\n### 默认工具行为\n```yaml\n# 当未指定工具时，代理获得：\n- filesystem: 读/写文件操作\n- search: 代码和文档搜索\n- web: 研究用的互联网访问\n- terminal: 命令执行（安全时）\n```"
+            }
+          },
+          {
+            "id": "popular-agents",
+            "title": {
+              "en": "Most Popular Agents & Use Cases",
+              "zh": "最受欢迎的代理与用例"
+            },
+            "content": {
+              "en": "## Top 10 Most Used Agents\n\n### 🎯 1. Frontend Developer\n**Triggers**: React, Vue, Angular, component, responsive, UI\n**Model**: Sonnet (medium complexity)\n**Use Cases**:\n- React component architecture\n- Responsive design implementation\n- State management (Redux, Zustand)\n- CSS frameworks integration\n\n### 🏗️ 2. Backend Architect  \n**Triggers**: API, database, server, microservices, architecture\n**Model**: Sonnet/Opus (complexity-dependent)\n**Use Cases**:\n- RESTful API design\n- Database schema optimization\n- Microservices architecture\n- Performance optimization\n\n### 🤖 3. AI Engineer\n**Triggers**: LLM, machine learning, AI, neural network, model\n**Model**: Opus (high complexity)\n**Use Cases**:\n- LLM integration (OpenAI, Anthropic)\n- RAG systems with vector databases\n- Model fine-tuning and deployment\n- AI application architecture\n\n### 🎨 4. UI/UX Designer\n**Triggers**: design system, accessibility, user experience, wireframe\n**Model**: Sonnet\n**Use Cases**:\n- Design system creation\n- Accessibility compliance (WCAG)\n- User flow optimization\n- Design token management\n\n### 🔒 5. Security Expert\n**Triggers**: security, vulnerability, penetration testing, audit\n**Model**: Opus (critical analysis)\n**Use Cases**:\n- Security vulnerability assessment\n- Penetration testing strategies\n- Secure coding practices\n- Compliance requirements (SOC2, GDPR)\n\n### 📱 6. Mobile Developer\n**Triggers**: mobile, React Native, Flutter, iOS, Android\n**Model**: Sonnet\n**Use Cases**:\n- Cross-platform mobile development\n- Native performance optimization\n- App store deployment\n- Platform-specific features\n\n### ⚡ 7. Performance Engineer\n**Triggers**: performance, optimization, bottleneck, scaling\n**Model**: Sonnet/Opus\n**Use Cases**:\n- Application performance profiling\n- Database query optimization\n- Caching strategies\n- Load testing and monitoring\n\n### 🔧 8. DevOps Engineer\n**Triggers**: CI/CD, Docker, Kubernetes, deployment, infrastructure\n**Model**: Sonnet\n**Use Cases**:\n- CI/CD pipeline optimization\n- Container orchestration\n- Infrastructure as Code\n- Monitoring and alerting\n\n### 📊 9. Data Engineer\n**Triggers**: data pipeline, ETL, analytics, BigQuery, warehouse\n**Model**: Sonnet\n**Use Cases**:\n- Data pipeline architecture\n- ETL process optimization\n- Data warehouse design\n- Real-time analytics\n\n### ⚙️ 10. Context Manager\n**Triggers**: context, optimization, memory, token efficiency\n**Model**: Haiku (efficiency focused)\n**Use Cases**:\n- Context window optimization\n- Information prioritization\n- Token usage reduction\n- Session management",
+              "zh": "## 前10个最常用的代理\n\n### 🎯 1. 前端开发者\n**触发词**: React, Vue, Angular, component, responsive, UI\n**模型**: Sonnet（中等复杂度）\n**用例**:\n- React组件架构\n- 响应式设计实现\n- 状态管理（Redux, Zustand）\n- CSS框架集成\n\n### 🏗️ 2. 后端架构师\n**触发词**: API, database, server, microservices, architecture\n**模型**: Sonnet/Opus（取决于复杂度）\n**用例**:\n- RESTful API设计\n- 数据库架构优化\n- 微服务架构\n- 性能优化\n\n### 🤖 3. AI工程师\n**触发词**: LLM, machine learning, AI, neural network, model\n**模型**: Opus（高复杂度）\n**用例**:\n- LLM集成（OpenAI, Anthropic）\n- 带向量数据库的RAG系统\n- 模型微调和部署\n- AI应用架构\n\n### 🎨 4. UI/UX设计师\n**触发词**: design system, accessibility, user experience, wireframe\n**模型**: Sonnet\n**用例**:\n- 设计系统创建\n- 无障碍访问合规（WCAG）\n- 用户流程优化\n- 设计令牌管理\n\n### 🔒 5. 安全专家\n**触发词**: security, vulnerability, penetration testing, audit\n**模型**: Opus（关键分析）\n**用例**:\n- 安全漏洞评估\n- 渗透测试策略\n- 安全编码实践\n- 合规要求（SOC2, GDPR）\n\n### 📱 6. 移动开发者\n**触发词**: mobile, React Native, Flutter, iOS, Android\n**模型**: Sonnet\n**用例**:\n- 跨平台移动开发\n- 原生性能优化\n- 应用商店部署\n- 平台特定功能\n\n### ⚡ 7. 性能工程师\n**触发词**: performance, optimization, bottleneck, scaling\n**模型**: Sonnet/Opus\n**用例**:\n- 应用性能分析\n- 数据库查询优化\n- 缓存策略\n- 负载测试和监控\n\n### 🔧 8. DevOps工程师\n**触发词**: CI/CD, Docker, Kubernetes, deployment, infrastructure\n**模型**: Sonnet\n**用例**:\n- CI/CD管道优化\n- 容器编排\n- 基础设施即代码\n- 监控和告警\n\n### 📊 9. 数据工程师\n**触发词**: data pipeline, ETL, analytics, BigQuery, warehouse\n**模型**: Sonnet\n**用例**:\n- 数据管道架构\n- ETL过程优化\n- 数据仓库设计\n- 实时分析\n\n### ⚙️ 10. 上下文管理器\n**触发词**: context, optimization, memory, token efficiency\n**模型**: Haiku（效率导向）\n**用例**:\n- 上下文窗口优化\n- 信息优先级排序\n- Token使用减少\n- 会话管理"
+            }
+          },
+          {
+            "id": "automation-patterns",
+            "title": {
+              "en": "Automatic Delegation & Context Detection",
+              "zh": "自动委派与上下文检测"
+            },
+            "content": {
+              "en": "## How Claude Code Selects Agents\n\nClaude Code uses sophisticated context analysis to automatically select the most appropriate agent:\n\n### 1. Keyword Analysis (30% weight)\n```yaml\nfrontend-developer:\n  triggers: [\"React\", \"component\", \"CSS\", \"responsive\", \"UI\"]\n  \nbackend-architect:\n  triggers: [\"API\", \"database\", \"server\", \"microservices\"]\n  \nsecurity-expert:\n  triggers: [\"security\", \"vulnerability\", \"audit\", \"penetration\"]\n```\n\n### 2. File Type Detection (25% weight)\n```yaml\nfile_patterns:\n  frontend:\n    - \"*.jsx\", \"*.tsx\", \"*.vue\", \"*.css\", \"*.scss\"\n  backend:\n    - \"*.js\", \"*.ts\", \"*.py\", \"*.go\", \"*.java\"\n  mobile:\n    - \"**/ios/**\", \"**/android/**\", \"*.swift\", \"*.kt\"\n  infrastructure:\n    - \"Dockerfile\", \"*.yaml\", \"*.tf\", \"*.yml\"\n```\n\n### 3. Project Structure Analysis (20% weight)\n```yaml\nproject_indicators:\n  react_app:\n    - \"package.json\" with \"react\" dependency\n    - \"src/components/\" directory\n    - \".tsx\" or \".jsx\" files\n    \n  api_service:\n    - \"app.py\", \"server.js\", \"main.go\"\n    - \"routes/\" or \"endpoints/\" directory\n    - Database configuration files\n    \n  mobile_app:\n    - \"ios/\", \"android/\" directories\n    - \"pubspec.yaml\" (Flutter)\n    - \"package.json\" with React Native\n```\n\n### 4. Task Classification (15% weight)\n```yaml\ntask_types:\n  development:\n    verbs: [\"create\", \"build\", \"implement\", \"develop\"]\n    \n  debugging:\n    verbs: [\"fix\", \"debug\", \"troubleshoot\", \"resolve\"]\n    \n  optimization:\n    verbs: [\"optimize\", \"improve\", \"enhance\", \"refactor\"]\n    \n  analysis:\n    verbs: [\"analyze\", \"review\", \"audit\", \"assess\"]\n```\n\n### 5. Context History (10% weight)\nClaude Code remembers recent interactions and maintains context continuity:\n\n```yaml\ncontext_memory:\n  recent_agents: [\"frontend-developer\", \"ui-ux-designer\"]\n  active_project_type: \"react-application\"\n  user_preferences: \n    - prefers_typescript: true\n    - uses_tailwind: true\n    - testing_framework: \"jest\"\n```\n\n## Multi-Agent Orchestration\n\n### Parallel Agent Execution\n```bash\n# User request: \"Create a full-stack user authentication system\"\n\n# Claude Code automatically delegates to:\n1. backend-architect     → API design & database schema\n2. security-expert       → Security best practices\n3. frontend-developer    → Login/signup components\n4. ui-ux-designer       → User experience flow\n5. devops-engineer      → Deployment configuration\n```\n\n### Sequential Agent Workflows\n```bash\n# User request: \"Optimize this slow application\"\n\n# Sequential workflow:\n1. performance-engineer  → Identify bottlenecks\n2. backend-architect     → Database optimization\n3. frontend-developer    → Client-side optimization\n4. devops-engineer      → Infrastructure scaling\n```",
+              "zh": "## Claude Code如何选择代理\n\nClaude Code使用复杂的上下文分析来自动选择最合适的代理：\n\n### 1. 关键词分析（30%权重）\n```yaml\nfrontend-developer:\n  triggers: [\"React\", \"component\", \"CSS\", \"responsive\", \"UI\"]\n  \nbackend-architect:\n  triggers: [\"API\", \"database\", \"server\", \"microservices\"]\n  \nsecurity-expert:\n  triggers: [\"security\", \"vulnerability\", \"audit\", \"penetration\"]\n```\n\n### 2. 文件类型检测（25%权重）\n```yaml\nfile_patterns:\n  frontend:\n    - \"*.jsx\", \"*.tsx\", \"*.vue\", \"*.css\", \"*.scss\"\n  backend:\n    - \"*.js\", \"*.ts\", \"*.py\", \"*.go\", \"*.java\"\n  mobile:\n    - \"**/ios/**\", \"**/android/**\", \"*.swift\", \"*.kt\"\n  infrastructure:\n    - \"Dockerfile\", \"*.yaml\", \"*.tf\", \"*.yml\"\n```\n\n### 3. 项目结构分析（20%权重）\n```yaml\nproject_indicators:\n  react_app:\n    - \"package.json\"包含\"react\"依赖\n    - \"src/components/\"目录\n    - \".tsx\"或\".jsx\"文件\n    \n  api_service:\n    - \"app.py\", \"server.js\", \"main.go\"\n    - \"routes/\"或\"endpoints/\"目录\n    - 数据库配置文件\n    \n  mobile_app:\n    - \"ios/\", \"android/\"目录\n    - \"pubspec.yaml\"（Flutter）\n    - \"package.json\"包含React Native\n```\n\n### 4. 任务分类（15%权重）\n```yaml\ntask_types:\n  development:\n    verbs: [\"create\", \"build\", \"implement\", \"develop\"]\n    \n  debugging:\n    verbs: [\"fix\", \"debug\", \"troubleshoot\", \"resolve\"]\n    \n  optimization:\n    verbs: [\"optimize\", \"improve\", \"enhance\", \"refactor\"]\n    \n  analysis:\n    verbs: [\"analyze\", \"review\", \"audit\", \"assess\"]\n```\n\n### 5. 上下文历史（10%权重）\nClaude Code记住最近的交互并保持上下文连续性：\n\n```yaml\ncontext_memory:\n  recent_agents: [\"frontend-developer\", \"ui-ux-designer\"]\n  active_project_type: \"react-application\"\n  user_preferences: \n    - prefers_typescript: true\n    - uses_tailwind: true\n    - testing_framework: \"jest\"\n```\n\n## 多代理编排\n\n### 并行代理执行\n```bash\n# 用户请求：\"创建一个全栈用户认证系统\"\n\n# Claude Code自动委派给：\n1. backend-architect     → API设计和数据库架构\n2. security-expert       → 安全最佳实践\n3. frontend-developer    → 登录/注册组件\n4. ui-ux-designer       → 用户体验流程\n5. devops-engineer      → 部署配置\n```\n\n### 顺序代理工作流\n```bash\n# 用户请求：\"优化这个慢的应用程序\"\n\n# 顺序工作流：\n1. performance-engineer  → 识别瓶颈\n2. backend-architect     → 数据库优化\n3. frontend-developer    → 客户端优化\n4. devops-engineer      → 基础设施扩展\n```"
+            }
+          }
+        ]
+      },
+      "codeExamples": [
+        {
+          "title": "AI Engineer Agent Configuration",
+          "language": "yaml",
+          "code": "---\nname: ai-engineer\ndescription: AI engineer specializing in LLM applications and generative AI systems\nmodel: opus\ntools: filesystem, search, web\ncategory: ai-ml\n---\n\nYou are an AI engineer specializing in:\n\n🤖 **LLM Integration & Development**\n- OpenAI GPT, Anthropic Claude, Google PaLM APIs\n- Hugging Face transformers and model deployment\n- Custom fine-tuning and prompt engineering\n- Cost optimization and rate limiting strategies\n\n🗄️ **RAG & Vector Systems**\n- Vector databases (Qdrant, Pinecone, Weaviate, Chroma)\n- Embedding strategies and similarity search\n- Chunk optimization and retrieval enhancement\n- Hybrid search implementations\n\n🏗️ **AI Application Architecture**\n- Microservices for AI workloads\n- Scalable inference pipelines\n- Model versioning and A/B testing\n- Monitoring and observability for AI systems\n\nFocus on production-ready solutions with reliability and cost efficiency."
+        },
+        {
+          "title": "Frontend Developer Agent Configuration",
+          "language": "yaml", 
+          "code": "---\nname: frontend-developer\ndescription: Build React components, implement responsive layouts, handle client-side state management\nmodel: sonnet\ntools: filesystem, search\ncategory: development\n---\n\nYou are a frontend development expert specializing in:\n\n⚛️ **React Ecosystem**\n- Component architecture and composition patterns\n- Hooks and state management (Redux, Zustand, Context)\n- Performance optimization (React.memo, useMemo, lazy loading)\n- Testing with Jest and React Testing Library\n\n🎨 **Modern CSS & Styling**\n- CSS-in-JS solutions (styled-components, emotion)\n- Utility frameworks (Tailwind CSS, ChakraUI)\n- Responsive design and mobile-first approach\n- CSS Grid and Flexbox mastery\n\n⚡ **Performance & UX**\n- Core Web Vitals optimization\n- Progressive Web App features\n- Accessibility compliance (WCAG guidelines)\n- Bundle optimization and code splitting\n\nDeliver production-ready components with excellent user experience."
+        },
+        {
+          "title": "Context Manager Agent Configuration",
+          "language": "yaml",
+          "code": "---\nname: context-manager\ndescription: Optimize context usage, manage information flow, and improve token efficiency\nmodel: haiku\ntools: search, filesystem\ncategory: optimization\n---\n\nYou specialize in context optimization and efficient information management:\n\n🧠 **Context Window Optimization**\n- Intelligent information prioritization\n- Relevant content extraction and summarization\n- Token usage reduction strategies\n- Context boundary management\n\n📊 **Information Architecture**\n- Hierarchical information structuring\n- Key-value extraction from large contexts\n- Cross-reference optimization\n- Memory-efficient data organization\n\n⚡ **Performance Strategies**\n- Lazy loading of context information\n- Incremental context building\n- Smart caching mechanisms\n- Real-time context relevance scoring\n\nFocus on maximizing information density while minimizing token consumption."
+        }
+      ],
+      "bestPractices": [
+        {
+          "title": "Use Descriptive Agent Names",
+          "description": "Choose clear, descriptive names that make it obvious when the agent should be triggered. Use kebab-case for consistency."
+        },
+        {
+          "title": "Optimize Model Selection",
+          "description": "Match model complexity to task requirements. Use Haiku for simple tasks, Sonnet for development work, and Opus for complex analysis."
+        },
+        {
+          "title": "Implement Proper Tool Restrictions",
+          "description": "Limit tool access based on agent purpose. Security agents should have read-only access, while development agents need full filesystem access."
+        },
+        {
+          "title": "Create Comprehensive Trigger Descriptions",
+          "description": "Write detailed descriptions that help Claude Code understand exactly when to activate each agent. Include keywords, contexts, and use cases."
+        },
+        {
+          "title": "Test Agent Activation",
+          "description": "Regularly test your agents with different prompts to ensure they're being triggered correctly and producing expected results."
+        },
+        {
+          "title": "Organize by Project Needs",
+          "description": "Use project-level agent installations to customize behavior for specific projects while maintaining user-level defaults."
+        }
+      ],
+      "commonIssues": [
+        {
+          "issue": "Agent not being triggered automatically",
+          "solution": "Check the agent's description field for relevant keywords. Ensure the description clearly indicates when the agent should be used. Try using more specific trigger terms in your prompts."
+        },
+        {
+          "issue": "Wrong agent being selected",
+          "solution": "Review agent descriptions for overlap. Make sure each agent has unique, specific trigger conditions. Consider renaming agents or refining their descriptions."
+        },
+        {
+          "issue": "High costs with Opus model agents",
+          "solution": "Evaluate if tasks really need Opus complexity. Many development tasks work well with Sonnet. Reserve Opus for security audits, architecture reviews, and AI/ML work."
+        },
+        {
+          "issue": "Agent conflicts between user and project levels",
+          "solution": "Remember that project-level agents override user-level ones. Use unique names or deliberately override with project-specific versions."
+        }
+      ],
+      "source": {
+        "originalUrl": "https://github.com/wshobson/agents",
+        "author": "wshobson & Community Contributors",
+        "lastUpdated": "2025-01-15",
+        "copyright": "© 2025 Open Source Community",
+        "license": "MIT License"
+      },
+      "metadata": {
+        "difficulty": "intermediate",
+        "readingTime": 25,
+        "tags": ["agents", "subagents", "automation", "ai", "delegation", "wshobson", "production"],
+        "version": "2025.1",
+        "status": "stable",
+        "prerequisites": ["basic claude code knowledge", "understanding of AI agents"],
+        "relatedDocs": ["basic-cli-usage", "advanced-workflows", "agent-development"]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "core",
+      "name": {
+        "en": "Core Features",
+        "zh": "核心功能"
+      },
+      "description": {
+        "en": "Essential Claude Code functionality and basic usage",
+        "zh": "Claude Code的基本功能和基础使用"
+      },
+      "icon": "⚡",
+      "order": 1
+    },
+    {
+      "id": "workflow", 
+      "name": {
+        "en": "Workflows & Automation",
+        "zh": "工作流程与自动化"
+      },
+      "description": {
+        "en": "Advanced workflows, automation, and integration patterns",
+        "zh": "高级工作流程、自动化和集成模式"
+      },
+      "icon": "🔄",
+      "order": 2
+    },
+    {
+      "id": "agents",
+      "name": {
+        "en": "AI Agents & Sub-agents", 
+        "zh": "AI代理与子代理"
+      },
+      "description": {
+        "en": "Custom AI agents and specialized sub-agents",
+        "zh": "自定义AI代理和专门的子代理"
+      },
+      "icon": "🤖",
+      "order": 3
+    },
+    {
+      "id": "integrations",
+      "name": {
+        "en": "Integrations & Tools",
+        "zh": "集成与工具"
+      },
+      "description": {
+        "en": "Third-party integrations and external tools",
+        "zh": "第三方集成和外部工具"
+      },
+      "icon": "🔧",
+      "order": 4
+    },
+    {
+      "id": "examples",
+      "name": {
+        "en": "Examples & Tutorials",
+        "zh": "示例与教程"
+      },
+      "description": {
+        "en": "Practical examples and step-by-step tutorials",
+        "zh": "实用示例和分步教程"
+      },
+      "icon": "📚",
+      "order": 5
+    }
+  ],
+  "metadata": {
+    "version": "2.0.0",
+    "lastUpdated": "2025-01-15T10:00:00Z",
+    "totalDocuments": 2,
+    "dataStructureVersion": "enhanced-v2",
+    "description": "Enhanced Claude Code documentation collection with full content support"
+  }
+}

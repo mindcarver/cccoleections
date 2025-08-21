@@ -1,0 +1,102 @@
+{
+  "documentTemplate": {
+    "id": "unique-kebab-case-id",
+    "category": "core|workflow|agents|integrations|examples",
+    "priority": 1,
+    "title": {
+      "en": "English Title",
+      "zh": "中文标题"
+    },
+    "description": {
+      "en": "Brief English description (1-2 sentences)",
+      "zh": "简短中文描述 (1-2句话)"
+    },
+    "content": {
+      "overview": {
+        "en": "Comprehensive English overview paragraph",
+        "zh": "全面的中文概述段落"
+      },
+      "sections": [
+        {
+          "id": "section-id",
+          "title": {
+            "en": "Section Title",
+            "zh": "章节标题"
+          },
+          "content": {
+            "en": "Full markdown content in English",
+            "zh": "完整的中文markdown内容"
+          }
+        }
+      ]
+    },
+    "codeExamples": [
+      {
+        "title": "Example Title",
+        "language": "bash|javascript|python|json|yaml",
+        "code": "// Complete code example\nfunction example() {\n  return 'example';\n}"
+      }
+    ],
+    "bestPractices": [
+      {
+        "title": "Practice Title",
+        "description": "Detailed description of the best practice"
+      }
+    ],
+    "commonIssues": [
+      {
+        "issue": "Description of the issue",
+        "solution": "Step-by-step solution"
+      }
+    ],
+    "source": {
+      "originalUrl": "https://source-url.com",
+      "author": "Author Name or Organization",
+      "lastUpdated": "YYYY-MM-DD",
+      "copyright": "Copyright information",
+      "license": "License type"
+    },
+    "metadata": {
+      "difficulty": "beginner|intermediate|advanced",
+      "readingTime": 10,
+      "tags": ["tag1", "tag2", "tag3"],
+      "version": "2025.1",
+      "status": "stable|beta|new",
+      "prerequisites": ["prerequisite1", "prerequisite2"],
+      "relatedDocs": ["doc-id-1", "doc-id-2"]
+    }
+  },
+  "validationRules": {
+    "required": [
+      "id",
+      "category", 
+      "title.en",
+      "title.zh",
+      "description.en",
+      "description.zh",
+      "content.overview.en",
+      "content.overview.zh",
+      "source.originalUrl",
+      "source.author",
+      "source.lastUpdated",
+      "metadata.difficulty",
+      "metadata.readingTime",
+      "metadata.tags",
+      "metadata.status"
+    ],
+    "categories": ["core", "workflow", "agents", "integrations", "examples"],
+    "difficulties": ["beginner", "intermediate", "advanced"],
+    "statuses": ["stable", "beta", "new"],
+    "languages": ["bash", "javascript", "typescript", "python", "json", "yaml", "html", "css"],
+    "maxReadingTime": 60,
+    "minTags": 2,
+    "maxTags": 10
+  },
+  "addingNewContent": {
+    "instructions": {
+      "en": "To add new Claude Code documentation:\n1. Copy the documentTemplate structure\n2. Fill in all required fields\n3. Ensure proper markdown formatting in content sections\n4. Add relevant code examples\n5. Include source attribution\n6. Validate against validation rules\n7. Add to documents array in documents.json",
+      "zh": "添加新的Claude Code文档：\n1. 复制documentTemplate结构\n2. 填写所有必需字段\n3. 确保内容部分的markdown格式正确\n4. 添加相关代码示例\n5. 包含来源标注\n6. 根据验证规则验证\n7. 添加到documents.json的documents数组中"
+    },
+    "example": "See documents.json for complete examples"
+  }
+}
