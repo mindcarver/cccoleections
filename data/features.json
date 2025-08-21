@@ -1228,6 +1228,246 @@
       ],
       "version": "2025.8",
       "status": "new"
+    },
+    {
+      "id": "awesome-subagents-collection",
+      "category": "agents",
+      "tags": ["subagents", "collection", "specialized", "community", "awesome"],
+      "title": {
+        "en": "Awesome Claude Code Sub-agents Collection",
+        "zh": "Claude Code子代理精选集合"
+      },
+      "description": {
+        "en": "Comprehensive collection of 100+ specialized AI sub-agents for full-stack development, DevOps, and business operations",
+        "zh": "包含100多个专业化AI子代理的综合集合，涵盖全栈开发、DevOps和业务运营"
+      },
+      "details": {
+        "en": "The VoltAgent/awesome-claude-code-subagents project provides production-ready sub-agents with independent context windows, domain-specific intelligence, and fine-grained tool permissions. Each sub-agent is crafted with industry best practices for specific development domains.",
+        "zh": "VoltAgent/awesome-claude-code-subagents项目提供生产就绪的子代理，具有独立的上下文窗口、领域特定智能和精细的工具权限。每个子代理都采用行业最佳实践，针对特定开发领域精心制作。"
+      },
+      "examples": [
+        "Create ~/.claude/agents/frontend-developer.md",
+        "Use python-pro for modern Python development",
+        "Deploy with devops-engineer sub-agent"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "frontend-developer-subagent",
+      "category": "agents",
+      "tags": ["frontend", "react", "vue", "angular", "ui", "responsive", "accessibility"],
+      "title": {
+        "en": "Frontend Developer Sub-agent",
+        "zh": "前端开发子代理"
+      },
+      "description": {
+        "en": "UI/UX specialist for React, Vue, Angular with focus on responsive, accessible, high-performance user experiences",
+        "zh": "React、Vue、Angular的UI/UX专家，专注于响应式、无障碍、高性能的用户体验"
+      },
+      "details": {
+        "en": "Master of modern web interfaces specializing in component architecture, state management, and modern CSS. Delivers WCAG 2.1 AA compliance, 90% test coverage, and sub-3s load times on 3G networks. Focuses on user experience first, accessibility by default, and performance consciousness.",
+        "zh": "现代Web界面大师，专攻组件架构、状态管理和现代CSS。确保WCAG 2.1 AA合规性、90%测试覆盖率，在3G网络下实现3秒以下加载时间。以用户体验为先，默认无障碍性，注重性能。"
+      },
+      "examples": [
+        "Create responsive dashboard with React hooks",
+        "Implement WCAG-compliant form components",
+        "Optimize bundle size and loading performance"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "backend-developer-subagent",
+      "category": "agents",
+      "tags": ["backend", "api", "microservices", "database", "scalability", "performance"],
+      "title": {
+        "en": "Backend Developer Sub-agent",
+        "zh": "后端开发子代理"
+      },
+      "description": {
+        "en": "Server-side specialist for scalable APIs, microservices, database design, and system architecture",
+        "zh": "服务端专家，专长可扩展API、微服务、数据库设计和系统架构"
+      },
+      "details": {
+        "en": "Expert in RESTful APIs, microservices architecture, database optimization, authentication systems, and performance tuning. Supports Node.js 18+, Python 3.11+, and Go 1.21+. Delivers 99.9% uptime, sub-200ms response times, and secure-by-default implementations.",
+        "zh": "RESTful API、微服务架构、数据库优化、认证系统和性能调优专家。支持Node.js 18+、Python 3.11+和Go 1.21+。实现99.9%正常运行时间、200毫秒以下响应时间和默认安全的实现。"
+      },
+      "examples": [
+        "Design RESTful API with JWT authentication",
+        "Implement microservices with Docker",
+        "Optimize database queries for performance"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "python-pro-subagent",
+      "category": "agents",
+      "tags": ["python", "async", "typing", "data-science", "modern"],
+      "title": {
+        "en": "Python Pro Sub-agent",
+        "zh": "Python专业子代理"
+      },
+      "description": {
+        "en": "Modern Python 3.11+ development expert focusing on type safety, async programming, and data science",
+        "zh": "现代Python 3.11+开发专家，专注类型安全、异步编程和数据科学"
+      },
+      "details": {
+        "en": "Deep expertise in modern Python development with 100% type coverage, 95% test coverage, and sub-50ms p95 response times. Specializes in async/await patterns, Pydantic validation, SQLAlchemy async ORM, and scientific computing with NumPy/Pandas.",
+        "zh": "现代Python开发深度专业知识，100%类型覆盖、95%测试覆盖率和50毫秒以下p95响应时间。专长async/await模式、Pydantic验证、SQLAlchemy异步ORM以及NumPy/Pandas科学计算。"
+      },
+      "examples": [
+        "Create async FastAPI with type hints",
+        "Build data pipeline with Pandas/NumPy",
+        "Implement ML model with proper typing"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "devops-engineer-subagent",
+      "category": "agents",
+      "tags": ["devops", "docker", "kubernetes", "ci-cd", "infrastructure", "automation"],
+      "title": {
+        "en": "DevOps Engineer Sub-agent",
+        "zh": "DevOps工程师子代理"
+      },
+      "description": {
+        "en": "Infrastructure and deployment automation specialist for CI/CD, containerization, and cloud orchestration",
+        "zh": "基础设施和部署自动化专家，专长CI/CD、容器化和云编排"
+      },
+      "details": {
+        "en": "Expert in Docker containerization, Kubernetes orchestration, CI/CD pipeline design, and infrastructure as code. Implements zero-downtime deployments, automated scaling, comprehensive monitoring, and disaster recovery procedures.",
+        "zh": "Docker容器化、Kubernetes编排、CI/CD管道设计和基础设施即代码专家。实现零停机部署、自动扩展、全面监控和灾难恢复程序。"
+      },
+      "examples": [
+        "Setup Kubernetes cluster with Helm",
+        "Create CI/CD pipeline with GitHub Actions",
+        "Implement infrastructure as code with Terraform"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "security-auditor-subagent",
+      "category": "agents",
+      "tags": ["security", "audit", "vulnerability", "owasp", "compliance"],
+      "title": {
+        "en": "Security Auditor Sub-agent",
+        "zh": "安全审计子代理"
+      },
+      "description": {
+        "en": "Security-focused code reviewer and vulnerability scanner with OWASP compliance expertise",
+        "zh": "专注安全的代码审查员和漏洞扫描器，具备OWASP合规专业知识"
+      },
+      "details": {
+        "en": "Comprehensive security audit capabilities including vulnerability scanning, threat modeling, compliance checking, and secure coding practices. Implements OWASP Top 10 protection, security headers, input validation, and authentication best practices.",
+        "zh": "全面的安全审计能力，包括漏洞扫描、威胁建模、合规性检查和安全编码实践。实施OWASP十大保护、安全头、输入验证和认证最佳实践。"
+      },
+      "examples": [
+        "Scan for SQL injection vulnerabilities",
+        "Implement OWASP security headers",
+        "Audit authentication system security"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "ai-engineer-subagent",
+      "category": "agents",
+      "tags": ["ai", "machine-learning", "models", "deployment", "data"],
+      "title": {
+        "en": "AI Engineer Sub-agent",
+        "zh": "AI工程师子代理"
+      },
+      "description": {
+        "en": "AI system design and deployment specialist for machine learning models and AI applications",
+        "zh": "AI系统设计和部署专家，专长机器学习模型和AI应用"
+      },
+      "details": {
+        "en": "Expert in machine learning model development, deployment, and monitoring. Specializes in model serving, MLOps pipelines, data preprocessing, model optimization, and AI system architecture. Supports TensorFlow, PyTorch, and production ML frameworks.",
+        "zh": "机器学习模型开发、部署和监控专家。专长模型服务、MLOps管道、数据预处理、模型优化和AI系统架构。支持TensorFlow、PyTorch和生产ML框架。"
+      },
+      "examples": [
+        "Deploy ML model with FastAPI",
+        "Create MLOps pipeline with MLflow",
+        "Optimize model for production inference"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "test-runner-subagent",
+      "category": "agents",
+      "tags": ["testing", "automation", "ci", "quality", "tdd"],
+      "title": {
+        "en": "Test Runner Sub-agent",
+        "zh": "测试运行器子代理"
+      },
+      "description": {
+        "en": "Automated testing specialist that runs test suites, diagnoses failures, and fixes issues proactively",
+        "zh": "自动化测试专家，运行测试套件、诊断失败并主动修复问题"
+      },
+      "details": {
+        "en": "Proactively monitors code changes and automatically runs relevant test suites. When tests fail, it reproduces issues, isolates root causes, and provides minimal evidence-based fixes while preserving test intent. Supports unit, integration, and end-to-end testing frameworks.",
+        "zh": "主动监控代码变更并自动运行相关测试套件。当测试失败时，重现问题、隔离根本原因，并在保持测试意图的前提下提供基于证据的最小化修复。支持单元、集成和端到端测试框架。"
+      },
+      "examples": [
+        "Run 'npm test' and fix failures",
+        "Execute 'php artisan test' diagnostics",
+        "Monitor CI/CD test pipeline health"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "code-reviewer-subagent",
+      "category": "agents",
+      "tags": ["code-review", "quality", "best-practices", "security"],
+      "title": {
+        "en": "Code Reviewer Sub-agent",
+        "zh": "代码审查子代理"
+      },
+      "description": {
+        "en": "Security-focused code reviewer with expertise in best practices, patterns, and vulnerability detection",
+        "zh": "专注安全的代码审查员，具备最佳实践、模式和漏洞检测专业知识"
+      },
+      "details": {
+        "en": "Comprehensive code review focusing on security vulnerabilities, code quality, maintainability, and adherence to best practices. Provides detailed feedback on architecture decisions, performance implications, and potential security risks.",
+        "zh": "全面的代码审查，重点关注安全漏洞、代码质量、可维护性和最佳实践的遵循。提供关于架构决策、性能影响和潜在安全风险的详细反馈。"
+      },
+      "examples": [
+        "Review pull request for security issues",
+        "Check code for performance bottlenecks",
+        "Validate architectural patterns usage"
+      ],
+      "version": "2025.8",
+      "status": "new"
+    },
+    {
+      "id": "subagent-creation-guide",
+      "category": "agents",
+      "tags": ["creation", "setup", "yaml", "markdown", "configuration"],
+      "title": {
+        "en": "Sub-agent Creation and Setup Guide",
+        "zh": "子代理创建和设置指南"
+      },
+      "description": {
+        "en": "Complete guide for creating, configuring, and deploying custom Claude Code sub-agents",
+        "zh": "创建、配置和部署自定义Claude Code子代理的完整指南"
+      },
+      "details": {
+        "en": "Comprehensive documentation for creating custom sub-agents using Markdown files with YAML frontmatter. Covers directory setup (~/.claude/agents/ or .claude/agents/), file structure, tool permissions, model selection, and best practices for sub-agent design and deployment.",
+        "zh": "使用带有YAML前置元数据的Markdown文件创建自定义子代理的全面文档。涵盖目录设置（~/.claude/agents/或.claude/agents/）、文件结构、工具权限、模型选择以及子代理设计和部署的最佳实践。"
+      },
+      "examples": [
+        "mkdir -p ~/.claude/agents",
+        "Create agent with YAML frontmatter",
+        "Configure tools: Read, Write, Edit, Bash"
+      ],
+      "version": "2025.8",
+      "status": "new"
     }
   ]
 }
