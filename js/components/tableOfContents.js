@@ -25,7 +25,7 @@ class TableOfContents {
      */
     generate(document) {
         this.currentDocument = document;
-        const tocElement = document.getElementById('table-of-contents');
+        const tocElement = Utils.safeGetElement('table-of-contents');
         if (!tocElement) return;
         
         // Wait for document body to be rendered
@@ -40,7 +40,7 @@ class TableOfContents {
      * Extract headings from document body
      */
     extractHeadings() {
-        const bodyElement = document.getElementById('document-body');
+        const bodyElement = Utils.safeGetElement('document-body');
         if (!bodyElement) return;
         
         const headingElements = bodyElement.querySelectorAll('h1, h2, h3, h4, h5, h6');
@@ -78,7 +78,7 @@ class TableOfContents {
      * Render the table of contents
      */
     renderTOC() {
-        const tocElement = document.getElementById('table-of-contents');
+        const tocElement = Utils.safeGetElement('table-of-contents');
         if (!tocElement) return;
         
         if (this.headings.length === 0) {
@@ -125,7 +125,7 @@ class TableOfContents {
      * Scroll to a specific heading
      */
     scrollToHeading(heading) {
-        const element = heading.element || document.getElementById(heading.id);
+        const element = heading.element || Utils.safeGetElement(heading.id);
         if (!element) return;
         
         // Calculate offset for sticky header
@@ -133,7 +133,7 @@ class TableOfContents {
         const elementTop = element.offsetTop - headerHeight;
         
         // Smooth scroll
-        const mainContent = document.getElementById('main-content');
+        const mainContent = Utils.safeGetElement('main-content');
         if (mainContent) {
             mainContent.scrollTo({
                 top: elementTop,
@@ -209,7 +209,7 @@ class TableOfContents {
      * Clear table of contents
      */
     clear() {
-        const tocElement = document.getElementById('table-of-contents');
+        const tocElement = Utils.safeGetElement('table-of-contents');
         if (tocElement) {
             tocElement.innerHTML = '<p class="toc-empty">Select a document to view table of contents</p>';
         }

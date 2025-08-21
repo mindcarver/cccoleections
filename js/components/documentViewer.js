@@ -309,7 +309,7 @@ class DocumentViewer {
      * Render document footer with source attribution
      */
     renderFooter(doc, language) {
-        const attributionElement = document.getElementById('source-attribution');
+        const attributionElement = Utils.safeGetElement('source-attribution');
         if (!attributionElement || !doc.source) return;
         
         attributionElement.innerHTML = `
@@ -358,10 +358,10 @@ class DocumentViewer {
      * Generate table of contents
      */
     generateTableOfContents() {
-        const tocElement = document.getElementById('table-of-contents');
+        const tocElement = Utils.safeGetElement('table-of-contents');
         if (!tocElement) return;
         
-        const bodyElement = document.getElementById('document-body');
+        const bodyElement = Utils.safeGetElement('document-body');
         if (!bodyElement) return;
         
         const headings = bodyElement.querySelectorAll('h1, h2, h3, h4, h5, h6');
@@ -496,7 +496,7 @@ class DocumentViewer {
      */
     setupEventListeners() {
         // Reading mode toggle
-        const readingModeBtn = document.getElementById('toggle-reading-mode');
+        const readingModeBtn = Utils.safeGetElement('toggle-reading-mode');
         if (readingModeBtn) {
             readingModeBtn.addEventListener('click', () => {
                 document.body.classList.toggle('reading-mode');
@@ -507,7 +507,7 @@ class DocumentViewer {
         }
         
         // Copy link button
-        const copyLinkBtn = document.getElementById('copy-link');
+        const copyLinkBtn = Utils.safeGetElement('copy-link');
         if (copyLinkBtn) {
             copyLinkBtn.addEventListener('click', () => {
                 const url = window.location.href;
@@ -525,7 +525,7 @@ class DocumentViewer {
         }
         
         // Print button
-        const printBtn = document.getElementById('print-doc');
+        const printBtn = Utils.safeGetElement('print-doc');
         if (printBtn) {
             printBtn.addEventListener('click', () => {
                 window.print();
@@ -537,9 +537,9 @@ class DocumentViewer {
      * Show welcome content
      */
     showWelcomeContent() {
-        const welcome = document.getElementById('welcome-content');
-        const documentContent = document.getElementById('document-content');
-        const emptyState = document.getElementById('empty-state');
+        const welcome = Utils.safeGetElement('welcome-content');
+        const documentContent = Utils.safeGetElement('document-content');
+        const emptyState = Utils.safeGetElement('empty-state');
         
         if (welcome) welcome.style.display = 'block';
         if (documentContent) documentContent.style.display = 'none';
@@ -550,7 +550,7 @@ class DocumentViewer {
      * Hide welcome content
      */
     hideWelcomeContent() {
-        const welcome = document.getElementById('welcome-content');
+        const welcome = Utils.safeGetElement('welcome-content');
         if (welcome) welcome.style.display = 'none';
     }
     
@@ -558,8 +558,8 @@ class DocumentViewer {
      * Show document content
      */
     showDocumentContent() {
-        const documentContent = document.getElementById('document-content');
-        const emptyState = document.getElementById('empty-state');
+        const documentContent = Utils.safeGetElement('document-content');
+        const emptyState = Utils.safeGetElement('empty-state');
         
         if (documentContent) documentContent.style.display = 'block';
         if (emptyState) emptyState.style.display = 'none';
@@ -569,9 +569,9 @@ class DocumentViewer {
      * Show empty state
      */
     showEmptyState() {
-        const welcome = document.getElementById('welcome-content');
-        const documentContent = document.getElementById('document-content');
-        const emptyState = document.getElementById('empty-state');
+        const welcome = Utils.safeGetElement('welcome-content');
+        const documentContent = Utils.safeGetElement('document-content');
+        const emptyState = Utils.safeGetElement('empty-state');
         
         if (welcome) welcome.style.display = 'none';
         if (documentContent) documentContent.style.display = 'none';
@@ -582,7 +582,7 @@ class DocumentViewer {
      * Show/hide loading state
      */
     showLoading(show) {
-        const loading = document.getElementById('content-loading');
+        const loading = Utils.safeGetElement('content-loading');
         if (loading) {
             loading.style.display = show ? 'flex' : 'none';
         }

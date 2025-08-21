@@ -165,7 +165,7 @@ class DocsApp {
      * Setup theme switcher functionality
      */
     setupThemeSwitcher() {
-        const themeButton = document.getElementById('theme-switcher');
+        const themeButton = Utils.safeGetElement('theme-switcher');
         if (!themeButton) return;
         
         // Load saved theme or default to light
@@ -183,8 +183,8 @@ class DocsApp {
      * Setup mobile menu functionality
      */
     setupMobileMenu() {
-        const mobileToggle = document.getElementById('mobile-menu-toggle');
-        const sidebar = document.getElementById('sidebar');
+        const mobileToggle = Utils.safeGetElement('mobile-menu-toggle');
+        const sidebar = Utils.safeGetElement('sidebar');
         
         if (!mobileToggle || !sidebar) return;
         
@@ -245,7 +245,7 @@ class DocsApp {
      * Populate recent updates section
      */
     populateRecentUpdates() {
-        const recentUpdatesList = document.getElementById('recent-updates-list');
+        const recentUpdatesList = Utils.safeGetElement('recent-updates-list');
         if (!recentUpdatesList) return;
         
         try {
@@ -466,13 +466,13 @@ class DocsApp {
     toggleMobileMenu() {
         this.mobileMenuOpen = !this.mobileMenuOpen;
         
-        const sidebar = document.getElementById('sidebar');
+        const sidebar = Utils.safeGetElement('sidebar');
         if (sidebar) {
             sidebar.classList.toggle('mobile-open', this.mobileMenuOpen);
         }
         
         // Update toggle button state
-        const toggle = document.getElementById('mobile-menu-toggle');
+        const toggle = Utils.safeGetElement('mobile-menu-toggle');
         if (toggle) {
             toggle.setAttribute('aria-expanded', this.mobileMenuOpen.toString());
         }
@@ -486,12 +486,12 @@ class DocsApp {
         
         this.mobileMenuOpen = false;
         
-        const sidebar = document.getElementById('sidebar');
+        const sidebar = Utils.safeGetElement('sidebar');
         if (sidebar) {
             sidebar.classList.remove('mobile-open');
         }
         
-        const toggle = document.getElementById('mobile-menu-toggle');
+        const toggle = Utils.safeGetElement('mobile-menu-toggle');
         if (toggle) {
             toggle.setAttribute('aria-expanded', 'false');
         }
@@ -530,7 +530,7 @@ class DocsApp {
      * Show global loading state
      */
     showGlobalLoading(show) {
-        const loading = document.getElementById('content-loading');
+        const loading = Utils.safeGetElement('content-loading');
         if (loading) {
             loading.style.display = show ? 'flex' : 'none';
         }
@@ -540,7 +540,7 @@ class DocsApp {
      * Show initialization error
      */
     showInitializationError(message) {
-        const mainContent = document.getElementById('main-content');
+        const mainContent = Utils.safeGetElement('main-content');
         if (mainContent) {
             mainContent.innerHTML = `
                 <div class="empty-state">

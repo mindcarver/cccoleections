@@ -26,7 +26,7 @@ class NavigationTree {
      * Render the navigation tree
      */
     render() {
-        const navElement = document.getElementById('nav-tree');
+        const navElement = Utils.safeGetElement('nav-tree');
         if (!navElement) return;
         
         try {
@@ -187,8 +187,8 @@ class NavigationTree {
     updateStatistics() {
         const stats = this.documentService.getStatistics();
         
-        const totalDocsElement = document.getElementById('total-docs');
-        const totalCategoriesElement = document.getElementById('total-categories');
+        const totalDocsElement = Utils.safeGetElement('total-docs');
+        const totalCategoriesElement = Utils.safeGetElement('total-categories');
         
         if (totalDocsElement) {
             totalDocsElement.textContent = stats.totalDocuments;
