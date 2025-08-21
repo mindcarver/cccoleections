@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Claude Code Projects Collection - Essential GitHub projects and tools for Claude Code developers">
-    <meta name="keywords" content="Claude Code, AI coding, subagents, tools, GitHub projects">
-    <meta name="author" content="Claude Code Community">
+    <meta name="description" content="AI Tools Collection - Curated GitHub projects and tools for AI developers, including Claude Code, AI Finance, AI Art and more">
+    <meta name="keywords" content="AI tools, Claude Code, AI coding, AI finance, AI art, machine learning, GitHub projects">
+    <meta name="author" content="AI Tools Community">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Claude Code Projects Collection">
-    <meta property="og:description" content="Essential GitHub projects and tools for Claude Code developers">
+    <meta property="og:title" content="AI Tools Collection">
+    <meta property="og:description" content="Curated GitHub projects and tools for AI developers">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mindcarver.github.io/cccoleections/">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Claude Code Projects Collection">
-    <meta name="twitter:description" content="Essential GitHub projects and tools for Claude Code developers">
+    <meta name="twitter:title" content="AI Tools Collection">
+    <meta name="twitter:description" content="Curated GitHub projects and tools for AI developers">
     
-    <title>Claude Code Projects Collection | Essential GitHub Tools</title>
+    <title>AI Tools Collection | Essential GitHub Projects</title>
     <style>
         * {
             margin: 0;
@@ -211,6 +211,65 @@
             font-weight: 600;
         }
 
+        .category-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+
+        .category-btn {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            font-size: 0.9rem;
+        }
+
+        .category-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .category-btn.active {
+            background: white;
+            color: #667eea;
+            border-color: white;
+        }
+
+        .category-tag {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #667eea;
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .category-tag.claude-code {
+            background: #667eea;
+        }
+
+        .category-tag.ai-finance {
+            background: #38a169;
+        }
+
+        .category-tag.ai-art {
+            background: #d53f8c;
+        }
+
         .language-switcher {
             position: fixed;
             top: 2rem;
@@ -295,15 +354,29 @@
 
     <div class="container">
         <div class="header">
-            <h1 data-lang="en">Claude Code Projects</h1>
-            <h1 data-lang="zh">Claude Code 项目集合</h1>
-            <p data-lang="en">Essential GitHub projects and tools for Claude Code developers</p>
-            <p data-lang="zh">Claude Code 开发者必备的 GitHub 项目和工具集合</p>
+            <h1 data-lang="en">AI Tools Collection</h1>
+            <h1 data-lang="zh">AI 工具集合</h1>
+            <p data-lang="en">Curated GitHub projects and tools for AI developers</p>
+            <p data-lang="zh">AI 开发者精选的 GitHub 项目和工具集合</p>
+        </div>
+
+        <!-- Category Navigation -->
+        <div class="category-nav">
+            <button class="category-btn active" data-category="all" data-lang="en">All Tools</button>
+            <button class="category-btn active" data-category="all" data-lang="zh">所有工具</button>
+            <button class="category-btn" data-category="claude-code" data-lang="en">Claude Code</button>
+            <button class="category-btn" data-category="claude-code" data-lang="zh">Claude Code</button>
+            <button class="category-btn" data-category="ai-finance" data-lang="en">AI Finance</button>
+            <button class="category-btn" data-category="ai-finance" data-lang="zh">AI 金融</button>
+            <button class="category-btn" data-category="ai-art" data-lang="en">AI Art</button>
+            <button class="category-btn" data-category="ai-art" data-lang="zh">AI 艺术</button>
         </div>
 
         <div class="cards-grid">
             <!-- wshobson/agents Card -->
-            <div class="project-card">
+            <div class="project-card" data-category="claude-code">
+                <div class="category-tag claude-code" data-lang="en">Claude Code</div>
+                <div class="category-tag claude-code" data-lang="zh">Claude Code</div>
                 <div class="card-header">
                     <h2 class="project-title">wshobson/agents</h2>
                     <p class="project-subtitle" data-lang="en">Production-Ready AI Subagents</p>
@@ -359,7 +432,9 @@
             </div>
 
             <!-- awesome-claude-code Card -->
-            <div class="project-card">
+            <div class="project-card" data-category="claude-code">
+                <div class="category-tag claude-code" data-lang="en">Claude Code</div>
+                <div class="category-tag claude-code" data-lang="zh">Claude Code</div>
                 <div class="card-header">
                     <h2 class="project-title">awesome-claude-code</h2>
                     <p class="project-subtitle" data-lang="en">Curated Claude Code Resources</p>
@@ -420,11 +495,17 @@
         // Language switching functionality
         document.addEventListener('DOMContentLoaded', function() {
             const langButtons = document.querySelectorAll('.lang-btn');
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const projectCards = document.querySelectorAll('.project-card');
             const body = document.body;
 
             // Set initial language from localStorage or default to English
             const savedLang = localStorage.getItem('preferred-language') || 'en';
             setLanguage(savedLang);
+
+            // Set initial category from localStorage or default to all
+            const savedCategory = localStorage.getItem('preferred-category') || 'all';
+            setCategory(savedCategory);
 
             // Add click handlers to language buttons
             langButtons.forEach(button => {
@@ -434,6 +515,17 @@
                     
                     // Save preference
                     localStorage.setItem('preferred-language', lang);
+                });
+            });
+
+            // Add click handlers to category buttons
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    setCategory(category);
+                    
+                    // Save preference
+                    localStorage.setItem('preferred-category', category);
                 });
             });
 
@@ -453,6 +545,28 @@
                 });
 
                 console.log('Language switched to:', lang);
+            }
+
+            function setCategory(category) {
+                // Update active category button state
+                categoryButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    if (btn.getAttribute('data-category') === category) {
+                        btn.classList.add('active');
+                    }
+                });
+
+                // Filter project cards
+                projectCards.forEach(card => {
+                    const cardCategory = card.getAttribute('data-category');
+                    if (category === 'all' || cardCategory === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                console.log('Category filtered to:', category);
             }
         });
     </script>
