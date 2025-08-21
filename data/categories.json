@@ -111,6 +111,38 @@
         "en": "Cross-platform support and language compatibility",
         "zh": "跨平台支持和语言兼容性"
       }
+    },
+    {
+      "id": "community",
+      "icon": "🌟",
+      "description": {
+        "en": "Community-driven resources, templates, and shared workflows",
+        "zh": "社区驱动的资源、模板和共享工作流程"
+      }
+    },
+    {
+      "id": "tutorial",
+      "icon": "📚",
+      "description": {
+        "en": "Educational content and hands-on tutorials for learning Claude Code",
+        "zh": "学习Claude Code的教育内容和实践教程"
+      }
+    },
+    {
+      "id": "documentation",
+      "icon": "📖",
+      "description": {
+        "en": "Comprehensive guides, references, and documentation resources",
+        "zh": "全面的指南、参考和文档资源"
+      }
+    },
+    {
+      "id": "analysis",
+      "icon": "🔍",
+      "description": {
+        "en": "Code analysis, search, and understanding capabilities",
+        "zh": "代码分析、搜索和理解功能"
+      }
     }
   ]
 }
