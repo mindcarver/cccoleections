@@ -521,6 +521,20 @@ class Utils {
     };
     
     /**
+     * Safe DOM element retrieval
+     * @param {string} id - Element ID
+     * @returns {Element|null} Element or null if not found
+     */
+    static safeGetElement(id) {
+        try {
+            return document && document.getElementById ? document.getElementById(id) : null;
+        } catch (error) {
+            console.warn(`Failed to get element '${id}':`, error);
+            return null;
+        }
+    }
+    
+    /**
      * URL parameter utilities
      */
     static getUrlParams() {

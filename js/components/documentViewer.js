@@ -74,7 +74,10 @@ class DocumentViewer {
             this.showLoading(false);
             
             // Scroll to top
-            document.getElementById('main-content').scrollTop = 0;
+            const mainContent = Utils.safeGetElement('main-content');
+            if (mainContent) {
+                mainContent.scrollTop = 0;
+            }
             
         } catch (error) {
             console.error('Failed to render document:', error);
@@ -87,12 +90,12 @@ class DocumentViewer {
      * Render document header
      */
     renderHeader(doc, language) {
-        const categoryElement = document.getElementById('document-category');
-        const difficultyElement = document.getElementById('document-difficulty');
-        const readingTimeElement = document.getElementById('document-reading-time');
-        const titleElement = document.getElementById('document-title');
-        const descriptionElement = document.getElementById('document-description');
-        const tagsElement = document.getElementById('document-tags');
+        const categoryElement = Utils.safeGetElement('document-category');
+        const difficultyElement = Utils.safeGetElement('document-difficulty');
+        const readingTimeElement = Utils.safeGetElement('document-reading-time');
+        const titleElement = Utils.safeGetElement('document-title');
+        const descriptionElement = Utils.safeGetElement('document-description');
+        const tagsElement = Utils.safeGetElement('document-tags');
         
         if (categoryElement) {
             categoryElement.textContent = doc.category.charAt(0).toUpperCase() + doc.category.slice(1);
@@ -131,7 +134,7 @@ class DocumentViewer {
      * Render document body
      */
     async renderBody(doc, language) {
-        const bodyElement = document.getElementById('document-body');
+        const bodyElement = Utils.safeGetElement('document-body');
         if (!bodyElement) return;
         
         bodyElement.innerHTML = '';
