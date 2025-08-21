@@ -453,6 +453,99 @@ class Utils {
             }
         }
     }
+    
+    /**
+     * LocalStorage utilities
+     */
+    static localStorage = {
+        /**
+         * Get item from localStorage with fallback
+         * @param {string} key - Storage key
+         * @param {*} defaultValue - Default value if not found
+         * @returns {*} Stored value or default
+         */
+        get(key, defaultValue = null) {
+            try {
+                const item = localStorage.getItem(key);
+                return item !== null ? JSON.parse(item) : defaultValue;
+            } catch (error) {
+                console.warn(`Failed to get localStorage item '${key}':`, error);
+                return defaultValue;
+            }
+        },
+        
+        /**
+         * Set item in localStorage
+         * @param {string} key - Storage key
+         * @param {*} value - Value to store
+         * @returns {boolean} Success status
+         */
+        set(key, value) {
+            try {
+                localStorage.setItem(key, JSON.stringify(value));
+                return true;
+            } catch (error) {
+                console.warn(`Failed to set localStorage item '${key}':`, error);
+                return false;
+            }
+        },
+        
+        /**
+         * Remove item from localStorage
+         * @param {string} key - Storage key
+         * @returns {boolean} Success status
+         */
+        remove(key) {
+            try {
+                localStorage.removeItem(key);
+                return true;
+            } catch (error) {
+                console.warn(`Failed to remove localStorage item '${key}':`, error);
+                return false;
+            }
+        },
+        
+        /**
+         * Clear all localStorage
+         * @returns {boolean} Success status
+         */
+        clear() {
+            try {
+                localStorage.clear();
+                return true;
+            } catch (error) {
+                console.warn('Failed to clear localStorage:', error);
+                return false;
+            }
+        }
+    };
+    
+    /**
+     * URL parameter utilities
+     */
+    static getUrlParams() {
+        const params = new URLSearchParams(window.location.search);
+        const result = {};
+        for (const [key, value] of params) {
+            result[key] = value;
+        }
+        return result;
+    }
+    
+    /**
+     * Set URL parameter without page reload
+     * @param {string} key - Parameter key
+     * @param {string} value - Parameter value
+     */
+    static setUrlParam(key, value) {
+        const url = new URL(window.location);
+        if (value) {
+            url.searchParams.set(key, value);
+        } else {
+            url.searchParams.delete(key);
+        }
+        window.history.replaceState({}, '', url);
+    }
 }
 
 // Export for use in other modules
