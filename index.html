@@ -19,6 +19,7 @@
     <meta name="twitter:description" content="Curated GitHub projects and tools for AI developers">
     
     <title>AI Tools Collection | Essential GitHub Projects</title>
+    <!-- Cache refresh: 2025-01-26 -->
     <style>
         * {
             margin: 0;
@@ -244,6 +245,69 @@
             border-color: white;
         }
 
+        .search-section {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+
+        .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 1rem 3rem 1rem 1.5rem;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        #searchInput::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        #searchInput:focus {
+            border-color: white;
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+
+        #clearSearch {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            display: none;
+        }
+
+        #clearSearch:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .no-results {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.1rem;
+            margin: 3rem 0;
+            padding: 2rem;
+        }
+
         .category-tag {
             position: absolute;
             top: 1rem;
@@ -398,6 +462,14 @@
             <h1 data-lang="zh">AI 工具集合</h1>
             <p data-lang="en">Curated GitHub projects and tools for AI developers</p>
             <p data-lang="zh">AI 开发者精选的 GitHub 项目和工具集合</p>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search tools..." data-placeholder-en="Search tools..." data-placeholder-zh="搜索工具...">
+                <button id="clearSearch">✕</button>
+            </div>
         </div>
 
         <!-- Category Navigation -->
@@ -1788,6 +1860,103 @@
 
                 console.log('Category filtered to:', category);
             }
+
+            // Search functionality
+            const searchInput = document.getElementById('searchInput');
+            const clearButton = document.getElementById('clearSearch');
+            let noResultsMessage = null;
+
+            // Update placeholder text based on language
+            function updateSearchPlaceholder() {
+                const currentLang = document.documentElement.lang || 'en';
+                const placeholder = currentLang === 'zh' ? '搜索工具...' : 'Search tools...';
+                searchInput.placeholder = placeholder;
+            }
+
+            // Search function
+            function performSearch() {
+                const searchTerm = searchInput.value.toLowerCase().trim();
+                const cards = document.querySelectorAll('.project-card');
+                let visibleCount = 0;
+
+                // Remove existing no results message
+                if (noResultsMessage) {
+                    noResultsMessage.remove();
+                    noResultsMessage = null;
+                }
+
+                cards.forEach(card => {
+                    const title = card.querySelector('.project-title').textContent.toLowerCase();
+                    const subtitle = card.querySelector('.project-subtitle:not([data-lang])') ? 
+                                   card.querySelector('.project-subtitle:not([data-lang])').textContent.toLowerCase() : '';
+                    const description = Array.from(card.querySelectorAll('.project-description')).map(d => d.textContent.toLowerCase()).join(' ');
+                    const features = Array.from(card.querySelectorAll('.feature-item')).map(f => f.textContent.toLowerCase()).join(' ');
+                    const category = card.dataset.category;
+
+                    const matchesSearch = searchTerm === '' || 
+                                        title.includes(searchTerm) || 
+                                        subtitle.includes(searchTerm) || 
+                                        description.includes(searchTerm) ||
+                                        features.includes(searchTerm) ||
+                                        category.includes(searchTerm);
+
+                    if (matchesSearch) {
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                // Show/hide clear button
+                clearButton.style.display = searchTerm ? 'block' : 'none';
+
+                // Show no results message if needed
+                if (searchTerm && visibleCount === 0) {
+                    const currentLang = document.documentElement.lang || 'en';
+                    const message = currentLang === 'zh' ? '未找到匹配的工具' : 'No tools found matching your search';
+                    
+                    noResultsMessage = document.createElement('div');
+                    noResultsMessage.className = 'no-results';
+                    noResultsMessage.textContent = message;
+                    document.querySelector('.projects-grid').appendChild(noResultsMessage);
+                }
+
+                // Reset category filter when searching
+                if (searchTerm) {
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                }
+            }
+
+            // Clear search
+            function clearSearch() {
+                searchInput.value = '';
+                clearButton.style.display = 'none';
+                performSearch();
+                
+                // Reset to "All Tools" category
+                categoryButtons.forEach(btn => {
+                    if (btn.dataset.category === 'all') {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+            }
+
+            // Event listeners
+            searchInput.addEventListener('input', performSearch);
+            clearButton.addEventListener('click', clearSearch);
+            
+            // Update placeholder when language changes
+            langButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    setTimeout(updateSearchPlaceholder, 100);
+                });
+            });
+
+            // Initialize
+            updateSearchPlaceholder();
         });
     </script>
 </body>
