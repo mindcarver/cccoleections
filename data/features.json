@@ -1564,6 +1564,78 @@
       ],
       "version": "2025.1",
       "status": "new"
+    },
+    {
+      "id": "tencent-youtu-agent",
+      "category": "agents",
+      "tags": ["ai", "agents", "framework", "tencent", "automation", "research", "open-source"],
+      "title": {
+        "en": "Tencent Youtu-agent",
+        "zh": "腾讯Youtu-agent"
+      },
+      "description": {
+        "en": "Flexible, high-performance framework for building autonomous AI agents with DeepSeek model support",
+        "zh": "灵活、高性能的自主AI代理构建框架，支持DeepSeek模型"
+      },
+      "details": {
+        "en": "Youtu-agent is a simple yet powerful agent framework from Tencent that delivers with open-source models. Achieved 71.47% on WebWalkerQA and 72.8% on GAIA using DeepSeek-V3 series models. Features out-of-the-box support for CSV analysis, literature review, file organization, and video/podcast generation. Supports SimpleAgent (single-agent) and OrchestraAgent (multi-agent) paradigms with automatic YAML config generation. Includes rich toolkits for web search, file manipulation, code execution, and document analysis.",
+        "zh": "Youtu-agent是腾讯开发的简单而强大的代理框架，使用开源模型提供服务。使用DeepSeek-V3系列模型在WebWalkerQA上达到71.47%，在GAIA上达到72.8%。具备开箱即用的CSV分析、文献综述、文件整理和视频/播客生成支持。支持SimpleAgent（单代理）和OrchestraAgent（多代理）范式，具有自动YAML配置生成。包含丰富的网络搜索、文件操作、代码执行和文档分析工具包。"
+      },
+      "examples": [
+        "Automate CSV data analysis and reporting",
+        "Generate literature reviews from research papers",
+        "Organize personal files with AI assistance"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "chroma-vector-db",
+      "category": "integrations",
+      "tags": ["vector-database", "embeddings", "ai", "search", "rag", "llm", "open-source"],
+      "title": {
+        "en": "Chroma Vector Database",
+        "zh": "Chroma向量数据库"
+      },
+      "description": {
+        "en": "AI-native open-source embedding database for semantic search and retrieval in AI applications",
+        "zh": "面向AI的开源嵌入数据库，用于AI应用中的语义搜索和检索"
+      },
+      "details": {
+        "en": "Chroma is the AI-native open-source embedding database that provides the fastest way to build Python or JavaScript LLM apps with memory. Features vector, full-text, regex, and metadata search capabilities. Native integration with embedding models from HuggingFace, OpenAI, Google, and more. Compatible with Langchain and LlamaIndex. Supports ephemeral in-memory operation or persistent disk storage. Scales from local development to petabyte cloud deployments with Chroma Cloud service.",
+        "zh": "Chroma是AI原生的开源嵌入数据库，为构建具有记忆功能的Python或JavaScript LLM应用提供最快的方式。具备向量、全文、正则表达式和元数据搜索功能。与HuggingFace、OpenAI、Google等嵌入模型原生集成。与Langchain和LlamaIndex兼容。支持临时内存操作或持久磁盘存储。从本地开发扩展到Chroma Cloud服务的PB级云部署。"
+      },
+      "examples": [
+        "Store and search document embeddings for RAG",
+        "Build semantic search for knowledge bases",
+        "Query relevant documents with natural language"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "minicpm-v-multimodal",
+      "category": "ai-models",
+      "tags": ["multimodal", "ai", "vision-language", "mobile", "openbmb", "efficient", "open-source"],
+      "title": {
+        "en": "MiniCPM-V Multimodal AI Model",
+        "zh": "MiniCPM-V多模态AI模型"
+      },
+      "description": {
+        "en": "Efficient multimodal large language model series for vision, video, and text understanding on mobile devices",
+        "zh": "面向移动设备的高效多模态大语言模型系列，支持视觉、视频和文本理解"
+      },
+      "details": {
+        "en": "MiniCPM-V is a series of efficient end-side multimodal LLMs by OpenBMB that accept images, videos and text inputs. Latest MiniCPM-V 4.5 with 8B parameters outperforms GPT-4o-latest, Gemini-2.0 Pro, and Qwen2.5-VL 72B. Features high-resolution image processing (1.8M pixels), strong OCR capabilities, real-time video understanding, and mobile device deployment. Supports multilingual capabilities in English and Chinese, with trustworthy behavior aligned via multimodal RLHF.",
+        "zh": "MiniCPM-V是OpenBMB开发的高效端侧多模态大语言模型系列，支持图像、视频和文本输入。最新的MiniCPM-V 4.5具有8B参数，性能超越GPT-4o-latest、Gemini-2.0 Pro和Qwen2.5-VL 72B。特点包括高分辨率图像处理（1.8M像素）、强大的OCR功能、实时视频理解和移动设备部署。支持英文和中文的多语言能力，通过多模态RLHF实现可信行为对齐。"
+      },
+      "examples": [
+        "Process high-resolution images with OCR on mobile",
+        "Understand and analyze video content in real-time",
+        "Multi-language vision-text understanding tasks"
+      ],
+      "version": "2025.1",
+      "status": "new"
     }
   ]
 }
