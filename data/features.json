@@ -1468,6 +1468,102 @@
       ],
       "version": "2025.8",
       "status": "new"
+    },
+    {
+      "id": "surfsense-ai-research",
+      "category": "productivity",
+      "tags": ["ai", "research", "knowledge-management", "browser-extension", "rag", "open-source"],
+      "title": {
+        "en": "SurfSense - AI Research Assistant",
+        "zh": "SurfSense - AI研究助手"
+      },
+      "description": {
+        "en": "Open source alternative to NotebookLM/Perplexity - AI research assistant with personal knowledge base integration",
+        "zh": "NotebookLM/Perplexity的开源替代品 - 集成个人知识库的AI研究助手"
+      },
+      "details": {
+        "en": "SurfSense is an open-source AI research assistant that serves as an alternative to NotebookLM, Perplexity, and Glean. Features personal knowledge management with 50+ file format support, natural language interaction, RAG architecture with vector embeddings, browser extension for webpage saving, and local LLM support with Ollama. Developed by MODSetter (Rohan Verma) at Northeastern University.",
+        "zh": "SurfSense是一个开源AI研究助手，作为NotebookLM、Perplexity和Glean的替代品。特色包括支持50多种文件格式的个人知识管理、自然语言交互、带向量嵌入的RAG架构、用于网页保存的浏览器扩展，以及对Ollama本地LLM的支持。由东北大学的MODSetter（Rohan Verma）开发。"
+      },
+      "examples": [
+        "Save authenticated webpages with browser extension",
+        "Query personal documents with natural language",
+        "Deploy locally with Docker and Ollama"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "openproject-management",
+      "category": "development",
+      "tags": ["project-management", "open-source", "collaboration", "gantt", "agile", "enterprise"],
+      "title": {
+        "en": "OpenProject - Open Source Project Management",
+        "zh": "OpenProject - 开源项目管理"
+      },
+      "description": {
+        "en": "Leading open source project management software with GitHub integration and enterprise features",
+        "zh": "领先的开源项目管理软件，具有GitHub集成和企业功能"
+      },
+      "details": {
+        "en": "OpenProject is the leading free and open source project management software licensed under GNU GPL v3. Features include Gantt charts, task management, agile boards, project wikis, time tracking, budgets, and extensive GitHub integration. Supports classic, agile, and hybrid project management methodologies. Available as free Community edition or paid Enterprise plans starting from €5.95/month with professional support.",
+        "zh": "OpenProject是领先的免费开源项目管理软件，基于GNU GPL v3许可。功能包括甘特图、任务管理、敏捷看板、项目wiki、时间跟踪、预算和广泛的GitHub集成。支持经典、敏捷和混合项目管理方法。提供免费的社区版或从每月5.95欧元起的付费企业计划，包含专业支持。"
+      },
+      "examples": [
+        "Link GitHub commits to work packages",
+        "Create Gantt charts for project planning",
+        "Setup agile boards for team collaboration"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "system-prompts-leaks",
+      "category": "security",
+      "tags": ["security", "ai", "prompt-injection", "vulnerability", "research", "system-prompts"],
+      "title": {
+        "en": "System Prompts Leaks Collection",
+        "zh": "系统提示泄露集合"
+      },
+      "description": {
+        "en": "Collection of extracted system prompts from popular AI chatbots for security research and analysis",
+        "zh": "从流行AI聊天机器人中提取的系统提示集合，用于安全研究和分析"
+      },
+      "details": {
+        "en": "Repository by asgeirtj containing extracted system prompts from ChatGPT, Claude, Gemini and other major AI services. Includes OpenAI's image safety policies, ChatGPT agent mode instructions, and over 6,500 lines of actual prompts used by AI companies. Serves as a resource for AI security research, prompt injection analysis, and understanding AI system behaviors. Part of the broader trend of AI prompt security and intellectual property concerns.",
+        "zh": "由asgeirtj维护的仓库，包含从ChatGPT、Claude、Gemini和其他主要AI服务中提取的系统提示。包括OpenAI的图像安全策略、ChatGPT代理模式指令，以及AI公司使用的超过6500行实际提示。作为AI安全研究、提示注入分析和理解AI系统行为的资源。是AI提示安全和知识产权关注的更广泛趋势的一部分。"
+      },
+      "examples": [
+        "Analyze ChatGPT system instructions",
+        "Study AI safety policy implementations",
+        "Research prompt injection vulnerabilities"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "wrenai-genbi",
+      "category": "data",
+      "tags": ["ai", "data-analytics", "sql", "business-intelligence", "text-to-sql", "open-source"],
+      "title": {
+        "en": "WrenAI - GenBI Platform",
+        "zh": "WrenAI - GenBI平台"
+      },
+      "description": {
+        "en": "GenBI (Generative BI) platform that queries databases with natural language and generates SQL, charts, and insights",
+        "zh": "GenBI（生成式商业智能）平台，用自然语言查询数据库并生成SQL、图表和洞察"
+      },
+      "details": {
+        "en": "WrenAI is a GenBI platform by Canner that allows querying any database in natural language, generating accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered insights in seconds. Features include semantic engine with business context, support for BigQuery, PostgreSQL, MySQL, Snowflake, and 15+ other databases. Supports multiple LLMs including OpenAI, Claude, Google AI, Ollama, and AWS Bedrock. Available in open-source and commercial versions with 9.7k+ GitHub stars.",
+        "zh": "WrenAI是Canner开发的GenBI平台，允许用自然语言查询任何数据库，在几秒内生成准确的SQL（文本转SQL）、图表（文本转图表）和AI驱动的洞察。功能包括具有业务上下文的语义引擎，支持BigQuery、PostgreSQL、MySQL、Snowflake和15+其他数据库。支持包括OpenAI、Claude、Google AI、Ollama和AWS Bedrock在内的多个LLM。提供开源和商业版本，GitHub星数9.7k+。"
+      },
+      "examples": [
+        "Query database with 'Show me top customers this month'",
+        "Generate SQL from natural language descriptions",
+        "Create charts with 'Visualize sales by region'"
+      ],
+      "version": "2025.1",
+      "status": "new"
     }
   ]
 }
