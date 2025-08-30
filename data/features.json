@@ -1636,6 +1636,78 @@
       ],
       "version": "2025.1",
       "status": "new"
+    },
+    {
+      "id": "microsoft-qlib",
+      "category": "ai-finance",
+      "tags": ["ai", "quantitative-finance", "machine-learning", "microsoft", "investment", "trading", "research"],
+      "title": {
+        "en": "Microsoft Qlib",
+        "zh": "微软Qlib"
+      },
+      "description": {
+        "en": "AI-oriented quantitative investment platform for empowering quant research with machine learning",
+        "zh": "面向AI的量化投资平台，使用机器学习赋能量化研究"
+      },
+      "details": {
+        "en": "Qlib is Microsoft's comprehensive AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Features diverse ML modeling paradigms including supervised learning, market dynamics modeling, and reinforcement learning. Contains the full ML pipeline of data processing, model training, back-testing, and covers the entire chain of quantitative investment: alpha seeking, risk modeling, portfolio optimization, and order execution. Provides high-performance time-series database and expression engine for financial data.",
+        "zh": "Qlib是微软全面的面向AI的量化投资平台，旨在使用AI技术赋能量化研究，从探索想法到实施生产。具备多样化的机器学习建模范式，包括监督学习、市场动态建模和强化学习。包含完整的机器学习流水线：数据处理、模型训练、回测，覆盖整个量化投资链：Alpha挖掘、风险建模、投资组合优化和订单执行。提供高性能的时间序列数据库和金融数据表达式引擎。"
+      },
+      "examples": [
+        "Build AI-driven trading strategies with supervised learning",
+        "Perform comprehensive backtesting with risk modeling",
+        "Optimize portfolio allocation using reinforcement learning"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "finrl-reinforcement-learning",
+      "category": "ai-finance",
+      "tags": ["reinforcement-learning", "deep-learning", "quantitative-finance", "trading", "ai4finance", "pytorch"],
+      "title": {
+        "en": "FinRL - Financial Reinforcement Learning",
+        "zh": "FinRL - 金融强化学习"
+      },
+      "description": {
+        "en": "First open-source framework for financial reinforcement learning with deep RL algorithms for trading",
+        "zh": "首个开源金融强化学习框架，使用深度强化学习算法进行交易"
+      },
+      "details": {
+        "en": "FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance. Features three-layer architecture with market environments, agents, and applications. Implements state-of-the-art DRL algorithms including DQN, DDPG, A2C, SAC, PPO, TD3 using PyTorch. Supports multi-asset trading, cryptocurrency, high-frequency trading, and portfolio allocation. Includes FinRL-Meta with hundreds of market environments and comprehensive tutorials organized in a curriculum.",
+        "zh": "FinRL是首个展示深度强化学习在量化金融中巨大潜力的开源框架。具有三层架构：市场环境、代理和应用。实现最先进的深度强化学习算法，包括DQN、DDPG、A2C、SAC、PPO、TD3，使用PyTorch。支持多资产交易、加密货币、高频交易和投资组合配置。包含FinRL-Meta，提供数百个市场环境和按课程组织的综合教程。"
+      },
+      "examples": [
+        "Train DRL agents for automated stock trading",
+        "Implement portfolio allocation strategies with A2C/PPO",
+        "Deploy cryptocurrency trading bots with SAC/TD3"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "bt-backtesting-framework",
+      "category": "ai-finance", 
+      "tags": ["backtesting", "quantitative-finance", "python", "trading", "portfolio", "algorithmic-trading"],
+      "title": {
+        "en": "bt - Flexible Backtesting Framework",
+        "zh": "bt - 灵活回测框架"
+      },
+      "description": {
+        "en": "Flexible Python backtesting framework for testing quantitative trading strategies with modular architecture",
+        "zh": "灵活的Python回测框架，用于测试量化交易策略，具有模块化架构"
+      },
+      "details": {
+        "en": "bt is a flexible backtesting framework for Python designed to test quantitative trading strategies. Features modular architecture with reusable Algos and AlgoStacks for rapid development of complex trading strategies. Supports tree structure for composition of sophisticated strategies, advanced trading features including commission functions, bid/offer spreads, coupon-paying instruments, and holding costs. Built on ffn library with comprehensive charting functions and statistical analysis for backtest results. Integrates seamlessly with Python's rich ecosystem for data analysis and machine learning.",
+        "zh": "bt是为Python设计的灵活回测框架，用于测试量化交易策略。具有模块化架构，提供可重用的算法和算法栈，用于快速开发复杂交易策略。支持树状结构以组合复杂策略，高级交易功能包括佣金函数、买卖价差、付息工具和持仓成本。基于ffn库构建，具有全面的图表功能和回测结果统计分析。与Python丰富的数据分析和机器学习生态系统无缝集成。"
+      },
+      "examples": [
+        "Backtest portfolio rebalancing strategies with tree structures",
+        "Test complex algorithmic trading strategies with modular Algos",
+        "Analyze strategy performance with comprehensive statistics"
+      ],
+      "version": "2025.1",
+      "status": "new"
     }
   ]
 }
