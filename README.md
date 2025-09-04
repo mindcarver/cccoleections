@@ -4,7 +4,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://mindcarver.github.io/cccoleections/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Updated-2025--01--04-orange.svg)](.)
+[![Last Updated](https://img.shields.io/badge/Updated-2025--09--04-orange.svg)](.)
 
 ## 🌟 Overview
 
