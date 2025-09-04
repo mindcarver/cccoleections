@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Data Test - Claude Code Features</title>
+</head>
+<body>
+    <h1>GitHub Pages Data Test</h1>
+    <p>Testing if GitHub Pages serves the latest features.json data...</p>
+    
+    <div id="results">Loading...</div>
+    
+    <script>
+        async function testData() {
+            try {
+                const response = await fetch('./data/features.json');
+                const data = await response.json();
+                const features = data.features || [];
+                
+                document.getElementById('results').innerHTML = `
+                    <h2>Test Results:</h2>
+                    <p><strong>Total Features:</strong> ${features.length}</p>
+                    <p><strong>Test Time:</strong> ${new Date().toISOString()}</p>
+                    
+                    <h3>Looking for newly added projects:</h3>
+                    <ul>
+                        <li>Activepieces: ${features.find(f => f.id === 'activepieces-workflow') ? '✅ Found' : '❌ Missing'}</li>
+                        <li>500 AI Agents: ${features.find(f => f.id === '500-ai-agents-collection') ? '✅ Found' : '❌ Missing'}</li>
+                        <li>RustDesk: ${features.find(f => f.id === 'rustdesk-remote-desktop') ? '✅ Found' : '❌ Missing'}</li>
+                    </ul>
+                    
+                    <h3>Previously added (should be found):</h3>
+                    <ul>
+                        <li>Qlib: ${features.find(f => f.id === 'microsoft-qlib') ? '✅ Found' : '❌ Missing'}</li>
+                        <li>FinRL: ${features.find(f => f.id === 'ai4finance-finrl') ? '✅ Found' : '❌ Missing'}</li>
+                        <li>bt: ${features.find(f => f.id === 'bt-backtesting') ? '✅ Found' : '❌ Missing'}</li>
+                    </ul>
+                    
+                    <h3>Last 5 Features (for verification):</h3>
+                    <ul>
+                        ${features.slice(-5).map(f => `<li>${f.id}: ${f.title.en}</li>`).join('')}
+                    </ul>
+                `;
+            } catch (error) {
+                document.getElementById('results').innerHTML = `
+                    <h2>Error:</h2>
+                    <p style="color: red;">${error.message}</p>
+                `;
+            }
+        }
+        
+        testData();
+    </script>
+</body>
+</html>
