@@ -95,6 +95,7 @@ class FilterComponent {
         const categoryNames = {
             'core': 'Core Features',
             'interactive': 'Interactive',
+            'ai-finance': 'AI Finance',
             'agents': 'Agents',
             'integrations': 'Integrations',
             'customization': 'Customization',

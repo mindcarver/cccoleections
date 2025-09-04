@@ -17,6 +17,14 @@
       }
     },
     {
+      "id": "ai-finance",
+      "icon": "💰",
+      "description": {
+        "en": "AI-powered financial tools and quantitative investment platforms",
+        "zh": "AI驱动的金融工具和量化投资平台"
+      }
+    },
+    {
       "id": "agents",
       "icon": "🤖",
       "description": {
