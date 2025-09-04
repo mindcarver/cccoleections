@@ -4,7 +4,7 @@
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://mindcarver.github.io/cccoleections/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Last Updated](https://img.shields.io/badge/Updated-2025--08--20-orange.svg)](.)
+[![Last Updated](https://img.shields.io/badge/Updated-2025--01--04-orange.svg)](.)
 
 ## 🌟 Overview
 
@@ -213,9 +213,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Phase 1 (Current)
 - [x] Core feature collection and display
-- [x] Search and filtering functionality
+- [x] Search and filtering functionality  
 - [x] Dual language support
 - [x] Responsive design
+- [x] Added 6 open-source projects: Qlib, FinRL, bt, Activepieces, 500 AI Agents, RustDesk
 
 ### Phase 2 (Planned)
 - [ ] Advanced search with facets
