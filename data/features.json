@@ -1780,6 +1780,126 @@
       ],
       "version": "2025.1",
       "status": "new"
+    },
+    {
+      "id": "copyweb-ai-tool",
+      "category": "ai-tools",
+      "tags": ["ai", "copywriting", "content-generation", "marketing", "automation", "web-tool"],
+      "title": {
+        "en": "CopyWeb.ai - AI Content Generator",
+        "zh": "CopyWeb.ai - AI内容生成器"
+      },
+      "description": {
+        "en": "AI-powered content generation platform for marketing copy, articles, and creative writing",
+        "zh": "AI驱动的内容生成平台，用于营销文案、文章和创意写作"
+      },
+      "details": {
+        "en": "CopyWeb.ai is an advanced AI content generation platform that helps businesses and creators produce high-quality marketing copy, blog articles, social media content, and creative writing. Features multiple content types including sales pages, email campaigns, product descriptions, and SEO-optimized articles. Uses advanced language models to generate engaging, conversion-focused content that resonates with target audiences. Supports multiple languages and writing styles, with customizable tone and brand voice options.",
+        "zh": "CopyWeb.ai是一个先进的AI内容生成平台，帮助企业和创作者制作高质量的营销文案、博客文章、社交媒体内容和创意写作。支持多种内容类型，包括销售页面、电子邮件营销、产品描述和SEO优化文章。使用先进的语言模型生成引人入胜、以转化为重点的内容，与目标受众产生共鸣。支持多种语言和写作风格，具有可定制的语调和品牌声音选项。"
+      },
+      "examples": [
+        "Generate compelling sales copy for product launches",
+        "Create SEO-optimized blog articles and web content",
+        "Develop engaging social media posts and email campaigns"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "dora-run-platform",
+      "category": "development",
+      "tags": ["no-code", "web-development", "design-to-code", "visual-editor", "deployment", "3d"],
+      "title": {
+        "en": "Dora.run - No-Code Web Development",
+        "zh": "Dora.run - 无代码网页开发"
+      },
+      "description": {
+        "en": "Advanced no-code platform for creating interactive websites with 3D animations and visual effects",
+        "zh": "高级无代码平台，用于创建具有3D动画和视觉效果的交互式网站"
+      },
+      "details": {
+        "en": "Dora.run is a revolutionary no-code web development platform that enables designers and developers to create stunning, interactive websites with advanced 3D animations and visual effects. Features a powerful visual editor with drag-and-drop components, built-in 3D rendering engine, responsive design tools, and seamless deployment capabilities. Supports complex animations, particle systems, and interactive elements without requiring coding knowledge. Perfect for creating modern landing pages, portfolios, and marketing websites with professional-grade visual appeal.",
+        "zh": "Dora.run是一个革命性的无代码网页开发平台，使设计师和开发者能够创建具有高级3D动画和视觉效果的绝美交互式网站。具有强大的可视化编辑器，支持拖放组件、内置3D渲染引擎、响应式设计工具和无缝部署功能。支持复杂的动画、粒子系统和交互元素，无需编码知识。非常适合创建具有专业级视觉吸引力的现代登录页面、作品集和营销网站。"
+      },
+      "examples": [
+        "Create interactive 3D product showcases and portfolios",
+        "Build animated landing pages with stunning visual effects",
+        "Design responsive websites with advanced animations"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "pocketbase-backend",
+      "category": "backend",
+      "tags": ["backend-as-service", "database", "real-time", "go", "sqlite", "authentication", "api"],
+      "title": {
+        "en": "PocketBase - Open Source Backend",
+        "zh": "PocketBase - 开源后端服务"
+      },
+      "description": {
+        "en": "Open-source backend in a single file with SQLite database, authentication, and real-time subscriptions",
+        "zh": "单文件开源后端，集成SQLite数据库、身份验证和实时订阅功能"
+      },
+      "details": {
+        "en": "PocketBase is a complete backend solution that comes as a single executable file, written in Go. Features built-in SQLite database, user authentication and authorization, real-time subscriptions, file storage, and a beautiful admin dashboard. Provides REST and GraphQL APIs out of the box, with support for custom business logic through JavaScript hooks. Perfect for rapid prototyping, small to medium projects, and applications that need a simple yet powerful backend without complex setup or maintenance.",
+        "zh": "PocketBase是一个完整的后端解决方案，以单个可执行文件形式提供，用Go编写。具有内置SQLite数据库、用户身份验证和授权、实时订阅、文件存储和美观的管理面板。开箱即用地提供REST和GraphQL API，支持通过JavaScript钩子实现自定义业务逻辑。非常适合快速原型开发、中小型项目以及需要简单而强大后端且无需复杂设置或维护的应用程序。"
+      },
+      "examples": [
+        "Build rapid MVP backends with zero configuration",
+        "Create real-time applications with instant subscriptions",
+        "Deploy complete backend solutions in minutes"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "ansible-automation",
+      "category": "devops",
+      "tags": ["automation", "configuration-management", "infrastructure", "deployment", "orchestration", "yaml"],
+      "title": {
+        "en": "Ansible - Infrastructure Automation",
+        "zh": "Ansible - 基础设施自动化"
+      },
+      "description": {
+        "en": "Powerful automation platform for configuration management, application deployment, and orchestration",
+        "zh": "强大的自动化平台，用于配置管理、应用部署和编排"
+      },
+      "details": {
+        "en": "Ansible is a powerful, agentless automation platform that simplifies configuration management, application deployment, and task automation. Uses simple YAML syntax to describe automation jobs in Playbooks, making it accessible to both developers and system administrators. Features include idempotent operations, parallel execution across multiple hosts, extensive module library for various platforms and services, and integration with cloud providers. Supports complex orchestration workflows, rolling deployments, and infrastructure as code practices.",
+        "zh": "Ansible是一个强大的无代理自动化平台，简化配置管理、应用部署和任务自动化。使用简单的YAML语法在Playbook中描述自动化任务，使开发者和系统管理员都能轻松使用。功能包括幂等操作、跨多主机并行执行、针对各种平台和服务的广泛模块库，以及与云提供商的集成。支持复杂的编排工作流程、滚动部署和基础设施即代码实践。"
+      },
+      "examples": [
+        "Automate server configuration and software deployment",
+        "Orchestrate complex multi-tier application rollouts",
+        "Manage cloud infrastructure and scaling operations"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "ccpm-project-manager",
+      "category": "tools",
+      "tags": ["project-management", "critical-chain", "scheduling", "resource-management", "automation", "productivity"],
+      "title": {
+        "en": "CCPM - Critical Chain Project Management",
+        "zh": "CCPM - 关键链项目管理"
+      },
+      "description": {
+        "en": "Advanced project management tool implementing Critical Chain Project Management methodology",
+        "zh": "实现关键链项目管理方法论的高级项目管理工具"
+      },
+      "details": {
+        "en": "CCPM (Critical Chain Project Management) is an advanced project management tool that implements the Theory of Constraints methodology for project scheduling and resource management. Features intelligent resource leveling, buffer management, multi-project coordination, and real-time progress tracking. Uses critical chain methodology to identify and manage project bottlenecks, reduce project duration, and improve delivery reliability. Includes advanced analytics, reporting capabilities, and integration with popular development tools for seamless workflow management.",
+        "zh": "CCPM（关键链项目管理）是一个高级项目管理工具，实现了约束理论方法论进行项目调度和资源管理。具有智能资源平衡、缓冲管理、多项目协调和实时进度跟踪功能。使用关键链方法论来识别和管理项目瓶颈、缩短项目持续时间并提高交付可靠性。包括高级分析、报告功能以及与流行开发工具的集成，实现无缝的工作流管理。"
+      },
+      "examples": [
+        "Optimize multi-project resource allocation and scheduling",
+        "Implement critical chain methodology for faster delivery",
+        "Track project buffers and identify potential delays"
+      ],
+      "version": "2025.1",
+      "status": "new"
     }
   ]
 }

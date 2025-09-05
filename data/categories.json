@@ -151,6 +151,30 @@
         "en": "Code analysis, search, and understanding capabilities",
         "zh": "代码分析、搜索和理解功能"
       }
+    },
+    {
+      "id": "ai-tools",
+      "icon": "🧠",
+      "description": {
+        "en": "AI-powered tools and utilities for various tasks",
+        "zh": "各种任务的AI驱动工具和实用程序"
+      }
+    },
+    {
+      "id": "backend",
+      "icon": "⚙️",
+      "description": {
+        "en": "Backend services, databases, and server-side solutions",
+        "zh": "后端服务、数据库和服务器端解决方案"
+      }
+    },
+    {
+      "id": "devops",
+      "icon": "🚀",
+      "description": {
+        "en": "DevOps, infrastructure automation, and deployment tools",
+        "zh": "DevOps、基础设施自动化和部署工具"
+      }
     }
   ]
 }

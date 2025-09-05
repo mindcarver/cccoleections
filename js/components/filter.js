@@ -108,7 +108,10 @@ class FilterComponent {
             'collaboration': 'Collaboration',
             'enterprise': 'Enterprise',
             'platform': 'Platform',
-            'analysis': 'Analysis'
+            'analysis': 'Analysis',
+            'ai-tools': 'AI Tools',
+            'backend': 'Backend',
+            'devops': 'DevOps'
         };
         
         return categoryNames[categoryId] || categoryId;
