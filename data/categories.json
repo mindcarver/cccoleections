@@ -175,6 +175,30 @@
         "en": "DevOps, infrastructure automation, and deployment tools",
         "zh": "DevOps、基础设施自动化和部署工具"
       }
+    },
+    {
+      "id": "design-tools",
+      "icon": "🎨",
+      "description": {
+        "en": "Design systems, UI components, and design tools",
+        "zh": "设计系统、UI组件和设计工具"
+      }
+    },
+    {
+      "id": "developer-tools",
+      "icon": "⚒️",
+      "description": {
+        "en": "Developer tools, frameworks, and development utilities",
+        "zh": "开发者工具、框架和开发实用程序"
+      }
+    },
+    {
+      "id": "document-processing",
+      "icon": "📄",
+      "description": {
+        "en": "Document processing, PDF tools, and file conversion",
+        "zh": "文档处理、PDF工具和文件转换"
+      }
     }
   ]
 }
