@@ -1900,6 +1900,222 @@
       ],
       "version": "2025.1",
       "status": "new"
+    },
+    {
+      "id": "bmad-method",
+      "category": "developer-tools",
+      "tags": ["physics", "particle-accelerator", "simulation", "research", "scientific"],
+      "title": {
+        "en": "BMAD-METHOD - Particle Accelerator Simulation",
+        "zh": "BMAD-METHOD - 粒子加速器仿真"
+      },
+      "description": {
+        "en": "Advanced particle accelerator physics simulation library and toolkit",
+        "zh": "高级粒子加速器物理仿真库和工具包"
+      },
+      "details": {
+        "en": "BMAD-METHOD is a comprehensive library for simulating particle accelerator physics, providing tools for beam dynamics, lattice design, and accelerator optimization. Features include advanced tracking algorithms, multi-particle simulations, lattice element modeling, and integration with popular physics simulation frameworks. Used by research institutions worldwide for designing and optimizing particle accelerators, studying beam dynamics, and developing new accelerator technologies.",
+        "zh": "BMAD-METHOD是一个全面的粒子加速器物理仿真库，提供束流动力学、晶格设计和加速器优化工具。功能包括高级跟踪算法、多粒子仿真、晶格元素建模以及与流行物理仿真框架的集成。被全球研究机构用于设计和优化粒子加速器、研究束流动力学和开发新的加速器技术。"
+      },
+      "examples": [
+        "Simulate particle beam dynamics in accelerator lattices",
+        "Optimize accelerator performance and beam quality",
+        "Design new particle accelerator configurations"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "weknora",
+      "category": "ai-tools",
+      "tags": ["knowledge-management", "ai", "research", "collaboration", "productivity"],
+      "title": {
+        "en": "Weknora - AI Knowledge Management",
+        "zh": "Weknora - AI知识管理"
+      },
+      "description": {
+        "en": "AI-powered knowledge management and research collaboration platform",
+        "zh": "AI驱动的知识管理和研究协作平台"
+      },
+      "details": {
+        "en": "Weknora is an intelligent knowledge management platform that leverages AI to help teams organize, discover, and collaborate on research and information. Features include smart content categorization, AI-powered search and recommendations, collaborative annotation tools, and automated knowledge extraction from documents. Perfect for research teams, academic institutions, and organizations that need to manage large amounts of information efficiently.",
+        "zh": "Weknora是一个智能知识管理平台，利用AI帮助团队组织、发现和协作研究信息。功能包括智能内容分类、AI驱动的搜索和推荐、协作注释工具以及从文档中自动提取知识。非常适合研究团队、学术机构和需要高效管理大量信息的组织。"
+      },
+      "examples": [
+        "Organize and categorize research documents with AI",
+        "Collaborate on knowledge projects with team members",
+        "Extract insights from large document collections"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "magentic-ui",
+      "category": "design-tools",
+      "tags": ["ui", "microsoft", "design-system", "components", "figma"],
+      "title": {
+        "en": "Microsoft Magentic UI",
+        "zh": "微软Magentic UI"
+      },
+      "description": {
+        "en": "Microsoft's advanced UI design system and component library",
+        "zh": "微软的高级UI设计系统和组件库"
+      },
+      "details": {
+        "en": "Microsoft Magentic UI is a comprehensive design system and component library that provides developers and designers with a consistent set of UI components, patterns, and guidelines. Features include modern design tokens, accessibility-first components, responsive design patterns, and seamless integration with Microsoft's design language. Supports multiple frameworks and platforms, with extensive documentation and design resources for Figma and other design tools.",
+        "zh": "微软Magentic UI是一个全面的设计系统和组件库，为开发者和设计师提供一致的UI组件、模式和指南。功能包括现代设计令牌、无障碍优先组件、响应式设计模式以及与微软设计语言的无缝集成。支持多个框架和平台，为Figma和其他设计工具提供广泛的文档和设计资源。"
+      },
+      "examples": [
+        "Build consistent UIs with Microsoft design language",
+        "Implement accessible components and patterns",
+        "Create responsive designs with design tokens"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "gemini-fullstack-langgraph",
+      "category": "ai-tools",
+      "tags": ["google", "gemini", "fullstack", "langgraph", "quickstart", "ai"],
+      "title": {
+        "en": "Google Gemini Fullstack LangGraph Quickstart",
+        "zh": "Google Gemini全栈LangGraph快速入门"
+      },
+      "description": {
+        "en": "Google's quickstart template for building fullstack applications with Gemini and LangGraph",
+        "zh": "Google构建Gemini和LangGraph全栈应用的快速入门模板"
+      },
+      "details": {
+        "en": "This is Google's official quickstart template for building full-stack applications using Gemini AI models and LangGraph framework. Features include pre-configured project structure, best practices for Gemini integration, LangGraph workflow examples, and production-ready deployment configurations. Perfect for developers who want to quickly start building AI-powered applications with Google's latest technologies.",
+        "zh": "这是Google使用Gemini AI模型和LangGraph框架构建全栈应用程序的官方快速入门模板。功能包括预配置的项目结构、Gemini集成最佳实践、LangGraph工作流示例和生产就绪的部署配置。非常适合想要快速开始使用Google最新技术构建AI驱动应用程序的开发者。"
+      },
+      "examples": [
+        "Bootstrap fullstack AI applications with Gemini",
+        "Implement LangGraph workflows in production",
+        "Deploy AI applications with Google Cloud"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "stirling-pdf",
+      "category": "document-processing",
+      "tags": ["pdf", "document", "processing", "web", "tools", "open-source"],
+      "title": {
+        "en": "Stirling-PDF - Comprehensive PDF Toolkit",
+        "zh": "Stirling-PDF - 综合PDF工具包"
+      },
+      "description": {
+        "en": "Comprehensive web-based PDF manipulation toolkit with 50+ features",
+        "zh": "具有50多种功能的综合网络PDF操作工具包"
+      },
+      "details": {
+        "en": "Stirling-PDF is a powerful, locally-hosted web application that provides comprehensive PDF manipulation capabilities. Features include PDF merging, splitting, compression, OCR, watermarking, encryption, form filling, and conversion to various formats. Runs entirely locally for privacy and security, with no external dependencies or cloud services required. Supports batch operations, custom configurations, and extensive file format support beyond PDF.",
+        "zh": "Stirling-PDF是一个强大的本地托管网络应用程序，提供全面的PDF操作功能。功能包括PDF合并、拆分、压缩、OCR、水印、加密、表单填写以及转换为各种格式。完全在本地运行以保护隐私和安全，无需外部依赖或云服务。支持批量操作、自定义配置以及PDF之外的广泛文件格式支持。"
+      },
+      "examples": [
+        "Merge and split PDF documents locally",
+        "Add OCR to scanned documents",
+        "Compress and optimize PDF files"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "parlant",
+      "category": "ai-tools",
+      "tags": ["ai", "conversation", "nlp", "chatbot", "dialogue"],
+      "title": {
+        "en": "Parlant - Conversational AI Framework",
+        "zh": "Parlant - 对话AI框架"
+      },
+      "description": {
+        "en": "Advanced conversational AI framework for building sophisticated dialogue systems",
+        "zh": "用于构建复杂对话系统的高级对话AI框架"
+      },
+      "details": {
+        "en": "Parlant is a sophisticated conversational AI framework designed for building advanced dialogue systems and chatbots. Features include natural language understanding, context management, multi-turn conversation handling, and integration with various AI models. Supports complex conversation flows, entity extraction, intent recognition, and customizable response generation. Perfect for building customer service bots, virtual assistants, and interactive AI applications.",
+        "zh": "Parlant是一个复杂的对话AI框架，专为构建高级对话系统和聊天机器人而设计。功能包括自然语言理解、上下文管理、多轮对话处理以及与各种AI模型的集成。支持复杂的对话流程、实体提取、意图识别和可定制的响应生成。非常适合构建客户服务机器人、虚拟助手和交互式AI应用程序。"
+      },
+      "examples": [
+        "Build sophisticated chatbots with context awareness",
+        "Implement multi-turn conversation systems",
+        "Create virtual assistants with NLU capabilities"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "kotaemon",
+      "category": "ai-tools",
+      "tags": ["ai", "knowledge", "management", "rag", "document", "qa"],
+      "title": {
+        "en": "Kotaemon - Document Q&A System",
+        "zh": "Kotaemon - 文档问答系统"
+      },
+      "description": {
+        "en": "Advanced RAG-based document question-answering system with multi-modal support",
+        "zh": "基于RAG的高级文档问答系统，支持多模态"
+      },
+      "details": {
+        "en": "Kotaemon is an advanced document question-answering system that uses RAG (Retrieval-Augmented Generation) technology to provide accurate answers from document collections. Features include multi-modal document support (text, images, tables), intelligent chunking strategies, vector search capabilities, and support for various LLM models. Perfect for organizations that need to extract knowledge from large document repositories, technical documentation, or research papers.",
+        "zh": "Kotaemon是一个高级文档问答系统，使用RAG（检索增强生成）技术从文档集合中提供准确答案。功能包括多模态文档支持（文本、图像、表格）、智能分块策略、向量搜索功能以及对各种LLM模型的支持。非常适合需要从大型文档存储库、技术文档或研究论文中提取知识的组织。"
+      },
+      "examples": [
+        "Extract answers from technical documentation",
+        "Query multi-modal document collections",
+        "Build knowledge bases from research papers"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "maxkb",
+      "category": "ai-tools",
+      "tags": ["knowledge-base", "ai", "enterprise", "rag", "chinese"],
+      "title": {
+        "en": "MaxKB - Enterprise Knowledge Base",
+        "zh": "MaxKB - 企业知识库"
+      },
+      "description": {
+        "en": "Enterprise-grade AI knowledge base system with RAG capabilities",
+        "zh": "具有RAG功能的企业级AI知识库系统"
+      },
+      "details": {
+        "en": "MaxKB is an enterprise-grade knowledge base system that combines traditional knowledge management with modern AI capabilities. Features include intelligent document processing, RAG-based question answering, multi-tenant support, and integration with enterprise systems. Supports various document formats, provides advanced search capabilities, and offers customizable AI models for different use cases. Designed for large organizations that need scalable knowledge management solutions.",
+        "zh": "MaxKB是一个企业级知识库系统，将传统知识管理与现代AI功能相结合。功能包括智能文档处理、基于RAG的问答、多租户支持以及与企业系统的集成。支持各种文档格式，提供高级搜索功能，并为不同用例提供可定制的AI模型。专为需要可扩展知识管理解决方案的大型组织而设计。"
+      },
+      "examples": [
+        "Build enterprise knowledge repositories with AI",
+        "Implement intelligent document search and retrieval",
+        "Create AI-powered help desk systems"
+      ],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "n8n-workflows-collection",
+      "category": "automation",
+      "tags": ["n8n", "workflows", "automation", "templates", "integration"],
+      "title": {
+        "en": "n8n Workflows Collection",
+        "zh": "n8n工作流程集合"
+      },
+      "description": {
+        "en": "Curated collection of production-ready n8n workflow templates",
+        "zh": "精选的生产就绪n8n工作流程模板集合"
+      },
+      "details": {
+        "en": "A comprehensive collection of production-ready n8n workflow templates covering various automation scenarios and integrations. Features include workflows for social media automation, data synchronization, email marketing, customer support, e-commerce automation, and API integrations. Each workflow is thoroughly tested, documented, and optimized for performance. Perfect for businesses looking to automate repetitive tasks and integrate multiple services without coding.",
+        "zh": "一个全面的生产就绪n8n工作流程模板集合，涵盖各种自动化场景和集成。功能包括社交媒体自动化、数据同步、电子邮件营销、客户支持、电子商务自动化和API集成的工作流程。每个工作流程都经过彻底测试、记录和性能优化。非常适合希望自动化重复性任务并在不编码的情况下集成多个服务的企业。"
+      },
+      "examples": [
+        "Automate social media posting across platforms",
+        "Sync data between CRM and marketing tools",
+        "Create customer support automation workflows"
+      ],
+      "version": "2025.1",
+      "status": "new"
     }
   ]
 }
