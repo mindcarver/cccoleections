@@ -3203,8 +3203,6 @@
     </div>
 
     <script>
-
-    <script>
         // Language switching functionality
         document.addEventListener('DOMContentLoaded', function() {
             const langButtons = document.querySelectorAll('.lang-btn');
@@ -3289,7 +3287,7 @@
 
             // Update placeholder text based on language
             function updateSearchPlaceholder() {
-                const currentLang = document.documentElement.lang || 'en';
+                const currentLang = localStorage.getItem('preferred-language') || 'en';
                 const placeholder = currentLang === 'zh' ? '搜索工具...' : 'Search tools...';
                 searchInput.placeholder = placeholder;
             }
@@ -3340,7 +3338,7 @@
                     noResultsMessage = document.createElement('div');
                     noResultsMessage.className = 'no-results';
                     noResultsMessage.textContent = message;
-                    document.querySelector('.projects-grid').appendChild(noResultsMessage);
+                    document.querySelector('.cards-grid').appendChild(noResultsMessage);
                 }
 
                 // Reset category filter when searching
