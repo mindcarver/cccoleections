@@ -216,7 +216,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [x] Search and filtering functionality  
 - [x] Dual language support
 - [x] Responsive design
-- [x] Added 6 open-source projects: Qlib, FinRL, bt, Activepieces, 500 AI Agents, RustDesk
+- [x] Added 17 open-source projects: Youtu-Agent, Chroma, OpenProject, MiniCPM-V, DeepCode, MindsDB, LEANN, PageIndex, Agent Lightning, res-downloader, Qlib, FinRL, bt, Activepieces, 500 AI Agents, RustDesk, Everything Claude Code, BMAD-METHOD
 
 ### Phase 2 (Planned)
 - [ ] Advanced search with facets
