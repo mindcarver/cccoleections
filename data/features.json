@@ -3,7 +3,12 @@
     {
       "id": "cli-basic",
       "category": "core",
-      "tags": ["cli", "basic", "command-line", "terminal"],
+      "tags": [
+        "cli",
+        "basic",
+        "command-line",
+        "terminal"
+      ],
       "title": {
         "en": "Basic CLI Operations",
         "zh": "基础CLI操作"
@@ -16,14 +21,23 @@
         "en": "Claude Code provides essential CLI commands for session management, help access, and configuration. The basic `claude` command starts an interactive session, while additional flags and options provide control over the experience.",
         "zh": "Claude Code提供用于会话管理、帮助访问和配置的基本CLI命令。基本的`claude`命令启动交互式会话，而其他标志和选项提供对体验的控制。"
       },
-      "examples": ["claude", "claude --help", "claude --version"],
+      "examples": [
+        "claude",
+        "claude --help",
+        "claude --version"
+      ],
       "version": "2025.1",
       "status": "stable"
     },
     {
       "id": "natural-language-coding",
       "category": "core",
-      "tags": ["ai", "natural-language", "code-generation", "english"],
+      "tags": [
+        "ai",
+        "natural-language",
+        "code-generation",
+        "english"
+      ],
       "title": {
         "en": "Natural Language Code Generation",
         "zh": "自然语言代码生成"
@@ -47,7 +61,12 @@
     {
       "id": "file-editing",
       "category": "core",
-      "tags": ["files", "editing", "modification", "direct"],
+      "tags": [
+        "files",
+        "editing",
+        "modification",
+        "direct"
+      ],
       "title": {
         "en": "Direct File Editing",
         "zh": "直接文件编辑"
@@ -71,7 +90,12 @@
     {
       "id": "git-integration",
       "category": "core",
-      "tags": ["git", "version-control", "commits", "branches"],
+      "tags": [
+        "git",
+        "version-control",
+        "commits",
+        "branches"
+      ],
       "title": {
         "en": "Git Workflow Integration",
         "zh": "Git工作流集成"
@@ -95,7 +119,12 @@
     {
       "id": "codebase-analysis",
       "category": "analysis",
-      "tags": ["analysis", "understanding", "search", "mapping"],
+      "tags": [
+        "analysis",
+        "understanding",
+        "search",
+        "mapping"
+      ],
       "title": {
         "en": "Codebase Analysis & Search",
         "zh": "代码库分析与搜索"
@@ -119,7 +148,12 @@
     {
       "id": "slash-commands",
       "category": "interactive",
-      "tags": ["commands", "slash", "shortcuts", "workflow"],
+      "tags": [
+        "commands",
+        "slash",
+        "shortcuts",
+        "workflow"
+      ],
       "title": {
         "en": "Slash Command System",
         "zh": "斜杠命令系统"
@@ -132,14 +166,31 @@
         "en": "Claude Code includes a comprehensive slash command system that provides shortcuts to common development workflows. Commands range from file operations to project management, making development faster and more efficient.",
         "zh": "Claude Code包含一个全面的斜杠命令系统，提供常见开发工作流程的快捷方式。命令范围从文件操作到项目管理，使开发更快、更高效。"
       },
-      "examples": ["/clear", "/help", "/git", "/bug", "/permissions", "/terminal-setup", "/install-github-app", "/security-review", "/mcp", "/agents", "/statusline"],
+      "examples": [
+        "/clear",
+        "/help",
+        "/git",
+        "/bug",
+        "/permissions",
+        "/terminal-setup",
+        "/install-github-app",
+        "/security-review",
+        "/mcp",
+        "/agents",
+        "/statusline"
+      ],
       "version": "2025.1",
       "status": "stable"
     },
     {
       "id": "background-commands",
       "category": "interactive",
-      "tags": ["background", "parallel", "dev-server", "logs"],
+      "tags": [
+        "background",
+        "parallel",
+        "dev-server",
+        "logs"
+      ],
       "title": {
         "en": "Background Commands (Ctrl+b)",
         "zh": "后台命令 (Ctrl+b)"
@@ -163,7 +214,12 @@
     {
       "id": "status-line-customization",
       "category": "interactive",
-      "tags": ["customization", "terminal", "prompt", "status"],
+      "tags": [
+        "customization",
+        "terminal",
+        "prompt",
+        "status"
+      ],
       "title": {
         "en": "Customizable Status Line",
         "zh": "可自定义状态行"
@@ -176,14 +232,22 @@
         "en": "Customize Claude Code's interface to match your terminal environment. The /statusline command allows you to integrate your existing prompt configuration, maintaining consistency across your development tools.",
         "zh": "自定义Claude Code界面以匹配您的终端环境。/statusline命令允许您集成现有的提示符配置，在开发工具间保持一致性。"
       },
-      "examples": ["/statusline", "Configure terminal prompt integration"],
+      "examples": [
+        "/statusline",
+        "Configure terminal prompt integration"
+      ],
       "version": "2025.8",
       "status": "new"
     },
     {
       "id": "mention-support",
       "category": "interactive",
-      "tags": ["mentions", "typeahead", "agents", "@"],
+      "tags": [
+        "mentions",
+        "typeahead",
+        "agents",
+        "@"
+      ],
       "title": {
         "en": "@-mention Support with Typeahead",
         "zh": "@提及支持与自动补全"
@@ -196,14 +260,23 @@
         "en": "@-mention functionality provides quick access to custom agents, files, and contexts within Claude Code. The typeahead system makes it easy to reference specific resources without memorizing exact names or paths.",
         "zh": "@提及功能可快速访问Claude Code中的自定义代理、文件和上下文。自动补全系统使引用特定资源变得简单，无需记住确切名称或路径。"
       },
-      "examples": ["@agent-name", "@file.js", "@project/component"],
+      "examples": [
+        "@agent-name",
+        "@file.js",
+        "@project/component"
+      ],
       "version": "2025.8",
       "status": "new"
     },
     {
       "id": "custom-subagents",
       "category": "agents",
-      "tags": ["agents", "custom", "specialized", "tasks"],
+      "tags": [
+        "agents",
+        "custom",
+        "specialized",
+        "tasks"
+      ],
       "title": {
         "en": "Custom Sub-agents",
         "zh": "自定义子代理"
@@ -216,14 +289,23 @@
         "en": "Sub-agents are specialized AI assistants that can be customized for specific domains, tasks, or workflows. Each agent has its own instructions, context windows, and tool permissions, enabling targeted expertise for complex projects.",
         "zh": "子代理是可以为特定领域、任务或工作流程定制的专门AI助手。每个代理都有自己的指令、上下文窗口和工具权限，为复杂项目提供针对性的专业知识。"
       },
-      "examples": ["/agents", "Create frontend specialist agent", "Setup testing agent"],
+      "examples": [
+        "/agents",
+        "Create frontend specialist agent",
+        "Setup testing agent"
+      ],
       "version": "2025.7",
       "status": "stable"
     },
     {
       "id": "mcp-integration",
       "category": "integrations",
-      "tags": ["mcp", "protocol", "servers", "tools"],
+      "tags": [
+        "mcp",
+        "protocol",
+        "servers",
+        "tools"
+      ],
       "title": {
         "en": "Model Context Protocol (MCP)",
         "zh": "模型上下文协议 (MCP)"
@@ -247,7 +329,13 @@
     {
       "id": "multiple-models",
       "category": "integrations",
-      "tags": ["models", "sonnet", "opus", "haiku", "ai"],
+      "tags": [
+        "models",
+        "sonnet",
+        "opus",
+        "haiku",
+        "ai"
+      ],
       "title": {
         "en": "Multiple AI Models",
         "zh": "多种AI模型"
@@ -271,7 +359,12 @@
     {
       "id": "hooks-system",
       "category": "integrations",
-      "tags": ["hooks", "lifecycle", "automation", "events"],
+      "tags": [
+        "hooks",
+        "lifecycle",
+        "automation",
+        "events"
+      ],
       "title": {
         "en": "Hooks System",
         "zh": "钩子系统"
@@ -295,7 +388,12 @@
     {
       "id": "custom-slash-commands",
       "category": "customization",
-      "tags": ["customization", "commands", "markdown", "prompts"],
+      "tags": [
+        "customization",
+        "commands",
+        "markdown",
+        "prompts"
+      ],
       "title": {
         "en": "Custom Slash Commands",
         "zh": "自定义斜杠命令"
@@ -319,7 +417,12 @@
     {
       "id": "permission-management",
       "category": "configuration",
-      "tags": ["permissions", "security", "safety", "supervision"],
+      "tags": [
+        "permissions",
+        "security",
+        "safety",
+        "supervision"
+      ],
       "title": {
         "en": "Permission Management",
         "zh": "权限管理"
@@ -343,7 +446,12 @@
     {
       "id": "context-management",
       "category": "workflow",
-      "tags": ["context", "memory", "clear", "session"],
+      "tags": [
+        "context",
+        "memory",
+        "clear",
+        "session"
+      ],
       "title": {
         "en": "Context Management",
         "zh": "上下文管理"
@@ -367,7 +475,12 @@
     {
       "id": "debugging-assistance",
       "category": "workflow",
-      "tags": ["debugging", "errors", "troubleshooting", "analysis"],
+      "tags": [
+        "debugging",
+        "errors",
+        "troubleshooting",
+        "analysis"
+      ],
       "title": {
         "en": "Debugging & Error Analysis",
         "zh": "调试与错误分析"
@@ -391,7 +504,12 @@
     {
       "id": "testing-integration",
       "category": "workflow",
-      "tags": ["testing", "unit-tests", "integration", "automation"],
+      "tags": [
+        "testing",
+        "unit-tests",
+        "integration",
+        "automation"
+      ],
       "title": {
         "en": "Test Generation & Integration",
         "zh": "测试生成与集成"
@@ -415,7 +533,12 @@
     {
       "id": "documentation-generation",
       "category": "workflow",
-      "tags": ["documentation", "readme", "api-docs", "comments"],
+      "tags": [
+        "documentation",
+        "readme",
+        "api-docs",
+        "comments"
+      ],
       "title": {
         "en": "Documentation Generation",
         "zh": "文档生成"
@@ -439,7 +562,12 @@
     {
       "id": "refactoring-assistance",
       "category": "workflow",
-      "tags": ["refactoring", "code-quality", "patterns", "cleanup"],
+      "tags": [
+        "refactoring",
+        "code-quality",
+        "patterns",
+        "cleanup"
+      ],
       "title": {
         "en": "Code Refactoring & Optimization",
         "zh": "代码重构与优化"
@@ -463,7 +591,12 @@
     {
       "id": "ide-integration",
       "category": "tools",
-      "tags": ["ide", "vscode", "editor", "integration"],
+      "tags": [
+        "ide",
+        "vscode",
+        "editor",
+        "integration"
+      ],
       "title": {
         "en": "IDE Integration",
         "zh": "IDE集成"
@@ -487,7 +620,12 @@
     {
       "id": "unix-philosophy",
       "category": "tools",
-      "tags": ["unix", "composable", "scriptable", "pipes"],
+      "tags": [
+        "unix",
+        "composable",
+        "scriptable",
+        "pipes"
+      ],
       "title": {
         "en": "Unix Philosophy & Composability",
         "zh": "Unix哲学与可组合性"
@@ -511,7 +649,12 @@
     {
       "id": "project-initialization",
       "category": "tools",
-      "tags": ["initialization", "scaffolding", "templates", "setup"],
+      "tags": [
+        "initialization",
+        "scaffolding",
+        "templates",
+        "setup"
+      ],
       "title": {
         "en": "Project Initialization & Scaffolding",
         "zh": "项目初始化与脚手架"
@@ -535,7 +678,12 @@
     {
       "id": "performance-optimization",
       "category": "optimization",
-      "tags": ["performance", "optimization", "profiling", "analysis"],
+      "tags": [
+        "performance",
+        "optimization",
+        "profiling",
+        "analysis"
+      ],
       "title": {
         "en": "Performance Analysis & Optimization",
         "zh": "性能分析与优化"
@@ -559,7 +707,12 @@
     {
       "id": "security-analysis",
       "category": "optimization",
-      "tags": ["security", "vulnerabilities", "audit", "best-practices"],
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "audit",
+        "best-practices"
+      ],
       "title": {
         "en": "Security Analysis & Hardening",
         "zh": "安全分析与强化"
@@ -583,7 +736,12 @@
     {
       "id": "dependency-management",
       "category": "configuration",
-      "tags": ["dependencies", "packages", "updates", "management"],
+      "tags": [
+        "dependencies",
+        "packages",
+        "updates",
+        "management"
+      ],
       "title": {
         "en": "Dependency Management",
         "zh": "依赖管理"
@@ -607,7 +765,12 @@
     {
       "id": "environment-configuration",
       "category": "configuration",
-      "tags": ["environment", "config", "setup", "variables"],
+      "tags": [
+        "environment",
+        "config",
+        "setup",
+        "variables"
+      ],
       "title": {
         "en": "Environment Configuration",
         "zh": "环境配置"
@@ -631,7 +794,12 @@
     {
       "id": "cloud-deployment",
       "category": "deployment",
-      "tags": ["deployment", "cloud", "ci-cd", "automation"],
+      "tags": [
+        "deployment",
+        "cloud",
+        "ci-cd",
+        "automation"
+      ],
       "title": {
         "en": "Cloud Deployment & CI/CD",
         "zh": "云部署与CI/CD"
@@ -655,7 +823,12 @@
     {
       "id": "database-operations",
       "category": "deployment",
-      "tags": ["database", "migrations", "queries", "optimization"],
+      "tags": [
+        "database",
+        "migrations",
+        "queries",
+        "optimization"
+      ],
       "title": {
         "en": "Database Operations & Migrations",
         "zh": "数据库操作与迁移"
@@ -679,7 +852,12 @@
     {
       "id": "api-development",
       "category": "development",
-      "tags": ["api", "rest", "graphql", "endpoints"],
+      "tags": [
+        "api",
+        "rest",
+        "graphql",
+        "endpoints"
+      ],
       "title": {
         "en": "API Development & Documentation",
         "zh": "API开发与文档"
@@ -703,7 +881,12 @@
     {
       "id": "frontend-frameworks",
       "category": "development",
-      "tags": ["react", "vue", "angular", "frontend"],
+      "tags": [
+        "react",
+        "vue",
+        "angular",
+        "frontend"
+      ],
       "title": {
         "en": "Frontend Framework Support",
         "zh": "前端框架支持"
@@ -727,7 +910,12 @@
     {
       "id": "code-reviews",
       "category": "collaboration",
-      "tags": ["review", "pull-request", "quality", "feedback"],
+      "tags": [
+        "review",
+        "pull-request",
+        "quality",
+        "feedback"
+      ],
       "title": {
         "en": "Code Review Assistance",
         "zh": "代码审查辅助"
@@ -751,7 +939,12 @@
     {
       "id": "team-collaboration",
       "category": "collaboration",
-      "tags": ["team", "sharing", "standards", "conventions"],
+      "tags": [
+        "team",
+        "sharing",
+        "standards",
+        "conventions"
+      ],
       "title": {
         "en": "Team Collaboration Features",
         "zh": "团队协作功能"
@@ -775,7 +968,12 @@
     {
       "id": "enterprise-integration",
       "category": "enterprise",
-      "tags": ["enterprise", "bedrock", "vertex", "corporate"],
+      "tags": [
+        "enterprise",
+        "bedrock",
+        "vertex",
+        "corporate"
+      ],
       "title": {
         "en": "Enterprise Cloud Integration",
         "zh": "企业云集成"
@@ -799,7 +997,12 @@
     {
       "id": "cross-platform-support",
       "category": "platform",
-      "tags": ["cross-platform", "macos", "linux", "windows"],
+      "tags": [
+        "cross-platform",
+        "macos",
+        "linux",
+        "windows"
+      ],
       "title": {
         "en": "Cross-Platform Support",
         "zh": "跨平台支持"
@@ -823,7 +1026,14 @@
     {
       "id": "language-support",
       "category": "platform",
-      "tags": ["languages", "python", "javascript", "typescript", "rust", "go"],
+      "tags": [
+        "languages",
+        "python",
+        "javascript",
+        "typescript",
+        "rust",
+        "go"
+      ],
       "title": {
         "en": "Multi-Language Support",
         "zh": "多语言支持"
@@ -847,7 +1057,13 @@
     {
       "id": "github-actions-integration",
       "category": "integrations",
-      "tags": ["github", "actions", "ci-cd", "automation", "pr"],
+      "tags": [
+        "github",
+        "actions",
+        "ci-cd",
+        "automation",
+        "pr"
+      ],
       "title": {
         "en": "GitHub Actions Integration",
         "zh": "GitHub Actions集成"
@@ -871,7 +1087,12 @@
     {
       "id": "security-review-command",
       "category": "workflow",
-      "tags": ["security", "review", "automation", "vulnerabilities"],
+      "tags": [
+        "security",
+        "review",
+        "automation",
+        "vulnerabilities"
+      ],
       "title": {
         "en": "Automated Security Reviews",
         "zh": "自动化安全审查"
@@ -895,7 +1116,12 @@
     {
       "id": "install-github-app",
       "category": "integrations",
-      "tags": ["github", "installation", "app", "setup"],
+      "tags": [
+        "github",
+        "installation",
+        "app",
+        "setup"
+      ],
       "title": {
         "en": "GitHub App Installation",
         "zh": "GitHub应用安装"
@@ -919,7 +1145,12 @@
     {
       "id": "claude-code-sdk",
       "category": "development",
-      "tags": ["sdk", "typescript", "python", "extensibility"],
+      "tags": [
+        "sdk",
+        "typescript",
+        "python",
+        "extensibility"
+      ],
       "title": {
         "en": "Claude Code SDK",
         "zh": "Claude Code SDK"
@@ -943,7 +1174,13 @@
     {
       "id": "mcp-sse-http",
       "category": "integrations",
-      "tags": ["mcp", "sse", "http", "oauth", "real-time"],
+      "tags": [
+        "mcp",
+        "sse",
+        "http",
+        "oauth",
+        "real-time"
+      ],
       "title": {
         "en": "Enhanced MCP Support",
         "zh": "增强的MCP支持"
@@ -967,7 +1204,12 @@
     {
       "id": "claude-on-github",
       "category": "integrations",
-      "tags": ["github", "beta", "web", "browser"],
+      "tags": [
+        "github",
+        "beta",
+        "web",
+        "browser"
+      ],
       "title": {
         "en": "Claude Code on GitHub (Beta)",
         "zh": "GitHub上的Claude Code（Beta）"
@@ -991,7 +1233,12 @@
     {
       "id": "pro-max-plans",
       "category": "platform",
-      "tags": ["plans", "pro", "max", "access"],
+      "tags": [
+        "plans",
+        "pro",
+        "max",
+        "access"
+      ],
       "title": {
         "en": "Pro and Max Plan Access",
         "zh": "Pro和Max计划访问"
@@ -1015,7 +1262,12 @@
     {
       "id": "dangerously-skip-permissions",
       "category": "configuration",
-      "tags": ["permissions", "automation", "yolo", "trusted"],
+      "tags": [
+        "permissions",
+        "automation",
+        "yolo",
+        "trusted"
+      ],
       "title": {
         "en": "Skip Permissions Mode",
         "zh": "跳过权限模式"
@@ -1039,7 +1291,12 @@
     {
       "id": "hierarchical-claude-md",
       "category": "configuration",
-      "tags": ["configuration", "claude-md", "hierarchical", "project"],
+      "tags": [
+        "configuration",
+        "claude-md",
+        "hierarchical",
+        "project"
+      ],
       "title": {
         "en": "Hierarchical Configuration",
         "zh": "分层配置"
@@ -1063,7 +1320,12 @@
     {
       "id": "terminal-keyboard-shortcuts",
       "category": "interactive",
-      "tags": ["terminal", "shortcuts", "navigation", "ux"],
+      "tags": [
+        "terminal",
+        "shortcuts",
+        "navigation",
+        "ux"
+      ],
       "title": {
         "en": "Advanced Terminal Controls",
         "zh": "高级终端控制"
@@ -1088,7 +1350,13 @@
     {
       "id": "awesome-claude-code-collection",
       "category": "community",
-      "tags": ["community", "templates", "commands", "workflows", "examples"],
+      "tags": [
+        "community",
+        "templates",
+        "commands",
+        "workflows",
+        "examples"
+      ],
       "title": {
         "en": "Awesome Claude Code Collection",
         "zh": "Claude Code精选资源集合"
@@ -1112,7 +1380,13 @@
     {
       "id": "claude-code-templates",
       "category": "customization",
-      "tags": ["templates", "agents", "configurations", "mcps", "workflows"],
+      "tags": [
+        "templates",
+        "agents",
+        "configurations",
+        "mcps",
+        "workflows"
+      ],
       "title": {
         "en": "Claude Code Templates & Configurations",
         "zh": "Claude Code模板与配置"
@@ -1136,7 +1410,13 @@
     {
       "id": "github-issue-automation",
       "category": "workflow",
-      "tags": ["github", "issues", "automation", "custom-commands", "workflow"],
+      "tags": [
+        "github",
+        "issues",
+        "automation",
+        "custom-commands",
+        "workflow"
+      ],
       "title": {
         "en": "GitHub Issue Automation",
         "zh": "GitHub问题自动化"
@@ -1160,7 +1440,13 @@
     {
       "id": "claude-code-best-practices",
       "category": "workflow",
-      "tags": ["best-practices", "optimization", "clear", "context", "efficiency"],
+      "tags": [
+        "best-practices",
+        "optimization",
+        "clear",
+        "context",
+        "efficiency"
+      ],
       "title": {
         "en": "Claude Code Best Practices",
         "zh": "Claude Code最佳实践"
@@ -1184,7 +1470,13 @@
     {
       "id": "complete-finance-tracker-tutorial",
       "category": "tutorial",
-      "tags": ["tutorial", "finance", "web-app", "complete-guide", "hands-on"],
+      "tags": [
+        "tutorial",
+        "finance",
+        "web-app",
+        "complete-guide",
+        "hands-on"
+      ],
       "title": {
         "en": "Complete Finance Tracker Tutorial",
         "zh": "完整财务跟踪器教程"
@@ -1208,7 +1500,13 @@
     {
       "id": "claude-code-guide-comprehensive",
       "category": "documentation",
-      "tags": ["guide", "commands", "hidden-features", "comprehensive", "reference"],
+      "tags": [
+        "guide",
+        "commands",
+        "hidden-features",
+        "comprehensive",
+        "reference"
+      ],
       "title": {
         "en": "Comprehensive Claude Code Command Guide",
         "zh": "Claude Code命令综合指南"
@@ -1232,7 +1530,13 @@
     {
       "id": "awesome-subagents-collection",
       "category": "agents",
-      "tags": ["subagents", "collection", "specialized", "community", "awesome"],
+      "tags": [
+        "subagents",
+        "collection",
+        "specialized",
+        "community",
+        "awesome"
+      ],
       "title": {
         "en": "Awesome Claude Code Sub-agents Collection",
         "zh": "Claude Code子代理精选集合"
@@ -1256,7 +1560,15 @@
     {
       "id": "frontend-developer-subagent",
       "category": "agents",
-      "tags": ["frontend", "react", "vue", "angular", "ui", "responsive", "accessibility"],
+      "tags": [
+        "frontend",
+        "react",
+        "vue",
+        "angular",
+        "ui",
+        "responsive",
+        "accessibility"
+      ],
       "title": {
         "en": "Frontend Developer Sub-agent",
         "zh": "前端开发子代理"
@@ -1280,7 +1592,14 @@
     {
       "id": "backend-developer-subagent",
       "category": "agents",
-      "tags": ["backend", "api", "microservices", "database", "scalability", "performance"],
+      "tags": [
+        "backend",
+        "api",
+        "microservices",
+        "database",
+        "scalability",
+        "performance"
+      ],
       "title": {
         "en": "Backend Developer Sub-agent",
         "zh": "后端开发子代理"
@@ -1304,7 +1623,13 @@
     {
       "id": "python-pro-subagent",
       "category": "agents",
-      "tags": ["python", "async", "typing", "data-science", "modern"],
+      "tags": [
+        "python",
+        "async",
+        "typing",
+        "data-science",
+        "modern"
+      ],
       "title": {
         "en": "Python Pro Sub-agent",
         "zh": "Python专业子代理"
@@ -1328,7 +1653,14 @@
     {
       "id": "devops-engineer-subagent",
       "category": "agents",
-      "tags": ["devops", "docker", "kubernetes", "ci-cd", "infrastructure", "automation"],
+      "tags": [
+        "devops",
+        "docker",
+        "kubernetes",
+        "ci-cd",
+        "infrastructure",
+        "automation"
+      ],
       "title": {
         "en": "DevOps Engineer Sub-agent",
         "zh": "DevOps工程师子代理"
@@ -1352,7 +1684,13 @@
     {
       "id": "security-auditor-subagent",
       "category": "agents",
-      "tags": ["security", "audit", "vulnerability", "owasp", "compliance"],
+      "tags": [
+        "security",
+        "audit",
+        "vulnerability",
+        "owasp",
+        "compliance"
+      ],
       "title": {
         "en": "Security Auditor Sub-agent",
         "zh": "安全审计子代理"
@@ -1376,7 +1714,13 @@
     {
       "id": "ai-engineer-subagent",
       "category": "agents",
-      "tags": ["ai", "machine-learning", "models", "deployment", "data"],
+      "tags": [
+        "ai",
+        "machine-learning",
+        "models",
+        "deployment",
+        "data"
+      ],
       "title": {
         "en": "AI Engineer Sub-agent",
         "zh": "AI工程师子代理"
@@ -1400,7 +1744,13 @@
     {
       "id": "test-runner-subagent",
       "category": "agents",
-      "tags": ["testing", "automation", "ci", "quality", "tdd"],
+      "tags": [
+        "testing",
+        "automation",
+        "ci",
+        "quality",
+        "tdd"
+      ],
       "title": {
         "en": "Test Runner Sub-agent",
         "zh": "测试运行器子代理"
@@ -1424,7 +1774,12 @@
     {
       "id": "code-reviewer-subagent",
       "category": "agents",
-      "tags": ["code-review", "quality", "best-practices", "security"],
+      "tags": [
+        "code-review",
+        "quality",
+        "best-practices",
+        "security"
+      ],
       "title": {
         "en": "Code Reviewer Sub-agent",
         "zh": "代码审查子代理"
@@ -1448,7 +1803,13 @@
     {
       "id": "subagent-creation-guide",
       "category": "agents",
-      "tags": ["creation", "setup", "yaml", "markdown", "configuration"],
+      "tags": [
+        "creation",
+        "setup",
+        "yaml",
+        "markdown",
+        "configuration"
+      ],
       "title": {
         "en": "Sub-agent Creation and Setup Guide",
         "zh": "子代理创建和设置指南"
@@ -1472,7 +1833,14 @@
     {
       "id": "surfsense-ai-research",
       "category": "productivity",
-      "tags": ["ai", "research", "knowledge-management", "browser-extension", "rag", "open-source"],
+      "tags": [
+        "ai",
+        "research",
+        "knowledge-management",
+        "browser-extension",
+        "rag",
+        "open-source"
+      ],
       "title": {
         "en": "SurfSense - AI Research Assistant",
         "zh": "SurfSense - AI研究助手"
@@ -1496,7 +1864,14 @@
     {
       "id": "openproject-management",
       "category": "development",
-      "tags": ["project-management", "open-source", "collaboration", "gantt", "agile", "enterprise"],
+      "tags": [
+        "project-management",
+        "open-source",
+        "collaboration",
+        "gantt",
+        "agile",
+        "enterprise"
+      ],
       "title": {
         "en": "OpenProject - Open Source Project Management",
         "zh": "OpenProject - 开源项目管理"
@@ -1520,7 +1895,14 @@
     {
       "id": "system-prompts-leaks",
       "category": "security",
-      "tags": ["security", "ai", "prompt-injection", "vulnerability", "research", "system-prompts"],
+      "tags": [
+        "security",
+        "ai",
+        "prompt-injection",
+        "vulnerability",
+        "research",
+        "system-prompts"
+      ],
       "title": {
         "en": "System Prompts Leaks Collection",
         "zh": "系统提示泄露集合"
@@ -1544,7 +1926,14 @@
     {
       "id": "wrenai-genbi",
       "category": "data",
-      "tags": ["ai", "data-analytics", "sql", "business-intelligence", "text-to-sql", "open-source"],
+      "tags": [
+        "ai",
+        "data-analytics",
+        "sql",
+        "business-intelligence",
+        "text-to-sql",
+        "open-source"
+      ],
       "title": {
         "en": "WrenAI - GenBI Platform",
         "zh": "WrenAI - GenBI平台"
@@ -1568,7 +1957,15 @@
     {
       "id": "tencent-youtu-agent",
       "category": "agents",
-      "tags": ["ai", "agents", "framework", "tencent", "automation", "research", "open-source"],
+      "tags": [
+        "ai",
+        "agents",
+        "framework",
+        "tencent",
+        "automation",
+        "research",
+        "open-source"
+      ],
       "title": {
         "en": "Tencent Youtu-agent",
         "zh": "腾讯Youtu-agent"
@@ -1592,7 +1989,15 @@
     {
       "id": "chroma-vector-db",
       "category": "integrations",
-      "tags": ["vector-database", "embeddings", "ai", "search", "rag", "llm", "open-source"],
+      "tags": [
+        "vector-database",
+        "embeddings",
+        "ai",
+        "search",
+        "rag",
+        "llm",
+        "open-source"
+      ],
       "title": {
         "en": "Chroma Vector Database",
         "zh": "Chroma向量数据库"
@@ -1616,7 +2021,15 @@
     {
       "id": "minicpm-v-multimodal",
       "category": "ai-models",
-      "tags": ["multimodal", "ai", "vision-language", "mobile", "openbmb", "efficient", "open-source"],
+      "tags": [
+        "multimodal",
+        "ai",
+        "vision-language",
+        "mobile",
+        "openbmb",
+        "efficient",
+        "open-source"
+      ],
       "title": {
         "en": "MiniCPM-V Multimodal AI Model",
         "zh": "MiniCPM-V多模态AI模型"
@@ -1640,7 +2053,15 @@
     {
       "id": "microsoft-qlib",
       "category": "ai-finance",
-      "tags": ["ai", "quantitative-finance", "machine-learning", "microsoft", "investment", "trading", "research"],
+      "tags": [
+        "ai",
+        "quantitative-finance",
+        "machine-learning",
+        "microsoft",
+        "investment",
+        "trading",
+        "research"
+      ],
       "title": {
         "en": "Microsoft Qlib",
         "zh": "微软Qlib"
@@ -1664,7 +2085,14 @@
     {
       "id": "finrl-reinforcement-learning",
       "category": "ai-finance",
-      "tags": ["reinforcement-learning", "deep-learning", "quantitative-finance", "trading", "ai4finance", "pytorch"],
+      "tags": [
+        "reinforcement-learning",
+        "deep-learning",
+        "quantitative-finance",
+        "trading",
+        "ai4finance",
+        "pytorch"
+      ],
       "title": {
         "en": "FinRL - Financial Reinforcement Learning",
         "zh": "FinRL - 金融强化学习"
@@ -1687,8 +2115,15 @@
     },
     {
       "id": "bt-backtesting-framework",
-      "category": "ai-finance", 
-      "tags": ["backtesting", "quantitative-finance", "python", "trading", "portfolio", "algorithmic-trading"],
+      "category": "ai-finance",
+      "tags": [
+        "backtesting",
+        "quantitative-finance",
+        "python",
+        "trading",
+        "portfolio",
+        "algorithmic-trading"
+      ],
       "title": {
         "en": "bt - Flexible Backtesting Framework",
         "zh": "bt - 灵活回测框架"
@@ -1712,7 +2147,14 @@
     {
       "id": "activepieces-workflow",
       "category": "workflow",
-      "tags": ["no-code", "automation", "workflow", "open-source", "integration", "business-process"],
+      "tags": [
+        "no-code",
+        "automation",
+        "workflow",
+        "open-source",
+        "integration",
+        "business-process"
+      ],
       "title": {
         "en": "Activepieces - No-Code Automation",
         "zh": "Activepieces - 无代码自动化"
@@ -1736,7 +2178,14 @@
     {
       "id": "500-ai-agents-collection",
       "category": "agents",
-      "tags": ["ai-agents", "collection", "curated", "examples", "implementations", "community"],
+      "tags": [
+        "ai-agents",
+        "collection",
+        "curated",
+        "examples",
+        "implementations",
+        "community"
+      ],
       "title": {
         "en": "500 AI Agents Projects Collection",
         "zh": "500个AI代理项目集合"
@@ -1760,7 +2209,14 @@
     {
       "id": "rustdesk-remote-desktop",
       "category": "tools",
-      "tags": ["remote-desktop", "rust", "open-source", "cross-platform", "screen-sharing", "remote-access"],
+      "tags": [
+        "remote-desktop",
+        "rust",
+        "open-source",
+        "cross-platform",
+        "screen-sharing",
+        "remote-access"
+      ],
       "title": {
         "en": "RustDesk - Open Source Remote Desktop",
         "zh": "RustDesk - 开源远程桌面"
@@ -1784,7 +2240,14 @@
     {
       "id": "copyweb-ai-tool",
       "category": "ai-tools",
-      "tags": ["ai", "copywriting", "content-generation", "marketing", "automation", "web-tool"],
+      "tags": [
+        "ai",
+        "copywriting",
+        "content-generation",
+        "marketing",
+        "automation",
+        "web-tool"
+      ],
       "title": {
         "en": "CopyWeb.ai - AI Content Generator",
         "zh": "CopyWeb.ai - AI内容生成器"
@@ -1808,7 +2271,14 @@
     {
       "id": "dora-run-platform",
       "category": "development",
-      "tags": ["no-code", "web-development", "design-to-code", "visual-editor", "deployment", "3d"],
+      "tags": [
+        "no-code",
+        "web-development",
+        "design-to-code",
+        "visual-editor",
+        "deployment",
+        "3d"
+      ],
       "title": {
         "en": "Dora.run - No-Code Web Development",
         "zh": "Dora.run - 无代码网页开发"
@@ -1832,7 +2302,15 @@
     {
       "id": "pocketbase-backend",
       "category": "backend",
-      "tags": ["backend-as-service", "database", "real-time", "go", "sqlite", "authentication", "api"],
+      "tags": [
+        "backend-as-service",
+        "database",
+        "real-time",
+        "go",
+        "sqlite",
+        "authentication",
+        "api"
+      ],
       "title": {
         "en": "PocketBase - Open Source Backend",
         "zh": "PocketBase - 开源后端服务"
@@ -1856,7 +2334,14 @@
     {
       "id": "ansible-automation",
       "category": "devops",
-      "tags": ["automation", "configuration-management", "infrastructure", "deployment", "orchestration", "yaml"],
+      "tags": [
+        "automation",
+        "configuration-management",
+        "infrastructure",
+        "deployment",
+        "orchestration",
+        "yaml"
+      ],
       "title": {
         "en": "Ansible - Infrastructure Automation",
         "zh": "Ansible - 基础设施自动化"
@@ -1880,7 +2365,14 @@
     {
       "id": "ccpm-project-manager",
       "category": "tools",
-      "tags": ["project-management", "critical-chain", "scheduling", "resource-management", "automation", "productivity"],
+      "tags": [
+        "project-management",
+        "critical-chain",
+        "scheduling",
+        "resource-management",
+        "automation",
+        "productivity"
+      ],
       "title": {
         "en": "CCPM - Critical Chain Project Management",
         "zh": "CCPM - 关键链项目管理"
@@ -1904,7 +2396,13 @@
     {
       "id": "bmad-method",
       "category": "developer-tools",
-      "tags": ["physics", "particle-accelerator", "simulation", "research", "scientific"],
+      "tags": [
+        "physics",
+        "particle-accelerator",
+        "simulation",
+        "research",
+        "scientific"
+      ],
       "title": {
         "en": "BMAD-METHOD - Particle Accelerator Simulation",
         "zh": "BMAD-METHOD - 粒子加速器仿真"
@@ -1928,7 +2426,13 @@
     {
       "id": "weknora",
       "category": "ai-tools",
-      "tags": ["knowledge-management", "ai", "research", "collaboration", "productivity"],
+      "tags": [
+        "knowledge-management",
+        "ai",
+        "research",
+        "collaboration",
+        "productivity"
+      ],
       "title": {
         "en": "Weknora - AI Knowledge Management",
         "zh": "Weknora - AI知识管理"
@@ -1952,7 +2456,13 @@
     {
       "id": "magentic-ui",
       "category": "design-tools",
-      "tags": ["ui", "microsoft", "design-system", "components", "figma"],
+      "tags": [
+        "ui",
+        "microsoft",
+        "design-system",
+        "components",
+        "figma"
+      ],
       "title": {
         "en": "Microsoft Magentic UI",
         "zh": "微软Magentic UI"
@@ -1976,7 +2486,14 @@
     {
       "id": "gemini-fullstack-langgraph",
       "category": "ai-tools",
-      "tags": ["google", "gemini", "fullstack", "langgraph", "quickstart", "ai"],
+      "tags": [
+        "google",
+        "gemini",
+        "fullstack",
+        "langgraph",
+        "quickstart",
+        "ai"
+      ],
       "title": {
         "en": "Google Gemini Fullstack LangGraph Quickstart",
         "zh": "Google Gemini全栈LangGraph快速入门"
@@ -2000,7 +2517,14 @@
     {
       "id": "stirling-pdf",
       "category": "document-processing",
-      "tags": ["pdf", "document", "processing", "web", "tools", "open-source"],
+      "tags": [
+        "pdf",
+        "document",
+        "processing",
+        "web",
+        "tools",
+        "open-source"
+      ],
       "title": {
         "en": "Stirling-PDF - Comprehensive PDF Toolkit",
         "zh": "Stirling-PDF - 综合PDF工具包"
@@ -2024,7 +2548,13 @@
     {
       "id": "parlant",
       "category": "ai-tools",
-      "tags": ["ai", "conversation", "nlp", "chatbot", "dialogue"],
+      "tags": [
+        "ai",
+        "conversation",
+        "nlp",
+        "chatbot",
+        "dialogue"
+      ],
       "title": {
         "en": "Parlant - Conversational AI Framework",
         "zh": "Parlant - 对话AI框架"
@@ -2048,7 +2578,14 @@
     {
       "id": "kotaemon",
       "category": "ai-tools",
-      "tags": ["ai", "knowledge", "management", "rag", "document", "qa"],
+      "tags": [
+        "ai",
+        "knowledge",
+        "management",
+        "rag",
+        "document",
+        "qa"
+      ],
       "title": {
         "en": "Kotaemon - Document Q&A System",
         "zh": "Kotaemon - 文档问答系统"
@@ -2072,7 +2609,13 @@
     {
       "id": "maxkb",
       "category": "ai-tools",
-      "tags": ["knowledge-base", "ai", "enterprise", "rag", "chinese"],
+      "tags": [
+        "knowledge-base",
+        "ai",
+        "enterprise",
+        "rag",
+        "chinese"
+      ],
       "title": {
         "en": "MaxKB - Enterprise Knowledge Base",
         "zh": "MaxKB - 企业知识库"
@@ -2096,7 +2639,13 @@
     {
       "id": "n8n-workflows-collection",
       "category": "automation",
-      "tags": ["n8n", "workflows", "automation", "templates", "integration"],
+      "tags": [
+        "n8n",
+        "workflows",
+        "automation",
+        "templates",
+        "integration"
+      ],
       "title": {
         "en": "n8n Workflows Collection",
         "zh": "n8n工作流程集合"
@@ -2115,6 +2664,1499 @@
         "Create customer support automation workflows"
       ],
       "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "tradingagents",
+      "category": "ai-finance",
+      "tags": [
+        "agent",
+        "llm",
+        "finance",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "TradingAgents - TauricResearch",
+        "zh": "TradingAgents - 多智能体 LLM 金融交易框架"
+      },
+      "description": {
+        "en": "多智能体 LLM 金融交易框架。利用多个 LLM Agent 协作进行金融市场分析和交易决策，支持不同角色的 Agent（分析师、风险评估员、交易员等）协作完成交易策略。",
+        "zh": "多智能体 LLM 金融交易框架。利用多个 LLM Agent 协作进行金融市场分析和交易决策，支持不同角色的 Agent（分析师、风险评估员、交易员等）协作完成交易策略。"
+      },
+      "details": {
+        "en": "多智能体 LLM 金融交易框架。利用多个 LLM Agent 协作进行金融市场分析和交易决策，支持不同角色的 Agent（分析师、风险评估员、交易员等）协作完成交易策略。 GitHub: github.com/TauricResearch/TradingAgents",
+        "zh": "多智能体 LLM 金融交易框架。利用多个 LLM Agent 协作进行金融市场分析和交易决策，支持不同角色的 Agent（分析师、风险评估员、交易员等）协作完成交易策略。 GitHub: github.com/TauricResearch/TradingAgents"
+      },
+      "examples": [
+        "github.com/TauricResearch/TradingAgents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "skills",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "skills - mattpocock",
+        "zh": "skills - 面向「真正工程师」的 AI Coding Skills 集合，直接来自作者的 .claude 目录"
+      },
+      "description": {
+        "en": "面向「真正工程师」的 AI Coding Skills 集合，直接来自作者的 .claude 目录。包含一系列可复用的 Claude Code 编程技能/指令模板。",
+        "zh": "面向「真正工程师」的 AI Coding Skills 集合，直接来自作者的 .claude 目录。包含一系列可复用的 Claude Code 编程技能/指令模板。"
+      },
+      "details": {
+        "en": "面向「真正工程师」的 AI Coding Skills 集合，直接来自作者的 .claude 目录。包含一系列可复用的 Claude Code 编程技能/指令模板。 GitHub: github.com/mattpocock/skills",
+        "zh": "面向「真正工程师」的 AI Coding Skills 集合，直接来自作者的 .claude 目录。包含一系列可复用的 Claude Code 编程技能/指令模板。 GitHub: github.com/mattpocock/skills"
+      },
+      "examples": [
+        "github.com/mattpocock/skills"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "warp",
+      "category": "tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Warp - warpdotdev",
+        "zh": "Warp - Agentic 开发环境，从终端诞生的 AI 驱动 IDE"
+      },
+      "description": {
+        "en": "Agentic 开发环境，从终端诞生的 AI 驱动 IDE。将终端与 AI Agent 能力深度结合，支持自然语言命令、智能补全、Agent 工作流等。",
+        "zh": "Agentic 开发环境，从终端诞生的 AI 驱动 IDE。将终端与 AI Agent 能力深度结合，支持自然语言命令、智能补全、Agent 工作流等。"
+      },
+      "details": {
+        "en": "Agentic 开发环境，从终端诞生的 AI 驱动 IDE。将终端与 AI Agent 能力深度结合，支持自然语言命令、智能补全、Agent 工作流等。 GitHub: github.com/warpdotdev/Warp",
+        "zh": "Agentic 开发环境，从终端诞生的 AI 驱动 IDE。将终端与 AI Agent 能力深度结合，支持自然语言命令、智能补全、Agent 工作流等。 GitHub: github.com/warpdotdev/Warp"
+      },
+      "examples": [
+        "github.com/warpdotdev/Warp"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openspec",
+      "category": "developer-tools",
+      "tags": [
+        "framework",
+        "coding"
+      ],
+      "title": {
+        "en": "OpenSpec - Fission-AI",
+        "zh": "OpenSpec - 面向 AI Coding Assistant 的规格驱动开发(SDD)框架"
+      },
+      "description": {
+        "en": "面向 AI Coding Assistant 的规格驱动开发(SDD)框架。通过先定义规格、再由 AI 实现代码的方式，提升 AI 编程的可靠性和可预测性。",
+        "zh": "面向 AI Coding Assistant 的规格驱动开发(SDD)框架。通过先定义规格、再由 AI 实现代码的方式，提升 AI 编程的可靠性和可预测性。"
+      },
+      "details": {
+        "en": "面向 AI Coding Assistant 的规格驱动开发(SDD)框架。通过先定义规格、再由 AI 实现代码的方式，提升 AI 编程的可靠性和可预测性。 GitHub: github.com/Fission-AI/OpenSpec",
+        "zh": "面向 AI Coding Assistant 的规格驱动开发(SDD)框架。通过先定义规格、再由 AI 实现代码的方式，提升 AI 编程的可靠性和可预测性。 GitHub: github.com/Fission-AI/OpenSpec"
+      },
+      "examples": [
+        "github.com/Fission-AI/OpenSpec"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "superpowers",
+      "category": "agents",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "superpowers - obra",
+        "zh": "superpowers - Agentic Skills 框架和软件开发方法论"
+      },
+      "description": {
+        "en": "Agentic Skills 框架和软件开发方法论。提供完整的 AI Agent 辅助开发工作流、最佳实践和工具链，17.6万Star超级项目。",
+        "zh": "Agentic Skills 框架和软件开发方法论。提供完整的 AI Agent 辅助开发工作流、最佳实践和工具链，17.6万Star超级项目。"
+      },
+      "details": {
+        "en": "Agentic Skills 框架和软件开发方法论。提供完整的 AI Agent 辅助开发工作流、最佳实践和工具链，17.6万Star超级项目。 GitHub: github.com/obra/superpowers",
+        "zh": "Agentic Skills 框架和软件开发方法论。提供完整的 AI Agent 辅助开发工作流、最佳实践和工具链，17.6万Star超级项目。 GitHub: github.com/obra/superpowers"
+      },
+      "examples": [
+        "github.com/obra/superpowers"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openai-agents-python",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "openai-agents-python - openai",
+        "zh": "openai-agents-python - OpenAI 官方推出的轻量级、强大的多 Agent 工作流框架"
+      },
+      "description": {
+        "en": "OpenAI 官方推出的轻量级、强大的多 Agent 工作流框架。",
+        "zh": "OpenAI 官方推出的轻量级、强大的多 Agent 工作流框架。"
+      },
+      "details": {
+        "en": "OpenAI 官方推出的轻量级、强大的多 Agent 工作流框架。 GitHub: github.com/openai/openai-agents-python",
+        "zh": "OpenAI 官方推出的轻量级、强大的多 Agent 工作流框架。 GitHub: github.com/openai/openai-agents-python"
+      },
+      "examples": [
+        "github.com/openai/openai-agents-python"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "genericagent",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "GenericAgent - lsdefine",
+        "zh": "GenericAgent - 自进化 Agent 框架，从 3.3K 行种子代码长出技能树，以 6 倍更少的 token 消耗实现全系统控制"
+      },
+      "description": {
+        "en": "自进化 Agent 框架，从 3.3K 行种子代码长出技能树，以 6 倍更少的 token 消耗实现全系统控制。",
+        "zh": "自进化 Agent 框架，从 3.3K 行种子代码长出技能树，以 6 倍更少的 token 消耗实现全系统控制。"
+      },
+      "details": {
+        "en": "自进化 Agent 框架，从 3.3K 行种子代码长出技能树，以 6 倍更少的 token 消耗实现全系统控制。 GitHub: github.com/lsdefine/GenericAgent",
+        "zh": "自进化 Agent 框架，从 3.3K 行种子代码长出技能树，以 6 倍更少的 token 消耗实现全系统控制。 GitHub: github.com/lsdefine/GenericAgent"
+      },
+      "examples": [
+        "github.com/lsdefine/GenericAgent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ml-intern",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "ml-intern - huggingface",
+        "zh": "ml-intern - HuggingFace 推出的开源 ML 工程师 AI Agent，能自主阅读论文、训练模型、部署 ML 模型"
+      },
+      "description": {
+        "en": "HuggingFace 推出的开源 ML 工程师 AI Agent，能自主阅读论文、训练模型、部署 ML 模型。",
+        "zh": "HuggingFace 推出的开源 ML 工程师 AI Agent，能自主阅读论文、训练模型、部署 ML 模型。"
+      },
+      "details": {
+        "en": "HuggingFace 推出的开源 ML 工程师 AI Agent，能自主阅读论文、训练模型、部署 ML 模型。 GitHub: github.com/huggingface/ml-intern",
+        "zh": "HuggingFace 推出的开源 ML 工程师 AI Agent，能自主阅读论文、训练模型、部署 ML 模型。 GitHub: github.com/huggingface/ml-intern"
+      },
+      "examples": [
+        "github.com/huggingface/ml-intern"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pi-mono",
+      "category": "agents",
+      "tags": [
+        "llm",
+        "agent",
+        "tool",
+        "coding",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "pi-mono - badlogic",
+        "zh": "pi-mono - AI Agent 工具包，包含编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot 和 vLLM 部署工具"
+      },
+      "description": {
+        "en": "AI Agent 工具包，包含编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot 和 vLLM 部署工具。",
+        "zh": "AI Agent 工具包，包含编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot 和 vLLM 部署工具。"
+      },
+      "details": {
+        "en": "AI Agent 工具包，包含编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot 和 vLLM 部署工具。 GitHub: github.com/badlogic/pi-mono",
+        "zh": "AI Agent 工具包，包含编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot 和 vLLM 部署工具。 GitHub: github.com/badlogic/pi-mono"
+      },
+      "examples": [
+        "github.com/badlogic/pi-mono"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-orchestrator",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-orchestrator - ComposioHQ",
+        "zh": "agent-orchestrator - 多 Agent 编排框架，支持 Agent 间协作和任务调度"
+      },
+      "description": {
+        "en": "多 Agent 编排框架，支持 Agent 间协作和任务调度。",
+        "zh": "多 Agent 编排框架，支持 Agent 间协作和任务调度。"
+      },
+      "details": {
+        "en": "多 Agent 编排框架，支持 Agent 间协作和任务调度。 GitHub: github.com/ComposioHQ/agent-orchestrator",
+        "zh": "多 Agent 编排框架，支持 Agent 间协作和任务调度。 GitHub: github.com/ComposioHQ/agent-orchestrator"
+      },
+      "examples": [
+        "github.com/ComposioHQ/agent-orchestrator"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "hermes-agent",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "hermes-agent - NousResearch",
+        "zh": "hermes-agent - 开源 AI Agent 框架，核心特点是内置学习循环，从经验中创建技能、使用中持续改进、跨会话保持记忆"
+      },
+      "description": {
+        "en": "开源 AI Agent 框架，核心特点是内置学习循环，从经验中创建技能、使用中持续改进、跨会话保持记忆。",
+        "zh": "开源 AI Agent 框架，核心特点是内置学习循环，从经验中创建技能、使用中持续改进、跨会话保持记忆。"
+      },
+      "details": {
+        "en": "开源 AI Agent 框架，核心特点是内置学习循环，从经验中创建技能、使用中持续改进、跨会话保持记忆。 GitHub: github.com/NousResearch/hermes-agent",
+        "zh": "开源 AI Agent 框架，核心特点是内置学习循环，从经验中创建技能、使用中持续改进、跨会话保持记忆。 GitHub: github.com/NousResearch/hermes-agent"
+      },
+      "examples": [
+        "github.com/NousResearch/hermes-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-hedge-fund",
+      "category": "ai-finance",
+      "tags": [
+        "multi-agent",
+        "finance",
+        "agent"
+      ],
+      "title": {
+        "en": "ai-hedge-fund - virattt",
+        "zh": "ai-hedge-fund - AI 对冲基金团队模拟，展示如何用多个 AI Agent 协作进行投资决策"
+      },
+      "description": {
+        "en": "AI 对冲基金团队模拟，展示如何用多个 AI Agent 协作进行投资决策。",
+        "zh": "AI 对冲基金团队模拟，展示如何用多个 AI Agent 协作进行投资决策。"
+      },
+      "details": {
+        "en": "AI 对冲基金团队模拟，展示如何用多个 AI Agent 协作进行投资决策。 GitHub: github.com/virattt/ai-hedge-fund",
+        "zh": "AI 对冲基金团队模拟，展示如何用多个 AI Agent 协作进行投资决策。 GitHub: github.com/virattt/ai-hedge-fund"
+      },
+      "examples": [
+        "github.com/virattt/ai-hedge-fund"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "omi",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "omi - BasedHardware",
+        "zh": "omi - 开源 AI 可穿戴设备项目"
+      },
+      "description": {
+        "en": "开源 AI 可穿戴设备项目。",
+        "zh": "开源 AI 可穿戴设备项目。"
+      },
+      "details": {
+        "en": "开源 AI 可穿戴设备项目。 GitHub: github.com/BasedHardware/omi",
+        "zh": "开源 AI 可穿戴设备项目。 GitHub: github.com/BasedHardware/omi"
+      },
+      "examples": [
+        "github.com/BasedHardware/omi"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "finceptterminal",
+      "category": "ai-finance",
+      "tags": [
+        "tool",
+        "finance"
+      ],
+      "title": {
+        "en": "FinceptTerminal - Fincept-Corporation",
+        "zh": "FinceptTerminal - 现代化的金融分析终端应用，提供高级市场分析、投资研究和经济数据工具"
+      },
+      "description": {
+        "en": "现代化的金融分析终端应用，提供高级市场分析、投资研究和经济数据工具。",
+        "zh": "现代化的金融分析终端应用，提供高级市场分析、投资研究和经济数据工具。"
+      },
+      "details": {
+        "en": "现代化的金融分析终端应用，提供高级市场分析、投资研究和经济数据工具。 GitHub: github.com/Fincept-Corporation/FinceptTerminal",
+        "zh": "现代化的金融分析终端应用，提供高级市场分析、投资研究和经济数据工具。 GitHub: github.com/Fincept-Corporation/FinceptTerminal"
+      },
+      "examples": [
+        "github.com/Fincept-Corporation/FinceptTerminal"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-code-game-studios",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "Claude-Code-Game-Studios - Donchitos",
+        "zh": "Claude-Code-Game-Studios - 将 Claude Code 转化为完整的游戏开发工作室，包含 49 个 AI Agent、72 个工作流技能"
+      },
+      "description": {
+        "en": "将 Claude Code 转化为完整的游戏开发工作室，包含 49 个 AI Agent、72 个工作流技能。",
+        "zh": "将 Claude Code 转化为完整的游戏开发工作室，包含 49 个 AI Agent、72 个工作流技能。"
+      },
+      "details": {
+        "en": "将 Claude Code 转化为完整的游戏开发工作室，包含 49 个 AI Agent、72 个工作流技能。 GitHub: github.com/Donchitos/Claude-Code-Game-Studios",
+        "zh": "将 Claude Code 转化为完整的游戏开发工作室，包含 49 个 AI Agent、72 个工作流技能。 GitHub: github.com/Donchitos/Claude-Code-Game-Studios"
+      },
+      "examples": [
+        "github.com/Donchitos/Claude-Code-Game-Studios"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "thunderbolt",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "thunderbolt - thunderbird",
+        "zh": "thunderbolt - 强调用户自主控制的 AI 平台，自选模型、数据自主、消除供应商锁定"
+      },
+      "description": {
+        "en": "强调用户自主控制的 AI 平台，自选模型、数据自主、消除供应商锁定。",
+        "zh": "强调用户自主控制的 AI 平台，自选模型、数据自主、消除供应商锁定。"
+      },
+      "details": {
+        "en": "强调用户自主控制的 AI 平台，自选模型、数据自主、消除供应商锁定。 GitHub: github.com/thunderbird/thunderbolt",
+        "zh": "强调用户自主控制的 AI 平台，自选模型、数据自主、消除供应商锁定。 GitHub: github.com/thunderbird/thunderbolt"
+      },
+      "examples": [
+        "github.com/thunderbird/thunderbolt"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "free-claude-code",
+      "category": "ai-tools",
+      "tags": [
+        "tool",
+        "coding"
+      ],
+      "title": {
+        "en": "free-claude-code - Alishahryar1",
+        "zh": "free-claude-code - 免费使用 Claude Code 的工具，支持终端、VSCode 扩展和 Discord 等多种方式"
+      },
+      "description": {
+        "en": "免费使用 Claude Code 的工具，支持终端、VSCode 扩展和 Discord 等多种方式。",
+        "zh": "免费使用 Claude Code 的工具，支持终端、VSCode 扩展和 Discord 等多种方式。"
+      },
+      "details": {
+        "en": "免费使用 Claude Code 的工具，支持终端、VSCode 扩展和 Discord 等多种方式。 GitHub: github.com/Alishahryar1/free-claude-code",
+        "zh": "免费使用 Claude Code 的工具，支持终端、VSCode 扩展和 Discord 等多种方式。 GitHub: github.com/Alishahryar1/free-claude-code"
+      },
+      "examples": [
+        "github.com/Alishahryar1/free-claude-code"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "kronos",
+      "category": "ai-finance",
+      "tags": [
+        "open-source",
+        "finance"
+      ],
+      "title": {
+        "en": "Kronos - shiyu-coder",
+        "zh": "Kronos - 首个面向金融市场 K 线数据的开源基础模型，基于 45+ 全球交易所数据预训练"
+      },
+      "description": {
+        "en": "首个面向金融市场 K 线数据的开源基础模型，基于 45+ 全球交易所数据预训练。",
+        "zh": "首个面向金融市场 K 线数据的开源基础模型，基于 45+ 全球交易所数据预训练。"
+      },
+      "details": {
+        "en": "首个面向金融市场 K 线数据的开源基础模型，基于 45+ 全球交易所数据预训练。 GitHub: github.com/shiyu-coder/Kronos",
+        "zh": "首个面向金融市场 K 线数据的开源基础模型，基于 45+ 全球交易所数据预训练。 GitHub: github.com/shiyu-coder/Kronos"
+      },
+      "examples": [
+        "github.com/shiyu-coder/Kronos"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-codex-skills",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "awesome-codex-skills - ComposioHQ",
+        "zh": "awesome-codex-skills - 自动化工作流的 Codex 技能合集，覆盖 CLI 和 API 两种使用方式"
+      },
+      "description": {
+        "en": "自动化工作流的 Codex 技能合集，覆盖 CLI 和 API 两种使用方式。",
+        "zh": "自动化工作流的 Codex 技能合集，覆盖 CLI 和 API 两种使用方式。"
+      },
+      "details": {
+        "en": "自动化工作流的 Codex 技能合集，覆盖 CLI 和 API 两种使用方式。 GitHub: github.com/ComposioHQ/awesome-codex-skills",
+        "zh": "自动化工作流的 Codex 技能合集，覆盖 CLI 和 API 两种使用方式。 GitHub: github.com/ComposioHQ/awesome-codex-skills"
+      },
+      "examples": [
+        "github.com/ComposioHQ/awesome-codex-skills"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "jcode",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "jcode - 1jehuang",
+        "zh": "jcode - 专注于多会话工作流、无限定制性和性能的 Coding Agent Harness"
+      },
+      "description": {
+        "en": "专注于多会话工作流、无限定制性和性能的 Coding Agent Harness。Rust 编写。",
+        "zh": "专注于多会话工作流、无限定制性和性能的 Coding Agent Harness。Rust 编写。"
+      },
+      "details": {
+        "en": "专注于多会话工作流、无限定制性和性能的 Coding Agent Harness。Rust 编写。 GitHub: github.com/1jehuang/jcode",
+        "zh": "专注于多会话工作流、无限定制性和性能的 Coding Agent Harness。Rust 编写。 GitHub: github.com/1jehuang/jcode"
+      },
+      "examples": [
+        "github.com/1jehuang/jcode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "craft-agents-oss",
+      "category": "agents",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "craft-agents-oss - lukilabs",
+        "zh": "craft-agents-oss - 以文档为中心的 Agent 工具，结合 Claude Agent SDK 和 Pi SDK，提供直观的多任务处理能力"
+      },
+      "description": {
+        "en": "以文档为中心的 Agent 工具，结合 Claude Agent SDK 和 Pi SDK，提供直观的多任务处理能力。",
+        "zh": "以文档为中心的 Agent 工具，结合 Claude Agent SDK 和 Pi SDK，提供直观的多任务处理能力。"
+      },
+      "details": {
+        "en": "以文档为中心的 Agent 工具，结合 Claude Agent SDK 和 Pi SDK，提供直观的多任务处理能力。 GitHub: github.com/lukilabs/craft-agents-oss",
+        "zh": "以文档为中心的 Agent 工具，结合 Claude Agent SDK 和 Pi SDK，提供直观的多任务处理能力。 GitHub: github.com/lukilabs/craft-agents-oss"
+      },
+      "examples": [
+        "github.com/lukilabs/craft-agents-oss"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vibevoice",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "VibeVoice - microsoft",
+        "zh": "VibeVoice - 统一语音转文本模型，单次处理 60 分钟长音频，自动生成结构化转录，支持 50+ 语言"
+      },
+      "description": {
+        "en": "统一语音转文本模型，单次处理 60 分钟长音频，自动生成结构化转录，支持 50+ 语言。",
+        "zh": "统一语音转文本模型，单次处理 60 分钟长音频，自动生成结构化转录，支持 50+ 语言。"
+      },
+      "details": {
+        "en": "统一语音转文本模型，单次处理 60 分钟长音频，自动生成结构化转录，支持 50+ 语言。 GitHub: github.com/microsoft/VibeVoice",
+        "zh": "统一语音转文本模型，单次处理 60 分钟长音频，自动生成结构化转录，支持 50+ 语言。 GitHub: github.com/microsoft/VibeVoice"
+      },
+      "examples": [
+        "github.com/microsoft/VibeVoice"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "open-webui",
+      "category": "ai-tools",
+      "tags": [
+        "open-source",
+        "llm"
+      ],
+      "title": {
+        "en": "open-webui - open-webui",
+        "zh": "open-webui - 开源 Web UI for LLMs，支持 Ollama、OpenAI 兼容 API 等"
+      },
+      "description": {
+        "en": "开源 Web UI for LLMs，支持 Ollama、OpenAI 兼容 API 等。",
+        "zh": "开源 Web UI for LLMs，支持 Ollama、OpenAI 兼容 API 等。"
+      },
+      "details": {
+        "en": "开源 Web UI for LLMs，支持 Ollama、OpenAI 兼容 API 等。 GitHub: github.com/open-webui/open-webui",
+        "zh": "开源 Web UI for LLMs，支持 Ollama、OpenAI 兼容 API 等。 GitHub: github.com/open-webui/open-webui"
+      },
+      "examples": [
+        "github.com/open-webui/open-webui"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "markitdown",
+      "category": "document-processing",
+      "tags": [
+        "open-source",
+        "tool"
+      ],
+      "title": {
+        "en": "markitdown - Microsoft",
+        "zh": "markitdown - 微软开源的文件转 Markdown 工具，支持多种格式"
+      },
+      "description": {
+        "en": "微软开源的文件转 Markdown 工具，支持多种格式。",
+        "zh": "微软开源的文件转 Markdown 工具，支持多种格式。"
+      },
+      "details": {
+        "en": "微软开源的文件转 Markdown 工具，支持多种格式。 GitHub: github.com/Microsoft/markitdown",
+        "zh": "微软开源的文件转 Markdown 工具，支持多种格式。 GitHub: github.com/Microsoft/markitdown"
+      },
+      "examples": [
+        "github.com/Microsoft/markitdown"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deer-flow",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "deer-flow - bytedance",
+        "zh": "deer-flow - 字节跳动开源的多 Agent 工作流框架"
+      },
+      "description": {
+        "en": "字节跳动开源的多 Agent 工作流框架。",
+        "zh": "字节跳动开源的多 Agent 工作流框架。"
+      },
+      "details": {
+        "en": "字节跳动开源的多 Agent 工作流框架。 GitHub: github.com/bytedance/deer-flow",
+        "zh": "字节跳动开源的多 Agent 工作流框架。 GitHub: github.com/bytedance/deer-flow"
+      },
+      "examples": [
+        "github.com/bytedance/deer-flow"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "owl",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "owl - camel-ai",
+        "zh": "owl - OWL: Optimized Workforce Learning，多 Agent 协作框架"
+      },
+      "description": {
+        "en": "OWL: Optimized Workforce Learning，多 Agent 协作框架。",
+        "zh": "OWL: Optimized Workforce Learning，多 Agent 协作框架。"
+      },
+      "details": {
+        "en": "OWL: Optimized Workforce Learning，多 Agent 协作框架。 GitHub: github.com/camel-ai/owl",
+        "zh": "OWL: Optimized Workforce Learning，多 Agent 协作框架。 GitHub: github.com/camel-ai/owl"
+      },
+      "examples": [
+        "github.com/camel-ai/owl"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "open-multi-agent",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "open-multi-agent - JackChen-me",
+        "zh": "open-multi-agent - 开源多智能体框架"
+      },
+      "description": {
+        "en": "开源多智能体框架。",
+        "zh": "开源多智能体框架。"
+      },
+      "details": {
+        "en": "开源多智能体框架。 GitHub: github.com/JackChen-me/open-multi-agent",
+        "zh": "开源多智能体框架。 GitHub: github.com/JackChen-me/open-multi-agent"
+      },
+      "examples": [
+        "github.com/JackChen-me/open-multi-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cogent",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Cogent - eSentire",
+        "zh": "Cogent - 网络安全领域的 AI Agent"
+      },
+      "description": {
+        "en": "网络安全领域的 AI Agent。",
+        "zh": "网络安全领域的 AI Agent。"
+      },
+      "details": {
+        "en": "网络安全领域的 AI Agent。 GitHub: github.com/eSentire/Cogent",
+        "zh": "网络安全领域的 AI Agent。 GitHub: github.com/eSentire/Cogent"
+      },
+      "examples": [
+        "github.com/eSentire/Cogent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "langextract",
+      "category": "ai-tools",
+      "tags": [
+        "open-source",
+        "tool"
+      ],
+      "title": {
+        "en": "langextract - google",
+        "zh": "langextract - Google 开源的语言提取工具"
+      },
+      "description": {
+        "en": "Google 开源的语言提取工具。",
+        "zh": "Google 开源的语言提取工具。"
+      },
+      "details": {
+        "en": "Google 开源的语言提取工具。 GitHub: github.com/google/langextract",
+        "zh": "Google 开源的语言提取工具。 GitHub: github.com/google/langextract"
+      },
+      "examples": [
+        "github.com/google/langextract"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "public-apis",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "public-apis - public-apis",
+        "zh": "public-apis - 公开 API 集合，开发者的必备参考"
+      },
+      "description": {
+        "en": "公开 API 集合，开发者的必备参考。",
+        "zh": "公开 API 集合，开发者的必备参考。"
+      },
+      "details": {
+        "en": "公开 API 集合，开发者的必备参考。 GitHub: github.com/public-apis/public-apis",
+        "zh": "公开 API 集合，开发者的必备参考。 GitHub: github.com/public-apis/public-apis"
+      },
+      "examples": [
+        "github.com/public-apis/public-apis"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "posthog",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "posthog - PostHog",
+        "zh": "posthog - 开源产品分析平台，支持事件追踪、用户行为分析、功能开关等"
+      },
+      "description": {
+        "en": "开源产品分析平台，支持事件追踪、用户行为分析、功能开关等。",
+        "zh": "开源产品分析平台，支持事件追踪、用户行为分析、功能开关等。"
+      },
+      "details": {
+        "en": "开源产品分析平台，支持事件追踪、用户行为分析、功能开关等。 GitHub: github.com/PostHog/posthog",
+        "zh": "开源产品分析平台，支持事件追踪、用户行为分析、功能开关等。 GitHub: github.com/PostHog/posthog"
+      },
+      "examples": [
+        "github.com/PostHog/posthog"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "opensre",
+      "category": "devops",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "opensre - Tracer-Cloud",
+        "zh": "opensre - 开源 SRE 平台"
+      },
+      "description": {
+        "en": "开源 SRE 平台。",
+        "zh": "开源 SRE 平台。"
+      },
+      "details": {
+        "en": "开源 SRE 平台。 GitHub: github.com/Tracer-Cloud/opensre",
+        "zh": "开源 SRE 平台。 GitHub: github.com/Tracer-Cloud/opensre"
+      },
+      "examples": [
+        "github.com/Tracer-Cloud/opensre"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "evolver",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "evolver - EvoMap",
+        "zh": "evolver - AI Agent 进化框架"
+      },
+      "description": {
+        "en": "AI Agent 进化框架。",
+        "zh": "AI Agent 进化框架。"
+      },
+      "details": {
+        "en": "AI Agent 进化框架。 GitHub: github.com/EvoMap/evolver",
+        "zh": "AI Agent 进化框架。 GitHub: github.com/EvoMap/evolver"
+      },
+      "examples": [
+        "github.com/EvoMap/evolver"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-context",
+      "category": "integrations",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "claude-context - zilliztech",
+        "zh": "claude-context - 为 Claude Code 提供上下文管理的工具"
+      },
+      "description": {
+        "en": "为 Claude Code 提供上下文管理的工具。",
+        "zh": "为 Claude Code 提供上下文管理的工具。"
+      },
+      "details": {
+        "en": "为 Claude Code 提供上下文管理的工具。 GitHub: github.com/zilliztech/claude-context",
+        "zh": "为 Claude Code 提供上下文管理的工具。 GitHub: github.com/zilliztech/claude-context"
+      },
+      "examples": [
+        "github.com/zilliztech/claude-context"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "worldmonitor",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "worldmonitor - koala73",
+        "zh": "worldmonitor - 世界监控工具，AI 驱动的信息聚合"
+      },
+      "description": {
+        "en": "世界监控工具，AI 驱动的信息聚合。",
+        "zh": "世界监控工具，AI 驱动的信息聚合。"
+      },
+      "details": {
+        "en": "世界监控工具，AI 驱动的信息聚合。 GitHub: github.com/koala73/worldmonitor",
+        "zh": "世界监控工具，AI 驱动的信息聚合。 GitHub: github.com/koala73/worldmonitor"
+      },
+      "examples": [
+        "github.com/koala73/worldmonitor"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deeptutor",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "DeepTutor - HKUDS",
+        "zh": "DeepTutor - 深度学习辅导工具"
+      },
+      "description": {
+        "en": "深度学习辅导工具。",
+        "zh": "深度学习辅导工具。"
+      },
+      "details": {
+        "en": "深度学习辅导工具。 GitHub: github.com/HKUDS/DeepTutor",
+        "zh": "深度学习辅导工具。 GitHub: github.com/HKUDS/DeepTutor"
+      },
+      "examples": [
+        "github.com/HKUDS/DeepTutor"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "aionui",
+      "category": "design-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "AionUi - iOfficeAI",
+        "zh": "AionUi - AI 驱动的 UI 组件库"
+      },
+      "description": {
+        "en": "AI 驱动的 UI 组件库。",
+        "zh": "AI 驱动的 UI 组件库。"
+      },
+      "details": {
+        "en": "AI 驱动的 UI 组件库。 GitHub: github.com/iOfficeAI/AionUi",
+        "zh": "AI 驱动的 UI 组件库。 GitHub: github.com/iOfficeAI/AionUi"
+      },
+      "examples": [
+        "github.com/iOfficeAI/AionUi"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "dive-into-llms",
+      "category": "tutorial",
+      "tags": [
+        "llm",
+        "coding",
+        "tutorial"
+      ],
+      "title": {
+        "en": "dive-into-llms - Lordog",
+        "zh": "dive-into-llms - 《动手学大模型》系列编程实践教程，涵盖 LLM 从原理到实践的完整学习路径"
+      },
+      "description": {
+        "en": "《动手学大模型》系列编程实践教程，涵盖 LLM 从原理到实践的完整学习路径。",
+        "zh": "《动手学大模型》系列编程实践教程，涵盖 LLM 从原理到实践的完整学习路径。"
+      },
+      "details": {
+        "en": "《动手学大模型》系列编程实践教程，涵盖 LLM 从原理到实践的完整学习路径。 GitHub: github.com/Lordog/dive-into-llms",
+        "zh": "《动手学大模型》系列编程实践教程，涵盖 LLM 从原理到实践的完整学习路径。 GitHub: github.com/Lordog/dive-into-llms"
+      },
+      "examples": [
+        "github.com/Lordog/dive-into-llms"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "stitch-skills",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "stitch-skills - google-labs-code",
+        "zh": "stitch-skills - Google 推出的 Agent Skills 库，兼容 Gemini CLI、Claude Code、Cursor 等主流 coding agent"
+      },
+      "description": {
+        "en": "Google 推出的 Agent Skills 库，兼容 Gemini CLI、Claude Code、Cursor 等主流 coding agent。",
+        "zh": "Google 推出的 Agent Skills 库，兼容 Gemini CLI、Claude Code、Cursor 等主流 coding agent。"
+      },
+      "details": {
+        "en": "Google 推出的 Agent Skills 库，兼容 Gemini CLI、Claude Code、Cursor 等主流 coding agent。 GitHub: github.com/google-labs-code/stitch-skills",
+        "zh": "Google 推出的 Agent Skills 库，兼容 Gemini CLI、Claude Code、Cursor 等主流 coding agent。 GitHub: github.com/google-labs-code/stitch-skills"
+      },
+      "examples": [
+        "github.com/google-labs-code/stitch-skills"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "oh-my-openagent",
+      "category": "agents",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "oh-my-openagent - code-yeongyu",
+        "zh": "oh-my-openagent - Agent harness 工具（前身为 oh-my-opencode），活跃度持续上升"
+      },
+      "description": {
+        "en": "Agent harness 工具（前身为 oh-my-opencode），活跃度持续上升。",
+        "zh": "Agent harness 工具（前身为 oh-my-opencode），活跃度持续上升。"
+      },
+      "details": {
+        "en": "Agent harness 工具（前身为 oh-my-opencode），活跃度持续上升。 GitHub: github.com/code-yeongyu/oh-my-openagent",
+        "zh": "Agent harness 工具（前身为 oh-my-opencode），活跃度持续上升。 GitHub: github.com/code-yeongyu/oh-my-openagent"
+      },
+      "examples": [
+        "github.com/code-yeongyu/oh-my-openagent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "unsloth",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "unsloth - unslothai",
+        "zh": "unsloth - 本地训练/运行开源模型（Gemma 4、Qwen3.5、DeepSeek 等），新增 Web UI，降低本地训练门槛"
+      },
+      "description": {
+        "en": "本地训练/运行开源模型（Gemma 4、Qwen3.5、DeepSeek 等），新增 Web UI，降低本地训练门槛。",
+        "zh": "本地训练/运行开源模型（Gemma 4、Qwen3.5、DeepSeek 等），新增 Web UI，降低本地训练门槛。"
+      },
+      "details": {
+        "en": "本地训练/运行开源模型（Gemma 4、Qwen3.5、DeepSeek 等），新增 Web UI，降低本地训练门槛。 GitHub: github.com/unslothai/unsloth",
+        "zh": "本地训练/运行开源模型（Gemma 4、Qwen3.5、DeepSeek 等），新增 Web UI，降低本地训练门槛。 GitHub: github.com/unslothai/unsloth"
+      },
+      "examples": [
+        "github.com/unslothai/unsloth"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-llm-apps",
+      "category": "agents",
+      "tags": [
+        "rag",
+        "multi-agent",
+        "llm",
+        "agent"
+      ],
+      "title": {
+        "en": "awesome-llm-apps - Shubhamsaboo",
+        "zh": "awesome-llm-apps - 100+ 可运行的 AI Agent & RAG 应用集合，LLM 应用开发的最佳参考"
+      },
+      "description": {
+        "en": "100+ 可运行的 AI Agent & RAG 应用集合，LLM 应用开发的最佳参考。",
+        "zh": "100+ 可运行的 AI Agent & RAG 应用集合，LLM 应用开发的最佳参考。"
+      },
+      "details": {
+        "en": "100+ 可运行的 AI Agent & RAG 应用集合，LLM 应用开发的最佳参考。 GitHub: github.com/Shubhamsaboo/awesome-llm-apps",
+        "zh": "100+ 可运行的 AI Agent & RAG 应用集合，LLM 应用开发的最佳参考。 GitHub: github.com/Shubhamsaboo/awesome-llm-apps"
+      },
+      "examples": [
+        "github.com/Shubhamsaboo/awesome-llm-apps"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "taxhacker",
+      "category": "ai-finance",
+      "tags": [
+        "llm",
+        "finance"
+      ],
+      "title": {
+        "en": "TaxHacker - vas3k",
+        "zh": "TaxHacker - 自托管 AI 会计应用，LLM 分析收据/发票/交易"
+      },
+      "description": {
+        "en": "自托管 AI 会计应用，LLM 分析收据/发票/交易。",
+        "zh": "自托管 AI 会计应用，LLM 分析收据/发票/交易。"
+      },
+      "details": {
+        "en": "自托管 AI 会计应用，LLM 分析收据/发票/交易。 GitHub: github.com/vas3k/TaxHacker",
+        "zh": "自托管 AI 会计应用，LLM 分析收据/发票/交易。 GitHub: github.com/vas3k/TaxHacker"
+      },
+      "examples": [
+        "github.com/vas3k/TaxHacker"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "daily_stock_analysis",
+      "category": "ai-finance",
+      "tags": [
+        "llm",
+        "finance"
+      ],
+      "title": {
+        "en": "daily_stock_analysis - ZhuLinsen",
+        "zh": "daily_stock_analysis - LLM 驱动的 A/H/美股智能分析器，零成本定时运行"
+      },
+      "description": {
+        "en": "LLM 驱动的 A/H/美股智能分析器，零成本定时运行。",
+        "zh": "LLM 驱动的 A/H/美股智能分析器，零成本定时运行。"
+      },
+      "details": {
+        "en": "LLM 驱动的 A/H/美股智能分析器，零成本定时运行。 GitHub: github.com/ZhuLinsen/daily_stock_analysis",
+        "zh": "LLM 驱动的 A/H/美股智能分析器，零成本定时运行。 GitHub: github.com/ZhuLinsen/daily_stock_analysis"
+      },
+      "examples": [
+        "github.com/ZhuLinsen/daily_stock_analysis"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "playwright-mcp",
+      "category": "integrations",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "playwright-mcp - microsoft",
+        "zh": "playwright-mcp - 微软 Playwright 的 MCP 服务器，让 AI Agent 能控制浏览器"
+      },
+      "description": {
+        "en": "微软 Playwright 的 MCP 服务器，让 AI Agent 能控制浏览器。",
+        "zh": "微软 Playwright 的 MCP 服务器，让 AI Agent 能控制浏览器。"
+      },
+      "details": {
+        "en": "微软 Playwright 的 MCP 服务器，让 AI Agent 能控制浏览器。 GitHub: github.com/microsoft/playwright-mcp",
+        "zh": "微软 Playwright 的 MCP 服务器，让 AI Agent 能控制浏览器。 GitHub: github.com/microsoft/playwright-mcp"
+      },
+      "examples": [
+        "github.com/microsoft/playwright-mcp"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "rf-detr",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "rf-detr - roboflow",
+        "zh": "rf-detr - Roboflow 的实时目标检测模型"
+      },
+      "description": {
+        "en": "Roboflow 的实时目标检测模型。",
+        "zh": "Roboflow 的实时目标检测模型。"
+      },
+      "details": {
+        "en": "Roboflow 的实时目标检测模型。 GitHub: github.com/roboflow/rf-detr",
+        "zh": "Roboflow 的实时目标检测模型。 GitHub: github.com/roboflow/rf-detr"
+      },
+      "examples": [
+        "github.com/roboflow/rf-detr"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-novel-writing-assistant",
+      "category": "ai-tools",
+      "tags": [
+        "open-source",
+        "rag",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "AI-Novel-Writing-Assistant - ExplosiveCoderflome",
+        "zh": "AI-Novel-Writing-Assistant - 面向长篇小说的 AI Native 开源系统，集成 Agent、世界观引擎、写作引擎、RAG"
+      },
+      "description": {
+        "en": "面向长篇小说的 AI Native 开源系统，集成 Agent、世界观引擎、写作引擎、RAG。",
+        "zh": "面向长篇小说的 AI Native 开源系统，集成 Agent、世界观引擎、写作引擎、RAG。"
+      },
+      "details": {
+        "en": "面向长篇小说的 AI Native 开源系统，集成 Agent、世界观引擎、写作引擎、RAG。 GitHub: github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant",
+        "zh": "面向长篇小说的 AI Native 开源系统，集成 Agent、世界观引擎、写作引擎、RAG。 GitHub: github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant"
+      },
+      "examples": [
+        "github.com/ExplosiveCoderflome/AI-Novel-Writing-Assistant"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "portless",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "portless - vercel-labs",
+        "zh": "portless - 用稳定的命名 URL 替代 localhost 端口号，面向人类和 Agent 的开发工具"
+      },
+      "description": {
+        "en": "用稳定的命名 URL 替代 localhost 端口号，面向人类和 Agent 的开发工具。",
+        "zh": "用稳定的命名 URL 替代 localhost 端口号，面向人类和 Agent 的开发工具。"
+      },
+      "details": {
+        "en": "用稳定的命名 URL 替代 localhost 端口号，面向人类和 Agent 的开发工具。 GitHub: github.com/vercel-labs/portless",
+        "zh": "用稳定的命名 URL 替代 localhost 端口号，面向人类和 Agent 的开发工具。 GitHub: github.com/vercel-labs/portless"
+      },
+      "examples": [
+        "github.com/vercel-labs/portless"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pixelle-video",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "Pixelle-Video - AIDC-AI",
+        "zh": "Pixelle-Video - AI 视频生成项目"
+      },
+      "description": {
+        "en": "AI 视频生成项目。",
+        "zh": "AI 视频生成项目。"
+      },
+      "details": {
+        "en": "AI 视频生成项目。 GitHub: github.com/AIDC-AI/Pixelle-Video",
+        "zh": "AI 视频生成项目。 GitHub: github.com/AIDC-AI/Pixelle-Video"
+      },
+      "examples": [
+        "github.com/AIDC-AI/Pixelle-Video"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "angelslim",
+      "category": "ai-tools",
+      "tags": [
+        "framework"
+      ],
+      "title": {
+        "en": "AngelSlim - Tencent",
+        "zh": "AngelSlim - 腾讯的 AI 模型压缩/加速框架"
+      },
+      "description": {
+        "en": "腾讯的 AI 模型压缩/加速框架。",
+        "zh": "腾讯的 AI 模型压缩/加速框架。"
+      },
+      "details": {
+        "en": "腾讯的 AI 模型压缩/加速框架。 GitHub: github.com/Tencent/AngelSlim",
+        "zh": "腾讯的 AI 模型压缩/加速框架。 GitHub: github.com/Tencent/AngelSlim"
+      },
+      "examples": [
+        "github.com/Tencent/AngelSlim"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "nexent",
+      "category": "ai-tools",
+      "tags": [
+        "framework"
+      ],
+      "title": {
+        "en": "nexent - ModelEngine-Group",
+        "zh": "nexent - 模型引擎框架"
+      },
+      "description": {
+        "en": "模型引擎框架。",
+        "zh": "模型引擎框架。"
+      },
+      "details": {
+        "en": "模型引擎框架。 GitHub: github.com/ModelEngine-Group/nexent",
+        "zh": "模型引擎框架。 GitHub: github.com/ModelEngine-Group/nexent"
+      },
+      "examples": [
+        "github.com/ModelEngine-Group/nexent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "bindu",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Bindu - GetBindu",
+        "zh": "Bindu - AI Agent 项目"
+      },
+      "description": {
+        "en": "AI Agent 项目。",
+        "zh": "AI Agent 项目。"
+      },
+      "details": {
+        "en": "AI Agent 项目。 GitHub: github.com/GetBindu/Bindu",
+        "zh": "AI Agent 项目。 GitHub: github.com/GetBindu/Bindu"
+      },
+      "examples": [
+        "github.com/GetBindu/Bindu"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "maigret",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "maigret - soxoj",
+        "zh": "maigret - OSINT 工具，通过用户名在大量网站中收集信息"
+      },
+      "description": {
+        "en": "OSINT 工具，通过用户名在大量网站中收集信息。",
+        "zh": "OSINT 工具，通过用户名在大量网站中收集信息。"
+      },
+      "details": {
+        "en": "OSINT 工具，通过用户名在大量网站中收集信息。 GitHub: github.com/soxoj/maigret",
+        "zh": "OSINT 工具，通过用户名在大量网站中收集信息。 GitHub: github.com/soxoj/maigret"
+      },
+      "examples": [
+        "github.com/soxoj/maigret"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ghosttrack",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "GhostTrack - HunxByts",
+        "zh": "GhostTrack - OSINT/安全追踪工具"
+      },
+      "description": {
+        "en": "OSINT/安全追踪工具。",
+        "zh": "OSINT/安全追踪工具。"
+      },
+      "details": {
+        "en": "OSINT/安全追踪工具。 GitHub: github.com/HunxByts/GhostTrack",
+        "zh": "OSINT/安全追踪工具。 GitHub: github.com/HunxByts/GhostTrack"
+      },
+      "examples": [
+        "github.com/HunxByts/GhostTrack"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "voicebox",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "voicebox - jamiepine",
+        "zh": "voicebox - 开源语音合成工作室，用于语音生成和编辑"
+      },
+      "description": {
+        "en": "开源语音合成工作室，用于语音生成和编辑。",
+        "zh": "开源语音合成工作室，用于语音生成和编辑。"
+      },
+      "details": {
+        "en": "开源语音合成工作室，用于语音生成和编辑。 GitHub: github.com/jamiepine/voicebox",
+        "zh": "开源语音合成工作室，用于语音生成和编辑。 GitHub: github.com/jamiepine/voicebox"
+      },
+      "examples": [
+        "github.com/jamiepine/voicebox"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "android-reverse-engineering-skill",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "android-reverse-engineering-skill - SimoneAvogadro",
+        "zh": "android-reverse-engineering-skill - Android 逆向工程 AI 技能"
+      },
+      "description": {
+        "en": "Android 逆向工程 AI 技能。",
+        "zh": "Android 逆向工程 AI 技能。"
+      },
+      "details": {
+        "en": "Android 逆向工程 AI 技能。 GitHub: github.com/SimoneAvogadro/android-reverse-engineering-skill",
+        "zh": "Android 逆向工程 AI 技能。 GitHub: github.com/SimoneAvogadro/android-reverse-engineering-skill"
+      },
+      "examples": [
+        "github.com/SimoneAvogadro/android-reverse-engineering-skill"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "andrej-karpathy-skills",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "llm",
+        "agent"
+      ],
+      "title": {
+        "en": "andrej-karpathy-skills - fordrestchang",
+        "zh": "andrej-karpathy-skills - 基于 Karpathy 对 LLM 编码陷阱的观察整理的 Claude Code 技能文件"
+      },
+      "description": {
+        "en": "基于 Karpathy 对 LLM 编码陷阱的观察整理的 Claude Code 技能文件。",
+        "zh": "基于 Karpathy 对 LLM 编码陷阱的观察整理的 Claude Code 技能文件。"
+      },
+      "details": {
+        "en": "基于 Karpathy 对 LLM 编码陷阱的观察整理的 Claude Code 技能文件。 GitHub: github.com/fordrestchang/andrej-karpathy-skills",
+        "zh": "基于 Karpathy 对 LLM 编码陷阱的观察整理的 Claude Code 技能文件。 GitHub: github.com/fordrestchang/andrej-karpathy-skills"
+      },
+      "examples": [
+        "github.com/fordrestchang/andrej-karpathy-skills"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-mem",
+      "category": "integrations",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "claude-mem - thedotmack",
+        "zh": "claude-mem - Claude Code 插件，自动捕获编码会话中的操作并注入到未来会话中，实现跨会话上下文延续"
+      },
+      "description": {
+        "en": "Claude Code 插件，自动捕获编码会话中的操作并注入到未来会话中，实现跨会话上下文延续。",
+        "zh": "Claude Code 插件，自动捕获编码会话中的操作并注入到未来会话中，实现跨会话上下文延续。"
+      },
+      "details": {
+        "en": "Claude Code 插件，自动捕获编码会话中的操作并注入到未来会话中，实现跨会话上下文延续。 GitHub: github.com/thedotmack/claude-mem",
+        "zh": "Claude Code 插件，自动捕获编码会话中的操作并注入到未来会话中，实现跨会话上下文延续。 GitHub: github.com/thedotmack/claude-mem"
+      },
+      "examples": [
+        "github.com/thedotmack/claude-mem"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "opencode",
+      "category": "developer-tools",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "opencode - anomalyco",
+        "zh": "opencode - 开源 AI 编码 Agent"
+      },
+      "description": {
+        "en": "开源 AI 编码 Agent。",
+        "zh": "开源 AI 编码 Agent。"
+      },
+      "details": {
+        "en": "开源 AI 编码 Agent。 GitHub: github.com/anomalyco/opencode",
+        "zh": "开源 AI 编码 Agent。 GitHub: github.com/anomalyco/opencode"
+      },
+      "examples": [
+        "github.com/anomalyco/opencode"
+      ],
+      "version": "2026.1",
       "status": "new"
     }
   ]
