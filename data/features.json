@@ -4158,6 +4158,304 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "ruflo",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "ruflo - ruvnet",
+        "zh": "ruflo - Claude 生态领先的多智能体编排平台，支持 Agent 集群和自主工作流"
+      },
+      "description": {
+        "en": "Claude 生态领先的多智能体编排平台，支持 Agent 集群和自主工作流",
+        "zh": "Claude 生态领先的多智能体编排平台，支持 Agent 集群和自主工作流"
+      },
+      "details": {
+        "en": "Claude 生态领先的多智能体编排平台，支持 Agent 集群和自主工作流 GitHub: github.com/ruvnet/ruflo",
+        "zh": "Claude 生态领先的多智能体编排平台，支持 Agent 集群和自主工作流 GitHub: github.com/ruvnet/ruflo"
+      },
+      "examples": [
+        "github.com/ruvnet/ruflo"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "code-review-graph",
+      "category": "developer-tools",
+      "tags": [
+        "coding"
+      ],
+      "title": {
+        "en": "code-review-graph - tirth8205",
+        "zh": "code-review-graph - 为 Claude Code 构建本地知识图谱，代码审查 token 消耗降低 6.8 倍"
+      },
+      "description": {
+        "en": "为 Claude Code 构建本地知识图谱，代码审查 token 消耗降低 6.8 倍",
+        "zh": "为 Claude Code 构建本地知识图谱，代码审查 token 消耗降低 6.8 倍"
+      },
+      "details": {
+        "en": "为 Claude Code 构建本地知识图谱，代码审查 token 消耗降低 6.8 倍 GitHub: github.com/tirth8205/code-review-graph",
+        "zh": "为 Claude Code 构建本地知识图谱，代码审查 token 消耗降低 6.8 倍 GitHub: github.com/tirth8205/code-review-graph"
+      },
+      "examples": [
+        "github.com/tirth8205/code-review-graph"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ouroboros",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "ouroboros - Q00",
+        "zh": "ouroboros - Agent 操作系统，从提示词工程转向规格说明驱动的 Agent 开发"
+      },
+      "description": {
+        "en": "Agent 操作系统，从提示词工程转向规格说明驱动的 Agent 开发",
+        "zh": "Agent 操作系统，从提示词工程转向规格说明驱动的 Agent 开发"
+      },
+      "details": {
+        "en": "Agent 操作系统，从提示词工程转向规格说明驱动的 Agent 开发 GitHub: github.com/Q00/ouroboros",
+        "zh": "Agent 操作系统，从提示词工程转向规格说明驱动的 Agent 开发 GitHub: github.com/Q00/ouroboros"
+      },
+      "examples": [
+        "github.com/Q00/ouroboros"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "sim",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "sim - simstudioai",
+        "zh": "sim - AI Agent 编排平台，构建、部署和编排 AI Agent 的中央智能层"
+      },
+      "description": {
+        "en": "AI Agent 编排平台，构建、部署和编排 AI Agent 的中央智能层",
+        "zh": "AI Agent 编排平台，构建、部署和编排 AI Agent 的中央智能层"
+      },
+      "details": {
+        "en": "AI Agent 编排平台，构建、部署和编排 AI Agent 的中央智能层 GitHub: github.com/simstudioai/sim",
+        "zh": "AI Agent 编排平台，构建、部署和编排 AI Agent 的中央智能层 GitHub: github.com/simstudioai/sim"
+      },
+      "examples": [
+        "github.com/simstudioai/sim"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "qlib",
+      "category": "ai-finance",
+      "tags": [
+        "finance"
+      ],
+      "title": {
+        "en": "qlib - microsoft",
+        "zh": "qlib - 微软出品的 AI 量化投资平台，支持监督学习、市场动态建模和强化学习"
+      },
+      "description": {
+        "en": "微软出品的 AI 量化投资平台，支持监督学习、市场动态建模和强化学习",
+        "zh": "微软出品的 AI 量化投资平台，支持监督学习、市场动态建模和强化学习"
+      },
+      "details": {
+        "en": "微软出品的 AI 量化投资平台，支持监督学习、市场动态建模和强化学习 GitHub: github.com/microsoft/qlib",
+        "zh": "微软出品的 AI 量化投资平台，支持监督学习、市场动态建模和强化学习 GitHub: github.com/microsoft/qlib"
+      },
+      "examples": [
+        "github.com/microsoft/qlib"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "timesfm",
+      "category": "ai-finance",
+      "tags": [
+        "finance"
+      ],
+      "title": {
+        "en": "timesfm - google-research",
+        "zh": "timesfm - Google Research 的时序预测基础模型，适用于金融预测等场景"
+      },
+      "description": {
+        "en": "Google Research 的时序预测基础模型，适用于金融预测等场景",
+        "zh": "Google Research 的时序预测基础模型，适用于金融预测等场景"
+      },
+      "details": {
+        "en": "Google Research 的时序预测基础模型，适用于金融预测等场景 GitHub: github.com/google-research/timesfm",
+        "zh": "Google Research 的时序预测基础模型，适用于金融预测等场景 GitHub: github.com/google-research/timesfm"
+      },
+      "examples": [
+        "github.com/google-research/timesfm"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-trader",
+      "category": "ai-finance",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "finance"
+      ],
+      "title": {
+        "en": "AI-Trader - HKUDS",
+        "zh": "AI-Trader - 100% 全自动 Agent 原生交易系统"
+      },
+      "description": {
+        "en": "100% 全自动 Agent 原生交易系统",
+        "zh": "100% 全自动 Agent 原生交易系统"
+      },
+      "details": {
+        "en": "100% 全自动 Agent 原生交易系统 GitHub: github.com/HKUDS/AI-Trader",
+        "zh": "100% 全自动 Agent 原生交易系统 GitHub: github.com/HKUDS/AI-Trader"
+      },
+      "examples": [
+        "github.com/HKUDS/AI-Trader"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "personal_ai_infrastructure",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Personal_AI_Infrastructure - danielmiessler",
+        "zh": "Personal_AI_Infrastructure - 增强人类能力的 Agentic AI 基础设施"
+      },
+      "description": {
+        "en": "增强人类能力的 Agentic AI 基础设施",
+        "zh": "增强人类能力的 Agentic AI 基础设施"
+      },
+      "details": {
+        "en": "增强人类能力的 Agentic AI 基础设施 GitHub: github.com/danielmiessler/Personal_AI_Infrastructure",
+        "zh": "增强人类能力的 Agentic AI 基础设施 GitHub: github.com/danielmiessler/Personal_AI_Infrastructure"
+      },
+      "examples": [
+        "github.com/danielmiessler/Personal_AI_Infrastructure"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude_agent_teams_ui",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "llm"
+      ],
+      "title": {
+        "en": "claude_agent_teams_ui - 777genius",
+        "zh": "claude_agent_teams_ui - 多 Agent 团队协作的看板式 UI 管理，支持 75+ LLM 供应商"
+      },
+      "description": {
+        "en": "多 Agent 团队协作的看板式 UI 管理，支持 75+ LLM 供应商",
+        "zh": "多 Agent 团队协作的看板式 UI 管理，支持 75+ LLM 供应商"
+      },
+      "details": {
+        "en": "多 Agent 团队协作的看板式 UI 管理，支持 75+ LLM 供应商 GitHub: github.com/777genius/claude_agent_teams_ui",
+        "zh": "多 Agent 团队协作的看板式 UI 管理，支持 75+ LLM 供应商 GitHub: github.com/777genius/claude_agent_teams_ui"
+      },
+      "examples": [
+        "github.com/777genius/claude_agent_teams_ui"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "squad",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "tool",
+        "agent"
+      ],
+      "title": {
+        "en": "squad - bradygaster",
+        "zh": "squad - 面向任意项目的 AI Agent 团队协作工具"
+      },
+      "description": {
+        "en": "面向任意项目的 AI Agent 团队协作工具",
+        "zh": "面向任意项目的 AI Agent 团队协作工具"
+      },
+      "details": {
+        "en": "面向任意项目的 AI Agent 团队协作工具 GitHub: github.com/bradygaster/squad",
+        "zh": "面向任意项目的 AI Agent 团队协作工具 GitHub: github.com/bradygaster/squad"
+      },
+      "examples": [
+        "github.com/bradygaster/squad"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-agents-projects-tutorials",
+      "category": "tutorial",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "AI-Agents-Projects-Tutorials - Marktechpost",
+        "zh": "AI-Agents-Projects-Tutorials - 多智能体系统、记忆、规划和推理循环的教程合集"
+      },
+      "description": {
+        "en": "多智能体系统、记忆、规划和推理循环的教程合集",
+        "zh": "多智能体系统、记忆、规划和推理循环的教程合集"
+      },
+      "details": {
+        "en": "多智能体系统、记忆、规划和推理循环的教程合集 GitHub: github.com/Marktechpost/AI-Agents-Projects-Tutorials",
+        "zh": "多智能体系统、记忆、规划和推理循环的教程合集 GitHub: github.com/Marktechpost/AI-Agents-Projects-Tutorials"
+      },
+      "examples": [
+        "github.com/Marktechpost/AI-Agents-Projects-Tutorials"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "airllm",
+      "category": "ai-tools",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "airllm - lyogavin",
+        "zh": "airllm - 单张 4GB GPU 推理 70B 大模型，极低显存推理方案"
+      },
+      "description": {
+        "en": "单张 4GB GPU 推理 70B 大模型，极低显存推理方案",
+        "zh": "单张 4GB GPU 推理 70B 大模型，极低显存推理方案"
+      },
+      "details": {
+        "en": "单张 4GB GPU 推理 70B 大模型，极低显存推理方案 GitHub: github.com/lyogavin/airllm",
+        "zh": "单张 4GB GPU 推理 70B 大模型，极低显存推理方案 GitHub: github.com/lyogavin/airllm"
+      },
+      "examples": [
+        "github.com/lyogavin/airllm"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
