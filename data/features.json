@@ -4456,6 +4456,319 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "metagpt",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "MetaGPT - FoundationAgents",
+        "zh": "MetaGPT - 多智能体框架先驱，模拟软件公司角色协作（PM、架构师、工程师）"
+      },
+      "description": {
+        "en": "多智能体框架先驱，模拟软件公司角色协作（PM、架构师、工程师）",
+        "zh": "多智能体框架先驱，模拟软件公司角色协作（PM、架构师、工程师）"
+      },
+      "details": {
+        "en": "多智能体框架先驱，模拟软件公司角色协作（PM、架构师、工程师） GitHub: github.com/FoundationAgents/MetaGPT",
+        "zh": "多智能体框架先驱，模拟软件公司角色协作（PM、架构师、工程师） GitHub: github.com/FoundationAgents/MetaGPT"
+      },
+      "examples": [
+        "github.com/FoundationAgents/MetaGPT"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "autogen",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "coding",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "autogen - microsoft",
+        "zh": "autogen - 微软旗舰多智能体编程框架，支持Agent对话、代码执行和复杂工作流"
+      },
+      "description": {
+        "en": "微软旗舰多智能体编程框架，支持Agent对话、代码执行和复杂工作流",
+        "zh": "微软旗舰多智能体编程框架，支持Agent对话、代码执行和复杂工作流"
+      },
+      "details": {
+        "en": "微软旗舰多智能体编程框架，支持Agent对话、代码执行和复杂工作流 GitHub: github.com/microsoft/autogen",
+        "zh": "微软旗舰多智能体编程框架，支持Agent对话、代码执行和复杂工作流 GitHub: github.com/microsoft/autogen"
+      },
+      "examples": [
+        "github.com/microsoft/autogen"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "learn-claude-code",
+      "category": "tutorial",
+      "tags": [
+        "agent",
+        "coding",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "learn-claude-code - shareAI-lab",
+        "zh": "learn-claude-code - 从零构建类Claude Code Agent的教学项目，帮助理解Agent内部原理"
+      },
+      "description": {
+        "en": "从零构建类Claude Code Agent的教学项目，帮助理解Agent内部原理",
+        "zh": "从零构建类Claude Code Agent的教学项目，帮助理解Agent内部原理"
+      },
+      "details": {
+        "en": "从零构建类Claude Code Agent的教学项目，帮助理解Agent内部原理 GitHub: github.com/shareAI-lab/learn-claude-code",
+        "zh": "从零构建类Claude Code Agent的教学项目，帮助理解Agent内部原理 GitHub: github.com/shareAI-lab/learn-claude-code"
+      },
+      "examples": [
+        "github.com/shareAI-lab/learn-claude-code"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "crewai",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "crewAI - crewAIInc",
+        "zh": "crewAI - 基于角色的自主AI Agent编排框架，支持协作式多智能体工作流"
+      },
+      "description": {
+        "en": "基于角色的自主AI Agent编排框架，支持协作式多智能体工作流",
+        "zh": "基于角色的自主AI Agent编排框架，支持协作式多智能体工作流"
+      },
+      "details": {
+        "en": "基于角色的自主AI Agent编排框架，支持协作式多智能体工作流 GitHub: github.com/crewAIInc/crewAI",
+        "zh": "基于角色的自主AI Agent编排框架，支持协作式多智能体工作流 GitHub: github.com/crewAIInc/crewAI"
+      },
+      "examples": [
+        "github.com/crewAIInc/crewAI"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cherry-studio",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "cherry-studio - CherryHQ",
+        "zh": "cherry-studio - AI生产力工作室，集成智能对话、自主Agent和300+助手"
+      },
+      "description": {
+        "en": "AI生产力工作室，集成智能对话、自主Agent和300+助手",
+        "zh": "AI生产力工作室，集成智能对话、自主Agent和300+助手"
+      },
+      "details": {
+        "en": "AI生产力工作室，集成智能对话、自主Agent和300+助手 GitHub: github.com/CherryHQ/cherry-studio",
+        "zh": "AI生产力工作室，集成智能对话、自主Agent和300+助手 GitHub: github.com/CherryHQ/cherry-studio"
+      },
+      "examples": [
+        "github.com/CherryHQ/cherry-studio"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cowagent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "mcp",
+        "llm",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "CowAgent - zhayujie",
+        "zh": "CowAgent - 基于LLM的超级AI助手，支持多平台消息、技能、MCP和多模型"
+      },
+      "description": {
+        "en": "基于LLM的超级AI助手，支持多平台消息、技能、MCP和多模型",
+        "zh": "基于LLM的超级AI助手，支持多平台消息、技能、MCP和多模型"
+      },
+      "details": {
+        "en": "基于LLM的超级AI助手，支持多平台消息、技能、MCP和多模型 GitHub: github.com/zhayujie/CowAgent",
+        "zh": "基于LLM的超级AI助手，支持多平台消息、技能、MCP和多模型 GitHub: github.com/zhayujie/CowAgent"
+      },
+      "examples": [
+        "github.com/zhayujie/CowAgent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "langgraph",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "langgraph - langchain-ai",
+        "zh": "langgraph - 基于图的工作流构建弹性语言Agent，行业标准级多步骤Agent管道框架"
+      },
+      "description": {
+        "en": "基于图的工作流构建弹性语言Agent，行业标准级多步骤Agent管道框架",
+        "zh": "基于图的工作流构建弹性语言Agent，行业标准级多步骤Agent管道框架"
+      },
+      "details": {
+        "en": "基于图的工作流构建弹性语言Agent，行业标准级多步骤Agent管道框架 GitHub: github.com/langchain-ai/langgraph",
+        "zh": "基于图的工作流构建弹性语言Agent，行业标准级多步骤Agent管道框架 GitHub: github.com/langchain-ai/langgraph"
+      },
+      "examples": [
+        "github.com/langchain-ai/langgraph"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "swarm",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "swarm - openai",
+        "zh": "swarm - OpenAI教育性多Agent编排框架，概念性探索轻量级多智能体设计模式"
+      },
+      "description": {
+        "en": "OpenAI教育性多Agent编排框架，概念性探索轻量级多智能体设计模式",
+        "zh": "OpenAI教育性多Agent编排框架，概念性探索轻量级多智能体设计模式"
+      },
+      "details": {
+        "en": "OpenAI教育性多Agent编排框架，概念性探索轻量级多智能体设计模式 GitHub: github.com/openai/swarm",
+        "zh": "OpenAI教育性多Agent编排框架，概念性探索轻量级多智能体设计模式 GitHub: github.com/openai/swarm"
+      },
+      "examples": [
+        "github.com/openai/swarm"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "camel",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "framework",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "camel - camel-ai",
+        "zh": "camel - 学术背景的多智能体框架，聚焦Agent通信和角色扮演"
+      },
+      "description": {
+        "en": "学术背景的多智能体框架，聚焦Agent通信和角色扮演",
+        "zh": "学术背景的多智能体框架，聚焦Agent通信和角色扮演"
+      },
+      "details": {
+        "en": "学术背景的多智能体框架，聚焦Agent通信和角色扮演 GitHub: github.com/camel-ai/camel",
+        "zh": "学术背景的多智能体框架，聚焦Agent通信和角色扮演 GitHub: github.com/camel-ai/camel"
+      },
+      "examples": [
+        "github.com/camel-ai/camel"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "gpt-engineer",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "gpt-engineer - AntonOsika",
+        "zh": "gpt-engineer - 自主代码生成Agent，开创描述需求获取代码范式"
+      },
+      "description": {
+        "en": "自主代码生成Agent，开创描述需求获取代码范式",
+        "zh": "自主代码生成Agent，开创描述需求获取代码范式"
+      },
+      "details": {
+        "en": "自主代码生成Agent，开创描述需求获取代码范式 GitHub: github.com/AntonOsika/gpt-engineer",
+        "zh": "自主代码生成Agent，开创描述需求获取代码范式 GitHub: github.com/AntonOsika/gpt-engineer"
+      },
+      "examples": [
+        "github.com/AntonOsika/gpt-engineer"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "upsonic",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "rag",
+        "mcp",
+        "agent"
+      ],
+      "title": {
+        "en": "Upsonic - Upsonic",
+        "zh": "Upsonic - 构建自主AI Agent的Python框架，支持MCP、RAG和计算机操控"
+      },
+      "description": {
+        "en": "构建自主AI Agent的Python框架，支持MCP、RAG和计算机操控",
+        "zh": "构建自主AI Agent的Python框架，支持MCP、RAG和计算机操控"
+      },
+      "details": {
+        "en": "构建自主AI Agent的Python框架，支持MCP、RAG和计算机操控 GitHub: github.com/Upsonic/Upsonic",
+        "zh": "构建自主AI Agent的Python框架，支持MCP、RAG和计算机操控 GitHub: github.com/Upsonic/Upsonic"
+      },
+      "examples": [
+        "github.com/Upsonic/Upsonic"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "manifest",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "manifest - mnfst",
+        "zh": "manifest - Agent智能模型路由，降低成本最高70%，GitHub Trending项目"
+      },
+      "description": {
+        "en": "Agent智能模型路由，降低成本最高70%，GitHub Trending项目",
+        "zh": "Agent智能模型路由，降低成本最高70%，GitHub Trending项目"
+      },
+      "details": {
+        "en": "Agent智能模型路由，降低成本最高70%，GitHub Trending项目 GitHub: github.com/mnfst/manifest",
+        "zh": "Agent智能模型路由，降低成本最高70%，GitHub Trending项目 GitHub: github.com/mnfst/manifest"
+      },
+      "examples": [
+        "github.com/mnfst/manifest"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
