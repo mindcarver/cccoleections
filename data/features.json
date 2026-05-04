@@ -5005,6 +5005,237 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "stigmem",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "stigmem - Eidetic-Labs",
+        "zh": "stigmem - 开源联邦知识共享层，让多个AI Agent共享记忆和知识，使用Ed25519签名和HLC时间戳"
+      },
+      "description": {
+        "en": "开源联邦知识共享层，让多个AI Agent共享记忆和知识，使用Ed25519签名和HLC时间戳",
+        "zh": "开源联邦知识共享层，让多个AI Agent共享记忆和知识，使用Ed25519签名和HLC时间戳"
+      },
+      "details": {
+        "en": "开源联邦知识共享层，让多个AI Agent共享记忆和知识，使用Ed25519签名和HLC时间戳 GitHub: github.com/Eidetic-Labs/stigmem",
+        "zh": "开源联邦知识共享层，让多个AI Agent共享记忆和知识，使用Ed25519签名和HLC时间戳 GitHub: github.com/Eidetic-Labs/stigmem"
+      },
+      "examples": [
+        "github.com/Eidetic-Labs/stigmem"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "interpretable-autoresearch",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "interpretable-autoresearch - BarishNamazov",
+        "zh": "interpretable-autoresearch - 可解释的AI Agent研究工作流，Claude@MIT黑客松第二名，提供透明可审计的Agent行为规范"
+      },
+      "description": {
+        "en": "可解释的AI Agent研究工作流，Claude@MIT黑客松第二名，提供透明可审计的Agent行为规范",
+        "zh": "可解释的AI Agent研究工作流，Claude@MIT黑客松第二名，提供透明可审计的Agent行为规范"
+      },
+      "details": {
+        "en": "可解释的AI Agent研究工作流，Claude@MIT黑客松第二名，提供透明可审计的Agent行为规范 GitHub: github.com/BarishNamazov/interpretable-autoresearch",
+        "zh": "可解释的AI Agent研究工作流，Claude@MIT黑客松第二名，提供透明可审计的Agent行为规范 GitHub: github.com/BarishNamazov/interpretable-autoresearch"
+      },
+      "examples": [
+        "github.com/BarishNamazov/interpretable-autoresearch"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "trainforgetester",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "TrainForgeTester - TrainForge",
+        "zh": "TrainForgeTester - AI Agent确定性场景测试工具，检测错误操作、跳过步骤、错误工具调用等问题"
+      },
+      "description": {
+        "en": "AI Agent确定性场景测试工具，检测错误操作、跳过步骤、错误工具调用等问题",
+        "zh": "AI Agent确定性场景测试工具，检测错误操作、跳过步骤、错误工具调用等问题"
+      },
+      "details": {
+        "en": "AI Agent确定性场景测试工具，检测错误操作、跳过步骤、错误工具调用等问题 GitHub: github.com/TrainForge/TrainForgeTester",
+        "zh": "AI Agent确定性场景测试工具，检测错误操作、跳过步骤、错误工具调用等问题 GitHub: github.com/TrainForge/TrainForgeTester"
+      },
+      "examples": [
+        "github.com/TrainForge/TrainForgeTester"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-scan",
+      "category": "devops",
+      "tags": [
+        "mcp",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "agent-scan - snyk",
+        "zh": "agent-scan - Snyk推出的AI Agent安全扫描器，扫描Agent技能配置和MCP服务器的安全漏洞"
+      },
+      "description": {
+        "en": "Snyk推出的AI Agent安全扫描器，扫描Agent技能配置和MCP服务器的安全漏洞",
+        "zh": "Snyk推出的AI Agent安全扫描器，扫描Agent技能配置和MCP服务器的安全漏洞"
+      },
+      "details": {
+        "en": "Snyk推出的AI Agent安全扫描器，扫描Agent技能配置和MCP服务器的安全漏洞 GitHub: github.com/snyk/agent-scan",
+        "zh": "Snyk推出的AI Agent安全扫描器，扫描Agent技能配置和MCP服务器的安全漏洞 GitHub: github.com/snyk/agent-scan"
+      },
+      "examples": [
+        "github.com/snyk/agent-scan"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mcp-x-mac-seed",
+      "category": "integrations",
+      "tags": [
+        "tool",
+        "mcp",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "mcp-x-mac-seed - reverendish",
+        "zh": "mcp-x-mac-seed - 自进化的MCP服务器，让AI Agent控制任何macOS应用，自动发现388个工具，Swift编写"
+      },
+      "description": {
+        "en": "自进化的MCP服务器，让AI Agent控制任何macOS应用，自动发现388个工具，Swift编写",
+        "zh": "自进化的MCP服务器，让AI Agent控制任何macOS应用，自动发现388个工具，Swift编写"
+      },
+      "details": {
+        "en": "自进化的MCP服务器，让AI Agent控制任何macOS应用，自动发现388个工具，Swift编写 GitHub: github.com/reverendish/mcp-x-mac-seed",
+        "zh": "自进化的MCP服务器，让AI Agent控制任何macOS应用，自动发现388个工具，Swift编写 GitHub: github.com/reverendish/mcp-x-mac-seed"
+      },
+      "examples": [
+        "github.com/reverendish/mcp-x-mac-seed"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "thr",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "thr - Chadi00",
+        "zh": "thr - 本地语义记忆CLI工具，让编码Agent在本地存储和按语义检索记忆，无需服务器和API"
+      },
+      "description": {
+        "en": "本地语义记忆CLI工具，让编码Agent在本地存储和按语义检索记忆，无需服务器和API",
+        "zh": "本地语义记忆CLI工具，让编码Agent在本地存储和按语义检索记忆，无需服务器和API"
+      },
+      "details": {
+        "en": "本地语义记忆CLI工具，让编码Agent在本地存储和按语义检索记忆，无需服务器和API GitHub: github.com/Chadi00/thr",
+        "zh": "本地语义记忆CLI工具，让编码Agent在本地存储和按语义检索记忆，无需服务器和API GitHub: github.com/Chadi00/thr"
+      },
+      "examples": [
+        "github.com/Chadi00/thr"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "semble",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "semble - MinishLab",
+        "zh": "semble - 为AI Agent设计的高效代码搜索库，静态嵌入实现0.854 NDCG@10准确率，索引250ms查询1.5ms"
+      },
+      "description": {
+        "en": "为AI Agent设计的高效代码搜索库，静态嵌入实现0.854 NDCG@10准确率，索引250ms查询1.5ms",
+        "zh": "为AI Agent设计的高效代码搜索库，静态嵌入实现0.854 NDCG@10准确率，索引250ms查询1.5ms"
+      },
+      "details": {
+        "en": "为AI Agent设计的高效代码搜索库，静态嵌入实现0.854 NDCG@10准确率，索引250ms查询1.5ms GitHub: github.com/MinishLab/semble",
+        "zh": "为AI Agent设计的高效代码搜索库，静态嵌入实现0.854 NDCG@10准确率，索引250ms查询1.5ms GitHub: github.com/MinishLab/semble"
+      },
+      "examples": [
+        "github.com/MinishLab/semble"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "n8n-mcp",
+      "category": "integrations",
+      "tags": [
+        "mcp"
+      ],
+      "title": {
+        "en": "n8n-mcp - czlonkowski",
+        "zh": "n8n-mcp - MCP服务器，让Claude Desktop/Code/Windsurf/Cursor直接构建n8n工作流"
+      },
+      "description": {
+        "en": "MCP服务器，让Claude Desktop/Code/Windsurf/Cursor直接构建n8n工作流",
+        "zh": "MCP服务器，让Claude Desktop/Code/Windsurf/Cursor直接构建n8n工作流"
+      },
+      "details": {
+        "en": "MCP服务器，让Claude Desktop/Code/Windsurf/Cursor直接构建n8n工作流 GitHub: github.com/czlonkowski/n8n-mcp",
+        "zh": "MCP服务器，让Claude Desktop/Code/Windsurf/Cursor直接构建n8n工作流 GitHub: github.com/czlonkowski/n8n-mcp"
+      },
+      "examples": [
+        "github.com/czlonkowski/n8n-mcp"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deepseek-tui",
+      "category": "ai-tools",
+      "tags": [
+        "coding",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "DeepSeek-TUI - Hmbown",
+        "zh": "DeepSeek-TUI - DeepSeek模型的终端编码Agent，TUI界面，在终端中直接使用AI编程"
+      },
+      "description": {
+        "en": "DeepSeek模型的终端编码Agent，TUI界面，在终端中直接使用AI编程",
+        "zh": "DeepSeek模型的终端编码Agent，TUI界面，在终端中直接使用AI编程"
+      },
+      "details": {
+        "en": "DeepSeek模型的终端编码Agent，TUI界面，在终端中直接使用AI编程 GitHub: github.com/Hmbown/DeepSeek-TUI",
+        "zh": "DeepSeek模型的终端编码Agent，TUI界面，在终端中直接使用AI编程 GitHub: github.com/Hmbown/DeepSeek-TUI"
+      },
+      "examples": [
+        "github.com/Hmbown/DeepSeek-TUI"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
