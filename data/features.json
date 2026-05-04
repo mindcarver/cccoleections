@@ -5236,6 +5236,176 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "dexter",
+      "category": "ai-finance",
+      "tags": [
+        "finance"
+      ],
+      "title": {
+        "en": "dexter - virattt",
+        "zh": "dexter - 自主金融深度研究智能体，专注于自动化金融分析"
+      },
+      "description": {
+        "en": "自主金融深度研究智能体，专注于自动化金融分析",
+        "zh": "自主金融深度研究智能体，专注于自动化金融分析"
+      },
+      "details": {
+        "en": "自主金融深度研究智能体，专注于自动化金融分析 GitHub: github.com/virattt/dexter",
+        "zh": "自主金融深度研究智能体，专注于自动化金融分析 GitHub: github.com/virattt/dexter"
+      },
+      "examples": [
+        "github.com/virattt/dexter"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "voxcpm",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "VoxCPM - OpenBMB",
+        "zh": "VoxCPM - 无 Tokenizer 的多语言语音生成 TTS 模型，支持创意声音设计和语音克隆"
+      },
+      "description": {
+        "en": "无 Tokenizer 的多语言语音生成 TTS 模型，支持创意声音设计和语音克隆",
+        "zh": "无 Tokenizer 的多语言语音生成 TTS 模型，支持创意声音设计和语音克隆"
+      },
+      "details": {
+        "en": "无 Tokenizer 的多语言语音生成 TTS 模型，支持创意声音设计和语音克隆 GitHub: github.com/OpenBMB/VoxCPM",
+        "zh": "无 Tokenizer 的多语言语音生成 TTS 模型，支持创意声音设计和语音克隆 GitHub: github.com/OpenBMB/VoxCPM"
+      },
+      "examples": [
+        "github.com/OpenBMB/VoxCPM"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "local-deep-research",
+      "category": "ai-tools",
+      "tags": [
+        "tool",
+        "llm"
+      ],
+      "title": {
+        "en": "local-deep-research - LearningCircuit",
+        "zh": "local-deep-research - 本地深度研究工具，支持 Ollama/Google/Anthropic 等多种 LLM，搜索 arXiv/PubMed 等多源"
+      },
+      "description": {
+        "en": "本地深度研究工具，支持 Ollama/Google/Anthropic 等多种 LLM，搜索 arXiv/PubMed 等多源",
+        "zh": "本地深度研究工具，支持 Ollama/Google/Anthropic 等多种 LLM，搜索 arXiv/PubMed 等多源"
+      },
+      "details": {
+        "en": "本地深度研究工具，支持 Ollama/Google/Anthropic 等多种 LLM，搜索 arXiv/PubMed 等多源 GitHub: github.com/LearningCircuit/local-deep-research",
+        "zh": "本地深度研究工具，支持 Ollama/Google/Anthropic 等多种 LLM，搜索 arXiv/PubMed 等多源 GitHub: github.com/LearningCircuit/local-deep-research"
+      },
+      "examples": [
+        "github.com/LearningCircuit/local-deep-research"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cocoindex",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "cocoindex - cocoindex-io",
+        "zh": "cocoindex - 面向长时间运行智能体的增量数据引擎"
+      },
+      "description": {
+        "en": "面向长时间运行智能体的增量数据引擎",
+        "zh": "面向长时间运行智能体的增量数据引擎"
+      },
+      "details": {
+        "en": "面向长时间运行智能体的增量数据引擎 GitHub: github.com/cocoindex-io/cocoindex",
+        "zh": "面向长时间运行智能体的增量数据引擎 GitHub: github.com/cocoindex-io/cocoindex"
+      },
+      "examples": [
+        "github.com/cocoindex-io/cocoindex"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "firecrawl",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "firecrawl - firecrawl",
+        "zh": "firecrawl - 为 AI 提供网页搜索、抓取和交互的 API 服务"
+      },
+      "description": {
+        "en": "为 AI 提供网页搜索、抓取和交互的 API 服务",
+        "zh": "为 AI 提供网页搜索、抓取和交互的 API 服务"
+      },
+      "details": {
+        "en": "为 AI 提供网页搜索、抓取和交互的 API 服务 GitHub: github.com/firecrawl/firecrawl",
+        "zh": "为 AI 提供网页搜索、抓取和交互的 API 服务 GitHub: github.com/firecrawl/firecrawl"
+      },
+      "examples": [
+        "github.com/firecrawl/firecrawl"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ios-simulator-skill",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "ios-simulator-skill - conorluddy",
+        "zh": "ios-simulator-skill - Claude Code 的 iOS 模拟器技能，优化 Claude 构建和测试 iOS 应用的能力"
+      },
+      "description": {
+        "en": "Claude Code 的 iOS 模拟器技能，优化 Claude 构建和测试 iOS 应用的能力",
+        "zh": "Claude Code 的 iOS 模拟器技能，优化 Claude 构建和测试 iOS 应用的能力"
+      },
+      "details": {
+        "en": "Claude Code 的 iOS 模拟器技能，优化 Claude 构建和测试 iOS 应用的能力 GitHub: github.com/conorluddy/ios-simulator-skill",
+        "zh": "Claude Code 的 iOS 模拟器技能，优化 Claude 构建和测试 iOS 应用的能力 GitHub: github.com/conorluddy/ios-simulator-skill"
+      },
+      "examples": [
+        "github.com/conorluddy/ios-simulator-skill"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "nexu",
+      "category": "integrations",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "nexu - nexu-io",
+        "zh": "nexu - OpenClaw 桌面客户端，一键连接 Agent 到微信、飞书、Slack 和 Discord"
+      },
+      "description": {
+        "en": "OpenClaw 桌面客户端，一键连接 Agent 到微信、飞书、Slack 和 Discord",
+        "zh": "OpenClaw 桌面客户端，一键连接 Agent 到微信、飞书、Slack 和 Discord"
+      },
+      "details": {
+        "en": "OpenClaw 桌面客户端，一键连接 Agent 到微信、飞书、Slack 和 Discord GitHub: github.com/nexu-io/nexu",
+        "zh": "OpenClaw 桌面客户端，一键连接 Agent 到微信、飞书、Slack 和 Discord GitHub: github.com/nexu-io/nexu"
+      },
+      "examples": [
+        "github.com/nexu-io/nexu"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
