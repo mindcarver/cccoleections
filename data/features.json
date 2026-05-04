@@ -4769,6 +4769,242 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "agent-framework",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "agent-framework - microsoft",
+        "zh": "agent-framework - 微软官方多智能体框架，支持 Python 和 .NET，用于构建、编排和部署 AI agents"
+      },
+      "description": {
+        "en": "微软官方多智能体框架，支持 Python 和 .NET，用于构建、编排和部署 AI agents",
+        "zh": "微软官方多智能体框架，支持 Python 和 .NET，用于构建、编排和部署 AI agents"
+      },
+      "details": {
+        "en": "微软官方多智能体框架，支持 Python 和 .NET，用于构建、编排和部署 AI agents GitHub: github.com/microsoft/agent-framework",
+        "zh": "微软官方多智能体框架，支持 Python 和 .NET，用于构建、编排和部署 AI agents GitHub: github.com/microsoft/agent-framework"
+      },
+      "examples": [
+        "github.com/microsoft/agent-framework"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentscope",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agentscope - agentscope-ai",
+        "zh": "agentscope - 可观测、可理解、可信赖的 Agent 构建运行平台，阿里达摩院出品，2.5 万 Star"
+      },
+      "description": {
+        "en": "可观测、可理解、可信赖的 Agent 构建运行平台，阿里达摩院出品，2.5 万 Star",
+        "zh": "可观测、可理解、可信赖的 Agent 构建运行平台，阿里达摩院出品，2.5 万 Star"
+      },
+      "details": {
+        "en": "可观测、可理解、可信赖的 Agent 构建运行平台，阿里达摩院出品，2.5 万 Star GitHub: github.com/agentscope-ai/agentscope",
+        "zh": "可观测、可理解、可信赖的 Agent 构建运行平台，阿里达摩院出品，2.5 万 Star GitHub: github.com/agentscope-ai/agentscope"
+      },
+      "examples": [
+        "github.com/agentscope-ai/agentscope"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "adk-python",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "adk-python - google",
+        "zh": "adk-python - Google 官方 Agent Development Kit，代码优先的 Python AI agent 工具包，1.9 万 Star"
+      },
+      "description": {
+        "en": "Google 官方 Agent Development Kit，代码优先的 Python AI agent 工具包，1.9 万 Star",
+        "zh": "Google 官方 Agent Development Kit，代码优先的 Python AI agent 工具包，1.9 万 Star"
+      },
+      "details": {
+        "en": "Google 官方 Agent Development Kit，代码优先的 Python AI agent 工具包，1.9 万 Star GitHub: github.com/google/adk-python",
+        "zh": "Google 官方 Agent Development Kit，代码优先的 Python AI agent 工具包，1.9 万 Star GitHub: github.com/google/adk-python"
+      },
+      "examples": [
+        "github.com/google/adk-python"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "copilotkit",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "CopilotKit - CopilotKit",
+        "zh": "CopilotKit - Agent 前端技术栈和 AG-UI 协议，支持 React + Angular，3 万 Star"
+      },
+      "description": {
+        "en": "Agent 前端技术栈和 AG-UI 协议，支持 React + Angular，3 万 Star",
+        "zh": "Agent 前端技术栈和 AG-UI 协议，支持 React + Angular，3 万 Star"
+      },
+      "details": {
+        "en": "Agent 前端技术栈和 AG-UI 协议，支持 React + Angular，3 万 Star GitHub: github.com/CopilotKit/CopilotKit",
+        "zh": "Agent 前端技术栈和 AG-UI 协议，支持 React + Angular，3 万 Star GitHub: github.com/CopilotKit/CopilotKit"
+      },
+      "examples": [
+        "github.com/CopilotKit/CopilotKit"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "praisonai",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "llm",
+        "rag",
+        "framework"
+      ],
+      "title": {
+        "en": "PraisonAI - MervinPraison",
+        "zh": "PraisonAI - 24/7 AI 工作力框架，自主自改进 agent，支持记忆、RAG、100+ LLM，7k Star"
+      },
+      "description": {
+        "en": "24/7 AI 工作力框架，自主自改进 agent，支持记忆、RAG、100+ LLM，7k Star",
+        "zh": "24/7 AI 工作力框架，自主自改进 agent，支持记忆、RAG、100+ LLM，7k Star"
+      },
+      "details": {
+        "en": "24/7 AI 工作力框架，自主自改进 agent，支持记忆、RAG、100+ LLM，7k Star GitHub: github.com/MervinPraison/PraisonAI",
+        "zh": "24/7 AI 工作力框架，自主自改进 agent，支持记忆、RAG、100+ LLM，7k Star GitHub: github.com/MervinPraison/PraisonAI"
+      },
+      "examples": [
+        "github.com/MervinPraison/PraisonAI"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mindsearch",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "llm",
+        "open-source",
+        "framework"
+      ],
+      "title": {
+        "en": "MindSearch - InternLM",
+        "zh": "MindSearch - 基于 LLM 的多智能体 Web 搜索引擎框架，开源版 Perplexity，6.8k Star"
+      },
+      "description": {
+        "en": "基于 LLM 的多智能体 Web 搜索引擎框架，开源版 Perplexity，6.8k Star",
+        "zh": "基于 LLM 的多智能体 Web 搜索引擎框架，开源版 Perplexity，6.8k Star"
+      },
+      "details": {
+        "en": "基于 LLM 的多智能体 Web 搜索引擎框架，开源版 Perplexity，6.8k Star GitHub: github.com/InternLM/MindSearch",
+        "zh": "基于 LLM 的多智能体 Web 搜索引擎框架，开源版 Perplexity，6.8k Star GitHub: github.com/InternLM/MindSearch"
+      },
+      "examples": [
+        "github.com/InternLM/MindSearch"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "genai_agents",
+      "category": "tutorial",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "GenAI_Agents - NirDiamant",
+        "zh": "GenAI_Agents - 50+ 生成式 AI Agent 技术教程和实现，全面的多智能体学习资源，5k Star"
+      },
+      "description": {
+        "en": "50+ 生成式 AI Agent 技术教程和实现，全面的多智能体学习资源，5k Star",
+        "zh": "50+ 生成式 AI Agent 技术教程和实现，全面的多智能体学习资源，5k Star"
+      },
+      "details": {
+        "en": "50+ 生成式 AI Agent 技术教程和实现，全面的多智能体学习资源，5k Star GitHub: github.com/NirDiamant/GenAI_Agents",
+        "zh": "50+ 生成式 AI Agent 技术教程和实现，全面的多智能体学习资源，5k Star GitHub: github.com/NirDiamant/GenAI_Agents"
+      },
+      "examples": [
+        "github.com/NirDiamant/GenAI_Agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "e2b",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source",
+        "tool"
+      ],
+      "title": {
+        "en": "E2B - e2b-dev",
+        "zh": "E2B - 开源安全沙箱执行环境，为 AI agent 提供真实世界工具，5k Star"
+      },
+      "description": {
+        "en": "开源安全沙箱执行环境，为 AI agent 提供真实世界工具，5k Star",
+        "zh": "开源安全沙箱执行环境，为 AI agent 提供真实世界工具，5k Star"
+      },
+      "details": {
+        "en": "开源安全沙箱执行环境，为 AI agent 提供真实世界工具，5k Star GitHub: github.com/e2b-dev/E2B",
+        "zh": "开源安全沙箱执行环境，为 AI agent 提供真实世界工具，5k Star GitHub: github.com/e2b-dev/E2B"
+      },
+      "examples": [
+        "github.com/e2b-dev/E2B"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cua",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "cua - trycua",
+        "zh": "cua - 开源 Computer-Use Agent 基础设施，支持 macOS/Linux/Windows 桌面控制，4k Star"
+      },
+      "description": {
+        "en": "开源 Computer-Use Agent 基础设施，支持 macOS/Linux/Windows 桌面控制，4k Star",
+        "zh": "开源 Computer-Use Agent 基础设施，支持 macOS/Linux/Windows 桌面控制，4k Star"
+      },
+      "details": {
+        "en": "开源 Computer-Use Agent 基础设施，支持 macOS/Linux/Windows 桌面控制，4k Star GitHub: github.com/trycua/cua",
+        "zh": "开源 Computer-Use Agent 基础设施，支持 macOS/Linux/Windows 桌面控制，4k Star GitHub: github.com/trycua/cua"
+      },
+      "examples": [
+        "github.com/trycua/cua"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
