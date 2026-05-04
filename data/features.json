@@ -5406,6 +5406,83 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "autogpt",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "AutoGPT - Significant-Gravitas",
+        "zh": "AutoGPT - 自主AI智能体先驱，社区庞大，支持多模态任务自动化"
+      },
+      "description": {
+        "en": "自主AI智能体先驱，社区庞大，支持多模态任务自动化",
+        "zh": "自主AI智能体先驱，社区庞大，支持多模态任务自动化"
+      },
+      "details": {
+        "en": "自主AI智能体先驱，社区庞大，支持多模态任务自动化 GitHub: github.com/Significant-Gravitas/AutoGPT",
+        "zh": "自主AI智能体先驱，社区庞大，支持多模态任务自动化 GitHub: github.com/Significant-Gravitas/AutoGPT"
+      },
+      "examples": [
+        "github.com/Significant-Gravitas/AutoGPT"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deerflow",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "agent",
+        "multi-agent",
+        "rag"
+      ],
+      "title": {
+        "en": "DeerFlow - bytedance",
+        "zh": "DeerFlow - 字节跳动开源的长周期SuperAgent，基于LangGraph，活跃开发中"
+      },
+      "description": {
+        "en": "字节跳动开源的长周期SuperAgent，基于LangGraph，活跃开发中",
+        "zh": "字节跳动开源的长周期SuperAgent，基于LangGraph，活跃开发中"
+      },
+      "details": {
+        "en": "字节跳动开源的长周期SuperAgent，基于LangGraph，活跃开发中 GitHub: github.com/bytedance/DeerFlow",
+        "zh": "字节跳动开源的长周期SuperAgent，基于LangGraph，活跃开发中 GitHub: github.com/bytedance/DeerFlow"
+      },
+      "examples": [
+        "github.com/bytedance/DeerFlow"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agenticseek",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "agenticSeek - Fosowl",
+        "zh": "agenticSeek - 完全本地化的自主智能体，无需API调用"
+      },
+      "description": {
+        "en": "完全本地化的自主智能体，无需API调用",
+        "zh": "完全本地化的自主智能体，无需API调用"
+      },
+      "details": {
+        "en": "完全本地化的自主智能体，无需API调用 GitHub: github.com/Fosowl/agenticSeek",
+        "zh": "完全本地化的自主智能体，无需API调用 GitHub: github.com/Fosowl/agenticSeek"
+      },
+      "examples": [
+        "github.com/Fosowl/agenticSeek"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
