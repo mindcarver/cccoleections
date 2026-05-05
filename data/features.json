@@ -5660,6 +5660,276 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "agency-agents",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "agency-agents - msitarzewski",
+        "zh": "agency-agents - 完整AI代理机构，包含各领域专业智能体"
+      },
+      "description": {
+        "en": "完整AI代理机构，包含各领域专业智能体",
+        "zh": "完整AI代理机构，包含各领域专业智能体"
+      },
+      "details": {
+        "en": "完整AI代理机构，包含各领域专业智能体 GitHub: github.com/msitarzewski/agency-agents",
+        "zh": "完整AI代理机构，包含各领域专业智能体 GitHub: github.com/msitarzewski/agency-agents"
+      },
+      "examples": [
+        "github.com/msitarzewski/agency-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "rapid-mlx",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "Rapid-MLX - raullenchai",
+        "zh": "Rapid-MLX - Apple Silicon最快本地AI推理引擎，比Ollama快4.2倍"
+      },
+      "description": {
+        "en": "Apple Silicon最快本地AI推理引擎，比Ollama快4.2倍",
+        "zh": "Apple Silicon最快本地AI推理引擎，比Ollama快4.2倍"
+      },
+      "details": {
+        "en": "Apple Silicon最快本地AI推理引擎，比Ollama快4.2倍 GitHub: github.com/raullenchai/Rapid-MLX",
+        "zh": "Apple Silicon最快本地AI推理引擎，比Ollama快4.2倍 GitHub: github.com/raullenchai/Rapid-MLX"
+      },
+      "examples": [
+        "github.com/raullenchai/Rapid-MLX"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "trendradar",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "TrendRadar - sansan0",
+        "zh": "TrendRadar - AI驱动舆情监控与热点筛选工具，支持多平台聚合"
+      },
+      "description": {
+        "en": "AI驱动舆情监控与热点筛选工具，支持多平台聚合",
+        "zh": "AI驱动舆情监控与热点筛选工具，支持多平台聚合"
+      },
+      "details": {
+        "en": "AI驱动舆情监控与热点筛选工具，支持多平台聚合 GitHub: github.com/sansan0/TrendRadar",
+        "zh": "AI驱动舆情监控与热点筛选工具，支持多平台聚合 GitHub: github.com/sansan0/TrendRadar"
+      },
+      "examples": [
+        "github.com/sansan0/TrendRadar"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ltx-2",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "LTX-2 - Lightricks",
+        "zh": "LTX-2 - LTX-2音视频生成模型推理和LoRA训练"
+      },
+      "description": {
+        "en": "LTX-2音视频生成模型推理和LoRA训练",
+        "zh": "LTX-2音视频生成模型推理和LoRA训练"
+      },
+      "details": {
+        "en": "LTX-2音视频生成模型推理和LoRA训练 GitHub: github.com/Lightricks/LTX-2",
+        "zh": "LTX-2音视频生成模型推理和LoRA训练 GitHub: github.com/Lightricks/LTX-2"
+      },
+      "examples": [
+        "github.com/Lightricks/LTX-2"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "flue",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "flue - withastro",
+        "zh": "flue - 沙盒Agent框架"
+      },
+      "description": {
+        "en": "沙盒Agent框架",
+        "zh": "沙盒Agent框架"
+      },
+      "details": {
+        "en": "沙盒Agent框架 GitHub: github.com/withastro/flue",
+        "zh": "沙盒Agent框架 GitHub: github.com/withastro/flue"
+      },
+      "examples": [
+        "github.com/withastro/flue"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "context-mode",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "context-mode - mksglu",
+        "zh": "context-mode - AI编码代理上下文窗口优化，98%缩减率"
+      },
+      "description": {
+        "en": "AI编码代理上下文窗口优化，98%缩减率",
+        "zh": "AI编码代理上下文窗口优化，98%缩减率"
+      },
+      "details": {
+        "en": "AI编码代理上下文窗口优化，98%缩减率 GitHub: github.com/mksglu/context-mode",
+        "zh": "AI编码代理上下文窗口优化，98%缩减率 GitHub: github.com/mksglu/context-mode"
+      },
+      "examples": [
+        "github.com/mksglu/context-mode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ace-step-ui",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "ace-step-ui - fspecii",
+        "zh": "ace-step-ui - 开源Suno替代品，ACE-Step AI音乐生成专业UI"
+      },
+      "description": {
+        "en": "开源Suno替代品，ACE-Step AI音乐生成专业UI",
+        "zh": "开源Suno替代品，ACE-Step AI音乐生成专业UI"
+      },
+      "details": {
+        "en": "开源Suno替代品，ACE-Step AI音乐生成专业UI GitHub: github.com/fspecii/ace-step-ui",
+        "zh": "开源Suno替代品，ACE-Step AI音乐生成专业UI GitHub: github.com/fspecii/ace-step-ui"
+      },
+      "examples": [
+        "github.com/fspecii/ace-step-ui"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ag2",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "open-source",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "ag2 - ag2ai",
+        "zh": "ag2 - AG2(原AutoGen)开源AgentOS"
+      },
+      "description": {
+        "en": "AG2(原AutoGen)开源AgentOS",
+        "zh": "AG2(原AutoGen)开源AgentOS"
+      },
+      "details": {
+        "en": "AG2(原AutoGen)开源AgentOS GitHub: github.com/ag2ai/ag2",
+        "zh": "AG2(原AutoGen)开源AgentOS GitHub: github.com/ag2ai/ag2"
+      },
+      "examples": [
+        "github.com/ag2ai/ag2"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "token-optimizer",
+      "category": "developer-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "token-optimizer - alexgreensh",
+        "zh": "token-optimizer - Token优化工具，发现并修复幽灵token"
+      },
+      "description": {
+        "en": "Token优化工具，发现并修复幽灵token",
+        "zh": "Token优化工具，发现并修复幽灵token"
+      },
+      "details": {
+        "en": "Token优化工具，发现并修复幽灵token GitHub: github.com/alexgreensh/token-optimizer",
+        "zh": "Token优化工具，发现并修复幽灵token GitHub: github.com/alexgreensh/token-optimizer"
+      },
+      "examples": [
+        "github.com/alexgreensh/token-optimizer"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vexa",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "vexa - Vexa-ai",
+        "zh": "vexa - 开源会议转录API，支持Google Meet/Teams/Zoom"
+      },
+      "description": {
+        "en": "开源会议转录API，支持Google Meet/Teams/Zoom",
+        "zh": "开源会议转录API，支持Google Meet/Teams/Zoom"
+      },
+      "details": {
+        "en": "开源会议转录API，支持Google Meet/Teams/Zoom GitHub: github.com/Vexa-ai/vexa",
+        "zh": "开源会议转录API，支持Google Meet/Teams/Zoom GitHub: github.com/Vexa-ai/vexa"
+      },
+      "examples": [
+        "github.com/Vexa-ai/vexa"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "acpx",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "acpx - openclaw",
+        "zh": "acpx - ACP协议无头CLI客户端，用于有状态Agent会话"
+      },
+      "description": {
+        "en": "ACP协议无头CLI客户端，用于有状态Agent会话",
+        "zh": "ACP协议无头CLI客户端，用于有状态Agent会话"
+      },
+      "details": {
+        "en": "ACP协议无头CLI客户端，用于有状态Agent会话 GitHub: github.com/openclaw/acpx",
+        "zh": "ACP协议无头CLI客户端，用于有状态Agent会话 GitHub: github.com/openclaw/acpx"
+      },
+      "examples": [
+        "github.com/openclaw/acpx"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
