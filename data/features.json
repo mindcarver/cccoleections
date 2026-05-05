@@ -5483,6 +5483,183 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "klaw.sh",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "klaw.sh - klawsh",
+        "zh": "klaw.sh - Kubernetes for AI agents - 容器编排平台，管理 AI agent 部署、扩缩容和生命周期"
+      },
+      "description": {
+        "en": "Kubernetes for AI agents - 容器编排平台，管理 AI agent 部署、扩缩容和生命周期",
+        "zh": "Kubernetes for AI agents - 容器编排平台，管理 AI agent 部署、扩缩容和生命周期"
+      },
+      "details": {
+        "en": "Kubernetes for AI agents - 容器编排平台，管理 AI agent 部署、扩缩容和生命周期 GitHub: github.com/klawsh/klaw.sh",
+        "zh": "Kubernetes for AI agents - 容器编排平台，管理 AI agent 部署、扩缩容和生命周期 GitHub: github.com/klawsh/klaw.sh"
+      },
+      "examples": [
+        "github.com/klawsh/klaw.sh"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "goose-skills",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "open-source",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "goose-skills - athina-ai",
+        "zh": "goose-skills - 125个开源 GTM Skills，让 Claude Code/Codex/Cursor 等 AI 编码 agent 自动化销售和营销任务"
+      },
+      "description": {
+        "en": "125个开源 GTM Skills，让 Claude Code/Codex/Cursor 等 AI 编码 agent 自动化销售和营销任务",
+        "zh": "125个开源 GTM Skills，让 Claude Code/Codex/Cursor 等 AI 编码 agent 自动化销售和营销任务"
+      },
+      "details": {
+        "en": "125个开源 GTM Skills，让 Claude Code/Codex/Cursor 等 AI 编码 agent 自动化销售和营销任务 GitHub: github.com/athina-ai/goose-skills",
+        "zh": "125个开源 GTM Skills，让 Claude Code/Codex/Cursor 等 AI 编码 agent 自动化销售和营销任务 GitHub: github.com/athina-ai/goose-skills"
+      },
+      "examples": [
+        "github.com/athina-ai/goose-skills"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-code-ai-design",
+      "category": "design-tools",
+      "tags": [
+        "coding"
+      ],
+      "title": {
+        "en": "Claude-Code-AI-Design - Julpygo",
+        "zh": "Claude-Code-AI-Design - 用 Claude Code CLI 做 AI 设计（Figma to Code, React 19, Tailwind v4）"
+      },
+      "description": {
+        "en": "用 Claude Code CLI 做 AI 设计（Figma to Code, React 19, Tailwind v4）",
+        "zh": "用 Claude Code CLI 做 AI 设计（Figma to Code, React 19, Tailwind v4）"
+      },
+      "details": {
+        "en": "用 Claude Code CLI 做 AI 设计（Figma to Code, React 19, Tailwind v4） GitHub: github.com/Julpygo/Claude-Code-AI-Design",
+        "zh": "用 Claude Code CLI 做 AI 设计（Figma to Code, React 19, Tailwind v4） GitHub: github.com/Julpygo/Claude-Code-AI-Design"
+      },
+      "examples": [
+        "github.com/Julpygo/Claude-Code-AI-Design"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openmonoagent.ai",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "open-source",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "OpenMonoAgent.ai - StartupHakk",
+        "zh": "OpenMonoAgent.ai - 开源无限 token 编码 agent，终端原生"
+      },
+      "description": {
+        "en": "开源无限 token 编码 agent，终端原生",
+        "zh": "开源无限 token 编码 agent，终端原生"
+      },
+      "details": {
+        "en": "开源无限 token 编码 agent，终端原生 GitHub: github.com/StartupHakk/OpenMonoAgent.ai",
+        "zh": "开源无限 token 编码 agent，终端原生 GitHub: github.com/StartupHakk/OpenMonoAgent.ai"
+      },
+      "examples": [
+        "github.com/StartupHakk/OpenMonoAgent.ai"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "composio",
+      "category": "integrations",
+      "tags": [
+        "agent",
+        "mcp",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "composio - warpdot-dev",
+        "zh": "composio - Agent 集成 SDK（支持 Anthropic、OpenAI、LangChain、MCP、OAuth）"
+      },
+      "description": {
+        "en": "Agent 集成 SDK（支持 Anthropic、OpenAI、LangChain、MCP、OAuth）",
+        "zh": "Agent 集成 SDK（支持 Anthropic、OpenAI、LangChain、MCP、OAuth）"
+      },
+      "details": {
+        "en": "Agent 集成 SDK（支持 Anthropic、OpenAI、LangChain、MCP、OAuth） GitHub: github.com/warpdot-dev/composio",
+        "zh": "Agent 集成 SDK（支持 Anthropic、OpenAI、LangChain、MCP、OAuth） GitHub: github.com/warpdot-dev/composio"
+      },
+      "examples": [
+        "github.com/warpdot-dev/composio"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-trading-agent",
+      "category": "ai-finance",
+      "tags": [
+        "finance",
+        "llm"
+      ],
+      "title": {
+        "en": "ai-trading-agent - endless-sky-team",
+        "zh": "ai-trading-agent - LLM 驱动的加密货币交易机器人（TypeScript/React/Postgres/Bun）"
+      },
+      "description": {
+        "en": "LLM 驱动的加密货币交易机器人（TypeScript/React/Postgres/Bun）",
+        "zh": "LLM 驱动的加密货币交易机器人（TypeScript/React/Postgres/Bun）"
+      },
+      "details": {
+        "en": "LLM 驱动的加密货币交易机器人（TypeScript/React/Postgres/Bun） GitHub: github.com/endless-sky-team/ai-trading-agent",
+        "zh": "LLM 驱动的加密货币交易机器人（TypeScript/React/Postgres/Bun） GitHub: github.com/endless-sky-team/ai-trading-agent"
+      },
+      "examples": [
+        "github.com/endless-sky-team/ai-trading-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-design-agents-toolkit",
+      "category": "design-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "claude-design-agents-toolkit - Alfredo7777777",
+        "zh": "claude-design-agents-toolkit - Claude Code agent 设计插件和 hooks 集合"
+      },
+      "description": {
+        "en": "Claude Code agent 设计插件和 hooks 集合",
+        "zh": "Claude Code agent 设计插件和 hooks 集合"
+      },
+      "details": {
+        "en": "Claude Code agent 设计插件和 hooks 集合 GitHub: github.com/Alfredo7777777/claude-design-agents-toolkit",
+        "zh": "Claude Code agent 设计插件和 hooks 集合 GitHub: github.com/Alfredo7777777/claude-design-agents-toolkit"
+      },
+      "examples": [
+        "github.com/Alfredo7777777/claude-design-agents-toolkit"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
