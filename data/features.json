@@ -5930,6 +5930,108 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "lobehub",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "mcp"
+      ],
+      "title": {
+        "en": "lobehub - lobehub",
+        "zh": "lobehub - 多 Agent 协作平台，支持 Gemini/OpenAI/Claude，集成 MCP，丰富的 UI"
+      },
+      "description": {
+        "en": "多 Agent 协作平台，支持 Gemini/OpenAI/Claude，集成 MCP，丰富的 UI",
+        "zh": "多 Agent 协作平台，支持 Gemini/OpenAI/Claude，集成 MCP，丰富的 UI"
+      },
+      "details": {
+        "en": "多 Agent 协作平台，支持 Gemini/OpenAI/Claude，集成 MCP，丰富的 UI GitHub: github.com/lobehub/lobehub",
+        "zh": "多 Agent 协作平台，支持 Gemini/OpenAI/Claude，集成 MCP，丰富的 UI GitHub: github.com/lobehub/lobehub"
+      },
+      "examples": [
+        "github.com/lobehub/lobehub"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "chatgpt-on-wechat",
+      "category": "integrations",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "chatgpt-on-wechat - zhayujie",
+        "zh": "chatgpt-on-wechat - 基于大模型的超级 AI 助手，支持任务规划、技能执行、多渠道部署"
+      },
+      "description": {
+        "en": "基于大模型的超级 AI 助手，支持任务规划、技能执行、多渠道部署",
+        "zh": "基于大模型的超级 AI 助手，支持任务规划、技能执行、多渠道部署"
+      },
+      "details": {
+        "en": "基于大模型的超级 AI 助手，支持任务规划、技能执行、多渠道部署 GitHub: github.com/zhayujie/chatgpt-on-wechat",
+        "zh": "基于大模型的超级 AI 助手，支持任务规划、技能执行、多渠道部署 GitHub: github.com/zhayujie/chatgpt-on-wechat"
+      },
+      "examples": [
+        "github.com/zhayujie/chatgpt-on-wechat"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "chatdev",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "llm"
+      ],
+      "title": {
+        "en": "ChatDev - OpenBMB",
+        "zh": "ChatDev - ChatDev 2.0：通过 LLM 驱动的多 Agent 协作进行软件开发，清华出品"
+      },
+      "description": {
+        "en": "ChatDev 2.0：通过 LLM 驱动的多 Agent 协作进行软件开发，清华出品",
+        "zh": "ChatDev 2.0：通过 LLM 驱动的多 Agent 协作进行软件开发，清华出品"
+      },
+      "details": {
+        "en": "ChatDev 2.0：通过 LLM 驱动的多 Agent 协作进行软件开发，清华出品 GitHub: github.com/OpenBMB/ChatDev",
+        "zh": "ChatDev 2.0：通过 LLM 驱动的多 Agent 协作进行软件开发，清华出品 GitHub: github.com/OpenBMB/ChatDev"
+      },
+      "examples": [
+        "github.com/OpenBMB/ChatDev"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "nanobrowser",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "nanobrowser - nanobrowser",
+        "zh": "nanobrowser - 开源 Chrome 扩展，AI 驱动的多 Agent 网页自动化，BYOK 模式"
+      },
+      "description": {
+        "en": "开源 Chrome 扩展，AI 驱动的多 Agent 网页自动化，BYOK 模式",
+        "zh": "开源 Chrome 扩展，AI 驱动的多 Agent 网页自动化，BYOK 模式"
+      },
+      "details": {
+        "en": "开源 Chrome 扩展，AI 驱动的多 Agent 网页自动化，BYOK 模式 GitHub: github.com/nanobrowser/nanobrowser",
+        "zh": "开源 Chrome 扩展，AI 驱动的多 Agent 网页自动化，BYOK 模式 GitHub: github.com/nanobrowser/nanobrowser"
+      },
+      "examples": [
+        "github.com/nanobrowser/nanobrowser"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
