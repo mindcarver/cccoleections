@@ -6260,6 +6260,128 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "free-llm-api-resources",
+      "category": "ai-tools",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "free-llm-api-resources - cheahjs",
+        "zh": "free-llm-api-resources - 免费 LLM API 资源列表"
+      },
+      "description": {
+        "en": "免费 LLM API 资源列表",
+        "zh": "免费 LLM API 资源列表"
+      },
+      "details": {
+        "en": "免费 LLM API 资源列表 GitHub: github.com/cheahjs/free-llm-api-resources",
+        "zh": "免费 LLM API 资源列表 GitHub: github.com/cheahjs/free-llm-api-resources"
+      },
+      "examples": [
+        "github.com/cheahjs/free-llm-api-resources"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ai-cli",
+      "category": "ai-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "ai-cli - vercel-labs",
+        "zh": "ai-cli - Vercel 出品终端 AI 生成工具"
+      },
+      "description": {
+        "en": "Vercel 出品终端 AI 生成工具",
+        "zh": "Vercel 出品终端 AI 生成工具"
+      },
+      "details": {
+        "en": "Vercel 出品终端 AI 生成工具 GitHub: github.com/vercel-labs/ai-cli",
+        "zh": "Vercel 出品终端 AI 生成工具 GitHub: github.com/vercel-labs/ai-cli"
+      },
+      "examples": [
+        "github.com/vercel-labs/ai-cli"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-ai-apps",
+      "category": "tutorial",
+      "tags": [
+        "rag",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "awesome-ai-apps - Arindam200",
+        "zh": "awesome-ai-apps - RAG、Agent、Workflow 等 AI 应用案例合集"
+      },
+      "description": {
+        "en": "RAG、Agent、Workflow 等 AI 应用案例合集",
+        "zh": "RAG、Agent、Workflow 等 AI 应用案例合集"
+      },
+      "details": {
+        "en": "RAG、Agent、Workflow 等 AI 应用案例合集 GitHub: github.com/Arindam200/awesome-ai-apps",
+        "zh": "RAG、Agent、Workflow 等 AI 应用案例合集 GitHub: github.com/Arindam200/awesome-ai-apps"
+      },
+      "examples": [
+        "github.com/Arindam200/awesome-ai-apps"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "scrapling",
+      "category": "developer-tools",
+      "tags": [
+        "framework"
+      ],
+      "title": {
+        "en": "Scrapling - D4Vinci",
+        "zh": "Scrapling - 自适应网页爬虫框架，支持从单请求到大规模爬取"
+      },
+      "description": {
+        "en": "自适应网页爬虫框架，支持从单请求到大规模爬取",
+        "zh": "自适应网页爬虫框架，支持从单请求到大规模爬取"
+      },
+      "details": {
+        "en": "自适应网页爬虫框架，支持从单请求到大规模爬取 GitHub: github.com/D4Vinci/Scrapling",
+        "zh": "自适应网页爬虫框架，支持从单请求到大规模爬取 GitHub: github.com/D4Vinci/Scrapling"
+      },
+      "examples": [
+        "github.com/D4Vinci/Scrapling"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openui",
+      "category": "design-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "openui - thesysdev",
+        "zh": "openui - 生成式 UI 的开放标准"
+      },
+      "description": {
+        "en": "生成式 UI 的开放标准",
+        "zh": "生成式 UI 的开放标准"
+      },
+      "details": {
+        "en": "生成式 UI 的开放标准 GitHub: github.com/thesysdev/openui",
+        "zh": "生成式 UI 的开放标准 GitHub: github.com/thesysdev/openui"
+      },
+      "examples": [
+        "github.com/thesysdev/openui"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
