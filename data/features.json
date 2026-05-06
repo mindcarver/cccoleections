@@ -6032,6 +6032,31 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "astron-agent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "astron-agent - iflytek",
+        "zh": "astron-agent - 科大讯飞企业级Agent工作流平台，商业友好授权，用于构建下一代超级Agent"
+      },
+      "description": {
+        "en": "科大讯飞企业级Agent工作流平台，商业友好授权，用于构建下一代超级Agent",
+        "zh": "科大讯飞企业级Agent工作流平台，商业友好授权，用于构建下一代超级Agent"
+      },
+      "details": {
+        "en": "科大讯飞企业级Agent工作流平台，商业友好授权，用于构建下一代超级Agent GitHub: github.com/iflytek/astron-agent",
+        "zh": "科大讯飞企业级Agent工作流平台，商业友好授权，用于构建下一代超级Agent GitHub: github.com/iflytek/astron-agent"
+      },
+      "examples": [
+        "github.com/iflytek/astron-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
