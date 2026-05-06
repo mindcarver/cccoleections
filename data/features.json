@@ -6382,6 +6382,108 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "multica",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "multica - multica-ai",
+        "zh": "multica - 开源托管智能体平台，将编码智能体变为真正的队友，支持任务分配、进度追踪和技能复合"
+      },
+      "description": {
+        "en": "开源托管智能体平台，将编码智能体变为真正的队友，支持任务分配、进度追踪和技能复合",
+        "zh": "开源托管智能体平台，将编码智能体变为真正的队友，支持任务分配、进度追踪和技能复合"
+      },
+      "details": {
+        "en": "开源托管智能体平台，将编码智能体变为真正的队友，支持任务分配、进度追踪和技能复合 GitHub: github.com/multica-ai/multica",
+        "zh": "开源托管智能体平台，将编码智能体变为真正的队友，支持任务分配、进度追踪和技能复合 GitHub: github.com/multica-ai/multica"
+      },
+      "examples": [
+        "github.com/multica-ai/multica"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "archon",
+      "category": "developer-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "Archon - coleam00",
+        "zh": "Archon - 首个开源AI编码Harness构建器，使AI编码变得确定性和可重复"
+      },
+      "description": {
+        "en": "首个开源AI编码Harness构建器，使AI编码变得确定性和可重复",
+        "zh": "首个开源AI编码Harness构建器，使AI编码变得确定性和可重复"
+      },
+      "details": {
+        "en": "首个开源AI编码Harness构建器，使AI编码变得确定性和可重复 GitHub: github.com/coleam00/Archon",
+        "zh": "首个开源AI编码Harness构建器，使AI编码变得确定性和可重复 GitHub: github.com/coleam00/Archon"
+      },
+      "examples": [
+        "github.com/coleam00/Archon"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openfang",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "openfang - RightNow-AI",
+        "zh": "openfang - Rust语言构建的开源Agent操作系统，提供操作系统级别的AI智能体抽象"
+      },
+      "description": {
+        "en": "Rust语言构建的开源Agent操作系统，提供操作系统级别的AI智能体抽象",
+        "zh": "Rust语言构建的开源Agent操作系统，提供操作系统级别的AI智能体抽象"
+      },
+      "details": {
+        "en": "Rust语言构建的开源Agent操作系统，提供操作系统级别的AI智能体抽象 GitHub: github.com/RightNow-AI/openfang",
+        "zh": "Rust语言构建的开源Agent操作系统，提供操作系统级别的AI智能体抽象 GitHub: github.com/RightNow-AI/openfang"
+      },
+      "examples": [
+        "github.com/RightNow-AI/openfang"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pydantic-ai",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "pydantic-ai - pydantic",
+        "zh": "pydantic-ai - Pydantic团队推出的AI Agent框架，以类型安全、验证优先的方式开发智能体"
+      },
+      "description": {
+        "en": "Pydantic团队推出的AI Agent框架，以类型安全、验证优先的方式开发智能体",
+        "zh": "Pydantic团队推出的AI Agent框架，以类型安全、验证优先的方式开发智能体"
+      },
+      "details": {
+        "en": "Pydantic团队推出的AI Agent框架，以类型安全、验证优先的方式开发智能体 GitHub: github.com/pydantic/pydantic-ai",
+        "zh": "Pydantic团队推出的AI Agent框架，以类型安全、验证优先的方式开发智能体 GitHub: github.com/pydantic/pydantic-ai"
+      },
+      "examples": [
+        "github.com/pydantic/pydantic-ai"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
