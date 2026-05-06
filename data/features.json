@@ -6057,6 +6057,209 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "langflow",
+      "category": "ai-tools",
+      "tags": [
+        "tool",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "langflow - langflow-ai",
+        "zh": "langflow - 构建和部署 AI Agent 和工作流的强大工具平台"
+      },
+      "description": {
+        "en": "构建和部署 AI Agent 和工作流的强大工具平台",
+        "zh": "构建和部署 AI Agent 和工作流的强大工具平台"
+      },
+      "details": {
+        "en": "构建和部署 AI Agent 和工作流的强大工具平台 GitHub: github.com/langflow-ai/langflow",
+        "zh": "构建和部署 AI Agent 和工作流的强大工具平台 GitHub: github.com/langflow-ai/langflow"
+      },
+      "examples": [
+        "github.com/langflow-ai/langflow"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "browser-use",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "browser-use - browser-use",
+        "zh": "browser-use - 让网站对 AI Agent 可访问，自动化在线任务"
+      },
+      "description": {
+        "en": "让网站对 AI Agent 可访问，自动化在线任务",
+        "zh": "让网站对 AI Agent 可访问，自动化在线任务"
+      },
+      "details": {
+        "en": "让网站对 AI Agent 可访问，自动化在线任务 GitHub: github.com/browser-use/browser-use",
+        "zh": "让网站对 AI Agent 可访问，自动化在线任务 GitHub: github.com/browser-use/browser-use"
+      },
+      "examples": [
+        "github.com/browser-use/browser-use"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "autoresearch",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "autoresearch - karpathy",
+        "zh": "autoresearch - Karpathy 的 AI 研究自动化 Agent，单 GPU 运行"
+      },
+      "description": {
+        "en": "Karpathy 的 AI 研究自动化 Agent，单 GPU 运行",
+        "zh": "Karpathy 的 AI 研究自动化 Agent，单 GPU 运行"
+      },
+      "details": {
+        "en": "Karpathy 的 AI 研究自动化 Agent，单 GPU 运行 GitHub: github.com/karpathy/autoresearch",
+        "zh": "Karpathy 的 AI 研究自动化 Agent，单 GPU 运行 GitHub: github.com/karpathy/autoresearch"
+      },
+      "examples": [
+        "github.com/karpathy/autoresearch"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openhands",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "OpenHands - OpenHands",
+        "zh": "OpenHands - AI 驱动的软件开发平台"
+      },
+      "description": {
+        "en": "AI 驱动的软件开发平台",
+        "zh": "AI 驱动的软件开发平台"
+      },
+      "details": {
+        "en": "AI 驱动的软件开发平台 GitHub: github.com/OpenHands/OpenHands",
+        "zh": "AI 驱动的软件开发平台 GitHub: github.com/OpenHands/OpenHands"
+      },
+      "examples": [
+        "github.com/OpenHands/OpenHands"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openbb",
+      "category": "ai-finance",
+      "tags": [
+        "finance",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "OpenBB - OpenBB-finance",
+        "zh": "OpenBB - 面向分析师、量化交易和 AI Agent 的金融数据平台"
+      },
+      "description": {
+        "en": "面向分析师、量化交易和 AI Agent 的金融数据平台",
+        "zh": "面向分析师、量化交易和 AI Agent 的金融数据平台"
+      },
+      "details": {
+        "en": "面向分析师、量化交易和 AI Agent 的金融数据平台 GitHub: github.com/OpenBB-finance/OpenBB",
+        "zh": "面向分析师、量化交易和 AI Agent 的金融数据平台 GitHub: github.com/OpenBB-finance/OpenBB"
+      },
+      "examples": [
+        "github.com/OpenBB-finance/OpenBB"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "metorial",
+      "category": "ai-tools",
+      "tags": [
+        "mcp"
+      ],
+      "title": {
+        "en": "metorial - metorial",
+        "zh": "metorial - MCP 服务器部署平台，类似 Vercel for MCP"
+      },
+      "description": {
+        "en": "MCP 服务器部署平台，类似 Vercel for MCP",
+        "zh": "MCP 服务器部署平台，类似 Vercel for MCP"
+      },
+      "details": {
+        "en": "MCP 服务器部署平台，类似 Vercel for MCP GitHub: github.com/metorial/metorial",
+        "zh": "MCP 服务器部署平台，类似 Vercel for MCP GitHub: github.com/metorial/metorial"
+      },
+      "examples": [
+        "github.com/metorial/metorial"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "traceroot",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "open-source",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "traceroot - traceroot-ai",
+        "zh": "traceroot - 分布式服务的开源 Agent 化调试工具"
+      },
+      "description": {
+        "en": "分布式服务的开源 Agent 化调试工具",
+        "zh": "分布式服务的开源 Agent 化调试工具"
+      },
+      "details": {
+        "en": "分布式服务的开源 Agent 化调试工具 GitHub: github.com/traceroot-ai/traceroot",
+        "zh": "分布式服务的开源 Agent 化调试工具 GitHub: github.com/traceroot-ai/traceroot"
+      },
+      "examples": [
+        "github.com/traceroot-ai/traceroot"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "hive",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "hive - adenhq",
+        "zh": "hive - 运行时自动生成拓扑结构的自组织 Agent 框架"
+      },
+      "description": {
+        "en": "运行时自动生成拓扑结构的自组织 Agent 框架",
+        "zh": "运行时自动生成拓扑结构的自组织 Agent 框架"
+      },
+      "details": {
+        "en": "运行时自动生成拓扑结构的自组织 Agent 框架 GitHub: github.com/adenhq/hive",
+        "zh": "运行时自动生成拓扑结构的自组织 Agent 框架 GitHub: github.com/adenhq/hive"
+      },
+      "examples": [
+        "github.com/adenhq/hive"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
