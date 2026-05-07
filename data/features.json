@@ -6484,6 +6484,31 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "letta",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "letta - letta-ai",
+        "zh": "letta - 有状态Agent平台，支持高级记忆和自我改进的Agent构建"
+      },
+      "description": {
+        "en": "有状态Agent平台，支持高级记忆和自我改进的Agent构建",
+        "zh": "有状态Agent平台，支持高级记忆和自我改进的Agent构建"
+      },
+      "details": {
+        "en": "有状态Agent平台，支持高级记忆和自我改进的Agent构建 GitHub: github.com/letta-ai/letta",
+        "zh": "有状态Agent平台，支持高级记忆和自我改进的Agent构建 GitHub: github.com/letta-ai/letta"
+      },
+      "examples": [
+        "github.com/letta-ai/letta"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
