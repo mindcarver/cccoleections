@@ -1,0 +1,344 @@
+{
+  "features": [
+    {
+      "id": "cli-basic",
+      "category": "core",
+      "tags": ["cli", "terminal"],
+      "title": {
+        "en": "Basic CLI Operations",
+        "zh": "基础CLI操作"
+      },
+      "description": {
+        "en": "Core CLI commands for session management and configuration",
+        "zh": "会话管理和配置的核心CLI命令"
+      },
+      "details": {
+        "en": "Essential commands: `claude` starts sessions, `--help` shows options, `--version` displays version. Control your AI coding experience.",
+        "zh": "基本命令：`claude`启动会话，`--help`显示选项，`--version`显示版本。控制你的AI编码体验。"
+      },
+      "examples": ["claude", "claude --help", "claude --version"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "natural-language-coding",
+      "category": "core",
+      "tags": ["ai", "code-generation"],
+      "title": {
+        "en": "Natural Language Coding",
+        "zh": "自然语言编码"
+      },
+      "description": {
+        "en": "Generate and modify code using plain English descriptions",
+        "zh": "使用纯英文描述生成和修改代码"
+      },
+      "details": {
+        "en": "Describe what you want in plain English. Claude creates implementations, handles edge cases, ensures best practices.",
+        "zh": "用简单的英语描述你的需求。Claude创建实现，处理边界情况，确保最佳实践。"
+      },
+      "examples": ["Create a REST API", "Refactor this function", "Add error handling"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "file-editing",
+      "category": "core",
+      "tags": ["files", "editing"],
+      "title": {
+        "en": "File Editing & Creation",
+        "zh": "文件编辑与创建"
+      },
+      "description": {
+        "en": "Read, write, and modify files with AI assistance",
+        "zh": "在AI辅助下读取、写入和修改文件"
+      },
+      "details": {
+        "en": "AI reads files before editing, understands existing code, makes precise changes while preserving functionality.",
+        "zh": "AI在编辑前读取文件，理解现有代码，在保持功能的同时进行精确更改。"
+      },
+      "examples": ["Edit config.json", "Create new component", "Fix bug in auth.js"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "git-integration",
+      "category": "core",
+      "tags": ["git", "version-control"],
+      "title": {
+        "en": "Git Workflow Integration",
+        "zh": "Git工作流集成"
+      },
+      "description": {
+        "en": "Seamless Git operations with intelligent commit messages",
+        "zh": "无缝Git操作与智能提交消息"
+      },
+      "details": {
+        "en": "Auto-status checks, feature branches, meaningful commits. Handles merge conflicts and PR workflows.",
+        "zh": "自动状态检查，功能分支，有意义的提交。处理合并冲突和PR工作流。"
+      },
+      "examples": ["Create feature branch", "Commit changes", "Resolve conflicts"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "slash-commands",
+      "category": "interactive",
+      "tags": ["commands", "shortcuts"],
+      "title": {
+        "en": "Slash Commands",
+        "zh": "斜杠命令"
+      },
+      "description": {
+        "en": "Quick commands with / prefix for common tasks",
+        "zh": "使用/前缀的快速命令执行常见任务"
+      },
+      "details": {
+        "en": "Type `/` for commands: `/help`, `/clear`, `/theme`. Fast access to frequent operations.",
+        "zh": "输入`/`调用命令：`/help`、`/clear`、`/theme`。快速访问常用操作。"
+      },
+      "examples": ["/help", "/clear", "/theme dark", "/save"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "background-tasks",
+      "category": "interactive",
+      "tags": ["async", "productivity"],
+      "title": {
+        "en": "Background Task Execution",
+        "zh": "后台任务执行"
+      },
+      "description": {
+        "en": "Run long tasks in background with Ctrl+b",
+        "zh": "使用Ctrl+b在后台运行长时间任务"
+      },
+      "details": {
+        "en": "Execute time-consuming operations async. Get notified when complete. Continue working meanwhile.",
+        "zh": "异步执行耗时操作。完成后获得通知。期间继续工作。"
+      },
+      "examples": ["Run tests in background", "Async deployment", "Long build process"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "model-selection",
+      "category": "models",
+      "tags": ["ai", "models"],
+      "title": {
+        "en": "Multi-Model Support",
+        "zh": "多模型支持"
+      },
+      "description": {
+        "en": "Choose from Sonnet, Opus, and Haiku AI models",
+        "zh": "从Sonnet、Opus和Haiku AI模型中选择"
+      },
+      "details": {
+        "en": "Sonnet for balanced performance, Opus for complex tasks, Haiku for speed. Auto-selection based on task type.",
+        "zh": "Sonnet用于平衡性能，Opus用于复杂任务，Haiku用于速度。基于任务类型自动选择。"
+      },
+      "examples": ["Use Opus for architecture", "Sonnet for coding", "Haiku for quick edits"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "mcp-integration",
+      "category": "integrations",
+      "tags": ["mcp", "extensions"],
+      "title": {
+        "en": "MCP Server Integration",
+        "zh": "MCP服务器集成"
+      },
+      "description": {
+        "en": "Extend capabilities with Model Context Protocol servers",
+        "zh": "使用模型上下文协议服务器扩展功能"
+      },
+      "details": {
+        "en": "Connect to external tools: databases, APIs, file systems. Seamless integration into AI workflow.",
+        "zh": "连接外部工具：数据库、API、文件系统。无缝集成到AI工作流中。"
+      },
+      "examples": ["Connect to PostgreSQL", "Use filesystem MCP", "Custom API integration"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "ide-integrations",
+      "category": "tools",
+      "tags": ["ide", "vscode", "jetbrains"],
+      "title": {
+        "en": "IDE Extensions",
+        "zh": "IDE扩展"
+      },
+      "description": {
+        "en": "Use Claude Code in VS Code, JetBrains, and more",
+        "zh": "在VS Code、JetBrains等中使用Claude Code"
+      },
+      "details": {
+        "en": "Native extensions for popular IDEs. Same AI power, familiar workflow. Syntax highlighting, code completion.",
+        "zh": "流行IDE的原生扩展。相同的AI功能，熟悉的工作流程。语法高亮，代码完成。"
+      },
+      "examples": ["VS Code extension", "JetBrains plugin", "Vim integration"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "code-analysis",
+      "category": "tools",
+      "tags": ["analysis", "debugging"],
+      "title": {
+        "en": "Intelligent Code Analysis",
+        "zh": "智能代码分析"
+      },
+      "description": {
+        "en": "Understand and optimize existing codebases",
+        "zh": "理解和优化现有代码库"
+      },
+      "details": {
+        "en": "AI reads entire codebase, understands patterns, suggests improvements. Finds bugs, refactors safely.",
+        "zh": "AI读取整个代码库，理解模式，建议改进。发现错误，安全重构。"
+      },
+      "examples": ["Analyze performance", "Find security issues", "Suggest refactoring"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "testing",
+      "category": "tools",
+      "tags": ["testing", "quality"],
+      "title": {
+        "en": "Automated Testing",
+        "zh": "自动化测试"
+      },
+      "description": {
+        "en": "Generate and run tests with AI assistance",
+        "zh": "在AI辅助下生成和运行测试"
+      },
+      "details": {
+        "en": "Create unit tests, integration tests. AI generates test cases, runs them, analyzes coverage.",
+        "zh": "创建单元测试、集成测试。AI生成测试用例，运行测试，分析覆盖率。"
+      },
+      "examples": ["Generate unit tests", "Test coverage analysis", "Integration testing"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "documentation",
+      "category": "tools",
+      "tags": ["docs", "writing"],
+      "title": {
+        "en": "Documentation Generation",
+        "zh": "文档生成"
+      },
+      "description": {
+        "en": "Auto-generate docs from code and comments",
+        "zh": "从代码和注释自动生成文档"
+      },
+      "details": {
+        "en": "AI reads code, creates comprehensive docs. Supports JSDoc, Python docstrings, README files.",
+        "zh": "AI读取代码，创建全面的文档。支持JSDoc、Python文档字符串、README文件。"
+      },
+      "examples": ["Generate API docs", "Create README", "Document functions"],
+      "version": "2025.1",
+      "status": "stable"
+    },
+    {
+      "id": "hooks",
+      "category": "advanced",
+      "tags": ["automation", "hooks"],
+      "title": {
+        "en": "Lifecycle Hooks",
+        "zh": "生命周期钩子"
+      },
+      "description": {
+        "en": "Automate tasks with pre and post event hooks",
+        "zh": "使用前后事件钩子自动化任务"
+      },
+      "details": {
+        "en": "Run scripts before/after operations: pre-commit, post-save, pre-deploy. Automate workflows.",
+        "zh": "在操作前后运行脚本：pre-commit、post-save、pre-deploy。自动化工作流。"
+      },
+      "examples": ["Lint before commit", "Test after save", "Build before deploy"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "memory",
+      "category": "advanced",
+      "tags": ["memory", "context"],
+      "title": {
+        "en": "Persistent Memory",
+        "zh": "持久化记忆"
+      },
+      "description": {
+        "en": "AI remembers context across sessions",
+        "zh": "AI在会话之间记住上下文"
+      },
+      "details": {
+        "en": "Stores project context, preferences, learnings. Resumes where you left off. Gets smarter over time.",
+        "zh": "存储项目上下文、偏好设置、学习内容。从中断处恢复。越来越聪明。"
+      },
+      "examples": ["Remember coding style", "Learn project patterns", "Context persistence"],
+      "version": "2025.1",
+      "status": "new"
+    },
+    {
+      "id": "collaboration",
+      "category": "advanced",
+      "tags": ["team", "sharing"],
+      "title": {
+        "en": "Team Collaboration",
+        "zh": "团队协作"
+      },
+      "description": {
+        "en": "Share sessions and collaborate with team members",
+        "zh": "共享会话并与团队成员协作"
+      },
+      "details": {
+        "en": "Share Claude conversations, export sessions, collaborative debugging. Team knowledge base.",
+        "zh": "共享Claude对话，导出会话，协作调试。团队知识库。"
+      },
+      "examples": ["Share conversation", "Export session log", "Team knowledge base"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "security",
+      "category": "advanced",
+      "tags": ["security", "scanning"],
+      "title": {
+        "en": "Security Scanning",
+        "zh": "安全扫描"
+      },
+      "description": {
+        "en": "AI-powered security analysis and vulnerability detection",
+        "zh": "AI驱动的安全分析和漏洞检测"
+      },
+      "details": {
+        "en": "Scans code for security issues, finds vulnerabilities, suggests fixes. OWASP top 10 coverage.",
+        "zh": "扫描代码安全问题，发现漏洞，建议修复。覆盖OWASP前十。"
+      },
+      "examples": ["Security audit", "Vulnerability scan", "OWASP compliance"],
+      "version": "2025.1",
+      "status": "beta"
+    },
+    {
+      "id": "deployment",
+      "category": "tools",
+      "tags": ["deployment", "devops"],
+      "title": {
+        "en": "Deployment Automation",
+        "zh": "部署自动化"
+      },
+      "description": {
+        "en": "Automated deployment workflows with AI assistance",
+        "zh": "AI辅助的自动化部署工作流"
+      },
+      "details": {
+        "en": "Generate CI/CD pipelines, deploy to multiple platforms. AI handles configuration, optimization.",
+        "zh": "生成CI/CD管道，部署到多个平台。AI处理配置、优化。"
+      },
+      "examples": ["Deploy to Vercel", "GitHub Actions workflow", "Docker deployment"],
+      "version": "2025.1",
+      "status": "beta"
+    }
+  ]
+}
