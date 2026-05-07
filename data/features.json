@@ -7102,6 +7102,179 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "docuseal",
+      "category": "document-processing",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "docuseal - docusealco",
+        "zh": "docuseal - 开源DocuSign替代方案，数字文档创建、填写和签署"
+      },
+      "description": {
+        "en": "开源DocuSign替代方案，数字文档创建、填写和签署",
+        "zh": "开源DocuSign替代方案，数字文档创建、填写和签署"
+      },
+      "details": {
+        "en": "开源DocuSign替代方案，数字文档创建、填写和签署 GitHub: github.com/docusealco/docuseal",
+        "zh": "开源DocuSign替代方案，数字文档创建、填写和签署 GitHub: github.com/docusealco/docuseal"
+      },
+      "examples": [
+        "github.com/docusealco/docuseal"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "open-agents",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "open-agents - vercel-labs",
+        "zh": "open-agents - 开源云代理构建模板"
+      },
+      "description": {
+        "en": "开源云代理构建模板",
+        "zh": "开源云代理构建模板"
+      },
+      "details": {
+        "en": "开源云代理构建模板 GitHub: github.com/vercel-labs/open-agents",
+        "zh": "开源云代理构建模板 GitHub: github.com/vercel-labs/open-agents"
+      },
+      "examples": [
+        "github.com/vercel-labs/open-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "tabpfn",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "TabPFN - PriorLabs",
+        "zh": "TabPFN - 表格数据基础模型"
+      },
+      "description": {
+        "en": "表格数据基础模型",
+        "zh": "表格数据基础模型"
+      },
+      "details": {
+        "en": "表格数据基础模型 GitHub: github.com/PriorLabs/TabPFN",
+        "zh": "表格数据基础模型 GitHub: github.com/PriorLabs/TabPFN"
+      },
+      "examples": [
+        "github.com/PriorLabs/TabPFN"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "onyx",
+      "category": "ai-tools",
+      "tags": [
+        "open-source",
+        "llm"
+      ],
+      "title": {
+        "en": "onyx - onyx-dot-app",
+        "zh": "onyx - 开源AI聊天平台，支持所有LLM"
+      },
+      "description": {
+        "en": "开源AI聊天平台，支持所有LLM",
+        "zh": "开源AI聊天平台，支持所有LLM"
+      },
+      "details": {
+        "en": "开源AI聊天平台，支持所有LLM GitHub: github.com/onyx-dot-app/onyx",
+        "zh": "开源AI聊天平台，支持所有LLM GitHub: github.com/onyx-dot-app/onyx"
+      },
+      "examples": [
+        "github.com/onyx-dot-app/onyx"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "tradingagents-cn",
+      "category": "ai-finance",
+      "tags": [
+        "framework",
+        "finance",
+        "llm"
+      ],
+      "title": {
+        "en": "TradingAgents-CN - hsliuping",
+        "zh": "TradingAgents-CN - 基于多智能体LLM的中文金融交易框架"
+      },
+      "description": {
+        "en": "基于多智能体LLM的中文金融交易框架",
+        "zh": "基于多智能体LLM的中文金融交易框架"
+      },
+      "details": {
+        "en": "基于多智能体LLM的中文金融交易框架 GitHub: github.com/hsliuping/TradingAgents-CN",
+        "zh": "基于多智能体LLM的中文金融交易框架 GitHub: github.com/hsliuping/TradingAgents-CN"
+      },
+      "examples": [
+        "github.com/hsliuping/TradingAgents-CN"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "servers",
+      "category": "integrations",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "servers - modelcontextprotocol",
+        "zh": "servers - Model Context Protocol服务器集合"
+      },
+      "description": {
+        "en": "Model Context Protocol服务器集合",
+        "zh": "Model Context Protocol服务器集合"
+      },
+      "details": {
+        "en": "Model Context Protocol服务器集合 GitHub: github.com/modelcontextprotocol/servers",
+        "zh": "Model Context Protocol服务器集合 GitHub: github.com/modelcontextprotocol/servers"
+      },
+      "examples": [
+        "github.com/modelcontextprotocol/servers"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pocket-tts",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "pocket-tts - kyutai-labs",
+        "zh": "pocket-tts - 可在CPU上运行的轻量级TTS语音合成"
+      },
+      "description": {
+        "en": "可在CPU上运行的轻量级TTS语音合成",
+        "zh": "可在CPU上运行的轻量级TTS语音合成"
+      },
+      "details": {
+        "en": "可在CPU上运行的轻量级TTS语音合成 GitHub: github.com/kyutai-labs/pocket-tts",
+        "zh": "可在CPU上运行的轻量级TTS语音合成 GitHub: github.com/kyutai-labs/pocket-tts"
+      },
+      "examples": [
+        "github.com/kyutai-labs/pocket-tts"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
