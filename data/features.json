@@ -7275,6 +7275,33 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "auto-claude-code-research-in-sleep",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "multi-agent",
+        "coding",
+        "agent"
+      ],
+      "title": {
+        "en": "Auto-claude-code-research-in-sleep - wanshuiyin",
+        "zh": "Auto-claude-code-research-in-sleep - ARIS - 睡眠中自动研究的轻量框架，支持跨模型评审循环和实验自动化"
+      },
+      "description": {
+        "en": "ARIS - 睡眠中自动研究的轻量框架，支持跨模型评审循环和实验自动化",
+        "zh": "ARIS - 睡眠中自动研究的轻量框架，支持跨模型评审循环和实验自动化"
+      },
+      "details": {
+        "en": "ARIS - 睡眠中自动研究的轻量框架，支持跨模型评审循环和实验自动化 GitHub: github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+        "zh": "ARIS - 睡眠中自动研究的轻量框架，支持跨模型评审循环和实验自动化 GitHub: github.com/wanshuiyin/Auto-claude-code-research-in-sleep"
+      },
+      "examples": [
+        "github.com/wanshuiyin/Auto-claude-code-research-in-sleep"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
