@@ -7302,6 +7302,108 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "librechat",
+      "category": "ai-tools",
+      "tags": [
+        "mcp"
+      ],
+      "title": {
+        "en": "LibreChat - danny-avila",
+        "zh": "LibreChat - 增强版ChatGPT克隆，支持多智能体、MCP、多AI提供商集成"
+      },
+      "description": {
+        "en": "增强版ChatGPT克隆，支持多智能体、MCP、多AI提供商集成",
+        "zh": "增强版ChatGPT克隆，支持多智能体、MCP、多AI提供商集成"
+      },
+      "details": {
+        "en": "增强版ChatGPT克隆，支持多智能体、MCP、多AI提供商集成 GitHub: github.com/danny-avila/LibreChat",
+        "zh": "增强版ChatGPT克隆，支持多智能体、MCP、多AI提供商集成 GitHub: github.com/danny-avila/LibreChat"
+      },
+      "examples": [
+        "github.com/danny-avila/LibreChat"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agents",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agents - wshobson",
+        "zh": "agents - Claude Code的智能自动化和多智能体编排"
+      },
+      "description": {
+        "en": "Claude Code的智能自动化和多智能体编排",
+        "zh": "Claude Code的智能自动化和多智能体编排"
+      },
+      "details": {
+        "en": "Claude Code的智能自动化和多智能体编排 GitHub: github.com/wshobson/agents",
+        "zh": "Claude Code的智能自动化和多智能体编排 GitHub: github.com/wshobson/agents"
+      },
+      "examples": [
+        "github.com/wshobson/agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "oh-my-claudecode",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "coding",
+        "tool",
+        "agent"
+      ],
+      "title": {
+        "en": "oh-my-claudecode - Yeachan-Heo",
+        "zh": "oh-my-claudecode - 团队优先的多智能体编排工具，面向Claude Code"
+      },
+      "description": {
+        "en": "团队优先的多智能体编排工具，面向Claude Code",
+        "zh": "团队优先的多智能体编排工具，面向Claude Code"
+      },
+      "details": {
+        "en": "团队优先的多智能体编排工具，面向Claude Code GitHub: github.com/Yeachan-Heo/oh-my-claudecode",
+        "zh": "团队优先的多智能体编排工具，面向Claude Code GitHub: github.com/Yeachan-Heo/oh-my-claudecode"
+      },
+      "examples": [
+        "github.com/Yeachan-Heo/oh-my-claudecode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "memos",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "llm",
+        "agent"
+      ],
+      "title": {
+        "en": "MemOS - MemTensor",
+        "zh": "MemOS - 面向LLM和AI Agent的自进化记忆操作系统"
+      },
+      "description": {
+        "en": "面向LLM和AI Agent的自进化记忆操作系统",
+        "zh": "面向LLM和AI Agent的自进化记忆操作系统"
+      },
+      "details": {
+        "en": "面向LLM和AI Agent的自进化记忆操作系统 GitHub: github.com/MemTensor/MemOS",
+        "zh": "面向LLM和AI Agent的自进化记忆操作系统 GitHub: github.com/MemTensor/MemOS"
+      },
+      "examples": [
+        "github.com/MemTensor/MemOS"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
