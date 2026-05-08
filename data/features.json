@@ -7404,6 +7404,682 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "shark",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "open-source",
+        "agent"
+      ],
+      "title": {
+        "en": "shark - shark-auth",
+        "zh": "shark - 面向 AI Agent 的开源认证系统，Go 语言实现"
+      },
+      "description": {
+        "en": "面向 AI Agent 的开源认证系统，Go 语言实现",
+        "zh": "面向 AI Agent 的开源认证系统，Go 语言实现"
+      },
+      "details": {
+        "en": "面向 AI Agent 的开源认证系统，Go 语言实现 GitHub: github.com/shark-auth/shark",
+        "zh": "面向 AI Agent 的开源认证系统，Go 语言实现 GitHub: github.com/shark-auth/shark"
+      },
+      "examples": [
+        "github.com/shark-auth/shark"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "aerf",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "aerf - aerf-spec",
+        "zh": "aerf - 为 AI Agent 操作提供加密签名的审计收据"
+      },
+      "description": {
+        "en": "为 AI Agent 操作提供加密签名的审计收据",
+        "zh": "为 AI Agent 操作提供加密签名的审计收据"
+      },
+      "details": {
+        "en": "为 AI Agent 操作提供加密签名的审计收据 GitHub: github.com/aerf-spec/aerf",
+        "zh": "为 AI Agent 操作提供加密签名的审计收据 GitHub: github.com/aerf-spec/aerf"
+      },
+      "examples": [
+        "github.com/aerf-spec/aerf"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "stage-cli",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "stage-cli - ReviewStage",
+        "zh": "stage-cli - 帮助开发者逐步审查 AI Agent 生成代码变更的 CLI 工具"
+      },
+      "description": {
+        "en": "帮助开发者逐步审查 AI Agent 生成代码变更的 CLI 工具",
+        "zh": "帮助开发者逐步审查 AI Agent 生成代码变更的 CLI 工具"
+      },
+      "details": {
+        "en": "帮助开发者逐步审查 AI Agent 生成代码变更的 CLI 工具 GitHub: github.com/ReviewStage/stage-cli",
+        "zh": "帮助开发者逐步审查 AI Agent 生成代码变更的 CLI 工具 GitHub: github.com/ReviewStage/stage-cli"
+      },
+      "examples": [
+        "github.com/ReviewStage/stage-cli"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "re_gent",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "re_gent - regent-vcs",
+        "zh": "re_gent - 专为 AI Agent 设计的版本控制系统"
+      },
+      "description": {
+        "en": "专为 AI Agent 设计的版本控制系统",
+        "zh": "专为 AI Agent 设计的版本控制系统"
+      },
+      "details": {
+        "en": "专为 AI Agent 设计的版本控制系统 GitHub: github.com/regent-vcs/re_gent",
+        "zh": "专为 AI Agent 设计的版本控制系统 GitHub: github.com/regent-vcs/re_gent"
+      },
+      "examples": [
+        "github.com/regent-vcs/re_gent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "armorer",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Armorer - ArmorerLabs",
+        "zh": "Armorer - AI Agent 的安全本地控制面板，使用 Docker 实现进程隔离"
+      },
+      "description": {
+        "en": "AI Agent 的安全本地控制面板，使用 Docker 实现进程隔离",
+        "zh": "AI Agent 的安全本地控制面板，使用 Docker 实现进程隔离"
+      },
+      "details": {
+        "en": "AI Agent 的安全本地控制面板，使用 Docker 实现进程隔离 GitHub: github.com/ArmorerLabs/Armorer",
+        "zh": "AI Agent 的安全本地控制面板，使用 Docker 实现进程隔离 GitHub: github.com/ArmorerLabs/Armorer"
+      },
+      "examples": [
+        "github.com/ArmorerLabs/Armorer"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "airlock",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "airlock - airlockrun",
+        "zh": "airlock - 自升级编译型 AI Agent，半代码半AI，Go 编写"
+      },
+      "description": {
+        "en": "自升级编译型 AI Agent，半代码半AI，Go 编写",
+        "zh": "自升级编译型 AI Agent，半代码半AI，Go 编写"
+      },
+      "details": {
+        "en": "自升级编译型 AI Agent，半代码半AI，Go 编写 GitHub: github.com/airlockrun/airlock",
+        "zh": "自升级编译型 AI Agent，半代码半AI，Go 编写 GitHub: github.com/airlockrun/airlock"
+      },
+      "examples": [
+        "github.com/airlockrun/airlock"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "plur",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "plur - plur-ai",
+        "zh": "plur - AI Agent 本地优先、零成本的持久化记忆系统"
+      },
+      "description": {
+        "en": "AI Agent 本地优先、零成本的持久化记忆系统",
+        "zh": "AI Agent 本地优先、零成本的持久化记忆系统"
+      },
+      "details": {
+        "en": "AI Agent 本地优先、零成本的持久化记忆系统 GitHub: github.com/plur-ai/plur",
+        "zh": "AI Agent 本地优先、零成本的持久化记忆系统 GitHub: github.com/plur-ai/plur"
+      },
+      "examples": [
+        "github.com/plur-ai/plur"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "memoirs",
+      "category": "ai-tools",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "memoirs - misaelzapata",
+        "zh": "memoirs - 基于 SQLite 的本地 AI Agent 长期记忆引擎，支持 MCP/HTTP/CLI"
+      },
+      "description": {
+        "en": "基于 SQLite 的本地 AI Agent 长期记忆引擎，支持 MCP/HTTP/CLI",
+        "zh": "基于 SQLite 的本地 AI Agent 长期记忆引擎，支持 MCP/HTTP/CLI"
+      },
+      "details": {
+        "en": "基于 SQLite 的本地 AI Agent 长期记忆引擎，支持 MCP/HTTP/CLI GitHub: github.com/misaelzapata/memoirs",
+        "zh": "基于 SQLite 的本地 AI Agent 长期记忆引擎，支持 MCP/HTTP/CLI GitHub: github.com/misaelzapata/memoirs"
+      },
+      "examples": [
+        "github.com/misaelzapata/memoirs"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "formative-memory",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "formative-memory - jarimustonen",
+        "zh": "formative-memory - 受心理学启发的 AI Agent 记忆系统，包含联想、遗忘和综合功能"
+      },
+      "description": {
+        "en": "受心理学启发的 AI Agent 记忆系统，包含联想、遗忘和综合功能",
+        "zh": "受心理学启发的 AI Agent 记忆系统，包含联想、遗忘和综合功能"
+      },
+      "details": {
+        "en": "受心理学启发的 AI Agent 记忆系统，包含联想、遗忘和综合功能 GitHub: github.com/jarimustonen/formative-memory",
+        "zh": "受心理学启发的 AI Agent 记忆系统，包含联想、遗忘和综合功能 GitHub: github.com/jarimustonen/formative-memory"
+      },
+      "examples": [
+        "github.com/jarimustonen/formative-memory"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "dreamer",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "dreamer - luml-ai",
+        "zh": "dreamer - 让任何编码 Agent 具备自我改进技能的能力"
+      },
+      "description": {
+        "en": "让任何编码 Agent 具备自我改进技能的能力",
+        "zh": "让任何编码 Agent 具备自我改进技能的能力"
+      },
+      "details": {
+        "en": "让任何编码 Agent 具备自我改进技能的能力 GitHub: github.com/luml-ai/dreamer",
+        "zh": "让任何编码 Agent 具备自我改进技能的能力 GitHub: github.com/luml-ai/dreamer"
+      },
+      "examples": [
+        "github.com/luml-ai/dreamer"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "resurf",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "resurf - lightfeed",
+        "zh": "resurf - AI 浏览器 Agent 的现实可复现测试框架"
+      },
+      "description": {
+        "en": "AI 浏览器 Agent 的现实可复现测试框架",
+        "zh": "AI 浏览器 Agent 的现实可复现测试框架"
+      },
+      "details": {
+        "en": "AI 浏览器 Agent 的现实可复现测试框架 GitHub: github.com/lightfeed/resurf",
+        "zh": "AI 浏览器 Agent 的现实可复现测试框架 GitHub: github.com/lightfeed/resurf"
+      },
+      "examples": [
+        "github.com/lightfeed/resurf"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pageindex",
+      "category": "document-processing",
+      "tags": [
+        "rag"
+      ],
+      "title": {
+        "en": "PageIndex - VectifyAI",
+        "zh": "PageIndex - 无向量、基于推理的 RAG 文档索引系统"
+      },
+      "description": {
+        "en": "无向量、基于推理的 RAG 文档索引系统",
+        "zh": "无向量、基于推理的 RAG 文档索引系统"
+      },
+      "details": {
+        "en": "无向量、基于推理的 RAG 文档索引系统 GitHub: github.com/VectifyAI/PageIndex",
+        "zh": "无向量、基于推理的 RAG 文档索引系统 GitHub: github.com/VectifyAI/PageIndex"
+      },
+      "examples": [
+        "github.com/VectifyAI/PageIndex"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "9router",
+      "category": "developer-tools",
+      "tags": [
+        "tool",
+        "llm"
+      ],
+      "title": {
+        "en": "9router - decolua",
+        "zh": "9router - 免费 AI 编码路由器，连接多种编码工具到免费 LLM"
+      },
+      "description": {
+        "en": "免费 AI 编码路由器，连接多种编码工具到免费 LLM",
+        "zh": "免费 AI 编码路由器，连接多种编码工具到免费 LLM"
+      },
+      "details": {
+        "en": "免费 AI 编码路由器，连接多种编码工具到免费 LLM GitHub: github.com/decolua/9router",
+        "zh": "免费 AI 编码路由器，连接多种编码工具到免费 LLM GitHub: github.com/decolua/9router"
+      },
+      "examples": [
+        "github.com/decolua/9router"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "goose",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "open-source",
+        "agent"
+      ],
+      "title": {
+        "en": "goose - aaif-goose",
+        "zh": "goose - 开源可扩展 AI 编码代理，支持安装、执行、编辑和测试"
+      },
+      "description": {
+        "en": "开源可扩展 AI 编码代理，支持安装、执行、编辑和测试",
+        "zh": "开源可扩展 AI 编码代理，支持安装、执行、编辑和测试"
+      },
+      "details": {
+        "en": "开源可扩展 AI 编码代理，支持安装、执行、编辑和测试 GitHub: github.com/aaif-goose/goose",
+        "zh": "开源可扩展 AI 编码代理，支持安装、执行、编辑和测试 GitHub: github.com/aaif-goose/goose"
+      },
+      "examples": [
+        "github.com/aaif-goose/goose"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "career-ops",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "career-ops - santifer",
+        "zh": "career-ops - 基于 Claude Code 的 AI 驱动求职系统"
+      },
+      "description": {
+        "en": "基于 Claude Code 的 AI 驱动求职系统",
+        "zh": "基于 Claude Code 的 AI 驱动求职系统"
+      },
+      "details": {
+        "en": "基于 Claude Code 的 AI 驱动求职系统 GitHub: github.com/santifer/career-ops",
+        "zh": "基于 Claude Code 的 AI 驱动求职系统 GitHub: github.com/santifer/career-ops"
+      },
+      "examples": [
+        "github.com/santifer/career-ops"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "nanobot",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "nanobot - HKUDS",
+        "zh": "nanobot - 超轻量级个人 AI 代理"
+      },
+      "description": {
+        "en": "超轻量级个人 AI 代理",
+        "zh": "超轻量级个人 AI 代理"
+      },
+      "details": {
+        "en": "超轻量级个人 AI 代理 GitHub: github.com/HKUDS/nanobot",
+        "zh": "超轻量级个人 AI 代理 GitHub: github.com/HKUDS/nanobot"
+      },
+      "examples": [
+        "github.com/HKUDS/nanobot"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openclaude",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "openclaude - Gitlawb",
+        "zh": "openclaude - 随处运行、使用任何模型的 Claude 替代品"
+      },
+      "description": {
+        "en": "随处运行、使用任何模型的 Claude 替代品",
+        "zh": "随处运行、使用任何模型的 Claude 替代品"
+      },
+      "details": {
+        "en": "随处运行、使用任何模型的 Claude 替代品 GitHub: github.com/Gitlawb/openclaude",
+        "zh": "随处运行、使用任何模型的 Claude 替代品 GitHub: github.com/Gitlawb/openclaude"
+      },
+      "examples": [
+        "github.com/Gitlawb/openclaude"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "nocobase",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "nocobase - nocobase",
+        "zh": "nocobase - 开源 AI + 无代码平台，快速构建业务系统"
+      },
+      "description": {
+        "en": "开源 AI + 无代码平台，快速构建业务系统",
+        "zh": "开源 AI + 无代码平台，快速构建业务系统"
+      },
+      "details": {
+        "en": "开源 AI + 无代码平台，快速构建业务系统 GitHub: github.com/nocobase/nocobase",
+        "zh": "开源 AI + 无代码平台，快速构建业务系统 GitHub: github.com/nocobase/nocobase"
+      },
+      "examples": [
+        "github.com/nocobase/nocobase"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "activepieces",
+      "category": "integrations",
+      "tags": [
+        "mcp"
+      ],
+      "title": {
+        "en": "activepieces - activepieces",
+        "zh": "activepieces - AI 代理 & MCP & AI 工作流自动化平台"
+      },
+      "description": {
+        "en": "AI 代理 & MCP & AI 工作流自动化平台",
+        "zh": "AI 代理 & MCP & AI 工作流自动化平台"
+      },
+      "details": {
+        "en": "AI 代理 & MCP & AI 工作流自动化平台 GitHub: github.com/activepieces/activepieces",
+        "zh": "AI 代理 & MCP & AI 工作流自动化平台 GitHub: github.com/activepieces/activepieces"
+      },
+      "examples": [
+        "github.com/activepieces/activepieces"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "opencli",
+      "category": "developer-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "OpenCLI - jackwener",
+        "zh": "OpenCLI - 将任何网站和工具变为 CLI，AI 原生运行时"
+      },
+      "description": {
+        "en": "将任何网站和工具变为 CLI，AI 原生运行时",
+        "zh": "将任何网站和工具变为 CLI，AI 原生运行时"
+      },
+      "details": {
+        "en": "将任何网站和工具变为 CLI，AI 原生运行时 GitHub: github.com/jackwener/OpenCLI",
+        "zh": "将任何网站和工具变为 CLI，AI 原生运行时 GitHub: github.com/jackwener/OpenCLI"
+      },
+      "examples": [
+        "github.com/jackwener/OpenCLI"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-reach",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Agent-Reach - Panniantong",
+        "zh": "Agent-Reach - 给 AI Agent 读取搜索 Twitter/Reddit/YouTube 等平台数据的能力"
+      },
+      "description": {
+        "en": "给 AI Agent 读取搜索 Twitter/Reddit/YouTube 等平台数据的能力",
+        "zh": "给 AI Agent 读取搜索 Twitter/Reddit/YouTube 等平台数据的能力"
+      },
+      "details": {
+        "en": "给 AI Agent 读取搜索 Twitter/Reddit/YouTube 等平台数据的能力 GitHub: github.com/Panniantong/Agent-Reach",
+        "zh": "给 AI Agent 读取搜索 Twitter/Reddit/YouTube 等平台数据的能力 GitHub: github.com/Panniantong/Agent-Reach"
+      },
+      "examples": [
+        "github.com/Panniantong/Agent-Reach"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ppt-master",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "ppt-master - hugohe3",
+        "zh": "ppt-master - AI 从任何文档生成原生可编辑 PPTX"
+      },
+      "description": {
+        "en": "AI 从任何文档生成原生可编辑 PPTX",
+        "zh": "AI 从任何文档生成原生可编辑 PPTX"
+      },
+      "details": {
+        "en": "AI 从任何文档生成原生可编辑 PPTX GitHub: github.com/hugohe3/ppt-master",
+        "zh": "AI 从任何文档生成原生可编辑 PPTX GitHub: github.com/hugohe3/ppt-master"
+      },
+      "examples": [
+        "github.com/hugohe3/ppt-master"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vibe-coding-cn",
+      "category": "tutorial",
+      "tags": [
+        "coding"
+      ],
+      "title": {
+        "en": "vibe-coding-cn - tukuaiai",
+        "zh": "vibe-coding-cn - 中文 Vibe Coding 入门到精通教程"
+      },
+      "description": {
+        "en": "中文 Vibe Coding 入门到精通教程",
+        "zh": "中文 Vibe Coding 入门到精通教程"
+      },
+      "details": {
+        "en": "中文 Vibe Coding 入门到精通教程 GitHub: github.com/tukuaiai/vibe-coding-cn",
+        "zh": "中文 Vibe Coding 入门到精通教程 GitHub: github.com/tukuaiai/vibe-coding-cn"
+      },
+      "examples": [
+        "github.com/tukuaiai/vibe-coding-cn"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentwrit",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agentwrit - devonartis",
+        "zh": "agentwrit - Go 语言的 AI Agent 凭证代理，任务级作用域凭证管理"
+      },
+      "description": {
+        "en": "Go 语言的 AI Agent 凭证代理，任务级作用域凭证管理",
+        "zh": "Go 语言的 AI Agent 凭证代理，任务级作用域凭证管理"
+      },
+      "details": {
+        "en": "Go 语言的 AI Agent 凭证代理，任务级作用域凭证管理 GitHub: github.com/devonartis/agentwrit",
+        "zh": "Go 语言的 AI Agent 凭证代理，任务级作用域凭证管理 GitHub: github.com/devonartis/agentwrit"
+      },
+      "examples": [
+        "github.com/devonartis/agentwrit"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "flowise",
+      "category": "agents",
+      "tags": [
+        "tool",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Flowise - FlowiseAI",
+        "zh": "Flowise - 拖拽式 AI 代理构建工具，低代码平台"
+      },
+      "description": {
+        "en": "拖拽式 AI 代理构建工具，低代码平台",
+        "zh": "拖拽式 AI 代理构建工具，低代码平台"
+      },
+      "details": {
+        "en": "拖拽式 AI 代理构建工具，低代码平台 GitHub: github.com/FlowiseAI/Flowise",
+        "zh": "拖拽式 AI 代理构建工具，低代码平台 GitHub: github.com/FlowiseAI/Flowise"
+      },
+      "examples": [
+        "github.com/FlowiseAI/Flowise"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "jobs_applier_ai_agent_aihawk",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Jobs_Applier_AI_Agent_AIHawk - feder-cr",
+        "zh": "Jobs_Applier_AI_Agent_AIHawk - AI 自动求职代理"
+      },
+      "description": {
+        "en": "AI 自动求职代理",
+        "zh": "AI 自动求职代理"
+      },
+      "details": {
+        "en": "AI 自动求职代理 GitHub: github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+        "zh": "AI 自动求职代理 GitHub: github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk"
+      },
+      "examples": [
+        "github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-zero",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "framework",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-zero - agent0ai",
+        "zh": "agent-zero - 通用 AI 代理框架"
+      },
+      "description": {
+        "en": "通用 AI 代理框架",
+        "zh": "通用 AI 代理框架"
+      },
+      "details": {
+        "en": "通用 AI 代理框架 GitHub: github.com/agent0ai/agent-zero",
+        "zh": "通用 AI 代理框架 GitHub: github.com/agent0ai/agent-zero"
+      },
+      "examples": [
+        "github.com/agent0ai/agent-zero"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
