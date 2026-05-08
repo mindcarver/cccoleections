@@ -8152,6 +8152,406 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "kiwiq",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "kiwiq - rcortx",
+        "zh": "kiwiq - 生产级多智能体编排平台，JSON定义代理、多层记忆和内置可观"
+      },
+      "description": {
+        "en": "生产级多智能体编排平台，JSON定义代理、多层记忆和内置可观测性",
+        "zh": "生产级多智能体编排平台，JSON定义代理、多层记忆和内置可观测性"
+      },
+      "details": {
+        "en": "生产级多智能体编排平台，JSON定义代理、多层记忆和内置可观测性 GitHub: github.com/rcortx/kiwiq",
+        "zh": "生产级多智能体编排平台，JSON定义代理、多层记忆和内置可观测性 GitHub: github.com/rcortx/kiwiq"
+      },
+      "examples": [
+        "github.com/rcortx/kiwiq"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "latentmas",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "LatentMAS - Gen-Verse",
+        "zh": "LatentMAS - ICML 2026 Spotlight论文，多智能体系统中的"
+      },
+      "description": {
+        "en": "ICML 2026 Spotlight论文，多智能体系统中的潜在协作机制",
+        "zh": "ICML 2026 Spotlight论文，多智能体系统中的潜在协作机制"
+      },
+      "details": {
+        "en": "ICML 2026 Spotlight论文，多智能体系统中的潜在协作机制 GitHub: github.com/Gen-Verse/LatentMAS",
+        "zh": "ICML 2026 Spotlight论文，多智能体系统中的潜在协作机制 GitHub: github.com/Gen-Verse/LatentMAS"
+      },
+      "examples": [
+        "github.com/Gen-Verse/LatentMAS"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "edict",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "edict - cft0808",
+        "zh": "edict - 三省六部制OpenClaw多智能体编排系统，9个专业AI代理"
+      },
+      "description": {
+        "en": "三省六部制OpenClaw多智能体编排系统，9个专业AI代理配备实时仪表盘",
+        "zh": "三省六部制OpenClaw多智能体编排系统，9个专业AI代理配备实时仪表盘"
+      },
+      "details": {
+        "en": "三省六部制OpenClaw多智能体编排系统，9个专业AI代理配备实时仪表盘 GitHub: github.com/cft0808/edict",
+        "zh": "三省六部制OpenClaw多智能体编排系统，9个专业AI代理配备实时仪表盘 GitHub: github.com/cft0808/edict"
+      },
+      "examples": [
+        "github.com/cft0808/edict"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-skills-for-context-engineering",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "Agent-Skills-for-Context-Engineering - muratcankoylan",
+        "zh": "Agent-Skills-for-Context-Engineering - 全面的Agent Skills集合，用于上下文工程、多智能体"
+      },
+      "description": {
+        "en": "全面的Agent Skills集合，用于上下文工程、多智能体架构和生产代理系统",
+        "zh": "全面的Agent Skills集合，用于上下文工程、多智能体架构和生产代理系统"
+      },
+      "details": {
+        "en": "全面的Agent Skills集合，用于上下文工程、多智能体架构和生产代理系统 GitHub: github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "zh": "全面的Agent Skills集合，用于上下文工程、多智能体架构和生产代理系统 GitHub: github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
+      },
+      "examples": [
+        "github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openai-agents-js",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "openai-agents-js - openai",
+        "zh": "openai-agents-js - OpenAI官方轻量级多智能体工作流TypeScript框架"
+      },
+      "description": {
+        "en": "OpenAI官方轻量级多智能体工作流TypeScript框架",
+        "zh": "OpenAI官方轻量级多智能体工作流TypeScript框架"
+      },
+      "details": {
+        "en": "OpenAI官方轻量级多智能体工作流TypeScript框架 GitHub: github.com/openai/openai-agents-js",
+        "zh": "OpenAI官方轻量级多智能体工作流TypeScript框架 GitHub: github.com/openai/openai-agents-js"
+      },
+      "examples": [
+        "github.com/openai/openai-agents-js"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mirofish-offline",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "MiroFish-Offline - nikmcfly",
+        "zh": "MiroFish-Offline - 离线多智能体模拟与预测引擎，基于Neo4j+Ollama本地"
+      },
+      "description": {
+        "en": "离线多智能体模拟与预测引擎，基于Neo4j+Ollama本地部署",
+        "zh": "离线多智能体模拟与预测引擎，基于Neo4j+Ollama本地部署"
+      },
+      "details": {
+        "en": "离线多智能体模拟与预测引擎，基于Neo4j+Ollama本地部署 GitHub: github.com/nikmcfly/MiroFish-Offline",
+        "zh": "离线多智能体模拟与预测引擎，基于Neo4j+Ollama本地部署 GitHub: github.com/nikmcfly/MiroFish-Offline"
+      },
+      "examples": [
+        "github.com/nikmcfly/MiroFish-Offline"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openmoss",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "OpenMOSS - uluckyXH",
+        "zh": "OpenMOSS - 自组织多智能体协作平台，多个AI代理作为自主团队工作"
+      },
+      "description": {
+        "en": "自组织多智能体协作平台，多个AI代理作为自主团队工作",
+        "zh": "自组织多智能体协作平台，多个AI代理作为自主团队工作"
+      },
+      "details": {
+        "en": "自组织多智能体协作平台，多个AI代理作为自主团队工作 GitHub: github.com/uluckyXH/OpenMOSS",
+        "zh": "自组织多智能体协作平台，多个AI代理作为自主团队工作 GitHub: github.com/uluckyXH/OpenMOSS"
+      },
+      "examples": [
+        "github.com/uluckyXH/OpenMOSS"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "loki-mode",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "loki-mode - asklokesh",
+        "zh": "loki-mode - 多智能体自主SDLC框架，从规格说明到部署的完整流程"
+      },
+      "description": {
+        "en": "多智能体自主SDLC框架，从规格说明到部署的完整流程",
+        "zh": "多智能体自主SDLC框架，从规格说明到部署的完整流程"
+      },
+      "details": {
+        "en": "多智能体自主SDLC框架，从规格说明到部署的完整流程 GitHub: github.com/asklokesh/loki-mode",
+        "zh": "多智能体自主SDLC框架，从规格说明到部署的完整流程 GitHub: github.com/asklokesh/loki-mode"
+      },
+      "examples": [
+        "github.com/asklokesh/loki-mode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "swarms",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "swarms - kyegomez",
+        "zh": "swarms - 企业级生产就绪的多智能体编排框架"
+      },
+      "description": {
+        "en": "企业级生产就绪的多智能体编排框架",
+        "zh": "企业级生产就绪的多智能体编排框架"
+      },
+      "details": {
+        "en": "企业级生产就绪的多智能体编排框架 GitHub: github.com/kyegomez/swarms",
+        "zh": "企业级生产就绪的多智能体编排框架 GitHub: github.com/kyegomez/swarms"
+      },
+      "examples": [
+        "github.com/kyegomez/swarms"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pocketpaw",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "pocketpaw - pocketpaw",
+        "zh": "pocketpaw - 30秒自托管个人AI代理，支持多代理通信"
+      },
+      "description": {
+        "en": "30秒自托管个人AI代理，支持多代理通信",
+        "zh": "30秒自托管个人AI代理，支持多代理通信"
+      },
+      "details": {
+        "en": "30秒自托管个人AI代理，支持多代理通信 GitHub: github.com/pocketpaw/pocketpaw",
+        "zh": "30秒自托管个人AI代理，支持多代理通信 GitHub: github.com/pocketpaw/pocketpaw"
+      },
+      "examples": [
+        "github.com/pocketpaw/pocketpaw"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ui-tars-desktop",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "UI-TARS-desktop - bytedance",
+        "zh": "UI-TARS-desktop - 开源多模态AI代理技术栈，连接前沿AI模型和代理基础设施"
+      },
+      "description": {
+        "en": "开源多模态AI代理技术栈，连接前沿AI模型和代理基础设施",
+        "zh": "开源多模态AI代理技术栈，连接前沿AI模型和代理基础设施"
+      },
+      "details": {
+        "en": "开源多模态AI代理技术栈，连接前沿AI模型和代理基础设施 GitHub: github.com/bytedance/UI-TARS-desktop",
+        "zh": "开源多模态AI代理技术栈，连接前沿AI模型和代理基础设施 GitHub: github.com/bytedance/UI-TARS-desktop"
+      },
+      "examples": [
+        "github.com/bytedance/UI-TARS-desktop"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "eigent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "eigent - eigent-ai",
+        "zh": "eigent - 开源协同桌面，提升生产力的本地免费替代方案"
+      },
+      "description": {
+        "en": "开源协同桌面，提升生产力的本地免费替代方案",
+        "zh": "开源协同桌面，提升生产力的本地免费替代方案"
+      },
+      "details": {
+        "en": "开源协同桌面，提升生产力的本地免费替代方案 GitHub: github.com/eigent-ai/eigent",
+        "zh": "开源协同桌面，提升生产力的本地免费替代方案 GitHub: github.com/eigent-ai/eigent"
+      },
+      "examples": [
+        "github.com/eigent-ai/eigent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "solace-agent-mesh",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "solace-agent-mesh - SolaceLabs",
+        "zh": "solace-agent-mesh - 事件驱动的多智能体AI系统构建和编排框架"
+      },
+      "description": {
+        "en": "事件驱动的多智能体AI系统构建和编排框架",
+        "zh": "事件驱动的多智能体AI系统构建和编排框架"
+      },
+      "details": {
+        "en": "事件驱动的多智能体AI系统构建和编排框架 GitHub: github.com/SolaceLabs/solace-agent-mesh",
+        "zh": "事件驱动的多智能体AI系统构建和编排框架 GitHub: github.com/SolaceLabs/solace-agent-mesh"
+      },
+      "examples": [
+        "github.com/SolaceLabs/solace-agent-mesh"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "valuecell",
+      "category": "ai-finance",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "valuecell - ValueCell-ai",
+        "zh": "valuecell - 社区驱动的多智能体金融应用平台"
+      },
+      "description": {
+        "en": "社区驱动的多智能体金融应用平台",
+        "zh": "社区驱动的多智能体金融应用平台"
+      },
+      "details": {
+        "en": "社区驱动的多智能体金融应用平台 GitHub: github.com/ValueCell-ai/valuecell",
+        "zh": "社区驱动的多智能体金融应用平台 GitHub: github.com/ValueCell-ai/valuecell"
+      },
+      "examples": [
+        "github.com/ValueCell-ai/valuecell"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vibe-trading",
+      "category": "ai-finance",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "Vibe-Trading - HKUDS",
+        "zh": "Vibe-Trading - 个人交易代理，AI驱动的交易系统"
+      },
+      "description": {
+        "en": "个人交易代理，AI驱动的交易系统",
+        "zh": "个人交易代理，AI驱动的交易系统"
+      },
+      "details": {
+        "en": "个人交易代理，AI驱动的交易系统 GitHub: github.com/HKUDS/Vibe-Trading",
+        "zh": "个人交易代理，AI驱动的交易系统 GitHub: github.com/HKUDS/Vibe-Trading"
+      },
+      "examples": [
+        "github.com/HKUDS/Vibe-Trading"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "art",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "ART - OpenPipe",
+        "zh": "ART - Agent强化训练器：用GRPO训练多步代理执行真实任务"
+      },
+      "description": {
+        "en": "Agent强化训练器：用GRPO训练多步代理执行真实任务",
+        "zh": "Agent强化训练器：用GRPO训练多步代理执行真实任务"
+      },
+      "details": {
+        "en": "Agent强化训练器：用GRPO训练多步代理执行真实任务 GitHub: github.com/OpenPipe/ART",
+        "zh": "Agent强化训练器：用GRPO训练多步代理执行真实任务 GitHub: github.com/OpenPipe/ART"
+      },
+      "examples": [
+        "github.com/OpenPipe/ART"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
