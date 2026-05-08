@@ -8080,6 +8080,78 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "dflash",
+      "category": "ai-tools",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "dflash - z-lab",
+        "zh": "dflash - DFlash: 基于块扩散的Flash推测解码，加速LLM推理"
+      },
+      "description": {
+        "en": "DFlash: 基于块扩散的Flash推测解码，加速LLM推理",
+        "zh": "DFlash: 基于块扩散的Flash推测解码，加速LLM推理"
+      },
+      "details": {
+        "en": "DFlash: 基于块扩散的Flash推测解码，加速LLM推理 GitHub: github.com/z-lab/dflash",
+        "zh": "DFlash: 基于块扩散的Flash推测解码，加速LLM推理 GitHub: github.com/z-lab/dflash"
+      },
+      "examples": [
+        "github.com/z-lab/dflash"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "spec-kit",
+      "category": "developer-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "spec-kit - github",
+        "zh": "spec-kit - GitHub官方Spec-Driven Development工具包"
+      },
+      "description": {
+        "en": "GitHub官方Spec-Driven Development工具包",
+        "zh": "GitHub官方Spec-Driven Development工具包"
+      },
+      "details": {
+        "en": "GitHub官方Spec-Driven Development工具包 GitHub: github.com/github/spec-kit",
+        "zh": "GitHub官方Spec-Driven Development工具包 GitHub: github.com/github/spec-kit"
+      },
+      "examples": [
+        "github.com/github/spec-kit"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "plugins",
+      "category": "integrations",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "plugins - openai",
+        "zh": "plugins - OpenAI官方Plugins仓库"
+      },
+      "description": {
+        "en": "OpenAI官方Plugins仓库",
+        "zh": "OpenAI官方Plugins仓库"
+      },
+      "details": {
+        "en": "OpenAI官方Plugins仓库 GitHub: github.com/openai/plugins",
+        "zh": "OpenAI官方Plugins仓库 GitHub: github.com/openai/plugins"
+      },
+      "examples": [
+        "github.com/openai/plugins"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
