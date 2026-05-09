@@ -8552,6 +8552,32 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "crawl4ai",
+      "category": "ai-tools",
+      "tags": [
+        "tool",
+        "llm",
+        "open-source"
+      ],
+      "title": {
+        "en": "crawl4ai - unclecode",
+        "zh": "crawl4ai - 面向LLM的开源友好网页爬虫与数据提取工具"
+      },
+      "description": {
+        "en": "面向LLM的开源友好网页爬虫与数据提取工具",
+        "zh": "面向LLM的开源友好网页爬虫与数据提取工具"
+      },
+      "details": {
+        "en": "面向LLM的开源友好网页爬虫与数据提取工具 GitHub: github.com/unclecode/crawl4ai",
+        "zh": "面向LLM的开源友好网页爬虫与数据提取工具 GitHub: github.com/unclecode/crawl4ai"
+      },
+      "examples": [
+        "github.com/unclecode/crawl4ai"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
