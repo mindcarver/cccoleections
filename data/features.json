@@ -9411,6 +9411,31 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "maspo",
+      "category": "ai-tools",
+      "tags": [
+        "framework",
+        "llm"
+      ],
+      "title": {
+        "en": "MASPO - wangzx1219",
+        "zh": "MASPO - MASPO: LLM多智能体系统联合提示优化框架，ICML 2026接收"
+      },
+      "description": {
+        "en": "MASPO: LLM多智能体系统联合提示优化框架，ICML 2026接收",
+        "zh": "MASPO: LLM多智能体系统联合提示优化框架，ICML 2026接收"
+      },
+      "details": {
+        "en": "MASPO: LLM多智能体系统联合提示优化框架，ICML 2026接收 GitHub: github.com/wangzx1219/MASPO",
+        "zh": "MASPO: LLM多智能体系统联合提示优化框架，ICML 2026接收 GitHub: github.com/wangzx1219/MASPO"
+      },
+      "examples": [
+        "github.com/wangzx1219/MASPO"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
