@@ -8578,6 +8578,612 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "hello-agents",
+      "category": "tutorial",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "hello-agents - datawhalechina",
+        "zh": "hello-agents - 《从零开始构建智能体》中文教程"
+      },
+      "description": {
+        "en": "《从零开始构建智能体》中文教程",
+        "zh": "《从零开始构建智能体》中文教程"
+      },
+      "details": {
+        "en": "《从零开始构建智能体》中文教程 GitHub: github.com/datawhalechina/hello-agents",
+        "zh": "《从零开始构建智能体》中文教程 GitHub: github.com/datawhalechina/hello-agents"
+      },
+      "examples": [
+        "github.com/datawhalechina/hello-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "aidlc-workflows",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "aidlc-workflows - awslabs",
+        "zh": "aidlc-workflows - AWS Labs 的 AI 编码 Agent 自适应工作流规则"
+      },
+      "description": {
+        "en": "AWS Labs 的 AI 编码 Agent 自适应工作流规则",
+        "zh": "AWS Labs 的 AI 编码 Agent 自适应工作流规则"
+      },
+      "details": {
+        "en": "AWS Labs 的 AI 编码 Agent 自适应工作流规则 GitHub: github.com/awslabs/aidlc-workflows",
+        "zh": "AWS Labs 的 AI 编码 Agent 自适应工作流规则 GitHub: github.com/awslabs/aidlc-workflows"
+      },
+      "examples": [
+        "github.com/awslabs/aidlc-workflows"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "tq-trading-agent",
+      "category": "ai-finance",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "finance"
+      ],
+      "title": {
+        "en": "tq-trading-agent - TQ-trade-agent",
+        "zh": "tq-trading-agent - AI 驱动的多 Agent 股票研究与交易策略编排"
+      },
+      "description": {
+        "en": "AI 驱动的多 Agent 股票研究与交易策略编排",
+        "zh": "AI 驱动的多 Agent 股票研究与交易策略编排"
+      },
+      "details": {
+        "en": "AI 驱动的多 Agent 股票研究与交易策略编排 GitHub: github.com/TQ-trade-agent/tq-trading-agent",
+        "zh": "AI 驱动的多 Agent 股票研究与交易策略编排 GitHub: github.com/TQ-trade-agent/tq-trading-agent"
+      },
+      "examples": [
+        "github.com/TQ-trade-agent/tq-trading-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-skills-eval",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-skills-eval - darkrishabh",
+        "zh": "agent-skills-eval - AI Agent 技能测试运行器"
+      },
+      "description": {
+        "en": "AI Agent 技能测试运行器",
+        "zh": "AI Agent 技能测试运行器"
+      },
+      "details": {
+        "en": "AI Agent 技能测试运行器 GitHub: github.com/darkrishabh/agent-skills-eval",
+        "zh": "AI Agent 技能测试运行器 GitHub: github.com/darkrishabh/agent-skills-eval"
+      },
+      "examples": [
+        "github.com/darkrishabh/agent-skills-eval"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cwc-long-running-agents",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "cwc-long-running-agents - anthropics",
+        "zh": "cwc-long-running-agents - Anthropic 官方长时间运行 Agent 模式"
+      },
+      "description": {
+        "en": "Anthropic 官方长时间运行 Agent 模式",
+        "zh": "Anthropic 官方长时间运行 Agent 模式"
+      },
+      "details": {
+        "en": "Anthropic 官方长时间运行 Agent 模式 GitHub: github.com/anthropics/cwc-long-running-agents",
+        "zh": "Anthropic 官方长时间运行 Agent 模式 GitHub: github.com/anthropics/cwc-long-running-agents"
+      },
+      "examples": [
+        "github.com/anthropics/cwc-long-running-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-agentic-ai-zh",
+      "category": "tutorial",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "awesome-agentic-ai-zh - WenyuChiou",
+        "zh": "awesome-agentic-ai-zh - AI Agent 中文学习路线图（三语对照）"
+      },
+      "description": {
+        "en": "AI Agent 中文学习路线图（三语对照）",
+        "zh": "AI Agent 中文学习路线图（三语对照）"
+      },
+      "details": {
+        "en": "AI Agent 中文学习路线图（三语对照） GitHub: github.com/WenyuChiou/awesome-agentic-ai-zh",
+        "zh": "AI Agent 中文学习路线图（三语对照） GitHub: github.com/WenyuChiou/awesome-agentic-ai-zh"
+      },
+      "examples": [
+        "github.com/WenyuChiou/awesome-agentic-ai-zh"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openpets",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "mcp",
+        "agent"
+      ],
+      "title": {
+        "en": "openpets - alvinunreal",
+        "zh": "openpets - AI 编码 Agent 的桌面宠物，MCP 连接"
+      },
+      "description": {
+        "en": "AI 编码 Agent 的桌面宠物，MCP 连接",
+        "zh": "AI 编码 Agent 的桌面宠物，MCP 连接"
+      },
+      "details": {
+        "en": "AI 编码 Agent 的桌面宠物，MCP 连接 GitHub: github.com/alvinunreal/openpets",
+        "zh": "AI 编码 Agent 的桌面宠物，MCP 连接 GitHub: github.com/alvinunreal/openpets"
+      },
+      "examples": [
+        "github.com/alvinunreal/openpets"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "krusch-context-mcp",
+      "category": "integrations",
+      "tags": [
+        "multi-agent",
+        "mcp",
+        "agent"
+      ],
+      "title": {
+        "en": "krusch-context-mcp - kruschdev",
+        "zh": "krusch-context-mcp - 零信任 MCP 服务器，IDE Agent 语义代码搜索"
+      },
+      "description": {
+        "en": "零信任 MCP 服务器，IDE Agent 语义代码搜索",
+        "zh": "零信任 MCP 服务器，IDE Agent 语义代码搜索"
+      },
+      "details": {
+        "en": "零信任 MCP 服务器，IDE Agent 语义代码搜索 GitHub: github.com/kruschdev/krusch-context-mcp",
+        "zh": "零信任 MCP 服务器，IDE Agent 语义代码搜索 GitHub: github.com/kruschdev/krusch-context-mcp"
+      },
+      "examples": [
+        "github.com/kruschdev/krusch-context-mcp"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "procmon-mcp",
+      "category": "devops",
+      "tags": [
+        "multi-agent",
+        "mcp",
+        "agent"
+      ],
+      "title": {
+        "en": "ProcMon-MCP - 0xhackerfren",
+        "zh": "ProcMon-MCP - 进程监控 MCP，安全分析 Agent 辅助"
+      },
+      "description": {
+        "en": "进程监控 MCP，安全分析 Agent 辅助",
+        "zh": "进程监控 MCP，安全分析 Agent 辅助"
+      },
+      "details": {
+        "en": "进程监控 MCP，安全分析 Agent 辅助 GitHub: github.com/0xhackerfren/ProcMon-MCP",
+        "zh": "进程监控 MCP，安全分析 Agent 辅助 GitHub: github.com/0xhackerfren/ProcMon-MCP"
+      },
+      "examples": [
+        "github.com/0xhackerfren/ProcMon-MCP"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentclaw",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "AgentClaw - Negai-ai",
+        "zh": "AgentClaw - 一句话创意到可复用 Agent 能力，声明式工作流"
+      },
+      "description": {
+        "en": "一句话创意到可复用 Agent 能力，声明式工作流",
+        "zh": "一句话创意到可复用 Agent 能力，声明式工作流"
+      },
+      "details": {
+        "en": "一句话创意到可复用 Agent 能力，声明式工作流 GitHub: github.com/Negai-ai/AgentClaw",
+        "zh": "一句话创意到可复用 Agent 能力，声明式工作流 GitHub: github.com/Negai-ai/AgentClaw"
+      },
+      "examples": [
+        "github.com/Negai-ai/AgentClaw"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mobileclaw",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "mobileClaw - eggbrid2",
+        "zh": "mobileClaw - Android AI Agent 运行时，手机控制+VLM 屏幕阅读"
+      },
+      "description": {
+        "en": "Android AI Agent 运行时，手机控制+VLM 屏幕阅读",
+        "zh": "Android AI Agent 运行时，手机控制+VLM 屏幕阅读"
+      },
+      "details": {
+        "en": "Android AI Agent 运行时，手机控制+VLM 屏幕阅读 GitHub: github.com/eggbrid2/mobileClaw",
+        "zh": "Android AI Agent 运行时，手机控制+VLM 屏幕阅读 GitHub: github.com/eggbrid2/mobileClaw"
+      },
+      "examples": [
+        "github.com/eggbrid2/mobileClaw"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "tessera",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "tessera - horang-labs",
+        "zh": "tessera - 多 Agent 编码工作空间 (Web+桌面)"
+      },
+      "description": {
+        "en": "多 Agent 编码工作空间 (Web+桌面)",
+        "zh": "多 Agent 编码工作空间 (Web+桌面)"
+      },
+      "details": {
+        "en": "多 Agent 编码工作空间 (Web+桌面) GitHub: github.com/horang-labs/tessera",
+        "zh": "多 Agent 编码工作空间 (Web+桌面) GitHub: github.com/horang-labs/tessera"
+      },
+      "examples": [
+        "github.com/horang-labs/tessera"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-harness-kit",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-harness-kit - enmanuelmag",
+        "zh": "agent-harness-kit - Provider 无关的多 Agent 工作流脚手架"
+      },
+      "description": {
+        "en": "Provider 无关的多 Agent 工作流脚手架",
+        "zh": "Provider 无关的多 Agent 工作流脚手架"
+      },
+      "details": {
+        "en": "Provider 无关的多 Agent 工作流脚手架 GitHub: github.com/enmanuelmag/agent-harness-kit",
+        "zh": "Provider 无关的多 Agent 工作流脚手架 GitHub: github.com/enmanuelmag/agent-harness-kit"
+      },
+      "examples": [
+        "github.com/enmanuelmag/agent-harness-kit"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "content-agents",
+      "category": "design-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "content-agents - NVIDIA-Omniverse",
+        "zh": "content-agents - NVIDIA 出品，3D 内容自动化 Agent (VLM)"
+      },
+      "description": {
+        "en": "NVIDIA 出品，3D 内容自动化 Agent (VLM)",
+        "zh": "NVIDIA 出品，3D 内容自动化 Agent (VLM)"
+      },
+      "details": {
+        "en": "NVIDIA 出品，3D 内容自动化 Agent (VLM) GitHub: github.com/NVIDIA-Omniverse/content-agents",
+        "zh": "NVIDIA 出品，3D 内容自动化 Agent (VLM) GitHub: github.com/NVIDIA-Omniverse/content-agents"
+      },
+      "examples": [
+        "github.com/NVIDIA-Omniverse/content-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "codex-seo",
+      "category": "ai-tools",
+      "tags": [
+        "coding",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "codex-seo - AgriciDaniel",
+        "zh": "codex-seo - Codex-first SEO Agent 技能套件，26 Agent + 24 TOML 工作流"
+      },
+      "description": {
+        "en": "Codex-first SEO Agent 技能套件，26 Agent + 24 TOML 工作流",
+        "zh": "Codex-first SEO Agent 技能套件，26 Agent + 24 TOML 工作流"
+      },
+      "details": {
+        "en": "Codex-first SEO Agent 技能套件，26 Agent + 24 TOML 工作流 GitHub: github.com/AgriciDaniel/codex-seo",
+        "zh": "Codex-first SEO Agent 技能套件，26 Agent + 24 TOML 工作流 GitHub: github.com/AgriciDaniel/codex-seo"
+      },
+      "examples": [
+        "github.com/AgriciDaniel/codex-seo"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "paperquay",
+      "category": "document-processing",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "PaperQuay - WangQrkkk",
+        "zh": "PaperQuay - 桌面文献管理 + AI Agent 工作流"
+      },
+      "description": {
+        "en": "桌面文献管理 + AI Agent 工作流",
+        "zh": "桌面文献管理 + AI Agent 工作流"
+      },
+      "details": {
+        "en": "桌面文献管理 + AI Agent 工作流 GitHub: github.com/WangQrkkk/PaperQuay",
+        "zh": "桌面文献管理 + AI Agent 工作流 GitHub: github.com/WangQrkkk/PaperQuay"
+      },
+      "examples": [
+        "github.com/WangQrkkk/PaperQuay"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "controllable-agent",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "controllable-agent - Yang1999code",
+        "zh": "controllable-agent - 20 接口可控 Agent，3 层架构 + 多 Agent 委派"
+      },
+      "description": {
+        "en": "20 接口可控 Agent，3 层架构 + 多 Agent 委派",
+        "zh": "20 接口可控 Agent，3 层架构 + 多 Agent 委派"
+      },
+      "details": {
+        "en": "20 接口可控 Agent，3 层架构 + 多 Agent 委派 GitHub: github.com/Yang1999code/controllable-agent",
+        "zh": "20 接口可控 Agent，3 层架构 + 多 Agent 委派 GitHub: github.com/Yang1999code/controllable-agent"
+      },
+      "examples": [
+        "github.com/Yang1999code/controllable-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentloom",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "AgentLoom - linora-u",
+        "zh": "AgentLoom - YAML 驱动的多 Agent 编排框架"
+      },
+      "description": {
+        "en": "YAML 驱动的多 Agent 编排框架",
+        "zh": "YAML 驱动的多 Agent 编排框架"
+      },
+      "details": {
+        "en": "YAML 驱动的多 Agent 编排框架 GitHub: github.com/linora-u/AgentLoom",
+        "zh": "YAML 驱动的多 Agent 编排框架 GitHub: github.com/linora-u/AgentLoom"
+      },
+      "examples": [
+        "github.com/linora-u/AgentLoom"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "spring-agent-flow",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "spring-agent-flow - datallmhub",
+        "zh": "spring-agent-flow - Spring Boot 多 Agent 编排框架（Java 生态）"
+      },
+      "description": {
+        "en": "Spring Boot 多 Agent 编排框架（Java 生态）",
+        "zh": "Spring Boot 多 Agent 编排框架（Java 生态）"
+      },
+      "details": {
+        "en": "Spring Boot 多 Agent 编排框架（Java 生态） GitHub: github.com/datallmhub/spring-agent-flow",
+        "zh": "Spring Boot 多 Agent 编排框架（Java 生态） GitHub: github.com/datallmhub/spring-agent-flow"
+      },
+      "examples": [
+        "github.com/datallmhub/spring-agent-flow"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pentest_skill",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "pentest_skill - wudidike",
+        "zh": "pentest_skill - Web 渗透测试自动化 Agent（安全行业）"
+      },
+      "description": {
+        "en": "Web 渗透测试自动化 Agent（安全行业）",
+        "zh": "Web 渗透测试自动化 Agent（安全行业）"
+      },
+      "details": {
+        "en": "Web 渗透测试自动化 Agent（安全行业） GitHub: github.com/wudidike/pentest_skill",
+        "zh": "Web 渗透测试自动化 Agent（安全行业） GitHub: github.com/wudidike/pentest_skill"
+      },
+      "examples": [
+        "github.com/wudidike/pentest_skill"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "airflow-steward",
+      "category": "devops",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "airflow-steward - apache",
+        "zh": "airflow-steward - Apache 基金会 AI 辅助维护 Agent"
+      },
+      "description": {
+        "en": "Apache 基金会 AI 辅助维护 Agent",
+        "zh": "Apache 基金会 AI 辅助维护 Agent"
+      },
+      "details": {
+        "en": "Apache 基金会 AI 辅助维护 Agent GitHub: github.com/apache/airflow-steward",
+        "zh": "Apache 基金会 AI 辅助维护 Agent GitHub: github.com/apache/airflow-steward"
+      },
+      "examples": [
+        "github.com/apache/airflow-steward"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "kstack",
+      "category": "devops",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "kstack - kubetail-org",
+        "zh": "kstack - K8s 监控排障 Claude Code 技能包"
+      },
+      "description": {
+        "en": "K8s 监控排障 Claude Code 技能包",
+        "zh": "K8s 监控排障 Claude Code 技能包"
+      },
+      "details": {
+        "en": "K8s 监控排障 Claude Code 技能包 GitHub: github.com/kubetail-org/kstack",
+        "zh": "K8s 监控排障 Claude Code 技能包 GitHub: github.com/kubetail-org/kstack"
+      },
+      "examples": [
+        "github.com/kubetail-org/kstack"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-sanbox",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-sanbox - marvincaspar",
+        "zh": "agent-sanbox - 隔离 Docker 容器内运行 AI 编码 Agent"
+      },
+      "description": {
+        "en": "隔离 Docker 容器内运行 AI 编码 Agent",
+        "zh": "隔离 Docker 容器内运行 AI 编码 Agent"
+      },
+      "details": {
+        "en": "隔离 Docker 容器内运行 AI 编码 Agent GitHub: github.com/marvincaspar/agent-sanbox",
+        "zh": "隔离 Docker 容器内运行 AI 编码 Agent GitHub: github.com/marvincaspar/agent-sanbox"
+      },
+      "examples": [
+        "github.com/marvincaspar/agent-sanbox"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "cubesandbox",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "CubeSandbox - Tencent",
+        "zh": "CubeSandbox - 开源 Agent 沙箱，延迟 <60ms"
+      },
+      "description": {
+        "en": "开源 Agent 沙箱，延迟 <60ms",
+        "zh": "开源 Agent 沙箱，延迟 <60ms"
+      },
+      "details": {
+        "en": "开源 Agent 沙箱，延迟 <60ms GitHub: github.com/Tencent/CubeSandbox",
+        "zh": "开源 Agent 沙箱，延迟 <60ms GitHub: github.com/Tencent/CubeSandbox"
+      },
+      "examples": [
+        "github.com/Tencent/CubeSandbox"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
