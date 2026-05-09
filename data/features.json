@@ -9184,6 +9184,233 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "cloakbrowser",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "CloakBrowser - CloakHQ",
+        "zh": "CloakBrowser - 隐身 Chromium 浏览器，通过所有机器人检测测试，可作为 Playwright 的直接替代品"
+      },
+      "description": {
+        "en": "隐身 Chromium 浏览器，通过所有机器人检测测试，可作为 Playwright 的直接替代品",
+        "zh": "隐身 Chromium 浏览器，通过所有机器人检测测试，可作为 Playwright 的直接替代品"
+      },
+      "details": {
+        "en": "隐身 Chromium 浏览器，通过所有机器人检测测试，可作为 Playwright 的直接替代品 GitHub: github.com/CloakHQ/CloakBrowser",
+        "zh": "隐身 Chromium 浏览器，通过所有机器人检测测试，可作为 Playwright 的直接替代品 GitHub: github.com/CloakHQ/CloakBrowser"
+      },
+      "examples": [
+        "github.com/CloakHQ/CloakBrowser"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pi",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "llm",
+        "tool",
+        "agent",
+        "coding"
+      ],
+      "title": {
+        "en": "pi - earendil-works",
+        "zh": "pi - AI Agent 工具包：编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot、vLLM 部署"
+      },
+      "description": {
+        "en": "AI Agent 工具包：编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot、vLLM 部署",
+        "zh": "AI Agent 工具包：编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot、vLLM 部署"
+      },
+      "details": {
+        "en": "AI Agent 工具包：编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot、vLLM 部署 GitHub: github.com/earendil-works/pi",
+        "zh": "AI Agent 工具包：编程 Agent CLI、统一 LLM API、TUI/Web UI 库、Slack Bot、vLLM 部署 GitHub: github.com/earendil-works/pi"
+      },
+      "examples": [
+        "github.com/earendil-works/pi"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentmemory",
+      "category": "ai-tools",
+      "tags": [
+        "coding",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agentmemory - rohitg00",
+        "zh": "agentmemory - 基于真实基准测试的 AI 编程 Agent 持久化记忆方案，排名第一"
+      },
+      "description": {
+        "en": "基于真实基准测试的 AI 编程 Agent 持久化记忆方案，排名第一",
+        "zh": "基于真实基准测试的 AI 编程 Agent 持久化记忆方案，排名第一"
+      },
+      "details": {
+        "en": "基于真实基准测试的 AI 编程 Agent 持久化记忆方案，排名第一 GitHub: github.com/rohitg00/agentmemory",
+        "zh": "基于真实基准测试的 AI 编程 Agent 持久化记忆方案，排名第一 GitHub: github.com/rohitg00/agentmemory"
+      },
+      "examples": [
+        "github.com/rohitg00/agentmemory"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "codegraph",
+      "category": "developer-tools",
+      "tags": [
+        "coding",
+        "tool"
+      ],
+      "title": {
+        "en": "codegraph - colbymchenry",
+        "zh": "codegraph - 为 Claude Code 预索引的代码知识图谱，减少 Token 和工具调用，100% 本地运行"
+      },
+      "description": {
+        "en": "为 Claude Code 预索引的代码知识图谱，减少 Token 和工具调用，100% 本地运行",
+        "zh": "为 Claude Code 预索引的代码知识图谱，减少 Token 和工具调用，100% 本地运行"
+      },
+      "details": {
+        "en": "为 Claude Code 预索引的代码知识图谱，减少 Token 和工具调用，100% 本地运行 GitHub: github.com/colbymchenry/codegraph",
+        "zh": "为 Claude Code 预索引的代码知识图谱，减少 Token 和工具调用，100% 本地运行 GitHub: github.com/colbymchenry/codegraph"
+      },
+      "examples": [
+        "github.com/colbymchenry/codegraph"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "category": "developer-tools",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "tool",
+        "agent",
+        "coding"
+      ],
+      "title": {
+        "en": "chrome-devtools-mcp - ChromeDevTools",
+        "zh": "chrome-devtools-mcp - Chrome DevTools MCP 服务，为编程 Agent 提供浏览器调试能力"
+      },
+      "description": {
+        "en": "Chrome DevTools MCP 服务，为编程 Agent 提供浏览器调试能力",
+        "zh": "Chrome DevTools MCP 服务，为编程 Agent 提供浏览器调试能力"
+      },
+      "details": {
+        "en": "Chrome DevTools MCP 服务，为编程 Agent 提供浏览器调试能力 GitHub: github.com/ChromeDevTools/chrome-devtools-mcp",
+        "zh": "Chrome DevTools MCP 服务，为编程 Agent 提供浏览器调试能力 GitHub: github.com/ChromeDevTools/chrome-devtools-mcp"
+      },
+      "examples": [
+        "github.com/ChromeDevTools/chrome-devtools-mcp"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-plugins-official",
+      "category": "integrations",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "claude-plugins-official - anthropics",
+        "zh": "claude-plugins-official - Anthropic 官方管理的 Claude Code 插件目录"
+      },
+      "description": {
+        "en": "Anthropic 官方管理的 Claude Code 插件目录",
+        "zh": "Anthropic 官方管理的 Claude Code 插件目录"
+      },
+      "details": {
+        "en": "Anthropic 官方管理的 Claude Code 插件目录 GitHub: github.com/anthropics/claude-plugins-official",
+        "zh": "Anthropic 官方管理的 Claude Code 插件目录 GitHub: github.com/anthropics/claude-plugins-official"
+      },
+      "examples": [
+        "github.com/anthropics/claude-plugins-official"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "paddleocr",
+      "category": "document-processing",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "PaddleOCR - PaddlePaddle",
+        "zh": "PaddleOCR - 强大的轻量级 OCR 工具包，将 PDF/图片转为结构化数据，支持 100+ 语言"
+      },
+      "description": {
+        "en": "强大的轻量级 OCR 工具包，将 PDF/图片转为结构化数据，支持 100+ 语言",
+        "zh": "强大的轻量级 OCR 工具包，将 PDF/图片转为结构化数据，支持 100+ 语言"
+      },
+      "details": {
+        "en": "强大的轻量级 OCR 工具包，将 PDF/图片转为结构化数据，支持 100+ 语言 GitHub: github.com/PaddlePaddle/PaddleOCR",
+        "zh": "强大的轻量级 OCR 工具包，将 PDF/图片转为结构化数据，支持 100+ 语言 GitHub: github.com/PaddlePaddle/PaddleOCR"
+      },
+      "examples": [
+        "github.com/PaddlePaddle/PaddleOCR"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "freemocap",
+      "category": "ai-tools",
+      "tags": [
+        "open-source"
+      ],
+      "title": {
+        "en": "freemocap - freemocap",
+        "zh": "freemocap - 开源免费动作捕捉系统"
+      },
+      "description": {
+        "en": "开源免费动作捕捉系统",
+        "zh": "开源免费动作捕捉系统"
+      },
+      "details": {
+        "en": "开源免费动作捕捉系统 GitHub: github.com/freemocap/freemocap",
+        "zh": "开源免费动作捕捉系统 GitHub: github.com/freemocap/freemocap"
+      },
+      "examples": [
+        "github.com/freemocap/freemocap"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "json-render",
+      "category": "design-tools",
+      "tags": [
+        "framework"
+      ],
+      "title": {
+        "en": "json-render - vercel-labs",
+        "zh": "json-render - Vercel 实验室的生成式 UI 框架"
+      },
+      "description": {
+        "en": "Vercel 实验室的生成式 UI 框架",
+        "zh": "Vercel 实验室的生成式 UI 框架"
+      },
+      "details": {
+        "en": "Vercel 实验室的生成式 UI 框架 GitHub: github.com/vercel-labs/json-render",
+        "zh": "Vercel 实验室的生成式 UI 框架 GitHub: github.com/vercel-labs/json-render"
+      },
+      "examples": [
+        "github.com/vercel-labs/json-render"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
