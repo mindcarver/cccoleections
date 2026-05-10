@@ -9588,6 +9588,549 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "muscle-mem",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "muscle-mem - pig-dot-dev",
+        "zh": "muscle-mem - AI Agent 行为缓存系统，通过缓存重复行为提升 agent 效率"
+      },
+      "description": {
+        "en": "AI Agent 行为缓存系统，通过缓存重复行为提升 agent 效率",
+        "zh": "AI Agent 行为缓存系统，通过缓存重复行为提升 agent 效率"
+      },
+      "details": {
+        "en": "AI Agent 行为缓存系统，通过缓存重复行为提升 agent 效率 GitHub: github.com/pig-dot-dev/muscle-mem",
+        "zh": "AI Agent 行为缓存系统，通过缓存重复行为提升 agent 效率 GitHub: github.com/pig-dot-dev/muscle-mem"
+      },
+      "examples": [
+        "github.com/pig-dot-dev/muscle-mem"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "blast",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "blast - stanford-mast",
+        "zh": "blast - 斯坦福出品的多线程 Web 浏览 AI Agent 服务引擎"
+      },
+      "description": {
+        "en": "斯坦福出品的多线程 Web 浏览 AI Agent 服务引擎",
+        "zh": "斯坦福出品的多线程 Web 浏览 AI Agent 服务引擎"
+      },
+      "details": {
+        "en": "斯坦福出品的多线程 Web 浏览 AI Agent 服务引擎 GitHub: github.com/stanford-mast/blast",
+        "zh": "斯坦福出品的多线程 Web 浏览 AI Agent 服务引擎 GitHub: github.com/stanford-mast/blast"
+      },
+      "examples": [
+        "github.com/stanford-mast/blast"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agents.erl",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "agents.erl - arthurcolle",
+        "zh": "agents.erl - Erlang 语言实现的 AI Agents 框架"
+      },
+      "description": {
+        "en": "Erlang 语言实现的 AI Agents 框架",
+        "zh": "Erlang 语言实现的 AI Agents 框架"
+      },
+      "details": {
+        "en": "Erlang 语言实现的 AI Agents 框架 GitHub: github.com/arthurcolle/agents.erl",
+        "zh": "Erlang 语言实现的 AI Agents 框架 GitHub: github.com/arthurcolle/agents.erl"
+      },
+      "examples": [
+        "github.com/arthurcolle/agents.erl"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "voltagent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "open-source",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "voltagent - VoltAgent",
+        "zh": "voltagent - 开源可观测性优先的 TypeScript AI Agent 框架"
+      },
+      "description": {
+        "en": "开源可观测性优先的 TypeScript AI Agent 框架",
+        "zh": "开源可观测性优先的 TypeScript AI Agent 框架"
+      },
+      "details": {
+        "en": "开源可观测性优先的 TypeScript AI Agent 框架 GitHub: github.com/VoltAgent/voltagent",
+        "zh": "开源可观测性优先的 TypeScript AI Agent 框架 GitHub: github.com/VoltAgent/voltagent"
+      },
+      "examples": [
+        "github.com/VoltAgent/voltagent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "compliant-llm",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "tool"
+      ],
+      "title": {
+        "en": "compliant-llm - fiddlecube",
+        "zh": "compliant-llm - AI Agent 合规审计工具"
+      },
+      "description": {
+        "en": "AI Agent 合规审计工具",
+        "zh": "AI Agent 合规审计工具"
+      },
+      "details": {
+        "en": "AI Agent 合规审计工具 GitHub: github.com/fiddlecube/compliant-llm",
+        "zh": "AI Agent 合规审计工具 GitHub: github.com/fiddlecube/compliant-llm"
+      },
+      "examples": [
+        "github.com/fiddlecube/compliant-llm"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "adk-go",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "tool",
+        "mcp",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "adk-go - google",
+        "zh": "adk-go - Google 开源 Go 语言 AI Agent 开发工具包，支持 MCP 和 Gemini"
+      },
+      "description": {
+        "en": "Google 开源 Go 语言 AI Agent 开发工具包，支持 MCP 和 Gemini",
+        "zh": "Google 开源 Go 语言 AI Agent 开发工具包，支持 MCP 和 Gemini"
+      },
+      "details": {
+        "en": "Google 开源 Go 语言 AI Agent 开发工具包，支持 MCP 和 Gemini GitHub: github.com/google/adk-go",
+        "zh": "Google 开源 Go 语言 AI Agent 开发工具包，支持 MCP 和 Gemini GitHub: github.com/google/adk-go"
+      },
+      "examples": [
+        "github.com/google/adk-go"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "sdk-python",
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "sdk-python - strands-agents",
+        "zh": "sdk-python - AWS 出品的模型驱动 AI Agent SDK，支持 MCP 和 Bedrock"
+      },
+      "description": {
+        "en": "AWS 出品的模型驱动 AI Agent SDK，支持 MCP 和 Bedrock",
+        "zh": "AWS 出品的模型驱动 AI Agent SDK，支持 MCP 和 Bedrock"
+      },
+      "details": {
+        "en": "AWS 出品的模型驱动 AI Agent SDK，支持 MCP 和 Bedrock GitHub: github.com/strands-agents/sdk-python",
+        "zh": "AWS 出品的模型驱动 AI Agent SDK，支持 MCP 和 Bedrock GitHub: github.com/strands-agents/sdk-python"
+      },
+      "examples": [
+        "github.com/strands-agents/sdk-python"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "koog",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "koog - JetBrains",
+        "zh": "koog - JetBrains 出品 JVM (Java/Kotlin) Agent 框架，企业级容错"
+      },
+      "description": {
+        "en": "JetBrains 出品 JVM (Java/Kotlin) Agent 框架，企业级容错",
+        "zh": "JetBrains 出品 JVM (Java/Kotlin) Agent 框架，企业级容错"
+      },
+      "details": {
+        "en": "JetBrains 出品 JVM (Java/Kotlin) Agent 框架，企业级容错 GitHub: github.com/JetBrains/koog",
+        "zh": "JetBrains 出品 JVM (Java/Kotlin) Agent 框架，企业级容错 GitHub: github.com/JetBrains/koog"
+      },
+      "examples": [
+        "github.com/JetBrains/koog"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "roma",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "ROMA - sentient-agi",
+        "zh": "ROMA - Recursive-Open-Meta-Agent，构建高性能多 Agent 系统的元 Agent 框架"
+      },
+      "description": {
+        "en": "Recursive-Open-Meta-Agent，构建高性能多 Agent 系统的元 Agent 框架",
+        "zh": "Recursive-Open-Meta-Agent，构建高性能多 Agent 系统的元 Agent 框架"
+      },
+      "details": {
+        "en": "Recursive-Open-Meta-Agent，构建高性能多 Agent 系统的元 Agent 框架 GitHub: github.com/sentient-agi/ROMA",
+        "zh": "Recursive-Open-Meta-Agent，构建高性能多 Agent 系统的元 Agent 框架 GitHub: github.com/sentient-agi/ROMA"
+      },
+      "examples": [
+        "github.com/sentient-agi/ROMA"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "trpc-agent-go",
+      "category": "agents",
+      "tags": [
+        "framework",
+        "mcp",
+        "multi-agent",
+        "llm",
+        "agent"
+      ],
+      "title": {
+        "en": "trpc-agent-go - trpc-group",
+        "zh": "trpc-agent-go - 基于 Go 的 Agent 框架，支持 LLM、MCP、A2A"
+      },
+      "description": {
+        "en": "基于 Go 的 Agent 框架，支持 LLM、MCP、A2A",
+        "zh": "基于 Go 的 Agent 框架，支持 LLM、MCP、A2A"
+      },
+      "details": {
+        "en": "基于 Go 的 Agent 框架，支持 LLM、MCP、A2A GitHub: github.com/trpc-group/trpc-agent-go",
+        "zh": "基于 Go 的 Agent 框架，支持 LLM、MCP、A2A GitHub: github.com/trpc-group/trpc-agent-go"
+      },
+      "examples": [
+        "github.com/trpc-group/trpc-agent-go"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "memvid",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "rag",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "memvid - memvid",
+        "zh": "memvid - AI Agent 记忆层，用单文件替代复杂 RAG 管道"
+      },
+      "description": {
+        "en": "AI Agent 记忆层，用单文件替代复杂 RAG 管道",
+        "zh": "AI Agent 记忆层，用单文件替代复杂 RAG 管道"
+      },
+      "details": {
+        "en": "AI Agent 记忆层，用单文件替代复杂 RAG 管道 GitHub: github.com/memvid/memvid",
+        "zh": "AI Agent 记忆层，用单文件替代复杂 RAG 管道 GitHub: github.com/memvid/memvid"
+      },
+      "examples": [
+        "github.com/memvid/memvid"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mcp-context-forge",
+      "category": "integrations",
+      "tags": [
+        "mcp"
+      ],
+      "title": {
+        "en": "mcp-context-forge - IBM",
+        "zh": "mcp-context-forge - IBM 的 AI 网关/注册中心，统一 MCP、A2A、REST/gRPC API"
+      },
+      "description": {
+        "en": "IBM 的 AI 网关/注册中心，统一 MCP、A2A、REST/gRPC API",
+        "zh": "IBM 的 AI 网关/注册中心，统一 MCP、A2A、REST/gRPC API"
+      },
+      "details": {
+        "en": "IBM 的 AI 网关/注册中心，统一 MCP、A2A、REST/gRPC API GitHub: github.com/IBM/mcp-context-forge",
+        "zh": "IBM 的 AI 网关/注册中心，统一 MCP、A2A、REST/gRPC API GitHub: github.com/IBM/mcp-context-forge"
+      },
+      "examples": [
+        "github.com/IBM/mcp-context-forge"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "tools",
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "agent",
+        "multi-agent",
+        "tool"
+      ],
+      "title": {
+        "en": "tools - strands-agents",
+        "zh": "tools - 给 Agent 强大能力的工具集，支持 MCP 和 Bedrock"
+      },
+      "description": {
+        "en": "给 Agent 强大能力的工具集，支持 MCP 和 Bedrock",
+        "zh": "给 Agent 强大能力的工具集，支持 MCP 和 Bedrock"
+      },
+      "details": {
+        "en": "给 Agent 强大能力的工具集，支持 MCP 和 Bedrock GitHub: github.com/strands-agents/tools",
+        "zh": "给 Agent 强大能力的工具集，支持 MCP 和 Bedrock GitHub: github.com/strands-agents/tools"
+      },
+      "examples": [
+        "github.com/strands-agents/tools"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "compose-for-agents",
+      "category": "devops",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "compose-for-agents - docker",
+        "zh": "compose-for-agents - Docker 官方 Agent 编排方案，用 Docker Compose 构建 AI Agent"
+      },
+      "description": {
+        "en": "Docker 官方 Agent 编排方案，用 Docker Compose 构建 AI Agent",
+        "zh": "Docker 官方 Agent 编排方案，用 Docker Compose 构建 AI Agent"
+      },
+      "details": {
+        "en": "Docker 官方 Agent 编排方案，用 Docker Compose 构建 AI Agent GitHub: github.com/docker/compose-for-agents",
+        "zh": "Docker 官方 Agent 编排方案，用 Docker Compose 构建 AI Agent GitHub: github.com/docker/compose-for-agents"
+      },
+      "examples": [
+        "github.com/docker/compose-for-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "crush",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "crush - charmbracelet",
+        "zh": "crush - CharmBracelet 出品的 AI 编码 Agent"
+      },
+      "description": {
+        "en": "CharmBracelet 出品的 AI 编码 Agent",
+        "zh": "CharmBracelet 出品的 AI 编码 Agent"
+      },
+      "details": {
+        "en": "CharmBracelet 出品的 AI 编码 Agent GitHub: github.com/charmbracelet/crush",
+        "zh": "CharmBracelet 出品的 AI 编码 Agent GitHub: github.com/charmbracelet/crush"
+      },
+      "examples": [
+        "github.com/charmbracelet/crush"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deepcode",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "coding",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "DeepCode - HKUDS",
+        "zh": "DeepCode - 开放编码 Agent (Paper2Code & Text2Web & Text2Backend)"
+      },
+      "description": {
+        "en": "开放编码 Agent (Paper2Code & Text2Web & Text2Backend)",
+        "zh": "开放编码 Agent (Paper2Code & Text2Web & Text2Backend)"
+      },
+      "details": {
+        "en": "开放编码 Agent (Paper2Code & Text2Web & Text2Backend) GitHub: github.com/HKUDS/DeepCode",
+        "zh": "开放编码 Agent (Paper2Code & Text2Web & Text2Backend) GitHub: github.com/HKUDS/DeepCode"
+      },
+      "examples": [
+        "github.com/HKUDS/DeepCode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "open-swe",
+      "category": "developer-tools",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "open-swe - langchain-ai",
+        "zh": "open-swe - LangChain 出品的异步编码 Agent"
+      },
+      "description": {
+        "en": "LangChain 出品的异步编码 Agent",
+        "zh": "LangChain 出品的异步编码 Agent"
+      },
+      "details": {
+        "en": "LangChain 出品的异步编码 Agent GitHub: github.com/langchain-ai/open-swe",
+        "zh": "LangChain 出品的异步编码 Agent GitHub: github.com/langchain-ai/open-swe"
+      },
+      "examples": [
+        "github.com/langchain-ai/open-swe"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "magic",
+      "category": "ai-tools",
+      "tags": [
+        "agent",
+        "open-source",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "magic - dtyq",
+        "zh": "magic - Magicrew — 开源一体化 AI 生产力平台（Agent + 工作流 + IM + 协作）"
+      },
+      "description": {
+        "en": "Magicrew — 开源一体化 AI 生产力平台（Agent + 工作流 + IM + 协作）",
+        "zh": "Magicrew — 开源一体化 AI 生产力平台（Agent + 工作流 + IM + 协作）"
+      },
+      "details": {
+        "en": "Magicrew — 开源一体化 AI 生产力平台（Agent + 工作流 + IM + 协作） GitHub: github.com/dtyq/magic",
+        "zh": "Magicrew — 开源一体化 AI 生产力平台（Agent + 工作流 + IM + 协作） GitHub: github.com/dtyq/magic"
+      },
+      "examples": [
+        "github.com/dtyq/magic"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "deepresearchagent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "DeepResearchAgent - SkyworkAI",
+        "zh": "DeepResearchAgent - 层次化多 Agent 深度研究系统"
+      },
+      "description": {
+        "en": "层次化多 Agent 深度研究系统",
+        "zh": "层次化多 Agent 深度研究系统"
+      },
+      "details": {
+        "en": "层次化多 Agent 深度研究系统 GitHub: github.com/SkyworkAI/DeepResearchAgent",
+        "zh": "层次化多 Agent 深度研究系统 GitHub: github.com/SkyworkAI/DeepResearchAgent"
+      },
+      "examples": [
+        "github.com/SkyworkAI/DeepResearchAgent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "pentestagent",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "pentestagent - GH05TCREW",
+        "zh": "pentestagent - AI 渗透测试 Agent，支持 Bug Bounty、红队和渗透测试"
+      },
+      "description": {
+        "en": "AI 渗透测试 Agent，支持 Bug Bounty、红队和渗透测试",
+        "zh": "AI 渗透测试 Agent，支持 Bug Bounty、红队和渗透测试"
+      },
+      "details": {
+        "en": "AI 渗透测试 Agent，支持 Bug Bounty、红队和渗透测试 GitHub: github.com/GH05TCREW/pentestagent",
+        "zh": "AI 渗透测试 Agent，支持 Bug Bounty、红队和渗透测试 GitHub: github.com/GH05TCREW/pentestagent"
+      },
+      "examples": [
+        "github.com/GH05TCREW/pentestagent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "evoagentx",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "EvoAgentX - EvoAgentX",
+        "zh": "EvoAgentX - 首个自进化 AI Agent 框架"
+      },
+      "description": {
+        "en": "首个自进化 AI Agent 框架",
+        "zh": "首个自进化 AI Agent 框架"
+      },
+      "details": {
+        "en": "首个自进化 AI Agent 框架 GitHub: github.com/EvoAgentX/EvoAgentX",
+        "zh": "首个自进化 AI Agent 框架 GitHub: github.com/EvoAgentX/EvoAgentX"
+      },
+      "examples": [
+        "github.com/EvoAgentX/EvoAgentX"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
