@@ -9436,6 +9436,158 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "mastra",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "mastra - mastra-ai",
+        "zh": "mastra - TypeScript AI Agent 应用框架，Gatsby 团队出品"
+      },
+      "description": {
+        "en": "TypeScript AI Agent 应用框架，Gatsby 团队出品",
+        "zh": "TypeScript AI Agent 应用框架，Gatsby 团队出品"
+      },
+      "details": {
+        "en": "TypeScript AI Agent 应用框架，Gatsby 团队出品 GitHub: github.com/mastra-ai/mastra",
+        "zh": "TypeScript AI Agent 应用框架，Gatsby 团队出品 GitHub: github.com/mastra-ai/mastra"
+      },
+      "examples": [
+        "github.com/mastra-ai/mastra"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "12-factor-agents",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "llm"
+      ],
+      "title": {
+        "en": "12-factor-agents - humanlayer",
+        "zh": "12-factor-agents - LLM Agent 生产就豫的 12 个最佳实践原则"
+      },
+      "description": {
+        "en": "LLM Agent 生产就豫的 12 个最佳实践原则",
+        "zh": "LLM Agent 生产就豫的 12 个最佳实践原则"
+      },
+      "details": {
+        "en": "LLM Agent 生产就豫的 12 个最佳实践原则 GitHub: github.com/humanlayer/12-factor-agents",
+        "zh": "LLM Agent 生产就豫的 12 个最佳实践原则 GitHub: github.com/humanlayer/12-factor-agents"
+      },
+      "examples": [
+        "github.com/humanlayer/12-factor-agents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "eliza",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "eliza - elizaOS",
+        "zh": "eliza - 面向所有人的自主 AI Agent 框架，Crypto+AI"
+      },
+      "description": {
+        "en": "面向所有人的自主 AI Agent 框架，Crypto+AI",
+        "zh": "面向所有人的自主 AI Agent 框架，Crypto+AI"
+      },
+      "details": {
+        "en": "面向所有人的自主 AI Agent 框架，Crypto+AI GitHub: github.com/elizaOS/eliza",
+        "zh": "面向所有人的自主 AI Agent 框架，Crypto+AI GitHub: github.com/elizaOS/eliza"
+      },
+      "examples": [
+        "github.com/elizaOS/eliza"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "gpt-researcher",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "gpt-researcher - assafelovic",
+        "zh": "gpt-researcher - 自主深度研究 Agent，支持多智能体研究管线"
+      },
+      "description": {
+        "en": "自主深度研究 Agent，支持多智能体研究管线",
+        "zh": "自主深度研究 Agent，支持多智能体研究管线"
+      },
+      "details": {
+        "en": "自主深度研究 Agent，支持多智能体研究管线 GitHub: github.com/assafelovic/gpt-researcher",
+        "zh": "自主深度研究 Agent，支持多智能体研究管线 GitHub: github.com/assafelovic/gpt-researcher"
+      },
+      "examples": [
+        "github.com/assafelovic/gpt-researcher"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "khoj",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "khoj - khoj-ai",
+        "zh": "khoj - AI 第二大脑，自托管，支持自定义 Agent 和深度研究"
+      },
+      "description": {
+        "en": "AI 第二大脑，自托管，支持自定义 Agent 和深度研究",
+        "zh": "AI 第二大脑，自托管，支持自定义 Agent 和深度研究"
+      },
+      "details": {
+        "en": "AI 第二大脑，自托管，支持自定义 Agent 和深度研究 GitHub: github.com/khoj-ai/khoj",
+        "zh": "AI 第二大脑，自托管，支持自定义 Agent 和深度研究 GitHub: github.com/khoj-ai/khoj"
+      },
+      "examples": [
+        "github.com/khoj-ai/khoj"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "bettafish",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "BettaFish - 666ghj",
+        "zh": "BettaFish - 多智能体舆情分析助手(微舆)，预测趋势"
+      },
+      "description": {
+        "en": "多智能体舆情分析助手(微舆)，预测趋势",
+        "zh": "多智能体舆情分析助手(微舆)，预测趋势"
+      },
+      "details": {
+        "en": "多智能体舆情分析助手(微舆)，预测趋势 GitHub: github.com/666ghj/BettaFish",
+        "zh": "多智能体舆情分析助手(微舆)，预测趋势 GitHub: github.com/666ghj/BettaFish"
+      },
+      "examples": [
+        "github.com/666ghj/BettaFish"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
