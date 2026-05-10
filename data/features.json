@@ -10457,6 +10457,184 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "hiclaw",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "HiClaw - agentscope-ai",
+        "zh": "HiClaw - 协作式多智能体OS，基于Matrix协议的透明人机协同任务协调"
+      },
+      "description": {
+        "en": "协作式多智能体OS，基于Matrix协议的透明人机协同任务协调",
+        "zh": "协作式多智能体OS，基于Matrix协议的透明人机协同任务协调"
+      },
+      "details": {
+        "en": "协作式多智能体OS，基于Matrix协议的透明人机协同任务协调 GitHub: github.com/agentscope-ai/HiClaw",
+        "zh": "协作式多智能体OS，基于Matrix协议的透明人机协同任务协调 GitHub: github.com/agentscope-ai/HiClaw"
+      },
+      "examples": [
+        "github.com/agentscope-ai/HiClaw"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mission-control",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "mission-control - builderz-labs",
+        "zh": "mission-control - 自托管AI智能体编排仪表板，任务调度、成本追踪和多智能体工作流管理"
+      },
+      "description": {
+        "en": "自托管AI智能体编排仪表板，任务调度、成本追踪和多智能体工作流管理",
+        "zh": "自托管AI智能体编排仪表板，任务调度、成本追踪和多智能体工作流管理"
+      },
+      "details": {
+        "en": "自托管AI智能体编排仪表板，任务调度、成本追踪和多智能体工作流管理 GitHub: github.com/builderz-labs/mission-control",
+        "zh": "自托管AI智能体编排仪表板，任务调度、成本追踪和多智能体工作流管理 GitHub: github.com/builderz-labs/mission-control"
+      },
+      "examples": [
+        "github.com/builderz-labs/mission-control"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openmaic",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "OpenMAIC - THU-MAIC",
+        "zh": "OpenMAIC - 开放多智能体互动教室，沉浸式多智能体学习体验"
+      },
+      "description": {
+        "en": "开放多智能体互动教室，沉浸式多智能体学习体验",
+        "zh": "开放多智能体互动教室，沉浸式多智能体学习体验"
+      },
+      "details": {
+        "en": "开放多智能体互动教室，沉浸式多智能体学习体验 GitHub: github.com/THU-MAIC/OpenMAIC",
+        "zh": "开放多智能体互动教室，沉浸式多智能体学习体验 GitHub: github.com/THU-MAIC/OpenMAIC"
+      },
+      "examples": [
+        "github.com/THU-MAIC/OpenMAIC"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agency-agents-zh",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "tool",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "agency-agents-zh - jnMetaCode",
+        "zh": "agency-agents-zh - 211个即插即用AI专家角色，支持16种工具"
+      },
+      "description": {
+        "en": "211个即插即用AI专家角色，支持16种工具",
+        "zh": "211个即插即用AI专家角色，支持16种工具"
+      },
+      "details": {
+        "en": "211个即插即用AI专家角色，支持16种工具 GitHub: github.com/jnMetaCode/agency-agents-zh",
+        "zh": "211个即插即用AI专家角色，支持16种工具 GitHub: github.com/jnMetaCode/agency-agents-zh"
+      },
+      "examples": [
+        "github.com/jnMetaCode/agency-agents-zh"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "star-office-ui",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "Star-Office-UI - ringhyacinth",
+        "zh": "Star-Office-UI - 像素风格办公室UI，将AI工作状态可视化"
+      },
+      "description": {
+        "en": "像素风格办公室UI，将AI工作状态可视化",
+        "zh": "像素风格办公室UI，将AI工作状态可视化"
+      },
+      "details": {
+        "en": "像素风格办公室UI，将AI工作状态可视化 GitHub: github.com/ringhyacinth/Star-Office-UI",
+        "zh": "像素风格办公室UI，将AI工作状态可视化 GitHub: github.com/ringhyacinth/Star-Office-UI"
+      },
+      "examples": [
+        "github.com/ringhyacinth/Star-Office-UI"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "codepilot",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "mcp",
+        "coding",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "CodePilot - op7418",
+        "zh": "CodePilot - 多模型AI智能体桌面客户端，支持任意AI供应商和MCP扩展"
+      },
+      "description": {
+        "en": "多模型AI智能体桌面客户端，支持任意AI供应商和MCP扩展",
+        "zh": "多模型AI智能体桌面客户端，支持任意AI供应商和MCP扩展"
+      },
+      "details": {
+        "en": "多模型AI智能体桌面客户端，支持任意AI供应商和MCP扩展 GitHub: github.com/op7418/CodePilot",
+        "zh": "多模型AI智能体桌面客户端，支持任意AI供应商和MCP扩展 GitHub: github.com/op7418/CodePilot"
+      },
+      "examples": [
+        "github.com/op7418/CodePilot"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "hermes-web-ui",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "hermes-web-ui - EKKOLearnAI",
+        "zh": "hermes-web-ui - Hermes Agent Web仪表板，多平台AI聊天和会话管理"
+      },
+      "description": {
+        "en": "Hermes Agent Web仪表板，多平台AI聊天和会话管理",
+        "zh": "Hermes Agent Web仪表板，多平台AI聊天和会话管理"
+      },
+      "details": {
+        "en": "Hermes Agent Web仪表板，多平台AI聊天和会话管理 GitHub: github.com/EKKOLearnAI/hermes-web-ui",
+        "zh": "Hermes Agent Web仪表板，多平台AI聊天和会话管理 GitHub: github.com/EKKOLearnAI/hermes-web-ui"
+      },
+      "examples": [
+        "github.com/EKKOLearnAI/hermes-web-ui"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
