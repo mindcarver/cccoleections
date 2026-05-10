@@ -10131,6 +10131,332 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "easy-vibe",
+      "category": "tutorial",
+      "tags": [
+        "coding"
+      ],
+      "title": {
+        "en": "easy-vibe - datawhalechina",
+        "zh": "easy-vibe - Vibe Coding 2026 入门编程课程，面向零基础用户的现代编程教学"
+      },
+      "description": {
+        "en": "Vibe Coding 2026 入门编程课程，面向零基础用户的现代编程教学",
+        "zh": "Vibe Coding 2026 入门编程课程，面向零基础用户的现代编程教学"
+      },
+      "details": {
+        "en": "Vibe Coding 2026 入门编程课程，面向零基础用户的现代编程教学 GitHub: github.com/datawhalechina/easy-vibe",
+        "zh": "Vibe Coding 2026 入门编程课程，面向零基础用户的现代编程教学 GitHub: github.com/datawhalechina/easy-vibe"
+      },
+      "examples": [
+        "github.com/datawhalechina/easy-vibe"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "rowboat",
+      "category": "agents",
+      "tags": [
+        "open-source",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "rowboat - rowboatlabs",
+        "zh": "rowboat - 开源 AI 协作助手，内置持久记忆功能，支持多场景协作"
+      },
+      "description": {
+        "en": "开源 AI 协作助手，内置持久记忆功能，支持多场景协作",
+        "zh": "开源 AI 协作助手，内置持久记忆功能，支持多场景协作"
+      },
+      "details": {
+        "en": "开源 AI 协作助手，内置持久记忆功能，支持多场景协作 GitHub: github.com/rowboatlabs/rowboat",
+        "zh": "开源 AI 协作助手，内置持久记忆功能，支持多场景协作 GitHub: github.com/rowboatlabs/rowboat"
+      },
+      "examples": [
+        "github.com/rowboatlabs/rowboat"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vimax",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "ViMax - HKUDS",
+        "zh": "ViMax - Agentic 视频生成框架，集成导演、编剧、制片和视频生成于一体"
+      },
+      "description": {
+        "en": "Agentic 视频生成框架，集成导演、编剧、制片和视频生成于一体",
+        "zh": "Agentic 视频生成框架，集成导演、编剧、制片和视频生成于一体"
+      },
+      "details": {
+        "en": "Agentic 视频生成框架，集成导演、编剧、制片和视频生成于一体 GitHub: github.com/HKUDS/ViMax",
+        "zh": "Agentic 视频生成框架，集成导演、编剧、制片和视频生成于一体 GitHub: github.com/HKUDS/ViMax"
+      },
+      "examples": [
+        "github.com/HKUDS/ViMax"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "hyperframes",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "hyperframes - heygen-com",
+        "zh": "hyperframes - 用 HTML 编写、渲染为视频的工具，专为 Agent 设计"
+      },
+      "description": {
+        "en": "用 HTML 编写、渲染为视频的工具，专为 Agent 设计",
+        "zh": "用 HTML 编写、渲染为视频的工具，专为 Agent 设计"
+      },
+      "details": {
+        "en": "用 HTML 编写、渲染为视频的工具，专为 Agent 设计 GitHub: github.com/heygen-com/hyperframes",
+        "zh": "用 HTML 编写、渲染为视频的工具，专为 Agent 设计 GitHub: github.com/heygen-com/hyperframes"
+      },
+      "examples": [
+        "github.com/heygen-com/hyperframes"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vellum-assistant",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "vellum-assistant - vellum-ai",
+        "zh": "vellum-assistant - 个人 AI 助手，能随用户成长，具备记忆、人格、主动联系能力，跨 macOS/Telegram/Slack"
+      },
+      "description": {
+        "en": "个人 AI 助手，能随用户成长，具备记忆、人格、主动联系能力，跨 macOS/Telegram/Slack",
+        "zh": "个人 AI 助手，能随用户成长，具备记忆、人格、主动联系能力，跨 macOS/Telegram/Slack"
+      },
+      "details": {
+        "en": "个人 AI 助手，能随用户成长，具备记忆、人格、主动联系能力，跨 macOS/Telegram/Slack GitHub: github.com/vellum-ai/vellum-assistant",
+        "zh": "个人 AI 助手，能随用户成长，具备记忆、人格、主动联系能力，跨 macOS/Telegram/Slack GitHub: github.com/vellum-ai/vellum-assistant"
+      },
+      "examples": [
+        "github.com/vellum-ai/vellum-assistant"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "a2ui",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "A2UI - google",
+        "zh": "A2UI - Google 出品的 Agent-to-UI 框架，将 AI Agent 输出转化为交互式用户界面"
+      },
+      "description": {
+        "en": "Google 出品的 Agent-to-UI 框架，将 AI Agent 输出转化为交互式用户界面",
+        "zh": "Google 出品的 Agent-to-UI 框架，将 AI Agent 输出转化为交互式用户界面"
+      },
+      "details": {
+        "en": "Google 出品的 Agent-to-UI 框架，将 AI Agent 输出转化为交互式用户界面 GitHub: github.com/google/A2UI",
+        "zh": "Google 出品的 Agent-to-UI 框架，将 AI Agent 输出转化为交互式用户界面 GitHub: github.com/google/A2UI"
+      },
+      "examples": [
+        "github.com/google/A2UI"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "react-doctor",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "react-doctor - millionco",
+        "zh": "react-doctor - 检测 Agent 生成的 React 代码质量问题，自动诊断和修复建议"
+      },
+      "description": {
+        "en": "检测 Agent 生成的 React 代码质量问题，自动诊断和修复建议",
+        "zh": "检测 Agent 生成的 React 代码质量问题，自动诊断和修复建议"
+      },
+      "details": {
+        "en": "检测 Agent 生成的 React 代码质量问题，自动诊断和修复建议 GitHub: github.com/millionco/react-doctor",
+        "zh": "检测 Agent 生成的 React 代码质量问题，自动诊断和修复建议 GitHub: github.com/millionco/react-doctor"
+      },
+      "examples": [
+        "github.com/millionco/react-doctor"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "gr00t-wholebodycontrol",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "GR00T-WholeBodyControl - NVlabs",
+        "zh": "GR00T-WholeBodyControl - NVIDIA 人形机器人全身控制平台，支持 Isaac-Gr00t N1.5/N1.6 和 GEAR-SONIC"
+      },
+      "description": {
+        "en": "NVIDIA 人形机器人全身控制平台，支持 Isaac-Gr00t N1.5/N1.6 和 GEAR-SONIC",
+        "zh": "NVIDIA 人形机器人全身控制平台，支持 Isaac-Gr00t N1.5/N1.6 和 GEAR-SONIC"
+      },
+      "details": {
+        "en": "NVIDIA 人形机器人全身控制平台，支持 Isaac-Gr00t N1.5/N1.6 和 GEAR-SONIC GitHub: github.com/NVlabs/GR00T-WholeBodyControl",
+        "zh": "NVIDIA 人形机器人全身控制平台，支持 Isaac-Gr00t N1.5/N1.6 和 GEAR-SONIC GitHub: github.com/NVlabs/GR00T-WholeBodyControl"
+      },
+      "examples": [
+        "github.com/NVlabs/GR00T-WholeBodyControl"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "sglang",
+      "category": "ai-tools",
+      "tags": [
+        "llm",
+        "framework"
+      ],
+      "title": {
+        "en": "sglang - sgl-project",
+        "zh": "sglang - 高性能 LLM 和多模态模型推理服务框架"
+      },
+      "description": {
+        "en": "高性能 LLM 和多模态模型推理服务框架",
+        "zh": "高性能 LLM 和多模态模型推理服务框架"
+      },
+      "details": {
+        "en": "高性能 LLM 和多模态模型推理服务框架 GitHub: github.com/sgl-project/sglang",
+        "zh": "高性能 LLM 和多模态模型推理服务框架 GitHub: github.com/sgl-project/sglang"
+      },
+      "examples": [
+        "github.com/sgl-project/sglang"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "claude-agent-sdk-python",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "claude-agent-sdk-python - anthropics",
+        "zh": "claude-agent-sdk-python - Anthropic 官方 Claude Agent SDK Python 版，用于构建 Claude 驱动的 AI Agent"
+      },
+      "description": {
+        "en": "Anthropic 官方 Claude Agent SDK Python 版，用于构建 Claude 驱动的 AI Agent",
+        "zh": "Anthropic 官方 Claude Agent SDK Python 版，用于构建 Claude 驱动的 AI Agent"
+      },
+      "details": {
+        "en": "Anthropic 官方 Claude Agent SDK Python 版，用于构建 Claude 驱动的 AI Agent GitHub: github.com/anthropics/claude-agent-sdk-python",
+        "zh": "Anthropic 官方 Claude Agent SDK Python 版，用于构建 Claude 驱动的 AI Agent GitHub: github.com/anthropics/claude-agent-sdk-python"
+      },
+      "examples": [
+        "github.com/anthropics/claude-agent-sdk-python"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-claude-code",
+      "category": "tutorial",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "coding"
+      ],
+      "title": {
+        "en": "awesome-claude-code - hesreallyhim",
+        "zh": "awesome-claude-code - Claude Code 优秀资源合集，涵盖 skills、hooks、命令、Agent 编排器、应用和插件"
+      },
+      "description": {
+        "en": "Claude Code 优秀资源合集，涵盖 skills、hooks、命令、Agent 编排器、应用和插件",
+        "zh": "Claude Code 优秀资源合集，涵盖 skills、hooks、命令、Agent 编排器、应用和插件"
+      },
+      "details": {
+        "en": "Claude Code 优秀资源合集，涵盖 skills、hooks、命令、Agent 编排器、应用和插件 GitHub: github.com/hesreallyhim/awesome-claude-code",
+        "zh": "Claude Code 优秀资源合集，涵盖 skills、hooks、命令、Agent 编排器、应用和插件 GitHub: github.com/hesreallyhim/awesome-claude-code"
+      },
+      "examples": [
+        "github.com/hesreallyhim/awesome-claude-code"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "supersplat",
+      "category": "design-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "supersplat - playcanvas",
+        "zh": "supersplat - 3D 高斯溅射编辑器，3DGS 场景编辑工具"
+      },
+      "description": {
+        "en": "3D 高斯溅射编辑器，3DGS 场景编辑工具",
+        "zh": "3D 高斯溅射编辑器，3DGS 场景编辑工具"
+      },
+      "details": {
+        "en": "3D 高斯溅射编辑器，3DGS 场景编辑工具 GitHub: github.com/playcanvas/supersplat",
+        "zh": "3D 高斯溅射编辑器，3DGS 场景编辑工具 GitHub: github.com/playcanvas/supersplat"
+      },
+      "examples": [
+        "github.com/playcanvas/supersplat"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "minimind",
+      "category": "tutorial",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "minimind - jingyaogong",
+        "zh": "minimind - 2 小时从零训练 64M 参数 LLM 的教学项目，大模型入门首选"
+      },
+      "description": {
+        "en": "2 小时从零训练 64M 参数 LLM 的教学项目，大模型入门首选",
+        "zh": "2 小时从零训练 64M 参数 LLM 的教学项目，大模型入门首选"
+      },
+      "details": {
+        "en": "2 小时从零训练 64M 参数 LLM 的教学项目，大模型入门首选 GitHub: github.com/jingyaogong/minimind",
+        "zh": "2 小时从零训练 64M 参数 LLM 的教学项目，大模型入门首选 GitHub: github.com/jingyaogong/minimind"
+      },
+      "examples": [
+        "github.com/jingyaogong/minimind"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
