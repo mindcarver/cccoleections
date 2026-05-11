@@ -10635,6 +10635,216 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "open-design",
+      "category": "design-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source",
+        "tool"
+      ],
+      "title": {
+        "en": "open-design - nexu-io",
+        "zh": "open-design - 将编码 Agent 用作设计引擎的开源工具，通过 AI 编码 Agent 驱动 UI/UX 设计流程"
+      },
+      "description": {
+        "en": "将编码 Agent 用作设计引擎的开源工具，通过 AI 编码 Agent 驱动 UI/UX 设计流程",
+        "zh": "将编码 Agent 用作设计引擎的开源工具，通过 AI 编码 Agent 驱动 UI/UX 设计流程"
+      },
+      "details": {
+        "en": "将编码 Agent 用作设计引擎的开源工具，通过 AI 编码 Agent 驱动 UI/UX 设计流程 GitHub: github.com/nexu-io/open-design",
+        "zh": "将编码 Agent 用作设计引擎的开源工具，通过 AI 编码 Agent 驱动 UI/UX 设计流程 GitHub: github.com/nexu-io/open-design"
+      },
+      "examples": [
+        "github.com/nexu-io/open-design"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "broccoli",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "broccoli - besimple-oss",
+        "zh": "broccoli - 云端一次性编码 Agent 框架，从 Linear 获取任务，在隔离沙箱中运行，自动创建 PR"
+      },
+      "description": {
+        "en": "云端一次性编码 Agent 框架，从 Linear 获取任务，在隔离沙箱中运行，自动创建 PR",
+        "zh": "云端一次性编码 Agent 框架，从 Linear 获取任务，在隔离沙箱中运行，自动创建 PR"
+      },
+      "details": {
+        "en": "云端一次性编码 Agent 框架，从 Linear 获取任务，在隔离沙箱中运行，自动创建 PR GitHub: github.com/besimple-oss/broccoli",
+        "zh": "云端一次性编码 Agent 框架，从 Linear 获取任务，在隔离沙箱中运行，自动创建 PR GitHub: github.com/besimple-oss/broccoli"
+      },
+      "examples": [
+        "github.com/besimple-oss/broccoli"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "bunny-agent",
+      "category": "agents",
+      "tags": [
+        "coding",
+        "agent",
+        "framework",
+        "open-source",
+        "multi-agent"
+      ],
+      "title": {
+        "en": "bunny-agent - buda-ai",
+        "zh": "bunny-agent - 通过原生 AI SDK UI 构建 Coding Agent SaaS 的开源框架"
+      },
+      "description": {
+        "en": "通过原生 AI SDK UI 构建 Coding Agent SaaS 的开源框架",
+        "zh": "通过原生 AI SDK UI 构建 Coding Agent SaaS 的开源框架"
+      },
+      "details": {
+        "en": "通过原生 AI SDK UI 构建 Coding Agent SaaS 的开源框架 GitHub: github.com/buda-ai/bunny-agent",
+        "zh": "通过原生 AI SDK UI 构建 Coding Agent SaaS 的开源框架 GitHub: github.com/buda-ai/bunny-agent"
+      },
+      "examples": [
+        "github.com/buda-ai/bunny-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "Agent - macOS26",
+        "zh": "Agent - 原生 macOS AI 编码 IDE/Agent 框架，充分利用 macOS 系统能力"
+      },
+      "description": {
+        "en": "原生 macOS AI 编码 IDE/Agent 框架，充分利用 macOS 系统能力",
+        "zh": "原生 macOS AI 编码 IDE/Agent 框架，充分利用 macOS 系统能力"
+      },
+      "details": {
+        "en": "原生 macOS AI 编码 IDE/Agent 框架，充分利用 macOS 系统能力 GitHub: github.com/macOS26/Agent",
+        "zh": "原生 macOS AI 编码 IDE/Agent 框架，充分利用 macOS 系统能力 GitHub: github.com/macOS26/Agent"
+      },
+      "examples": [
+        "github.com/macOS26/Agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "obscura",
+      "category": "tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "obscura - h4ckf0r0day",
+        "zh": "obscura - 专为 AI Agent 设计的无头浏览器和 Web 抓取工具，Rust 编写"
+      },
+      "description": {
+        "en": "专为 AI Agent 设计的无头浏览器和 Web 抓取工具，Rust 编写",
+        "zh": "专为 AI Agent 设计的无头浏览器和 Web 抓取工具，Rust 编写"
+      },
+      "details": {
+        "en": "专为 AI Agent 设计的无头浏览器和 Web 抓取工具，Rust 编写 GitHub: github.com/h4ckf0r0day/obscura",
+        "zh": "专为 AI Agent 设计的无头浏览器和 Web 抓取工具，Rust 编写 GitHub: github.com/h4ckf0r0day/obscura"
+      },
+      "examples": [
+        "github.com/h4ckf0r0day/obscura"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agentic-inbox",
+      "category": "ai-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agentic-inbox - cloudflare",
+        "zh": "agentic-inbox - Cloudflare 出品的自托管邮件客户端，内置 AI Agent，运行在 Workers 上"
+      },
+      "description": {
+        "en": "Cloudflare 出品的自托管邮件客户端，内置 AI Agent，运行在 Workers 上",
+        "zh": "Cloudflare 出品的自托管邮件客户端，内置 AI Agent，运行在 Workers 上"
+      },
+      "details": {
+        "en": "Cloudflare 出品的自托管邮件客户端，内置 AI Agent，运行在 Workers 上 GitHub: github.com/cloudflare/agentic-inbox",
+        "zh": "Cloudflare 出品的自托管邮件客户端，内置 AI Agent，运行在 Workers 上 GitHub: github.com/cloudflare/agentic-inbox"
+      },
+      "examples": [
+        "github.com/cloudflare/agentic-inbox"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "fireworks-tech-graph",
+      "category": "design-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "fireworks-tech-graph - yizhiyanhua-ai",
+        "zh": "fireworks-tech-graph - 自然语言生成生产级 SVG+PNG 技术图表，支持 7 种样式及 Agent 工作流"
+      },
+      "description": {
+        "en": "自然语言生成生产级 SVG+PNG 技术图表，支持 7 种样式及 Agent 工作流",
+        "zh": "自然语言生成生产级 SVG+PNG 技术图表，支持 7 种样式及 Agent 工作流"
+      },
+      "details": {
+        "en": "自然语言生成生产级 SVG+PNG 技术图表，支持 7 种样式及 Agent 工作流 GitHub: github.com/yizhiyanhua-ai/fireworks-tech-graph",
+        "zh": "自然语言生成生产级 SVG+PNG 技术图表，支持 7 种样式及 Agent 工作流 GitHub: github.com/yizhiyanhua-ai/fireworks-tech-graph"
+      },
+      "examples": [
+        "github.com/yizhiyanhua-ai/fireworks-tech-graph"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "hermes-agent-orange-book",
+      "category": "tutorial",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "framework",
+        "open-source"
+      ],
+      "title": {
+        "en": "hermes-agent-orange-book - alchaincyf",
+        "zh": "hermes-agent-orange-book - Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南"
+      },
+      "description": {
+        "en": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南",
+        "zh": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南"
+      },
+      "details": {
+        "en": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南 GitHub: github.com/alchaincyf/hermes-agent-orange-book",
+        "zh": "Hermes Agent 从入门到精通 · 橙皮书系列 · Nous Research 开源 AI Agent 框架实战指南 GitHub: github.com/alchaincyf/hermes-agent-orange-book"
+      },
+      "examples": [
+        "github.com/alchaincyf/hermes-agent-orange-book"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
