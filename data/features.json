@@ -10845,6 +10845,153 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "omlx",
+      "category": "ai-tools",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "omlx - jundot",
+        "zh": "omlx - 面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理"
+      },
+      "description": {
+        "en": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理",
+        "zh": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理"
+      },
+      "details": {
+        "en": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理 GitHub: github.com/jundot/omlx",
+        "zh": "面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与 SSD 缓存，macOS 菜单栏管理 GitHub: github.com/jundot/omlx"
+      },
+      "examples": [
+        "github.com/jundot/omlx"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "aitoearn",
+      "category": "ai-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "AiToEarn - yikart",
+        "zh": "AiToEarn - 用 AI 赚钱！AI 变现方法与实践合集"
+      },
+      "description": {
+        "en": "用 AI 赚钱！AI 变现方法与实践合集",
+        "zh": "用 AI 赚钱！AI 变现方法与实践合集"
+      },
+      "details": {
+        "en": "用 AI 赚钱！AI 变现方法与实践合集 GitHub: github.com/yikart/AiToEarn",
+        "zh": "用 AI 赚钱！AI 变现方法与实践合集 GitHub: github.com/yikart/AiToEarn"
+      },
+      "examples": [
+        "github.com/yikart/AiToEarn"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "memori",
+      "category": "agents",
+      "tags": [
+        "llm",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Memori - MemoriLabs",
+        "zh": "Memori - 智能体原生记忆基础设施，LLM 无关的持久化状态层"
+      },
+      "description": {
+        "en": "智能体原生记忆基础设施，LLM 无关的持久化状态层",
+        "zh": "智能体原生记忆基础设施，LLM 无关的持久化状态层"
+      },
+      "details": {
+        "en": "智能体原生记忆基础设施，LLM 无关的持久化状态层 GitHub: github.com/MemoriLabs/Memori",
+        "zh": "智能体原生记忆基础设施，LLM 无关的持久化状态层 GitHub: github.com/MemoriLabs/Memori"
+      },
+      "examples": [
+        "github.com/MemoriLabs/Memori"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "glm-ocr",
+      "category": "document-processing",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "GLM-OCR - zai-org",
+        "zh": "GLM-OCR - 精准、快速、全面的 OCR 模型"
+      },
+      "description": {
+        "en": "精准、快速、全面的 OCR 模型",
+        "zh": "精准、快速、全面的 OCR 模型"
+      },
+      "details": {
+        "en": "精准、快速、全面的 OCR 模型 GitHub: github.com/zai-org/GLM-OCR",
+        "zh": "精准、快速、全面的 OCR 模型 GitHub: github.com/zai-org/GLM-OCR"
+      },
+      "examples": [
+        "github.com/zai-org/GLM-OCR"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "page-agent",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "page-agent - alibaba",
+        "zh": "page-agent - JavaScript 页内 GUI 智能体，用自然语言控制网页界面"
+      },
+      "description": {
+        "en": "JavaScript 页内 GUI 智能体，用自然语言控制网页界面",
+        "zh": "JavaScript 页内 GUI 智能体，用自然语言控制网页界面"
+      },
+      "details": {
+        "en": "JavaScript 页内 GUI 智能体，用自然语言控制网页界面 GitHub: github.com/alibaba/page-agent",
+        "zh": "JavaScript 页内 GUI 智能体，用自然语言控制网页界面 GitHub: github.com/alibaba/page-agent"
+      },
+      "examples": [
+        "github.com/alibaba/page-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "vllm-ascend",
+      "category": "tools",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "vllm-ascend - vllm-project",
+        "zh": "vllm-ascend - vLLM 在华为昇腾硬件上的社区维护插件"
+      },
+      "description": {
+        "en": "vLLM 在华为昇腾硬件上的社区维护插件",
+        "zh": "vLLM 在华为昇腾硬件上的社区维护插件"
+      },
+      "details": {
+        "en": "vLLM 在华为昇腾硬件上的社区维护插件 GitHub: github.com/vllm-project/vllm-ascend",
+        "zh": "vLLM 在华为昇腾硬件上的社区维护插件 GitHub: github.com/vllm-project/vllm-ascend"
+      },
+      "examples": [
+        "github.com/vllm-project/vllm-ascend"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
