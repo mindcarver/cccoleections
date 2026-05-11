@@ -10992,6 +10992,57 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "executor",
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "executor - RhysSullivan",
+        "zh": "executor - AI Agent 的集成层，支持 OpenAPI/MCP/GraphQL 函数在安全环境中调用"
+      },
+      "description": {
+        "en": "AI Agent 的集成层，支持 OpenAPI/MCP/GraphQL 函数在安全环境中调用",
+        "zh": "AI Agent 的集成层，支持 OpenAPI/MCP/GraphQL 函数在安全环境中调用"
+      },
+      "details": {
+        "en": "AI Agent 的集成层，支持 OpenAPI/MCP/GraphQL 函数在安全环境中调用 GitHub: github.com/RhysSullivan/executor",
+        "zh": "AI Agent 的集成层，支持 OpenAPI/MCP/GraphQL 函数在安全环境中调用 GitHub: github.com/RhysSullivan/executor"
+      },
+      "examples": [
+        "github.com/RhysSullivan/executor"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "clawx",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "ClawX - ValueCell-ai",
+        "zh": "ClawX - OpenClaw AI Agent 的桌面图形界面，将 CLI 编排变为桌面体验"
+      },
+      "description": {
+        "en": "OpenClaw AI Agent 的桌面图形界面，将 CLI 编排变为桌面体验",
+        "zh": "OpenClaw AI Agent 的桌面图形界面，将 CLI 编排变为桌面体验"
+      },
+      "details": {
+        "en": "OpenClaw AI Agent 的桌面图形界面，将 CLI 编排变为桌面体验 GitHub: github.com/ValueCell-ai/ClawX",
+        "zh": "OpenClaw AI Agent 的桌面图形界面，将 CLI 编排变为桌面体验 GitHub: github.com/ValueCell-ai/ClawX"
+      },
+      "examples": [
+        "github.com/ValueCell-ai/ClawX"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
