@@ -11043,6 +11043,59 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "cline",
+      "category": "developer-tools",
+      "tags": [
+        "coding",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "cline - cline",
+        "zh": "cline - IDE内自主编程Agent，支持文件创建编辑、命令执行、浏览器操作"
+      },
+      "description": {
+        "en": "IDE内自主编程Agent，支持文件创建编辑、命令执行、浏览器操作",
+        "zh": "IDE内自主编程Agent，支持文件创建编辑、命令执行、浏览器操作"
+      },
+      "details": {
+        "en": "IDE内自主编程Agent，支持文件创建编辑、命令执行、浏览器操作 GitHub: github.com/cline/cline",
+        "zh": "IDE内自主编程Agent，支持文件创建编辑、命令执行、浏览器操作 GitHub: github.com/cline/cline"
+      },
+      "examples": [
+        "github.com/cline/cline"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mcp-use",
+      "category": "integrations",
+      "tags": [
+        "mcp",
+        "framework",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "mcp-use - mcp-use",
+        "zh": "mcp-use - 全栈MCP框架，为ChatGPT/Claude开发MCP应用，为Agent开发MCP服务器"
+      },
+      "description": {
+        "en": "全栈MCP框架，为ChatGPT/Claude开发MCP应用，为Agent开发MCP服务器",
+        "zh": "全栈MCP框架，为ChatGPT/Claude开发MCP应用，为Agent开发MCP服务器"
+      },
+      "details": {
+        "en": "全栈MCP框架，为ChatGPT/Claude开发MCP应用，为Agent开发MCP服务器 GitHub: github.com/mcp-use/mcp-use",
+        "zh": "全栈MCP框架，为ChatGPT/Claude开发MCP应用，为Agent开发MCP服务器 GitHub: github.com/mcp-use/mcp-use"
+      },
+      "examples": [
+        "github.com/mcp-use/mcp-use"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
