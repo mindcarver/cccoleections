@@ -11551,6 +11551,54 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "gstack",
+      "category": "developer-tools",
+      "tags": [
+        "tool"
+      ],
+      "title": {
+        "en": "gstack - garrytan",
+        "zh": "gstack - Garry Tan的Claude Code配置：23个工具充当CEO/设计师/工程经理等角色"
+      },
+      "description": {
+        "en": "Garry Tan的Claude Code配置：23个工具充当CEO/设计师/工程经理等角色",
+        "zh": "Garry Tan的Claude Code配置：23个工具充当CEO/设计师/工程经理等角色"
+      },
+      "details": {
+        "en": "Garry Tan的Claude Code配置：23个工具充当CEO/设计师/工程经理等角色 GitHub: github.com/garrytan/gstack",
+        "zh": "Garry Tan的Claude Code配置：23个工具充当CEO/设计师/工程经理等角色 GitHub: github.com/garrytan/gstack"
+      },
+      "examples": [
+        "github.com/garrytan/gstack"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "llms-from-scratch",
+      "category": "tutorial",
+      "tags": [
+        "llm"
+      ],
+      "title": {
+        "en": "LLMs-from-scratch - rasbt",
+        "zh": "LLMs-from-scratch - 在PyTorch中从零实现ChatGPT级别的LLM，逐步教程"
+      },
+      "description": {
+        "en": "在PyTorch中从零实现ChatGPT级别的LLM，逐步教程",
+        "zh": "在PyTorch中从零实现ChatGPT级别的LLM，逐步教程"
+      },
+      "details": {
+        "en": "在PyTorch中从零实现ChatGPT级别的LLM，逐步教程 GitHub: github.com/rasbt/LLMs-from-scratch",
+        "zh": "在PyTorch中从零实现ChatGPT级别的LLM，逐步教程 GitHub: github.com/rasbt/LLMs-from-scratch"
+      },
+      "examples": [
+        "github.com/rasbt/LLMs-from-scratch"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
