@@ -11599,6 +11599,32 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "spring-ai-alibaba",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework"
+      ],
+      "title": {
+        "en": "spring-ai-alibaba - alibaba",
+        "zh": "spring-ai-alibaba - 阿里巴巴 Java Agentic AI 框架"
+      },
+      "description": {
+        "en": "阿里巴巴 Java Agentic AI 框架",
+        "zh": "阿里巴巴 Java Agentic AI 框架"
+      },
+      "details": {
+        "en": "阿里巴巴 Java Agentic AI 框架 GitHub: github.com/alibaba/spring-ai-alibaba",
+        "zh": "阿里巴巴 Java Agentic AI 框架 GitHub: github.com/alibaba/spring-ai-alibaba"
+      },
+      "examples": [
+        "github.com/alibaba/spring-ai-alibaba"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
