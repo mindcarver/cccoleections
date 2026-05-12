@@ -11096,6 +11096,461 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "e2a",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "e2a - Mnexa-AI",
+        "zh": "e2a - 开源AI Agent邮件网关，支持邮件线程与Agent对话线程一致性"
+      },
+      "description": {
+        "en": "开源AI Agent邮件网关，支持邮件线程与Agent对话线程一致性",
+        "zh": "开源AI Agent邮件网关，支持邮件线程与Agent对话线程一致性"
+      },
+      "details": {
+        "en": "开源AI Agent邮件网关，支持邮件线程与Agent对话线程一致性 GitHub: github.com/Mnexa-AI/e2a",
+        "zh": "开源AI Agent邮件网关，支持邮件线程与Agent对话线程一致性 GitHub: github.com/Mnexa-AI/e2a"
+      },
+      "examples": [
+        "github.com/Mnexa-AI/e2a"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "orbit-ui",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "orbit-ui - aadya940",
+        "zh": "orbit-ui - 类n8n工作流引擎，AI Agent控制真实VM执行任务"
+      },
+      "description": {
+        "en": "类n8n工作流引擎，AI Agent控制真实VM执行任务",
+        "zh": "类n8n工作流引擎，AI Agent控制真实VM执行任务"
+      },
+      "details": {
+        "en": "类n8n工作流引擎，AI Agent控制真实VM执行任务 GitHub: github.com/aadya940/orbit-ui",
+        "zh": "类n8n工作流引擎，AI Agent控制真实VM执行任务 GitHub: github.com/aadya940/orbit-ui"
+      },
+      "examples": [
+        "github.com/aadya940/orbit-ui"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "opengravity",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "opengravity - ab-613",
+        "zh": "opengravity - 零安装BYOK的纯JS IDE克隆，AI Agent可在浏览器内Linux环境中操作"
+      },
+      "description": {
+        "en": "零安装BYOK的纯JS IDE克隆，AI Agent可在浏览器内Linux环境中操作",
+        "zh": "零安装BYOK的纯JS IDE克隆，AI Agent可在浏览器内Linux环境中操作"
+      },
+      "details": {
+        "en": "零安装BYOK的纯JS IDE克隆，AI Agent可在浏览器内Linux环境中操作 GitHub: github.com/ab-613/opengravity",
+        "zh": "零安装BYOK的纯JS IDE克隆，AI Agent可在浏览器内Linux环境中操作 GitHub: github.com/ab-613/opengravity"
+      },
+      "examples": [
+        "github.com/ab-613/opengravity"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "streetai-aaas",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "streetai-aaas - Tem-Degu",
+        "zh": "streetai-aaas - 用自然语言构建和部署AI Agent到WhatsApp/Telegram等消息应用，支持Stripe支付"
+      },
+      "description": {
+        "en": "用自然语言构建和部署AI Agent到WhatsApp/Telegram等消息应用，支持Stripe支付",
+        "zh": "用自然语言构建和部署AI Agent到WhatsApp/Telegram等消息应用，支持Stripe支付"
+      },
+      "details": {
+        "en": "用自然语言构建和部署AI Agent到WhatsApp/Telegram等消息应用，支持Stripe支付 GitHub: github.com/Tem-Degu/streetai-aaas",
+        "zh": "用自然语言构建和部署AI Agent到WhatsApp/Telegram等消息应用，支持Stripe支付 GitHub: github.com/Tem-Degu/streetai-aaas"
+      },
+      "examples": [
+        "github.com/Tem-Degu/streetai-aaas"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "adamsreview",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "adamsreview - adamjgmiller",
+        "zh": "adamsreview - 面向Claude Code的多Agent PR代码审查工具，提升代码审查质量"
+      },
+      "description": {
+        "en": "面向Claude Code的多Agent PR代码审查工具，提升代码审查质量",
+        "zh": "面向Claude Code的多Agent PR代码审查工具，提升代码审查质量"
+      },
+      "details": {
+        "en": "面向Claude Code的多Agent PR代码审查工具，提升代码审查质量 GitHub: github.com/adamjgmiller/adamsreview",
+        "zh": "面向Claude Code的多Agent PR代码审查工具，提升代码审查质量 GitHub: github.com/adamjgmiller/adamsreview"
+      },
+      "examples": [
+        "github.com/adamjgmiller/adamsreview"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "agent-postmortem-skill",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "agent-postmortem-skill - plus8bit",
+        "zh": "agent-postmortem-skill - AI编码Agent的验尸技能，强制Agent证明其工作成果"
+      },
+      "description": {
+        "en": "AI编码Agent的验尸技能，强制Agent证明其工作成果",
+        "zh": "AI编码Agent的验尸技能，强制Agent证明其工作成果"
+      },
+      "details": {
+        "en": "AI编码Agent的验尸技能，强制Agent证明其工作成果 GitHub: github.com/plus8bit/agent-postmortem-skill",
+        "zh": "AI编码Agent的验尸技能，强制Agent证明其工作成果 GitHub: github.com/plus8bit/agent-postmortem-skill"
+      },
+      "examples": [
+        "github.com/plus8bit/agent-postmortem-skill"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "akmon",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "akmon - radotsvetkov",
+        "zh": "akmon - 用Rust编写的AI编码Agent，面向受监管的工程场景"
+      },
+      "description": {
+        "en": "用Rust编写的AI编码Agent，面向受监管的工程场景",
+        "zh": "用Rust编写的AI编码Agent，面向受监管的工程场景"
+      },
+      "details": {
+        "en": "用Rust编写的AI编码Agent，面向受监管的工程场景 GitHub: github.com/radotsvetkov/akmon",
+        "zh": "用Rust编写的AI编码Agent，面向受监管的工程场景 GitHub: github.com/radotsvetkov/akmon"
+      },
+      "examples": [
+        "github.com/radotsvetkov/akmon"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "mlx-code",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "coding"
+      ],
+      "title": {
+        "en": "mlx-code - JosefAlbers",
+        "zh": "mlx-code - 基于MLX的Mac本地AI编码Agent，可在后院服务器上运行"
+      },
+      "description": {
+        "en": "基于MLX的Mac本地AI编码Agent，可在后院服务器上运行",
+        "zh": "基于MLX的Mac本地AI编码Agent，可在后院服务器上运行"
+      },
+      "details": {
+        "en": "基于MLX的Mac本地AI编码Agent，可在后院服务器上运行 GitHub: github.com/JosefAlbers/mlx-code",
+        "zh": "基于MLX的Mac本地AI编码Agent，可在后院服务器上运行 GitHub: github.com/JosefAlbers/mlx-code"
+      },
+      "examples": [
+        "github.com/JosefAlbers/mlx-code"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "graft",
+      "category": "agents",
+      "tags": [
+        "llm",
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "Graft - AEndrix03",
+        "zh": "Graft - AI Agent的语义记忆系统，无需LLM即可实现语义检索"
+      },
+      "description": {
+        "en": "AI Agent的语义记忆系统，无需LLM即可实现语义检索",
+        "zh": "AI Agent的语义记忆系统，无需LLM即可实现语义检索"
+      },
+      "details": {
+        "en": "AI Agent的语义记忆系统，无需LLM即可实现语义检索 GitHub: github.com/AEndrix03/Graft",
+        "zh": "AI Agent的语义记忆系统，无需LLM即可实现语义检索 GitHub: github.com/AEndrix03/Graft"
+      },
+      "examples": [
+        "github.com/AEndrix03/Graft"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "martin-loop",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "Martin-Loop - Keesan12",
+        "zh": "Martin-Loop - AI编码Agent的预算上限和审计追踪工具"
+      },
+      "description": {
+        "en": "AI编码Agent的预算上限和审计追踪工具",
+        "zh": "AI编码Agent的预算上限和审计追踪工具"
+      },
+      "details": {
+        "en": "AI编码Agent的预算上限和审计追踪工具 GitHub: github.com/Keesan12/Martin-Loop",
+        "zh": "AI编码Agent的预算上限和审计追踪工具 GitHub: github.com/Keesan12/Martin-Loop"
+      },
+      "examples": [
+        "github.com/Keesan12/Martin-Loop"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "officeos",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "open-source"
+      ],
+      "title": {
+        "en": "officeos - officeos-co",
+        "zh": "officeos - 开源基础设施平台，用于扩展和管理AI Agent"
+      },
+      "description": {
+        "en": "开源基础设施平台，用于扩展和管理AI Agent",
+        "zh": "开源基础设施平台，用于扩展和管理AI Agent"
+      },
+      "details": {
+        "en": "开源基础设施平台，用于扩展和管理AI Agent GitHub: github.com/officeos-co/officeos",
+        "zh": "开源基础设施平台，用于扩展和管理AI Agent GitHub: github.com/officeos-co/officeos"
+      },
+      "examples": [
+        "github.com/officeos-co/officeos"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openhuman",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "openhuman - tinyhumansai",
+        "zh": "openhuman - 个人AI超级智能助手，私有、简单且极其强大"
+      },
+      "description": {
+        "en": "个人AI超级智能助手，私有、简单且极其强大",
+        "zh": "个人AI超级智能助手，私有、简单且极其强大"
+      },
+      "details": {
+        "en": "个人AI超级智能助手，私有、简单且极其强大 GitHub: github.com/tinyhumansai/openhuman",
+        "zh": "个人AI超级智能助手，私有、简单且极其强大 GitHub: github.com/tinyhumansai/openhuman"
+      },
+      "examples": [
+        "github.com/tinyhumansai/openhuman"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "browsercode",
+      "category": "developer-tools",
+      "tags": [
+        "coding"
+      ],
+      "title": {
+        "en": "browsercode - leaningtech",
+        "zh": "browsercode - 通过WebAssembly在浏览器中运行Claude Code"
+      },
+      "description": {
+        "en": "通过WebAssembly在浏览器中运行Claude Code",
+        "zh": "通过WebAssembly在浏览器中运行Claude Code"
+      },
+      "details": {
+        "en": "通过WebAssembly在浏览器中运行Claude Code GitHub: github.com/leaningtech/browsercode",
+        "zh": "通过WebAssembly在浏览器中运行Claude Code GitHub: github.com/leaningtech/browsercode"
+      },
+      "examples": [
+        "github.com/leaningtech/browsercode"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "kiro-gateway",
+      "category": "developer-tools",
+      "tags": [
+        "ai"
+      ],
+      "title": {
+        "en": "kiro-gateway - jwadow",
+        "zh": "kiro-gateway - Kiro IDE/CLI的代理API网关，可使用免费Claude模型"
+      },
+      "description": {
+        "en": "Kiro IDE/CLI的代理API网关，可使用免费Claude模型",
+        "zh": "Kiro IDE/CLI的代理API网关，可使用免费Claude模型"
+      },
+      "details": {
+        "en": "Kiro IDE/CLI的代理API网关，可使用免费Claude模型 GitHub: github.com/jwadow/kiro-gateway",
+        "zh": "Kiro IDE/CLI的代理API网关，可使用免费Claude模型 GitHub: github.com/jwadow/kiro-gateway"
+      },
+      "examples": [
+        "github.com/jwadow/kiro-gateway"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "ui-tars",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "UI-TARS - bytedance",
+        "zh": "UI-TARS - 字节跳动开创性GUI自动化交互原生Agent"
+      },
+      "description": {
+        "en": "字节跳动开创性GUI自动化交互原生Agent",
+        "zh": "字节跳动开创性GUI自动化交互原生Agent"
+      },
+      "details": {
+        "en": "字节跳动开创性GUI自动化交互原生Agent GitHub: github.com/bytedance/UI-TARS",
+        "zh": "字节跳动开创性GUI自动化交互原生Agent GitHub: github.com/bytedance/UI-TARS"
+      },
+      "examples": [
+        "github.com/bytedance/UI-TARS"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "meta-agent",
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "meta-agent - canvas-org",
+        "zh": "meta-agent - 自我改进Agent，从实时运行轨迹中学习和优化"
+      },
+      "description": {
+        "en": "自我改进Agent，从实时运行轨迹中学习和优化",
+        "zh": "自我改进Agent，从实时运行轨迹中学习和优化"
+      },
+      "details": {
+        "en": "自我改进Agent，从实时运行轨迹中学习和优化 GitHub: github.com/canvas-org/meta-agent",
+        "zh": "自我改进Agent，从实时运行轨迹中学习和优化 GitHub: github.com/canvas-org/meta-agent"
+      },
+      "examples": [
+        "github.com/canvas-org/meta-agent"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "proofshot",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent"
+      ],
+      "title": {
+        "en": "proofshot - AmElmo",
+        "zh": "proofshot - 为AI编码Agent提供UI验证能力，让Agent能检查自己构建的界面"
+      },
+      "description": {
+        "en": "为AI编码Agent提供UI验证能力，让Agent能检查自己构建的界面",
+        "zh": "为AI编码Agent提供UI验证能力，让Agent能检查自己构建的界面"
+      },
+      "details": {
+        "en": "为AI编码Agent提供UI验证能力，让Agent能检查自己构建的界面 GitHub: github.com/AmElmo/proofshot",
+        "zh": "为AI编码Agent提供UI验证能力，让Agent能检查自己构建的界面 GitHub: github.com/AmElmo/proofshot"
+      },
+      "examples": [
+        "github.com/AmElmo/proofshot"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "polpo",
+      "category": "developer-tools",
+      "tags": [
+        "multi-agent",
+        "agent",
+        "tool"
+      ],
+      "title": {
+        "en": "polpo - pugliatechs",
+        "zh": "polpo - 从手机控制Claude Code及其他AI Agent的远程管理工具"
+      },
+      "description": {
+        "en": "从手机控制Claude Code及其他AI Agent的远程管理工具",
+        "zh": "从手机控制Claude Code及其他AI Agent的远程管理工具"
+      },
+      "details": {
+        "en": "从手机控制Claude Code及其他AI Agent的远程管理工具 GitHub: github.com/pugliatechs/polpo",
+        "zh": "从手机控制Claude Code及其他AI Agent的远程管理工具 GitHub: github.com/pugliatechs/polpo"
+      },
+      "examples": [
+        "github.com/pugliatechs/polpo"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
