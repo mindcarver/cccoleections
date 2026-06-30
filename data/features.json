@@ -11625,6 +11625,192 @@
       ],
       "version": "2026.1",
       "status": "new"
+    },
+    {
+      "id": "juben",
+      "category": "agents",
+      "tags": [
+        "agent",
+        "workflow",
+        "storytelling"
+      ],
+      "title": {
+        "en": "juben - GongLingRui",
+        "zh": "juben - AI影视创作策划评估工作流，整合 20+ 专业 Agents 的剧本创作平台"
+      },
+      "description": {
+        "en": "AI影视创作策划评估工作流，整合 20+ 专业 Agents 的剧本创作平台",
+        "zh": "AI影视创作策划评估工作流，整合 20+ 专业 Agents 的剧本创作平台"
+      },
+      "details": {
+        "en": "AI影视创作策划评估工作流，整合 20+ 专业 Agents 的剧本创作平台 GitHub: github.com/GongLingRui/juben",
+        "zh": "AI影视创作策划评估工作流，整合 20+ 专业 Agents 的剧本创作平台 GitHub: github.com/GongLingRui/juben"
+      },
+      "examples": [
+        "github.com/GongLingRui/juben"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-claude-code-subagents",
+      "category": "community",
+      "tags": [
+        "claude-code",
+        "subagents",
+        "awesome-list"
+      ],
+      "title": {
+        "en": "awesome-claude-code-subagents - VoltAgent",
+        "zh": "awesome-claude-code-subagents - 100+ Claude Code 专用子代理合集，覆盖广泛开发场景"
+      },
+      "description": {
+        "en": "100+ Claude Code 专用子代理合集，覆盖广泛开发场景",
+        "zh": "100+ Claude Code 专用子代理合集，覆盖广泛开发场景"
+      },
+      "details": {
+        "en": "100+ Claude Code 专用子代理合集，覆盖广泛开发场景 GitHub: github.com/VoltAgent/awesome-claude-code-subagents",
+        "zh": "100+ Claude Code 专用子代理合集，覆盖广泛开发场景 GitHub: github.com/VoltAgent/awesome-claude-code-subagents"
+      },
+      "examples": [
+        "github.com/VoltAgent/awesome-claude-code-subagents"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "opentag",
+      "category": "integrations",
+      "tags": [
+        "slack",
+        "github",
+        "agent",
+        "workflow"
+      ],
+      "title": {
+        "en": "opentag - amplifthq",
+        "zh": "opentag - Slack 与 GitHub 中的开源 @agent mentions，把请求路由给 Codex 和 Claude Code"
+      },
+      "description": {
+        "en": "Slack 与 GitHub 中的开源 @agent mentions，把请求路由给 Codex 和 Claude Code",
+        "zh": "Slack 与 GitHub 中的开源 @agent mentions，把请求路由给 Codex 和 Claude Code"
+      },
+      "details": {
+        "en": "Slack 与 GitHub 中的开源 @agent mentions，把请求路由给 Codex 和 Claude Code GitHub: github.com/amplifthq/opentag",
+        "zh": "Slack 与 GitHub 中的开源 @agent mentions，把请求路由给 Codex 和 Claude Code GitHub: github.com/amplifthq/opentag"
+      },
+      "examples": [
+        "github.com/amplifthq/opentag"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "awesome-harness-engineering",
+      "category": "community",
+      "tags": [
+        "harness",
+        "agent",
+        "awesome-list",
+        "mcp"
+      ],
+      "title": {
+        "en": "awesome-harness-engineering - zdoc",
+        "zh": "awesome-harness-engineering - AI 智能体工程优秀资源列表，覆盖工具、模式、评估、记忆、MCP 与编排"
+      },
+      "description": {
+        "en": "AI 智能体工程优秀资源列表，覆盖工具、模式、评估、记忆、MCP 与编排",
+        "zh": "AI 智能体工程优秀资源列表，覆盖工具、模式、评估、记忆、MCP 与编排"
+      },
+      "details": {
+        "en": "AI 智能体工程优秀资源列表，覆盖工具、模式、评估、记忆、MCP 与编排 Zdoc: zdoc.app/zh/ai-boost/awesome-harness-engineering",
+        "zh": "AI 智能体工程优秀资源列表，覆盖工具、模式、评估、记忆、MCP 与编排 Zdoc: zdoc.app/zh/ai-boost/awesome-harness-engineering"
+      },
+      "examples": [
+        "zdoc.app/zh/ai-boost/awesome-harness-engineering"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "axonhub",
+      "category": "backend",
+      "tags": [
+        "gateway",
+        "llm",
+        "observability",
+        "infrastructure"
+      ],
+      "title": {
+        "en": "AxonHub - looplj",
+        "zh": "AxonHub - 开源 AI Gateway，统一接入 100+ LLM，内置故障切换、负载均衡、成本控制与链路追踪"
+      },
+      "description": {
+        "en": "开源 AI Gateway，统一接入 100+ LLM，内置故障切换、负载均衡、成本控制与链路追踪",
+        "zh": "开源 AI Gateway，统一接入 100+ LLM，内置故障切换、负载均衡、成本控制与链路追踪"
+      },
+      "details": {
+        "en": "开源 AI Gateway，统一接入 100+ LLM，内置故障切换、负载均衡、成本控制与链路追踪 GitHub: github.com/looplj/axonhub",
+        "zh": "开源 AI Gateway，统一接入 100+ LLM，内置故障切换、负载均衡、成本控制与链路追踪 GitHub: github.com/looplj/axonhub"
+      },
+      "examples": [
+        "github.com/looplj/axonhub"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "openharness",
+      "category": "developer-tools",
+      "tags": [
+        "harness",
+        "agent",
+        "framework"
+      ],
+      "title": {
+        "en": "OpenHarness - HKUDS",
+        "zh": "OpenHarness - 内置个人 Agent 的开放式 Agent Harness 框架"
+      },
+      "description": {
+        "en": "内置个人 Agent 的开放式 Agent Harness 框架",
+        "zh": "内置个人 Agent 的开放式 Agent Harness 框架"
+      },
+      "details": {
+        "en": "内置个人 Agent 的开放式 Agent Harness 框架 GitHub: github.com/HKUDS/OpenHarness",
+        "zh": "内置个人 Agent 的开放式 Agent Harness 框架 GitHub: github.com/HKUDS/OpenHarness"
+      },
+      "examples": [
+        "github.com/HKUDS/OpenHarness"
+      ],
+      "version": "2026.1",
+      "status": "new"
+    },
+    {
+      "id": "devspace",
+      "category": "developer-tools",
+      "tags": [
+        "mcp",
+        "chatgpt",
+        "coding",
+        "workspace"
+      ],
+      "title": {
+        "en": "DevSpace - Waishnav",
+        "zh": "DevSpace - 把 ChatGPT 变成 Codex 风格编码工作流的自托管 MCP 服务器"
+      },
+      "description": {
+        "en": "把 ChatGPT 变成 Codex 风格编码工作流的自托管 MCP 服务器",
+        "zh": "把 ChatGPT 变成 Codex 风格编码工作流的自托管 MCP 服务器"
+      },
+      "details": {
+        "en": "把 ChatGPT 变成 Codex 风格编码工作流的自托管 MCP 服务器 GitHub: github.com/Waishnav/devspace",
+        "zh": "把 ChatGPT 变成 Codex 风格编码工作流的自托管 MCP 服务器 GitHub: github.com/Waishnav/devspace"
+      },
+      "examples": [
+        "github.com/Waishnav/devspace"
+      ],
+      "version": "2026.1",
+      "status": "new"
     }
   ]
 }
